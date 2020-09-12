@@ -1,0 +1,10 @@
+trade_goods = timber
+terrain = marsh
+life_rating = 20
+colonial = 1
+1861.1.1 = {
+	owner = ENG
+	controller = ENG
+	add_core = OYO
+	life_rating = 35
+}

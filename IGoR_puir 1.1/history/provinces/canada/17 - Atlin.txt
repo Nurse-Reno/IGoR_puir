@@ -1,0 +1,7 @@
+owner = ENG
+controller = ENG
+add_core = CAN
+add_core = COL
+trade_goods = timber
+terrain = mountain
+life_rating = 25

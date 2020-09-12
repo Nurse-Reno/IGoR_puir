@@ -1,0 +1,6 @@
+owner = LIB
+controller = LIB
+add_core = LIB
+trade_goods = tropical_wood
+terrain = jungle
+life_rating = 32

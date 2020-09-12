@@ -1,0 +1,162 @@
+leader = {
+	name = "José de Oliveira"
+	#picture = brz_gen_oliveira
+	type = land
+	date = 1808.1.1
+	personality = indifferent
+	background = elderly
+	prestige = 0.3
+}
+
+leader = {
+	name = "Felisberto Caldeira"
+	#picture = brz_gen_caldeira
+	type = land
+	date = 1811.1.1
+	personality = able
+	background = diplomat
+	prestige = 0.3
+}
+
+leader = {
+	name = "Luís da Cunha"
+	#picture = brz_adm_cunha
+	type = sea
+	date = 1820.1.1
+	personality = indifferent
+	background = war_college
+	prestige = 0.2
+}
+
+leader = {
+	name = "Pedro Labatut"
+	#picture = brz_gen_labatut
+	type = land
+	date = 1822.1.1
+	personality = soldierly
+	background = old_school
+	prestige = 0.2
+}
+
+leader = {
+	name = "Sebastiao Barreto"
+	#picture = brz_gen_barreto
+	type = land
+	date = 1823.1.1
+	personality = lackluster
+	background = old_school
+	prestige = 0.1
+}
+
+leader = {
+	name = "Joao Vieira"
+	#picture = brz_gen_vieira
+	type = land
+	date= 1824.1.1
+	personality = able
+	background = engineer
+	prestige = 0.2
+}
+
+leader = {
+	name = "Francisco de Lima"
+	#picture = brz_gen_lima
+	type = land
+	date = 1824.1.1
+	personality = indifferent
+	background = politician
+}
+
+leader = {
+	name = "John Grenfell"
+	#picture = brz_adm_grenfell
+	type = sea
+	date = 1828.1.1
+	personality = implacable
+	background = adventurer
+	prestige = 0.1
+}
+
+leader = {
+	name = "Jacinto de Sena"
+	#picture = brz_adm_sena
+	type = sea
+	date = 1828.1.1
+	personality = mediocre
+	background = diplomat
+}
+
+leader = {
+	name = "Bento Manuel Ribeiro"
+	#picture = brz_gen_ribeiro
+	type = land
+	date = 1830.1.1
+	personality = unruly
+	background = adventurer
+	prestige = 0.1
+}
+
+leader = {
+	name = "Manuel de Fonseca"
+	#picture = brz_gen_fonseca
+	type = land
+	date = 1831.1.1
+	personality = mediocre
+	background = war_college
+	prestige = 0.1
+}
+
+leader = {
+	name = "Antero José Ferreira"
+	#picture = brz_gen_ferreira
+	type = land
+	date = 1832.1.1
+	personality = unruly
+	background = artillerist
+	prestige = 0.1
+}
+
+army = {
+	name = "I Corpo do exército"
+	location = 2447
+	regiment = {
+		name= "1. Brigada de Infantaria"
+		type = infantry
+		home = 2447
+	}
+
+	regiment = {
+		name= "2. Brigada de Infantaria"
+		type = infantry
+		home = 2450
+	}
+
+	regiment = {
+		name= "3. Brigada de Infantaria"
+		type = infantry
+		home = 2436
+	}
+
+	regiment = {
+		name= "1. Brigada de Cavalaria"
+		type = cuirassier
+		home = 2429
+	}
+}
+
+army = {
+	name = "II Corpo do exército"
+	location = 2463
+	regiment = {
+		name= "4. Brigada de Infantaria"
+		type = infantry
+		home = 2463
+	}
+
+	regiment = {
+		name= "5. Brigada de Infantaria"
+		type = infantry
+		home = 2457
+	}
+
+}

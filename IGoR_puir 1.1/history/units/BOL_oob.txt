@@ -1,0 +1,42 @@
+#Relations
+PEU= { value = 200 }
+	
+#Leaders
+leader = {
+	name = "Andrés de Santa Cruz"
+	type = land
+	date = 1829.1.1
+	background = gifted_administrator
+	personality = arrogant
+}
+
+leader = {
+	name = "José Ballivián"
+	type = land
+	date = 1836.1.1
+	background = generals_aide
+	personality = bold
+}
+
+army = {
+	name = "Ejército de Bolivia"
+	location = 2313 #Chuquisaca (Sucre)
+	regiment = {
+		name= "1. Brigada de Infanteria"
+		type = infantry
+		home = 2313
+	}
+
+	regiment = {
+		name= "2. Brigada de Infanteria"
+		type = infantry
+		home = 2310
+	}
+
+	regiment = {
+		name= "3. Brigada de Infanteria"
+		type = infantry
+		home = 2311
+	}
+}
+	

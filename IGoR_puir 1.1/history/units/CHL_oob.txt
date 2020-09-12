@@ -1,0 +1,79 @@
+#Leaders
+
+leader = {
+	name = "Manuel Blanco"
+	#picture = chl_adm_blanco
+	type = sea
+	date="1818.1.1"
+	personality = daring
+	background = expert_raider
+	prestige = 0.2
+}
+
+leader = {
+	name = "José Joaquín Prieto"
+	#picture = chl_gen_prieto
+	type = land
+	date="1825.1.1"
+	personality = balanced_p
+	background = cavalry_school
+	prestige = 0.2
+}
+
+leader = {
+	name = "Manuel Bulnes"
+	#picture = chl_gen_bulnes
+	type = land
+	date="1831.1.1"
+	personality = competent
+	background = gifted_administrator
+	prestige = 0.1
+}
+
+leader = {
+	name = "Juan Vidaurre"
+	#picture = chl_gen_vidaurre
+	type = land
+	date="1831.1.1"
+	personality = disciplined
+	background = artillerist
+	prestige = 0.1
+}
+
+leader = {
+	name = "José María de la Cruz"
+	#picture = chl_gen_cruz
+	type = land
+	date="1835.1.1"
+	personality = stout
+	background = generals_aide
+}
+
+army = {
+	name = "Ejército de Chile"
+	location = 2324
+	regiment = {
+		name= "1. Brigada de Infantería"
+		type = infantry
+		home = 2324
+	}
+
+	regiment = {
+		name= "2. Brigada de Infantería"
+		type = infantry
+		home = 2325
+	}
+
+	regiment = {
+		name= "3. Brigada de Infantería"
+		type = infantry
+		home = 2328
+	}
+
+	regiment = {
+		name= "1. Brigada de Caballería"
+		type = cuirassier
+		home = 2324
+	}
+
+}

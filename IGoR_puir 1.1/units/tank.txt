@@ -1,0 +1,46 @@
+tank = {
+	icon = 20
+	
+	type = land
+	sprite = Tank
+	active = no
+	unit_type = infantry
+	floating_flag = yes
+	primary_culture = yes
+	
+	#Core Abilities
+	priority = 50
+	max_strength = 3
+	default_organisation = 40
+	maximum_speed = 5.00 #was 4.00
+	weighted_value = 10.0
+
+
+	#Building Costs
+	build_time = 120
+	build_cost = {
+		barrels = 10 #10
+		artillery = 10
+		canned_food = 10
+		fuel = 5
+	}
+	
+	supply_consumption = 1.0
+	supply_cost = {            #total cost 28.25
+		barrels = 0.2      #21
+		artillery = 0.2    #3
+		canned_food = 0.05 #0.5
+		fuel = 0.25        #3.75
+	}
+	
+
+	#Land Abilties
+	reconnaissance = 2
+	attack = 17 #16
+	defence = 8
+	discipline = 1
+	support = 1.0
+	maneuver = 2
+	siege = 2
+	
+}

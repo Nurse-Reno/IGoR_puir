@@ -1,0 +1,5 @@
+owner = DAI
+controller = DAI
+add_core = DAI
+trade_goods = tea
+life_rating = 30

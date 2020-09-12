@@ -1,0 +1,3 @@
+trade_goods = timber
+terrain = marsh
+life_rating = 20

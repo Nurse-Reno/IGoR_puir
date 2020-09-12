@@ -1,0 +1,7 @@
+owner = SOK
+controller = SOK
+add_core = SOK
+add_core = BEN
+trade_goods = fruit
+terrain = farmlands
+life_rating = 35
