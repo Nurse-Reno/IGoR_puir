@@ -70,21 +70,21 @@ political_decisions = {
 			prestige = 10
 		}
 	}
-
-	ottoman_canals = {
-		potential = {
-			tag = TUR
-			NOT = { is_canal_enabled = 4 }
-			NOT = { is_canal_enabled = 5 }
-		}
-		
-		allow = {
-			tag = TUR
-		}
-		
-		effect = {
-			enable_canal = 4
-			enable_canal = 5
-		}
-	}
+#
+#	ottoman_canals = {
+#		potential = {
+#			tag = TUR
+#			NOT = { is_canal_enabled = 4 }
+#			NOT = { is_canal_enabled = 5 }
+#		}
+#		
+#		allow = {
+#			tag = TUR
+#		}
+#		
+#		effect = {
+#			enable_canal = 4
+#			enable_canal = 5
+#		}
+#	}
 }
