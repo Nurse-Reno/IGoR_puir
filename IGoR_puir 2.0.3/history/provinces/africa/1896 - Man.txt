@@ -1,0 +1,3 @@
+trade_goods = timber
+terrain = jungle
+life_rating = 20

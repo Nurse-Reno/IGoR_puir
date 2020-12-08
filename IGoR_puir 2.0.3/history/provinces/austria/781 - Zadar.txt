@@ -1,0 +1,10 @@
+owner = AUS
+controller = AUS
+add_core = AUS
+add_core = CRO
+add_core = YUG
+trade_goods = fruit
+life_rating = 35
+1861.1.1 = {
+	naval_base = 1
+}

@@ -1,0 +1,6 @@
+owner = EGY
+controller = EGY
+add_core = EGY
+trade_goods = tropical_wood
+terrain = marsh
+life_rating = 30

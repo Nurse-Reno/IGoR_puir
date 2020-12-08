@@ -1,0 +1,7 @@
+owner = YNN
+controller = YNN
+add_core = SZC
+add_core = YNN
+add_core = CHI
+trade_goods = tea
+life_rating = 32

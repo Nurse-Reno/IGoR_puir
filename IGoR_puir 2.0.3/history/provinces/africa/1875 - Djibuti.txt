@@ -1,0 +1,3 @@
+trade_goods = cattle
+terrain = coastal_desert
+life_rating = 20
