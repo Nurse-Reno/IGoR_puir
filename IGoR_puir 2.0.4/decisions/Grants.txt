@@ -12,7 +12,7 @@ political_decisions = {
 			ai = no
 			}
 		effect = {
-			prestige = -5
+#			prestige = -5
 			country_event = {id = 100000 days = 0}
 
 		}
