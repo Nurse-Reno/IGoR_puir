@@ -254,7 +254,7 @@ political_decisions = {
 			
 		}
 		allow = {
-			is_secondary_power = yes
+#			is_secondary_power = yes
 			sphere_owner = {
 				NOT = { relation = {
 					who = THIS
