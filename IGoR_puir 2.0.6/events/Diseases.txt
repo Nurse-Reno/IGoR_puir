@@ -12,18 +12,18 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 800
+		months = 1000
 		
 		modifier = {
 			factor = 0.9
 			NOT = {
-				poor_strata_life_needs = 0.9
+				poor_strata_life_needs = 0.7
 			}
 		}
 		modifier = {
 			factor = 0.9
 			NOT = {
-				poor_strata_everyday_needs = 0.7
+				poor_strata_everyday_needs = 0.6
 			}
 		}
 		modifier = {
@@ -36,7 +36,7 @@ country_event = {
 		name = "EVTOPTA21000"
 		random_state = {
 			any_pop = {
-				reduce_pop = 0.96
+				reduce_pop = 0.98
 				militancy = -0.5
 			}
 		}
@@ -52,8 +52,11 @@ country_event = {
 	
 	trigger = {
 		NOT = {
+			OR = {
 			poor_strata_life_needs = 0.8
+			poor_strata_everyday_needs = 0.2
 			}
+		}
 		NOT = {
 			government = democracy
 		}
@@ -65,20 +68,16 @@ country_event = {
 			factor = 0.9
 			government = proletarian_dictatorship
 		}
-		modifier = {
-			factor = 1.5
-			government = hms_government
-		}
 	}
 	
 	option = {
 		name = "EVTOPTA21010"
 		random_state = {
 			poor_strata = {
-				reduce_pop = 0.96
+				reduce_pop = 0.98
 			}
 		}
-		add_tax_relative_income	= -5
+		add_tax_relative_income	= -100
 		#treasury = -1500
 	}
 	
@@ -86,7 +85,7 @@ country_event = {
 		name = "EVTOPTB21010"
 		random_state = {
 			poor_strata = {
-				reduce_pop = 0.9
+				reduce_pop = 0.95
 				militancy = 1
 			}
 		}
@@ -150,7 +149,7 @@ country_event = {
 		name = "EVTOPTA21020"
 		random_state = {
 			any_pop = {
-				reduce_pop = 0.9
+				reduce_pop = 0.95
 			}
 		}
 	}
@@ -159,7 +158,7 @@ country_event = {
 		name = "EVTOPTB21020"
 		random_state = {
 			any_pop = {
-				reduce_pop = 0.96
+				reduce_pop = 0.98
 				militancy = 2
 			}
 		}
@@ -175,11 +174,17 @@ country_event = {
 	
 	trigger = {
 		NOT = {
+			OR = {
 			poor_strata_life_needs = 0.9
+			has_country_modifier = immunity_from_influenza
+			}
 		}
 		
 		NOT = {
+			OR = {
 			has_country_modifier = pandemic_influenza
+			has_country_modifier = immunity_from_influenza
+			}
 		}
 	}
 	
@@ -219,6 +224,10 @@ country_event = {
 			name = pandemic_influenza
 			duration = 365
 		}
+		add_country_modifier = {
+			name = immunity_from_influenza
+			duration = 4015
+		}
 		add_tax_relative_income	= -5
 	}
 	
@@ -227,6 +236,10 @@ country_event = {
 		add_country_modifier = {
 			name = pandemic_influenza
 			duration = 480
+		}
+		add_country_modifier = {
+			name = immunity_from_influenza
+			duration = 4015
 		}
 	}
 }
@@ -268,7 +281,7 @@ country_event = {
 		name = "EVTOPTA21040"
 		random_state = {
 			any_pop = {
-				reduce_pop = 0.9
+				reduce_pop = 0.95
 				consciousness = 2
 			}
 		}
@@ -278,7 +291,7 @@ country_event = {
 		name = "EVTOPTB21040"
 		random_state = {
 			any_pop = {
-				reduce_pop = 0.85
+				reduce_pop = 0.92
 				militancy = -1
 			}
 		}
