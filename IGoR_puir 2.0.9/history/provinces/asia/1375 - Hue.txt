@@ -1,5 +1,0 @@
-owner = DAI
-controller = DAI
-add_core = DAI
-trade_goods = dye
-life_rating = 30

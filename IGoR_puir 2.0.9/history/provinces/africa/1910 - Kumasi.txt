@@ -1,3 +1,0 @@
-trade_goods = precious_metal
-terrain = jungle
-life_rating = 15
