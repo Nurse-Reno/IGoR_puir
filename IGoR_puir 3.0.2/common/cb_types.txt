@@ -99,6 +99,10 @@ gunboat = {
 			has_country_modifier = in_bankrupcy
 			has_country_modifier = generalised_debt_default
 		}
+		THIS = {
+			NOT = { has_country_flag = conquerable_1865 }
+		}
+		NOT = { has_country_flag = conquerable_1865 }
 		
 		in_default = THIS
 	}
@@ -307,6 +311,10 @@ add_to_sphere = {
 	construction_speed = 0.5
 
 	can_use = {
+		THIS = {
+			NOT = { has_country_flag = conquerable_1865 }
+		}
+		NOT = { has_country_flag = conquerable_1865 }
 		this = { NOT = { badboy = 1 } }
 		this = { is_greater_power = yes }
 		is_greater_power = no
@@ -502,6 +510,10 @@ acquire_substate_region = {
 	can_use = {
 		this = { NOT = { badboy = 1 } }
 		num_of_substates = 1 # if has any substate
+		THIS = {
+			NOT = { has_country_flag = conquerable_1865 }
+		}
+		NOT = { has_country_flag = conquerable_1865 }
 		any_substate = {
 			number_of_states = 1
 			any_owned_province = {
@@ -582,6 +594,13 @@ acquire_state = {
 			not = { is_core = THIS }
 			is_colonial = no
 		}
+		NOT = {
+			AND = {
+				THIS = { tag = JAP }
+				tag = CHI
+			}
+		}
+				
 		OR = {
 			AND = {
 				civilized = yes
@@ -2025,7 +2044,6 @@ demand_concession_casus_belli_china = {
 
 	can_use = {
 		tag = CHI
-		year = 1860
 		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
@@ -2044,9 +2062,6 @@ demand_concession_casus_belli_china = {
 			NOT = { has_country_flag = conquerable_1865 }
 		}
 		NOT = { has_country_flag = conquerable_1865 }
-		THIS = {
-			civilized = yes
-		}
 		civilized = no
 		number_of_states = 2
 	}
@@ -2055,7 +2070,7 @@ demand_concession_casus_belli_china = {
 		any_owned_province = {
 			is_colonial = no
 		}
-		not = { any_owned_province = { is_capital = yes } }
+#		not = { any_owned_province = { is_capital = yes } }
 	}
 	
 	po_demand_state = yes
@@ -2720,6 +2735,12 @@ take_capital = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = {
+			AND = {
+				THIS = { tag = JAP }
+				tag = CHI
+			}
+		}
 		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
@@ -2814,6 +2835,10 @@ acquire_treaty_port = {
 
 	can_use = {
 		this = { NOT = { badboy = 1 } }
+		THIS = {
+			NOT = { has_country_flag = conquerable_1865 }
+		}
+		NOT = { has_country_flag = conquerable_1865 }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality

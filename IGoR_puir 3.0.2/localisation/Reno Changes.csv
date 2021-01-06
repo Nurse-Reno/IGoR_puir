@@ -25,6 +25,10 @@ EVTDESC9999902;This event converts all 100% unemployed farmers into laborers.;;;
 EVT2600OPTA;Integrate Them.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 EVT2600OPTB;Reject Them.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 EVT2605OPTA;Hurrah!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+unciv_protection_on_title;1865 Protection ON (Unavailable after 1836);;;;;;;;;;;;;;x
+unciv_protection_on_desc;China and Japan specific decision that protects you until 1865 from acquire land CBs, but also blocks you from building them.USE AT YOUR OWN DISCRETION.;;;;;;;;;;;;;;x
+unciv_protection_off_title;1865 Protection OFF (Unavailable after 1836);;;;;;;;;;;;;;x
+unciv_protection_off_desc;China and Japan specific decision that turns off your protection from acquire land CBs, that you otherwise would have until 1865. USE AT YOUR OWN DISCRETION.;;;;;;;;;;;;;;x
 craftsmen_fix_title;Craftsmen Salvage Decision (10 year cooldown);;;;;;;;;;;;;;x
 craftsmen_fix_desc;This decision is intended to salvage your country after it has been craftsmen hijacked. It will revert all non-core/non-accepted craftsmen on your cores to farmers/labourers so that your core craftsmen will start working. (Think South Germans in Venetia hijacking.) BECAREFUL OF USE.;;;;;;;;;;;;;;x
 #############################################;;;;;;;;;;;;;;x

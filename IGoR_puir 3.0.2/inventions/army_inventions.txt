@@ -1841,10 +1841,6 @@ mobilization_time_tables = {
 			factor = 2
 			strategic_mobility = 1
 		}
-		modifier = {
-			factor = -10
-			not = { civilized = yes }
-		}
 	}
 	effect = {
 		mobilisation_size = 0.01
@@ -1865,10 +1861,6 @@ personnel_category_tables = {
 		modifier = {
 			factor = 2
 			scientific_management = 1
-		}
-		modifier = {
-			factor = -10
-			not = { civilized = yes }
 		}
 	}
 	effect = {
