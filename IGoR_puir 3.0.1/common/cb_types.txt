@@ -2829,7 +2829,10 @@ acquire_treaty_port = {
 		}
 		NOT = { is_our_vassal = THIS }
 		THIS = {
-			civilized = yes
+			OR = {
+				civilized = yes
+				tag = JAP
+			}
 		}
 		civilized = no
 		tag = CHI
@@ -2844,6 +2847,9 @@ acquire_treaty_port = {
 			owns = 1606
 			owns = 1608
 			owns = 3249
+			owns = 1481
+			owns = 1499
+			owns = 2562
 		}
 	}
 	
@@ -2853,14 +2859,17 @@ acquire_treaty_port = {
 		}
 		any_owned_province = {
 			OR = {
-				province_id = 1566
-				province_id = 1569
-				province_id = 1496
-				province_id = 1498
-				province_id = 1538
-				province_id = 1606
-				province_id = 1608
-				province_id = 3249
+				province_id = 1566 #qingdao
+				province_id = 1569 #weihaiwei
+				province_id = 1496 #hong kong
+				province_id = 1498 #macao
+				province_id = 1538 #shanghai
+				province_id = 1606 #jiaxing
+				province_id = 1608 #ningbo
+				province_id = 3249 #guangzhouwan
+				province_id = 1481 #port arthur
+				province_id = 1499 #hainan
+				province_id = 2562 #tainan
 			}
 		}
 		not = { any_owned_province = { is_capital = yes } }

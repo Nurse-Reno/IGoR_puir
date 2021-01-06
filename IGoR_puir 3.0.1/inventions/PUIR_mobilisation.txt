@@ -17,6 +17,10 @@ levee_en_masse = {
 			factor = 3
 			publishing_industry = 1
 		}
+		modifier = {
+			factor = -10
+			not = { civilized = yes }
+		}
 	}
 	effect = {
 		mobilisation_size = 0.03		

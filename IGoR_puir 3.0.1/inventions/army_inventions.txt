@@ -1842,7 +1842,7 @@ mobilization_time_tables = {
 			strategic_mobility = 1
 		}
 		modifier = {
-			factor = -5
+			factor = -10
 			not = { civilized = yes }
 		}
 	}
@@ -1867,7 +1867,7 @@ personnel_category_tables = {
 			scientific_management = 1
 		}
 		modifier = {
-			factor = -5
+			factor = -10
 			not = { civilized = yes }
 		}
 	}
