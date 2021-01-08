@@ -513,7 +513,6 @@ acquire_substate_region = {
 		THIS = {
 			NOT = { has_country_flag = conquerable_1865 }
 		}
-		NOT = { has_country_flag = conquerable_1865 }
 		any_substate = {
 			number_of_states = 1
 			any_owned_province = {
@@ -2838,7 +2837,6 @@ acquire_treaty_port = {
 		THIS = {
 			NOT = { has_country_flag = conquerable_1865 }
 		}
-		NOT = { has_country_flag = conquerable_1865 }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
