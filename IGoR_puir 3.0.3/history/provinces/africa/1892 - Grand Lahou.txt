@@ -1,5 +1,0 @@
-trade_goods = tropical_wood
-terrain = jungle
-life_rating = 20
-
-set_province_flag = mine
