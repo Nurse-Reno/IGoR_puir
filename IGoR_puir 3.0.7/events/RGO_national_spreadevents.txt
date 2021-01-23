@@ -1,0 +1,109 @@
+# Tractors
+country_event = {
+	id = 99999901
+	title = "EVTNAME99999901"
+	desc = "EVTDESC99999901"
+	
+	trigger = {
+		NOT = {
+			has_country_modifier = country_tractors
+		}
+		invention = tractors
+	}
+	
+	option = {
+		name = "EVTOPTA99999901"
+		add_country_modifier = {
+			name = country_tractors
+			duration = -1
+		}
+	}
+}
+
+# Electricity
+country_event = {
+	id = 99999902
+	title = "EVTNAME99999902"
+	desc = "EVTDESC99999902"
+	
+	trigger = {
+		NOT = {
+			has_country_modifier = country_electricity
+		}
+		invention = electrical_lighting
+	}
+	
+	option = {
+		name = "EVTOPTA99999902"
+		add_country_modifier = {
+			name = country_electricity
+			duration = -1
+		}
+	}
+}
+
+# Nitroglycerin
+country_event = {
+	id = 99999903
+	title = "EVTNAME99999903"
+	desc = "EVTDESC99999903"
+	
+	trigger = {
+		NOT = {
+			has_country_modifier = country_nitroglycerin
+		}
+		invention = nitroglycerin
+	}
+	
+	option = {
+		name = "EVTOPTA99999903"
+		add_country_modifier = {
+			name = country_nitroglycerin
+			duration = -1
+		}
+	}
+}
+
+# Distribution Channels
+country_event = {
+	id = 99999904
+	title = "EVTNAME99999904"
+	desc = "EVTDESC99999904"
+	
+	trigger = {
+		NOT = {
+			has_country_modifier = country_distribution_channels
+		}
+		invention = distribution_channels
+	}
+	
+	option = {
+		name = "EVTOPTA99999904"
+		add_country_modifier = {
+			name = country_distribution_channels
+			duration = -1
+		}
+	}
+}
+
+# Machine Tools
+country_event = {
+	id = 99999905
+	title = "EVTNAME99999905"
+	desc = "EVTDESC99999905"
+	
+	trigger = {
+		NOT = {
+			has_country_modifier = country_machine_tools
+		}
+		invention = machine_tools
+	}
+	
+	option = {
+		name = "EVTOPTA99999905"
+		add_country_modifier = {
+			name = country_machine_tools
+			duration = -1
+		}
+	}
+}
