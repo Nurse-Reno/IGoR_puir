@@ -1,5 +1,0 @@
-trade_goods = cattle
-terrain = coastal_desert
-life_rating = 20
-
-set_province_flag = farm
