@@ -6,10 +6,4 @@ life_rating = 30
 	controller = ENG
 	colonial = 2
 }
-1836.1.2 = {
-	owner = NZL
-	controller = NZL
-	colonial = 0
-}
-
 set_province_flag = farm
