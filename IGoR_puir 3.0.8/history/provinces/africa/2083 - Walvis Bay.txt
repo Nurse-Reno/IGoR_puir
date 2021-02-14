@@ -1,5 +1,0 @@
-trade_goods = wool
-terrain = desert
-life_rating = 20
-
-set_province_flag = farm
