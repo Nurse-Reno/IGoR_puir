@@ -1,0 +1,121 @@
+--------------Stat growth for Units in Igor_PUIR--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1840 Tech with all Inventions
+
+Irregulars - 3.4 attack / 3.4 defense / 100% discipline / 1 maneuver / 4 kph / 160% supply consumption
+Cavalry - 1 reconnaissance / 4.4 attack / 2.4 defense / 100% discipline / 2 maneuver / 5 kph / 160% supply consumption
+
+Regulars - 7 attack / 7 defense / 100% discipline / 1 maneuver / 4 kph / 160% supply consumption
+Offensive Regulars - 8.4 attack / 4.4 defense / 100% discipline / 1 maneuver / 4 kph / 160% supply consumption
+Defensive Regulars - 4.4 attack / 8.4 defense / 100% discipline / 1 maneuver / 4 kph / 160% supply consumption
+
+Hussars - 2 reconnaissance / 6.35 attack / 6.35 defense / 100% discipline / 4 maneuver / 6 kph / 160% supply consumption
+Cuirassiers - 2 reconnaissance / 7.75 attack / 3.75 defense / 100% discipline / 4 maneuver / 6 kph / 160% supply consumption
+Dragoons - 2 reconnaissance / 3.75 attack / 7.75 defense / 100% discipline / 4 maneuver / 6 kph / 160% supply consumption
+
+Artillery - 3.3 attack / 3.3 defense / 100% discipline / 225% support / 1 maneuver / 4 kph / 165% supply consumption
+Offensive Artillery - 3.9 attack / 2.18 defense / 100% discipline / 225% support / 1 maneuver / 4 kph / 165% supply consumption
+Defensive Artillery - 2.18 attack / 3.9 defense / 100% discipline / 225% support / 1 maneuver / 4 kph / 165% supply consumption
+
+Engineers - 1 siege / 4.4 attack / 4.4 defense / 100% discipline / 50% support / 2 maneuver / 5 kph / 165% supply consumption
+
+Guards - N/A
+Tanks - N/A
+Planes - N/A
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1850 Tech with all Inventions
+
+Irregulars - 4.45 attack / 4.45 defense / 100% discipline / 1 maneuver / 5 kph / 175% supply consumption
+Cavalry - 1 reconnaissance / 5.45 attack / 3.45 defense / 100% discipline / 2 maneuver / 6 kph / 175% supply consumption
+
+Regulars - 9.25 attack / 9.25 defense / 100% discipline / 1 maneuver / 5 kph / 175% supply consumption
+Offensive Regulars - 10.95 attack / 6.2 defense / 100% discipline / 1 maneuver / 5 kph / 175% supply consumption
+Defensive Regulars - 6.2 attack / 10.95 defense / 100% discipline / 1 maneuver / 5 kph / 175% supply consumption
+
+Hussars - 3 reconnaissance / 8.3 attack / 8.3 defense / 100% discipline / 4 maneuver / 7 kph / 175% supply consumption
+Cuirassiers - 3 reconnaissance / 10 attack / 5.25 defense / 100% discipline / 4 maneuver / 7 kph / 175% supply consumption
+Dragoons - 3 reconnaissance / 5.25 attack / 10 defense / 100% discipline / 4 maneuver / 7 kph / 175% supply consumption
+
+Artillery - 3.9 attack / 3.9 defense / 100% discipline / 250% support / 1 maneuver / 5 kph / 185% supply consumption
+Offensive Artillery - 4.57 attack / 2.69 defense / 100% discipline / 250% support / 1 maneuver / 5 kph / 185% supply consumption
+Defensive Artillery - 2.69 attack / 4.57 defense / 100% discipline / 250% support / 1 maneuver / 5 kph / 185% supply consumption
+
+Engineers - 2 siege / 6.2 attack / 6.2 defense / 100% discipline / 75% support / 2 maneuver / 6 kph / 175% supply consumption
+
+Guards - N/A
+Tanks - N/A
+Planes - N/A
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1870 Tech with all Inventions
+
+Irregulars - 5.85 attack / 5.85 defense / 100% discipline / 1 maneuver / 6 kph / 175% supply consumption
+Cavalry - 1 reconnaissance / 6.85 attack / 4.85 defense / 100% discipline / 2 maneuver / 7 kph / 175% supply consumption
+
+Regulars - 12.25 attack / 15.5 defense / 100% discipline / 1 maneuver / 6 kph / 175% supply consumption
+Offensive Regulars - 14.35 attack / 12 defense / 100% discipline / 1 maneuver / 6 kph / 175% supply consumption
+Defensive Regulars - 8.6 attack / 17.5 defense / 100% discipline / 1 maneuver / 6 kph / 175% supply consumption
+
+Hussars - 3 reconnaissance / 10.9 attack / 14.25 defense / 100% discipline / 4 maneuver / 8 kph / 175% supply consumption
+Cuirassiers - 3 reconnaissance / 13 attack / 10.75 defense / 100% discipline / 4 maneuver / 8 kph / 175% supply consumption
+Dragoons - 3 reconnaissance / 7.25 attack / 16.25 defense / 100% discipline / 4 maneuver / 8 kph / 175% supply consumption
+
+Artillery - 4.7 attack / 4.7 defense / 100% discipline / 300% support / 1 maneuver / 6 kph / 190% supply consumption
+Offensive Artillery - 5.47 attack / 3.37 defense / 100% discipline / 300% support / 1 maneuver / 6 kph / 190% supply consumption
+Defensive Artillery - 3.37 attack / 5.47 defense / 100% discipline / 300% support / 1 maneuver / 6 kph / 190% supply consumption
+
+Engineers - 2 siege / 8.6 attack / 12 defense / 100% discipline / 100% support / 2 maneuver / 6 kph / 175% supply consumption
+
+Guards - N/A
+Tanks - N/A
+Planes - N/A
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1900 Tech with all Inventions
+
+Irregulars - 6.9 attack / 6.9 defense / 100% discipline / 1 maneuver / 7 kph / 230% supply consumption
+Cavalry - 1 reconnaissance / 7.9 attack / 5.9 defense / 100% discipline / 2 maneuver / 8 kph / 230% supply consumption
+
+Regulars - 17.75 attack / 17.75 defense / 100% discipline / 1 maneuver / 7 kph / 230% supply consumption
+Offensive Regulars - 20.05 attack / 13.8 defense / 100% discipline / 1 maneuver / 7 kph / 230% supply consumption
+Defensive Regulars - 13.8 attack / 20.05 defense / 100% discipline / 1 maneuver / 7 kph / 230% supply consumption
+
+Hussars - 3 reconnaissance / 16.2 attack / 16.2 defense / 100% discipline / 4 maneuver / 9 kph / 230% supply consumption
+Cuirassiers - 3 reconnaissance / 18.5 attack / 12.25 defense / 100% discipline / 4 maneuver / 9 kph / 230% supply consumption
+Dragoons - 3 reconnaissance / 12.25 attack / 18.5 defense / 100% discipline / 4 maneuver / 9 kph / 230% supply consumption
+
+Artillery - 5.3 attack / 5.3 defense / 100% discipline / 400% support / 1 maneuver / 7 kph / 250% supply consumption
+Offensive Artillery - 6.15 attack / 3.88 defense / 100% discipline / 400% support / 1 maneuver / 7 kph / 250% supply consumption
+Defensive Artillery - 3.88 attack / 6.15 defense / 100% discipline / 400% support / 1 maneuver / 7 kph / 250% supply consumption
+
+Engineers - 2 siege / 13.8 attack / 13.8 defense / 100% discipline / 100% support / 2 maneuver / 7 kph / 230% supply consumption
+
+Guards - 3 reconnaissance / 20.05 attack / 20.05 defense / 130% discipline / 25% support / 2 maneuver / 7 kph / 230% supply consumption
+Tanks - 3 reconnaissance / 2 siege / 22 attack / 22 defense / 130% discipline / 100% support / 4 maneuver / 7 kph / 165% supply consumption
+Planes - N/A
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1914 Tech with all Inventions
+
+Planes - 4 reconnaissance / 10.5 attack / 8 defense / 50% discipline / 512% support / 2 maneuver / 7 kph / 175% supply consumption
+
+The rest = same as 1900
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1918 Tech with all Inventions
+
+Irregulars - 7.95 attack / 7.95 defense / 100% discipline / 1 maneuver / 8 kph / 260% supply consumption
+Cavalry - 3 reconnaissance / 9.3 attack / 7.3 defense / 100% discipline / 2 maneuver / 9 kph / 280% supply consumption
+
+Regulars - 20 attack / 20 defense / 100% discipline / 1 maneuver / 8 kph / 260% supply consumption
+Offensive Regulars - 22.6 attack / 15.6 defense / 100% discipline / 1 maneuver / 8 kph / 260% supply consumption
+Defensive Regulars - 15.6 attack / 22.6 defense / 100% discipline / 1 maneuver / 8 kph / 260% supply consumption
+
+Hussars - 3 reconnaissance / 18.8 attack / 18.8 defense / 100% discipline / 4 maneuver / 10 kph / 280% supply consumption
+Cuirassiers - 3 reconnaissance / 21.5 attack / 14.25 defense / 100% discipline / 4 maneuver / 10 kph / 280% supply consumption
+Dragoons - 3 reconnaissance / 14.25 attack / 21.5 defense / 100% discipline / 4 maneuver / 10 kph / 280% supply consumption
+
+Artillery - 6.9 attack / 6.9 defense / 100% discipline / 450% support / 1 maneuver / 8 kph / 330% supply consumption
+Offensive Artillery - 7.95 attack / 5.24 defense / 100% discipline / 450% support / 1 maneuver / 8 kph / 330% supply consumption
+Defensive Artillery - 5.24 attack / 7.95 defense / 100% discipline / 450% support / 1 maneuver / 8 kph / 330% supply consumption
+
+Engineers - 2 siege / 15.6 attack / 15.6 defense / 100% discipline / 100% support / 2 maneuver / 8 kph / 260% supply consumption
+
+Guards - 3 reconnaissance / 22.6 attack / 22.6 defense / 130% discipline / 25% support / 2 maneuver / 8 kph / 260% supply consumption
+Tanks - 3 reconnaissance / 2 siege / 30 attack / 28 defense / 130% discipline / 100% support / 4 maneuver / 9 kph / 245% supply consumption
+Planes - 4 reconnaissance / 14.5 attack / 12 defense / 50% discipline / 512% support / 2 maneuver / 8 kph / 185% supply consumption

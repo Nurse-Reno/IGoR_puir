@@ -1,0 +1,147 @@
+#############################################;;;;;;;;;;;;;;x
+#New Bookmarks;;;;;;;;;;;;;;x
+#############################################;;;;;;;;;;;;;;x
+RENO_NAME;Commonwealth Released;;;;;;;;;;;x
+RENO_DESC;Commonwealth released start.;;;;;;;;;;;x
+#############################################;;;;;;;;;;;;;;x
+#New National Focuses;;;;;;;;;;;;;;x
+#############################################;;;;;;;;;;;;;;x
+assimilation_focus;Increase Assimilation Rate;;;;;;;;x;;;;
+assimilation_focus_desc;Increase state assimilation rate by 200%.;;;;;;;;x;;;;
+assimilation_focus_header;Assimilation;;;;;;;;x;;;;
+#############################################;;;;;;;;;;;;;;x
+#New Units;;;;;;;;;;;;;;x
+#############################################;;;;;;;;;;;;;;x
+infantry_offensive;Offensive Infantry;;;;;;;;;;;;;x
+infantry_defensive;Defensive Infantry;;;;;;;;;;;;;x
+artillery_offensive;Offensive Artillery;;;;;;;;;;;;;x
+artillery_defensive;Defensive Artillery;;;;;;;;;;;;;x
+#############################################;;;;;;;;;;;;;;x
+#Generic Political Parties;;;;;;;;;;;;;;x
+#############################################;;;;;;;;;;;;;;x
+generic_conservative;Generic Conservative;;;;;;;;;;;;;x
+generic_reactionary;Generic Reactionary;;;;;;;;;;;;;x
+generic_liberal;Generic Liberal;;;;;;;;;;;;;x
+generic_socialist;Generic Socialist;;;;;;;;;;;;;x
+generic_communist;Generic Communist;;;;;;;;;;;;;x
+generic_fascist;Generic Fascist;;;;;;;;;;;;;x
+#############################################;;;;;;;;;;;;;;x
+#Event and Decision Names;;;;;;;;;;;;;;x
+#############################################;;;;;;;;;;;;;;x
+EVTOPTA99999901;Nice.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+EVTOPTA99999902;Nice.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+EVTOPTA99999903;Nice.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+EVTOPTA99999904;Nice.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+EVTOPTA99999905;Nice.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+EVTNAME99999901;Tractors and Trawlers;;;;;;;;;;;;;;x
+EVTDESC99999901;Mechanized farming, mining, and fishing has arrived in this country, which facilitates an increase in raw resource production.;;;;;;;;;;;;;;x
+EVTNAME99999902;Electricity;;;;;;;;;;;;;;x
+EVTDESC99999902;Electricity has arrived in this country, which facilitates an increase in raw resource production and industrial throughput.;;;;;;;;;;;;;;x
+EVTNAME99999903;Nitroglycerin;;;;;;;;;;;;;;x
+EVTDESC99999903;Nitroglycerin has arrived in this country, which facilitates an increase in raw resource production.;;;;;;;;;;;;;;x
+EVTNAME99999904;Commercial Retailers;;;;;;;;;;;;;;x
+EVTDESC99999904;Establishment of complex distribution channels has begun in this country, which facilitates an increase in raw resource production.;;;;;;;;;;;;;;x
+EVTNAME99999905;Mechanized Production;;;;;;;;;;;;;;x
+EVTDESC99999905;Mechanized production has arrived in this country, which facilitates an increase in raw resource production and industrial throughput.;;;;;;;;;;;;;;x
+country_tractors;Tractors and Trawlers;;;;;;;;;;;;;;;;;;x,,,,,
+desc_country_tractors;Mechanized farming, mining, and fishing has arrived in this country, which facilitates an increase in raw resource production.;;;;;;;;;;;;;;;;;;;x,,,,,
+country_electricity;Electricity;;;;;;;;;;;;;;;;;;x,,,,,
+desc_country_electricity;Electricity has arrived in this country, which facilitates an increase in raw resource production.;;;;;;;;;;;;;;;;;;;x,,,,,
+country_nitroglycerin;Nitroglycerin;;;;;;;;;;;;;;;;;;x,,,,,
+desc_country_nitroglycerin;Nitroglycerin has arrived in this country, which facilitates an increase in raw resource production.;;;;;;;;;;;;;;;;;;;x,,,,,
+country_distribution_channels;Commercial Retailers;;;;;;;;;;;;;;;;;;x,,,,,
+desc_country_distribution_channels;Establishment of complex distribution channels have begun in this country, which facilitates an increase in raw resource production.;;;;;;;;;;;;;;;;;;;x,,,,,
+country_machine_tools;Mechanized Production;;;;;;;;;;;;;;;;;;x,,,,,
+desc_country_machine_tools;Mechanized production has arrived in this country, which facilitates an increase in raw resource production and industrial throughput.;;;;;;;;;;;;;;;;;;;x,,,,,
+equatoria_expedition_ARA_title;Launch Equatoria Expedition;;;;;;;;;;;;;x;;;;;;;;;;;
+equatoria_expedition_ARA_desc;The Khedive of Egypt, Isma'il I commissioned an expedition to explore the Equatoria region south of the Sudan, and to organize a new Egyptian province there. A British explorer and engineer named Samuel White Baker who had led an expedition down the Nile in 1865 was contracted by the Khedive to lead the Egyptian forces and to be the first Governor-General of the new territory..;;;;;;;;;;;;;x;;;;;;;;;;;
+conquest_of_darfur_ARA_title;Begin Conquest of Darfur;;;;;;;;;;;;;x;;;;;;;;;;;
+conquest_of_darfur_ARA_desc;An expansionist Khedive, Isma'il I moved to incorporate the territory of Darfur into the Egyptian Sudan in 1874.;;;;;;;;;;;;;x;;;;;;;;;;;
+craftsmen_fix_cooldown;Craftsmen Fix Cooldown;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;
+craftsmen_fix_cooldown_desc;Craftsmen Fix Cooldown is 10 years.;;;;;;;;;;;;;x,,,,,,,,,,,,;;;;;;;;;;;
+bureaucrats_fix_cooldown;Non-Accepted Bureaucrats Fix Cooldown;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;
+bureaucrats_fix_cooldown_desc;Non-Accepted Bureaucrats Fix Cooldown is 10 years.;;;;;;;;;;;;;x,,,,,,,,,,,,;;;;;;;;;;;
+anti_italy_title;Form Anti-Italy;;;;;;;;;;;;;X,,,,,,,,,,,,,,;;;;;;;;;;;
+anti_italy_desc;Our regional rivals are promoting pan-Italian nationalism in an attempt to legitimize the conquest of their neighbors! We must form a counter bloc to stop their clearly expansionist policy.
+italy_victory_title;Italy Has Pervailed!;;;;;;;;;;;;;X,,,,,,,,,,,,,,;;;;;;;;;;;
+italy_victory_desc;The Italian peninsula has been united! No longer will pretender elements exist within Italy.;;;;;;;;;;;;;X,,,,,,,,,,,,,,;;;;;;;;;;;
+anti_italy_victory_title;Anti-Italy Has Prevailed!;;;;;;;;;;;;;X,,,,,,,,,,,,,,;;;;;;;;;;;
+anti_italy_victory_desc;We have crushed our pathetic rival's attempt at unifying the Italian peninsula under their guise of nationalism. Now we must unite the Italian peninsula under OUR guise of nationalism!;;;;;;;;;;;;;X,,,,,,,,,,,,,,;;;;;;;;;;;
+ait_italia_irredenta_title;Italia Irredenta;;;;;;;;;;;;;X,,,,,,,,,,,,,,;;;;;;;;;;;
+ait_italia_irredenta_desc;The Italian Irredentist movement strove for the transfer to the Kingdom of Italy of all territories in the immediate vicinity of the Kingdom which were largely or partly seen as populated by ethnic Italians. Not only did this include claims to Austrian lands in Italy proper, but it also meant territorial ambitions further into Dalmatia, and Austria.;;;;;;;;;;;;;X,,,,,,,,,,,,,,;;;;;;;;;;;
+ait_claim_the_adriatic_title;Claim the Adriatic;;;;;;;;;;;;;X,,,,,,,,,,,,,,;;;;;;;;;;;
+ait_claim_the_adriatic_desc;The Adriatic Sea, a region that is historically Italian, is within our grasp and many Italians live in the lands around it to this day. It's time to assert our hegemony on the territory around it, safeguarding the Italians that still live there.;;;;;;;;;;;;;X,,,,,,,,,,,,,,;;;;;;;;;;;
+EVTNAME9999901;Craftsmen Exploit Salvage;;;;;;;;;;;;;;x
+EVTDESC9999901;This event converts all non-core/non-accepted craftsmen on your cores into artisans.;;;;;;;;;;;;;;x
+EVT2600OPTA;Integrate Them.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+EVT2600OPTB;Reject Them.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+EVT2605OPTA;Hurrah!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+unciv_protection_on_title;1865 Protection ON (Unavailable after 1836);;;;;;;;;;;;;;x
+unciv_protection_on_desc;China and Japan specific decision that protects you until 1865 from acquire land CBs, but also blocks you from building them.USE AT YOUR OWN DISCRETION.;;;;;;;;;;;;;;x
+unciv_protection_off_title;1865 Protection OFF (Unavailable after 1836);;;;;;;;;;;;;;x
+unciv_protection_off_desc;China and Japan specific decision that turns off your protection from acquire land CBs, that you otherwise would have until 1865. USE AT YOUR OWN DISCRETION.;;;;;;;;;;;;;;x
+craftsmen_fix_title;Craftsmen Salvage Decision (10 year cooldown);;;;;;;;;;;;;;x
+craftsmen_fix_desc;This decision is intended to salvage your country after it has been craftsmen hijacked. It will revert all non-core/non-accepted craftsmen on your cores to artisans so that your core craftsmen will start working. (Think South Germans in Venetia hijacking.) BECAREFUL OF USE.;;;;;;;;;;;;;;x
+bureaucrats_fix_title;Non-Accepted Bureaucrats Decision (10 year cooldown);;;;;;;;;;;;;;x
+bureaucrats_fix_desc;This decision is intended to convert non-accepted Bureaucrats into Artisans, in both states and colonies, so they stop getting fat off of state admin funding.;;;;;;;;;;;;;;x
+#############################################;;;;;;;;;;;;;;x
+double_down_in_the_balkans_title;Double Down in the Balkans;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+double_down_in_the_balkans_desc;For too long have the peoples of the Balkans thwarted our efforts of expansion. Let us focus all our attention to the re-education and assimilation of these barbaric peoples.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#############################################;;;;;;;;;;;;;;x
+#Additional Provinces;;;;;;;;;;;;;;x
+#############################################;;;;;;;;;;;;;;x
+PROV3258;Benevento;;;;;;;;;;;;;;;;;;;;;;;;;;;
+PROV3259;Avellino;;;;;;;;;;;;;;;;;;;;;;;;;;;
+PROV3260;Rieta;;;;;;;;;;;;;;;;;;;;;;;;;;;
+#############################################;;;;;;;;;;;;;;x
+#Additional Tags and their connected info;;;;;;;;;;;;;;x
+#############################################;;;;;;;;;;;;;;x
+AIT;Anti-Italy;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+AIT_ADJ;Italian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+AIT_reactionary;Fazione Monarchica;Restorationiste;Ristorazionista;;Restauracionistas;;;;;;;;;x;;;;
+AIT_conservative;La Destra;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+AIT_conservative_2;Partito Liberale Italiano;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+AIT_conservative_3;Sinistra Dissidente;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+AIT_liberal;La Sinistra;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+AIT_liberal_2;Partito Repubblicano Italiano;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+AIT_socialist;L'Estrema;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+AIT_socialist_2;Partito Socialista Italiano;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+AIT_anarcho_liberal;L'Estrema Liberale;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+AIT_communist;Partito Comunista d'Italia;;;;;;;;;;;;;;;;;;;;;x;;;;
+AIT_fascist;Partito Nazionale Fascista;;;;;;;;;;;;;;;;;;;;;;x;;;;
+AIT_reactionary;Fazione Monarchica;Fazione Monarchica;Fazione Monarchica;;Fazione Monarchica;;;;;;;;;x
+AIT_conservative;Destra Liberale;Destra Liberale;Destra Liberale;;Destra Liberale;;;;;;;;;x
+AIT_liberal;Sinistra Liberale;Sinistra Liberale;Sinistra Liberale;;Sinistra Liberale;;;;;;;;;x
+AIT_liberal_2;Partito Repubblicano Italiano;Partito Repubblicano Italiano;Partito Repubblicano Italiano;;Partito Repubblicano Italiano;;;;;;;;;x
+AIT_conservative_2;Partito Liberale Italiano;Partito Liberale Italiano;Partito Liberale Italiano;;Partito Liberale Italiano;;;;;;;;;x
+AIT_conservative_3;Partito Popolare Italiano;Partito Popolare Italiano;Partito Popolare Italiano;;Partito Popolare Italiano;;;;;;;;;x
+AIT_socialist;Partito Socialista Italiano;Partito Socialista Italiano;Partito Socialista Italiano;;Partito Socialista Italiano;;;;;;;;;x
+AIT_anarcho_liberal;Estrema Sinistra Liberale;Estrema Sinistra Liberale;Estrema Sinistra Liberale;;Estrema Sinistra Liberale;;;;;;;;;x
+AIT_communist;Partito Comunista d'Italia;Partito Comunista d'Italia;Partito Comunista d'Italia;;Partito Comunista d'Italia;;;;;;;;;x
+AIT_fascist;Partito Nazionale Fascista;Partito Nazionale Fascista;Partito Nazionale Fascista;;Partito Nazionale Fascista;;;;;;;;;x
+AIT_democracy;The Italian Republic;;;;;;;;;;;;;;x
+AIT_bourgeois_dictatorship_ADJ;Italian;;;;;;;;;;;;;x
+AIT_proletarian_dictatorship;The People's Republic of Italy;;;;;;;;;;;;;x
+AIT_proletarian_dictatorship_ADJ;Italian;;;;;;;;;;;;;x
+#############################################;;;;;;;;;;;;;;x
+#Additional CBs;;;;;;;;;;;;;;x
+#############################################;;;;;;;;;;;;;;x
+demand_concession_casus_belli_china;Chinese Concession;;;;;;;;;;;
+demand_concession_casus_belli_china_short;Demand $STATE$ from China;;;;;;;;;;;
+demand_concession_casus_belli_china_desc;Force China to concede territory.;;;;;;;;;;;
+demand_concession_casus_belli_china_setup;Demand that $RECIPIENT$ secede territory.;;;;;;;;;;;
+#############################################;;;;;;;;;;;;;;x
+#Additional Modifiers;;;;;;;;;;;;;;x
+#############################################;;;;;;;;;;;;;;x
+assimilation_fix_modifier;Assimilation Fix Modifier;;;;;;;;;;;;;x,,,,
+assimilation_fix_modifier_desc;This modifier exists to counter the engine restricted assimilation modifier on pops who are on their cultural_union cores.;;;;;;;;;;;;;x,,,,
+#############################################;;;;;;;;;;;;;;x
+#Additional Cultures;;;;;;;;;;;;;;x
+#############################################;;;;;;;;;;;;;;x
+bantu;Bantu;;;;;;;;;x;;;;
+austronesian;Austronesian;;;;;;;;;x;;;;
+niger_congo_a;Niger-Congo A;;;;;;;;;x;;;;
+nilo_saharan;Nilo-Saharan;;;;;;;;;x;;;;
+afro_asiatic;Afro-Asiatic;;;;;;;;;x;;;;
+indo_aryan;Indo-Aryan;;;;;;;;;x;;;;
+dravidian;Dravidian;;;;;;;;;x;;;;

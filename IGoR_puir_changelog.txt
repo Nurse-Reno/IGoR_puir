@@ -1,0 +1,374 @@
+Changes 5.0
+
+Changed music files that weren't working to ones that do. (like 70% of them)
+Removed the rest of the continental based immigration system and replaced it with the new_world_nation flags. (oversight)
+Removed Evasion as a stat from naval combat entirely.
+Buffed the RGO size (250%) and base assimilation rate (25%) of africa.
+Removed the immigration mallus that was connected to infamy.
+Removed the 4% soldier cap to states above 1 million pops. There still exist a limit to chinese states above 2 million that caps at 4%.
+Frigates now require a naval base to be built.
+Great war capitulation now requires a great war to use on someone. (bugfix)
+You are now guaranteed to inherit all substates that are left upon westernization as china.
+There is now a base assimilation chance of 1% for europe/asia, 2% for africa/australia, and 3% for north and south america. (Replaces a bugged flag implementation that doesn't work)(bugfix)
+Tibet is now cored by china and is considered a substate. This should allow tibet to be inherited upon chinese westernization. This is intended to cleanup the map because in 99% of games, tibet remains a chinese puppet all game.
+Eliminated ainu pockets and replaced them with japanesse to help with lag.
+Eliminated asian_minor pockets across asia and replaced them with their primary culture in their area to help with lag.
+Completed Indian population rework. Pops are now defined by their language group to reduce lag (indo-aryan and dravidian). Doctrine of lapse does work properly with the new cultures.
+Late Game Zombie changes - Now requires 60k (instead of 30k) stacks to combat infection/spread and provide containment.
+Capitalists will now build factories if there is even 0.1% unemployed craftsmen.
+Changed RGO Hire rate for high demand and medium demand so that they will hire pops more quickly.
+Capitalists will now delete factories if only 1 has shutdown, instead of waiting for 2 to shutdown first.
+Replaced the last remaining decision generals with new traits. (oversight)
+
+----------------------------------------------------
+
+Changes 4.0.3
+
+Added more vassal release entries for generic dominions. (oversight)
+
+----------------------------------------------------
+Changes 4.0.2
+
+Returned German liferating to normal puir rates
+
+----------------------------------------------------
+Changes 4.0.1
+
+Removed great power tensions event that would cause you to be spammed with a 0.1 infamy or -5 prestige choice. (Was spamming)
+Portugal-Brazil will now properly set its flag to new world nation, allowing for immigration. (oversight)
+Portugal-Brazil now gets Afro-Brazilian accepted.
+Redshirts and Italian Pan-Nationalists no longer spawn in Anti-Italy.
+Anti Italy no longer starts with cores on all italian cores (solves a rebel bug), but will obtain those cores upon decision formation. (bugfix)
+More tweaking to block nationalist revolts inside of culture unions. (bugfix)
+
+----------------------------------------------------
+Changes for 4.0
+
+Removed aeroplane factory invention, it is intended to only be obtained from aeroplane tech not the invention you get much earlier.
+Deleted active polynesia tags for performance.
+Chinese pop nerf has been pulled back from 80% vanilla to 70% vanilla. (30 million total)
+Minimum wage reform now lowers life needs requirement for poor strata by 10% for each tier, up to 40% reduction.
+African continent has been given cultures that reflect their historical language groups as accurately as I could. Generic domains should inherit these new cultures normally.
+Chinese pops have been redone into 2 major groups, north han and south han. The periphery substates have the same pops. (mongol, manchu, etc)
+Indian pops have been redone into 4 major culture groups: tamil, avadhi, marathi, and bengali. Bengali is the only non-accepted.
+Removed starting PLC, Romania, and Yugoslav cores. (PLC was leftover from a while ago and Yugoslavia + Romania cores all its land upon formation)
+Removed the pop loss from Yangtze River flood events until I feel China is in the right population level for its wider game role.
+Generic Neutrality has been removed.
+Removed French accepted from Belgium.
+Removed annoying issue with Empress of India blocking Indian Annexation in 1885 that has plagued us for years. You will now freely inherit with doctrine of lapse without worrying about if you grabbed the empress of india decision or not. Removed ai requirement on India. (Annexation will occur if india is a british puppet in 1885. Period.)
+Added a decision available to everyone, with a 10 year cooldown, that turns all non-accepted bureaucrats into artisans in both states and colonies. This solved a rather annoying situation where you are paying non-accepted bureaucrats all game and they contribute nothing.
+Fixed Byzantium formation bug. (bugfix)
+Assimilation has been completely reworked to be simplified and universal. You can now dependably begin assimilating pops, but it won't be fast. (No assimilation in colonies of course).
+National Value Changes:
+Order: Buffed starting experience to 30 from 25, added a Leadership bonus modifier which essentially doubles the monthly leadership point gain (good for fishing for good generals)
+Autocracy: Buffed mobilization size from 1% to 2.5%
+Productivity: Now gives 5% industry tech research bonus instead of commerce.
+Equality: Now gives a 500% assimilation rate national focus. (works well in conjunction with Assimilation rework.)
+Garibaldi Redshirts can now spawn in Sardinia. Important Italian information for puir base redshirts: (important information for tech inheritance and reforms)
+	if redshirts pop in two sicilies and win, sardinia AUTOMATICALLY becomes italy
+	if redshirts pop in sardinia and win, two sicilies AUTOMATICALLY becomes italy
+	if redshirts pop anywhere else in italy and win, sardinia AUTOMATICALLY becomes italy
+	If either power is a great power and the other is not, they will AUTOMATICALLY become italy
+Removed all provincial history terrain changes so the map terrain is now accurate entirely with the terrain of the province it is in. (Useless shit in africa and micronesia)
+Bugfixed a lot of issues with Anti Italy. It can no longer be released via CB or satellite. (bugfix)
+Blocked hussars, cuirassiers, and dragoons + a bunch of factory unlock inventions from uncivs so it doesn't cause a bug upon westernization that forces a rehost.
+Turned off player message popups by default.
+Fixed Belgian / Dutch treaty of london issues that were causing belgium to crash. (bugfix)
+Treaty of Guadalupe Hidalgo now drops mexican cores as was originally intended. (oversight)
+Bolt Action Armament is now a 100% chance for invention.
+Anti Italy cannot be released via wargoal anymore. (bugfix)
+Blocked neutral nations from declaring for cores / restore order. (oversight)
+Added a potential fix to stop Swedish nationalist uprisings in Scandinavia, german minors in Germany, and italian minors in Italy. (bugfix)
+Going over 25 infamy is now punished by an event that adds the following until you go back below 25 infamy:
+	global_population_growth = -0.005
+	research_points_modifier = -1.0
+	global_immigrant_attract = -4.0
+	diplomatic_points_modifier = -1.0
+	org_regain = -0.2
+    land_organisation = -0.2
+    naval_organisation = -0.2
+    factory_throughput = -0.5
+    RGO_throughput = -0.5
+    prestige = -0.2
+    war_exhaustion = 2
+
+
+----------------------------------------------------
+Changes for 3.0.8
+
+Fixed issues with Commonwealth start. All Commonwealth nations now start with starting british tech and reforms.
+Removed New Zealand from the Commonwealth start.
+The militancy influence to emigration chance now only affects unaccepted pops.
+
+----------------------------------------------------
+Changes for 3.0.7
+
+New Music
+Emigration retune to increase based on militancy. (Only pop movement that utilizes militancy)
+Made it so the chinese concession will show which state you're targetting. (oversight)
+Turned off assimilation in colonies. (oversight)
+Added Wallachia to the violate neutrality list. (oversight)
+Added expand port, railroad, and fort hotkey the letter e. Credited to KevinG.
+Allowed Anti Italy to do craftsmen decision.
+Darfur and Equatoria decisions are now capable of use by both Egypt and Arabia and made their general actually useful you receive from the decision.
+Tanks and Planes no longer require core pops to create them. (oversight)
+Germany and Switzerland liferating buffed back to 40.
+Ottoman liferating in the balkans when choosing double down in the balkans decision has been changed to increase liferating from 35 to 37, instead of 35 to 40.
+All provincial RGO increase events have now been pushed to a singular nation wide RGO increase modifier.
+Extra ship costs, like iron/steel/more canned goods has been removed/lowered to reasonable amounts.
+Added another start date with commonwealth powers seperated at the start. (Australia, Canada, New Zealand, and South Africa.)
+
+----------------------------------------------------
+Changes for 3.0.6
+
+Rework for Italian formation:
+	- If either Two Sicilies or Sardinia is a GP, that power is guaranteed to become Italy. If neither party is a Great Power upon formation, the target will be random between them.
+	- The power that did not form italy will then be given the decision to become Anti-Italy, and have the same cores as Italy. Once one of the 2 Italian states own all of the peninsula's cores (including sicily but excluding sardinia, venetia, south tirol, and istria) they will be able to wipe all the opponents cores off of Italy.
+	- Anti-Italy is literally just Italy but they have cores on one another to restore order / core war.
+
+----------------------------------------------------
+Changes for 3.0.5
+
+Added naval invasion malus of -2 (equal to attacking across straits), credit to KevinG for the idea. Modified to fit into puir.
+Changed dutch timor provinces from states to colonies. (oversight)
+
+----------------------------------------------------
+Changes for 3.0.4
+
+Completely new internal migration, colonial migration, and emigration system tied entire into goods accessibility and employment.
+All the effects of fascism and communism are now handled in triggered modifiers.
+Craftsmen fix decision is now hidden unless you are Italy, Romania, and Greece.
+Fixed some CB issues with neutrality.
+Fixed some issues with national value decision.
+3 new Italian provinces:
+	- Benevento: 80k with coal
+	- Avellino: 80k with cattle
+	- Rieta: 80k with fruit
+
+----------------------------------------------------
+Changes for 3.0.3
+
+Made a localisation change for the westernization button to tell you to rehost the game afterwards.
+Fixed a CB bug with China protection - substates/treaty port.
+
+----------------------------------------------------
+Changes for 3.0.2
+
+Added decision for China and Japan at the start of the game to remove their protection flag or enable it, respectively. (Protection from land grab CBs and starting land grab CBs until 1865)
+Reverted mobilization civ requirement because of protection / no protection decision addition.
+
+----------------------------------------------------
+Changes for 3.0.1
+
+Removed Chinese auto removal from sphere of influence event (oversight)
+Removed Taiping rebellion to prevent researchpoints cheesing pre-1865 for China.
+Blocked some key mobilization inventions from China until it westernizes
+Non accepted bureaucrats will now force demote to farmers/labourers.
+Added everything to treaty ports CB that was meant to be there originally.
+
+----------------------------------------------------
+Changes for 3.0
+
+Japan now starts with 500 clipper goods so they are no longer hostage to the world market at the start.
+Colonial migration rework now allows colonial pops who are unemployed to move to other colonies within your control for employment. (Most effectively seen with Indian colonies + Chinese Colonies)
+tl;dr Foreign investment is very important now. The base sphere market guarantees from secondaries (50%) and civs (75%) have now been reduced to 0. This means that the % of your foreign investment in your sphereling corresponds to your ratio of their goods you acquire. Sphere guide goes into more detail, but foreign investing in an enemies sphereling and bringing their total % down directly reduces the amount of goods they get from that sphereling into their sphere market by that amount. 
+All economic policies can now give and receive foreign investment.
+Sphere influence malluses in regards to population have been removed. If you border target country - 50% more influence, your sphere borders target country - 25% more influence, different continent - 25% less influence, and a scaling score ratio mallus / boon based on how low the GP score is relative to the target they are trying to sphere.
+Grants have been fixed to allow larger amounts to be transferred.
+Added a decision for players that have had a states factory hijacked by non-core pops as the craftsmen. It will convert them out of craftsmen so the earlier you do it the better. The decision has more information in its info box.
+Reduced mean time to happen for core integration event from 80 months to 40 months, effectively halving the base amount. It is still sped up by revolution and counter revolution tech + nationalism and imperialism + low militancy. Slowed down by high militancy.
+Made Planes functionally artillery instead of cavalry (oversight)
+Made Tanks functionally cavalry instead of infantry (oversight)
+Horse inventions (hussar, dragoon, cuirassier) are now 100% invention chance.
+Machine guns invention is now a 100% invention chance.
+Mission to Civilize, Colonial Negotiations, and Indigenous Garrisoning (all the colonial inventions) now have a 100% invention chance IF any other GP has already discovered it.
+Changed Latin Monetary Union from -1% import cost (broken) and -5% tarrif efficiency to +5% tax efficiency.
+Ethiopia has been deleted as a starting nation and all of its land has been set to 20 liferating so that it is apart of the middle stage african colonization.
+Added modified hpm national values (heavily modified) and the ability to change them as any country any 10 years to any of the national values.
+Added cross colonial migration hooked directly into unemployment. (Unemployed colonial pops will, rather quickly, migrate to other colonies where they will be employed.) They behave normally in regards to colony to state and colony to emigration.
+Doctrine of Lapse now works accordingly for both civilized and uncivilized India, they must still be a british puppet though.
+Max warscore from battles is now 25, from 50.
+Australia and Canada have had their minorities removed to see if this solves the assimilation soldier bug causing those idiots to have 17% soldiers.
+Changed bonus import cost from owning suez and panama (it did nothing) to 5% tax efficiency.
+Colonial pops can now migrate to your states if they meet a literacy threshold of atleast 70%, increasing in chance at 80%, 90%, and 100%. (You'll start seeing movement at 70%). Primary and accepted pops in your colonies will NOT be affected by this change.
+China Rework:
+	China is now playable for multiplayer.
+	Until 1865 china cannot build any other CB except humiliate, cut down to size, and reparations.
+	Until 1865 only limited wargoals are available on china: treaty port / substate region / reparations / etc you can check for yourself.
+	Added a china specific concession CB that costs 400% more warscore for when it is unciv. Once China westernizes, they will be using typical civ CBs.
+	China will be nerfed by 80% of its starting pop down to 21 million pops, 17 million of which are accepted, these numbers are excluding the substates which auto annex upon westernization. ( Comparable to Russian pop by 1865 )
+	The 3 untouchable Chinese puppets have been integrated into greater china.
+	China now accepts Southern Han. Taiping now accepts Manchu and Southern Han. (just in case)
+	
+----------------------------------------------------
+Changes for 2.0.9
+
+Fixed an issue with influenza outbreaks causing crashes
+
+----------------------------------------------------
+Changes for 2.0.8
+
+Readded Revanchism buff
+Readded unciv mobilization
+
+----------------------------------------------------
+Changes for 2.0.7
+
+Modified leave sphere of influence so that anyone can do it, not just secondaries.
+
+-----------------------------------------------------
+Changes for 2.0.6
+
+Re-added the disease immunity timer to prevent chain influenzas, etc.
+
+-----------------------------------------------------
+Changes for 2.0.5
+
+Infamy decay during war has been modified back to the same rate you have at peace. (oversight)
+
+-----------------------------------------------------
+Changes for 2.0.4
+
+Removed the -5 prestige hit to using the grants decision.
+
+-----------------------------------------------------
+Changes for 2.0.3
+
+Made Gallipoli accessible to naval invasion from the Aegean and bottled the sea of Marmara up generally so that only Bursa and Istanbul are within the Dardanelles strait.
+Imported old Assimilation chance from earlier IGoR versions.
+Laissez faire has been buffed to give 15% output efficiency ( from 5% ) and now gives 15% input efficiency as well.
+Made no general traits give only -2 attack / defence instead of -3.
+Removed the Sphere requirements to creating Portugal-Brazil and automatically move capital to Rio. ( makes this an immigrant nation )
+
+-----------------------------------------------------
+Changes for 2.0.2
+
+Lowered peace treaty of cut down to size to 5 years.
+Ottoman Canal decision has been changed into an event that pops on day 2.
+
+-----------------------------------------------------
+Changes for 2.0.1
+
+Created a day 1 decision for ottomans to create the canal system for the dardanelles strait.
+
+-----------------------------------------------------
+Changes for 2.0
+
+All cbs now give at least 5 years of truce (transfer is still 0) and Cut Down to Size and Great War Capitulation is 10 years truce.
+Changed San Felipe to cotton from timber to stop the labourer exploit.
+Doctrine of Lapse for India has been made into a guaranteed annexation for the year 1885.
+VERY IMPORTANT: Complete removal of Goc economy and a return to Icen economy.
+Default popup settings now have: You being attacked, you attacking, anyone mobilizes, anyone demobilizes turned on automatically.
+Audio is now, by default, set to low and the game is automatically put into fullscreen borderless. (No more ear blasting first time start up shit)
+The ukrainian breadbasket has been restored to target all of their former provinces. (Poltava, etc)
+Revised Austrian blueborders so you no longer surrender defending east galicia. All areas should have a protected backline to allow reinforcing everywhere while still providing a defensive interior geography.
+Changed india color from its original purple ketchup garbage to at least somewhat red / pink / burgundy / whatever.
+Replaced some skipped african pops to african minor generic.
+Classless society now no longer gives -20% morale and -20% discipline. It now gives +.01% mobilization. (commie buff)
+Made the Dardanelles a double canal. Enemies you are at war with must occupy both gallipoli and istanbul to go into the black sea. This is not the case if you are at peace, regardless of military access rights. (Its how canals work)
+
+Redrawing of Ottomans Balkan States:
+1. Rumelia and Bulgaria combined into Bulgaria.
+2. Montenegro and Albania combined into Albania-Montenegro
+3. Northern Serbia and Southern Serbia combined into Serbia
+4. Macedonia and West Macedonia combined into Macedonia
+5. Thessalia, Attica, Pelopponessia, and Aegean Islands combined into Greece
+
+Redrawing of Austrian States:
+1. Karnten-Steiermark, Tirol, and Osterreich have been combined into Osterreich
+2. Croatia, North Dalmatia, and South Dalmatia have been combined into Croatia and also removed the North Dalmatia core Italy had so they can't just core cb Croatia.
+
+Redrawing of Spanish State:
+1. Extremadura divided between Leon and Andalucia
+
+Bugs and Oversight fixes:
+Added Ottoman cores to Kuwait and Basra (oversight)
+Added negative effects to armies that have no generals. (oversight)
+Added proper new traits to 1848 shelter european revolutionaries decision for ottomans. (oversight)
+Made Holy City an option for Shia muslims on Mecca. (oversight)
+
+-----------------------------------------------------
+Changes for 1.3.4
+
+Removed last version economic changes doing the literal opposite of my intentions.
+
+-----------------------------------------------------
+Changes for 1.3.3
+
+Lowered MAX_LOAN_CAP_FROM_BANKS and SHADOWY_FINANCIERS_MAX_LOAN_AMOUNT to 0 for money testing.
+Color coded tabs for the specialized unit types to red and blue in the unit build gui.
+
+-----------------------------------------------------
+Changes for 1.3.2
+
+Returned bankruptcy to vanilla rates with external loan years set to 10 years and bankruptcy factor set to 0.2.
+Set planes back to 500% base support instead of 50000% (wew)
+Complete general rework? I added negative traits and non-roll stats like attrition and such to the general stat pool. (Color Code Change - Red means bad lmao - 3+ blue, 4+ green, 5+ yellow (can barely read it)
+Moved back to 2x vanilla emigration rates.
+
+-----------------------------------------------------
+Changes for 1.3.1
+
+KevinG's generals' Background and Personality change: the stats (+1 attack, +1 defense) now show for background/personality and anything +3 shows as blue, +4 shows as green, +5 shows as red. (Reno specific change). +1-3 Are default colors. No negative traits.
+Size modifiers no longer give negative mobilization modifiers. (They still give bonuses to smaller nations)
+Russia has been raised in plurality from 10% to 25% (the european start amount of everyone else)
+Austria-Hungary now inherits all accepted from Austria it wasn't getting before (slovak+czech)
+
+RGO Changes:
+	Ottomans:
+		Ankara:	
+			Ankara: Fruit to Iron
+			Konya: Wool to Coal
+			Denizli: Wool to Coal
+		Lydia:
+			Izmit: Fruit to Iron
+			Bursa: Wheat to Coal
+		Kars:
+			Batum: Tea to Coal
+		Thessalia:
+			Janina: Wool to Coal
+		Albania:
+			Shkoder: Wheat to Iron
+			Tirana: Wheat to Coal
+	Two Sicilies(Italy)(additional):
+		Apulia-Calabria:
+			Reggio di Calabria: Fish to Coal
+			Catanzaro: Fish to Iron
+-----------------------------------------------------
+Changes for 1.3
+
+Austria now starts with slovak accepted. (300k or so more than before)
+Italy (the region) was given 1 iron and 4 coal provinces totalling at about 400-500k more miners at start within the austrian spheres.
+Military Overhaul Completed (attempt 1)
+Consolidated all cultures of Africa and India minus ottoman, british, boer, portugese, spanish accepted. Consolidated all indian puppets into India - The Puppet.
+Deleted 2 pacific island nations and the 3 nigeria nations. They are colonizeable as usual.
+Made the Golden Horn strait unblockadeable to give ottomans a fucking chance. (Constantinople crossing)
+Fixed garbage afghan blue borders, added pyrenees + carpathian blue borders
+Fixed wool fabric factories to give bonuses to regular clothes + clippers in the same state
+added generic bases of each political party to every country ontop of their existing default parties so you may choose to use them or not.
+Ottomans now start with bulgarian accepted. (Get fucked xda)
+Ottomans no longer need to release balkans for move to ankara decision. It is tech gated behind nationalism / imperialism. However, they will still lose all acceptance of balkan pops, including the newly added bulgarians.
+Ottomans have been given back Misri acceptance with move to Ankara decision.
+Ottomans now have an alternative choice in 1850 with Double Down on Balkans decision that accepts and cores all serb+greek land as well as increasing all liferating of their european cores to 40, if was not already (does not go above 40)
+Changed Intellectuals to force shift upon migration to colonies.
+Generic dominions have been made to start primitive to avoid tech cheesing late game. Canada, Australia, etc have not been affected as this is a change only for weird shit like >the republic of senegal, etc.
+
+-----------------------------------------------------
+Change for 1.2.1
+
+Fixed the CBs AGAIN
+-----------------------------------------------------
+Changes for 1.2
+
+Fixed the rest of the CBs (Removed pop related CBs entirely / added early, mid, late game cbs and allowed core cb to be used on player capital states)
+-----------------------------------------------------
+Changes for 1.1
+
+Hotfix change to tier 1 artillery tech so that uncivs that start with forts in their capital can actually get the tech flags (was blocking it before for china and japan)
+-----------------------------------------------------
+Changes for 1.0
+
+added core to karelia (viipuri)
+re-enabled ukrainian breadbasket
+gave gas attack/defense 100% chance of invention
+reverted CBs to not be retarded (pre-pop focus cbs)
