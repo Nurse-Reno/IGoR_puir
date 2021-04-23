@@ -177,13 +177,13 @@ trade_restrictions = {
 
 colonial_dry_spell = {
 	pop_militancy_modifier = 0.05
-	farm_RGO_eff = -0.20
+	farm_rgo_eff = -0.20
 	icon = 14
 }
 
 colonial_exploitation = {
-	farm_RGO_eff = 0.10
-	mine_RGO_eff = 0.10
+	farm_rgo_eff = 0.10
+	mine_rgo_eff = 0.10
 	pop_militancy_modifier = 0.1
 	icon = 18
 }
@@ -645,8 +645,8 @@ immunity_from_influenza = {
 trustee_system = {
 	pop_militancy_modifier = 0.01
 	pop_consciousness_modifier = 0.02
-	farm_RGO_eff = 0.1
-	mine_RGO_eff = 0.1
+	farm_rgo_eff = 0.1
+	mine_rgo_eff = 0.1
 	icon = 20
 }
 

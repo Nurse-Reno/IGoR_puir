@@ -671,12 +671,6 @@ acquire_state = {
 			not = { is_core = THIS }
 			is_colonial = no
 		}
-		NOT = {
-			AND = {
-				THIS = { tag = JAP }
-				tag = CHI
-			}
-		}
 				
 		OR = {
 			AND = {

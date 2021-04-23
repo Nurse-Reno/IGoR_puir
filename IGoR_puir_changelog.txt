@@ -1,3 +1,11 @@
+Changes 5.0.1
+
+- Fixed a CB issue with china for the early game acquire state cb. (bugfix)
+- Autocracy buff: Now also gives 125% leadership modifier. (Order has 100%)
+- Fixed some typos in event modifiers for farm_rgo_eff and mine_rgo_egg.
+- Fixed typo in artisan production for wool to cloth. Artisans should now work properly for this. (bugfix)
+
+----------------------------------------------------
 Changes 5.0
 
 Changed music files that weren't working to ones that do. (like 70% of them)

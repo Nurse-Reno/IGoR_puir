@@ -28,6 +28,7 @@ nv_autocracy = {
 	social_reform_desire = -0.05
 	non_accepted_pop_militancy_modifier = -0.1
 	mobilisation_size = 0.025
+	leadership_modifier = 1.25
 	mobilisation_economy_impact = 1.1
 }
 
