@@ -706,21 +706,20 @@ canned_food_factory = {
 		trigger = { trade_goods_in_state = iron }
 		value = 0.05
 	}
-}
-       
+} 
+
 dye_factory = {       
 	template = cheap_factory_template
 	input_goods = {     
-		coal = 9   		#20.7	total input+maint = 24.7
+		fruit = 5   		#20.7	total input+maint = 24.7
 	}
 	output_goods = dye 
 	value = 2.5			#30
 	bonus = {
-		trigger = { trade_goods_in_state = coal }
+		trigger = { trade_goods_in_state = fruit }
 		value = 0.25
 	}
-}
-     
+}   
 
 liquor_distillery = {       
 	template = cheap_factory_template

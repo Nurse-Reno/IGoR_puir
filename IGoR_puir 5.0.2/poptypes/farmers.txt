@@ -1,9 +1,8 @@
-sprite = 9
-color = { 189 57 36 }
+sprite = 8
+color = { 75 193 237 }
 strata = poor
 unemployment = yes
-equivalent = farmers
-
+equivalent = labourers
 
 
 everyday_needs = {
@@ -12,15 +11,15 @@ everyday_needs = {
 	liquor = 3
 	regular_clothes = 1.2
 	furniture = 1.1
-	explosives = 0.75
+	fertilizer = 0.75 #0
 }
 
 life_needs = {
 	cattle = 0.75
 	wool =  1
 	fish =  1
-	fruit =  1.25
-	grain =  2.75
+	fruit =  1
+	grain =  2.5
 }
 
 
@@ -29,21 +28,28 @@ luxury_needs = {
 	furniture = 3
 	liquor = 1.5
 	paper = 1.0
-	telephones = 1.0
-	automobiles = 1.5
+	telephones = 0.75
+	automobiles = 0.75
 	radio = 1.0
-	explosives = 0.75
+	fertilizer = 0.75 #0
 	coffee = 0.45
 	tobacco = 0.95
 	fuel = 0.1
-	#dye = 0.5
 }
-
 
 country_migration_target =
 {
 	factor = 1
 
+	modifier = {
+		factor = 4.0
+		THIS = { religion = jewish }
+		any_owned_province = { is_core = ISR }
+	}
+	modifier = {
+		factor = 10.0
+		has_country_flag = new_world_nation
+	}
 	modifier = {
 		factor = 0.9
 		unemployment = 0.05
@@ -89,15 +95,6 @@ country_migration_target =
 	#	vote_franschise = universal_voting
 	#}
 	modifier = {
-		factor = 4.0
-		THIS = { religion = jewish }
-		any_owned_province = { is_core = ISR }
-	}
-	modifier = {
-		factor = 10.0
-		has_country_flag = new_world_nation
-	}
-	modifier = {
 		factor = 0.1
 		NOT = {
 			any_owned_province = {
@@ -141,17 +138,16 @@ migration_target =
 	}
 	
 	modifier = {
-		factor = 1.2
-		total_pops = 150000
-	}	
-	modifier = {
 		factor = 0.1
 		unemployment = 0.1
 		state_scope = {
 			has_factories = no
 			}
 	}
-	
+	#modifier = {
+	#	factor = 1.2
+	#	total_pops = 150000
+	#}	
 	#modifier = {
 	#	factor = 1.2
 	#	total_pops = 250000
@@ -164,23 +160,22 @@ migration_target =
 	#	factor = 1.2
 	#	total_pops = 750000
 	#}	
-	#
 #	modifier = {
 #		factor = 0
 #		has_pop_type = labourers
-#		unemployment_by_type = { value = 0.1 type = labourers }
+#		unemployment_by_type = { value = 0.01 type = labourers }
 #		state_scope = { has_factories = no }
 #	}
 #	modifier = {
 #		factor = 0
 #		has_pop_type = farmers
-#		unemployment_by_type = { value = 0.1 type = farmers }
+#		unemployment_by_type = { value = 0.01 type = farmers }
 #		state_scope = { has_factories = no }
 #	}
 #	modifier = {
 #		factor = 0
 #		has_pop_type = farmers
-#		unemployment_by_type = { value = 0.1 type = craftsmen }
+#		unemployment_by_type = { value = 0.01 type = craftsmen }
 #		state_scope = { has_factories = yes }
 #	}
 	modifier = {
@@ -194,9 +189,9 @@ migration_target =
 	modifier = {
 		factor = 2
 		state_scope = {
-					has_factories = yes
-				}
-	}
+			has_factories = yes
+		}
+	}	
 	modifier = {
 		factor = 1.2
 		has_pop_religion = THIS
@@ -212,6 +207,11 @@ migration_target =
 		}
 	}
 	modifier = {
+		factor = 4
+		this = { religion = jewish }
+		is_core = ISR 
+	}
+	modifier = {
 		factor = 5
 		OR = {
 			trade_goods = precious_metal
@@ -221,11 +221,6 @@ migration_target =
 			trade_goods = iron
 		}
 		NOT = { unemployment_by_type = { type = labourers value = 0.01 } }
-	}	
-	modifier = {
-		factor = 4
-		this = { religion = jewish }
-		is_core = ISR 
 	}	
 	modifier = {
 		factor = 2
@@ -239,7 +234,6 @@ migration_target =
 		factor = 1.05
 		is_coastal = yes
 	}
-	
 	modifier = {
 		factor = 0.6
 		terrain = mountain
@@ -260,7 +254,7 @@ migration_target =
 
 promote_to =
 {
-		artisans =
+			artisans =
 	{
 		factor = 0.01
 			modifier = {
@@ -852,8 +846,13 @@ promote_to =
 				}
 			}
 		}
+		modifier = {
+			factor = -100
+				location = {
+					is_colonial = yes
+				}
+		}
 	}
-
 
 
 	clergymen =
@@ -1099,7 +1098,7 @@ ideologies = {
 	}
 	
 	reactionary = {
-		factor = 1
+		factor = 1.05
 		modifier = {
 			factor = 0.5
 			not = { militancy = 6 }
@@ -1173,7 +1172,7 @@ ideologies = {
 	}
 
 	conservative = {
-		factor = 1
+		factor = 1.1
 		modifier = {
 			factor = 0.5
 			militancy = 6
@@ -1489,15 +1488,15 @@ ideologies = {
 			political_reform_want = 0.14
 		}
 		modifier = {
-			factor = 1.4
+			factor = 1.3
 			political_reform_want = 0.16
 		}
 		modifier = {
-			factor = 1.4
+			factor = 1.5
 			political_reform_want = 0.18
 		}
 		modifier = {
-			factor = 1.4
+			factor = 1.5
 			political_reform_want = 0.20
 		}
 		modifier = {
@@ -1582,11 +1581,10 @@ ideologies = {
 	}
 }
 
-
 issues =
 {
 	protectionism = {
-		factor = 1
+		factor = 1.1
 		modifier = {
 			factor = 1.1
 			NOT = {
@@ -2188,7 +2186,7 @@ issues =
 		}
 	}
 	residency = {
-		factor = 1.1
+		factor = 1
 		modifier = {
 			factor = 0 
 			NOT = { consciousness  = 5}
@@ -2232,7 +2230,7 @@ issues =
 		}	
 	}
 	limited_citizenship = {
-		factor = 1.1
+		factor = 1
 		modifier = {
 			factor = 0 
 			NOT = { consciousness   = 5}
@@ -2277,7 +2275,7 @@ issues =
 		}
 	}
 	full_citizenship = {
-		factor = 1.1 
+		factor = 1 
 		modifier = {
 			factor = 0 
 			NOT = { consciousness  = 5}

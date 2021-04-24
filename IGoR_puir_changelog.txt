@@ -1,3 +1,13 @@
+Changes 5.0.2
+
+- Moved non-accepted pop militancy buff from autocracy to equality.
+- Nerfed productivity from 10% tax efficiency to 5%.
+- Added new national value: Education which gives 20% education efficiency and 15% research points modifier.
+- Changed the base share rate of all non-gps to 100% for testing purposes in multiplayer. You are guaranteed 100% of your spherelings goods no matter what, and your sphereling is guaranteed 100% of the sphere goods no matter what.
+- Changed dye factory to require 5 fruit input instead of 9 coal input.
+- Removed mobilization economic impact from national values. It doesn't work and the military policy of a party handles it anyways. (bugfix)
+
+----------------------------------------------------
 Changes 5.0.1
 
 - Fixed a CB issue with china for the early game acquire state cb. (bugfix)
