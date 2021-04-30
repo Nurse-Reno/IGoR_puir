@@ -1,3 +1,8 @@
+Changes 5.0.3
+
+- Changed Base share rates back to vanilla
+
+----------------------------------------------------
 Changes 5.0.2
 
 - Moved non-accepted pop militancy buff from autocracy to equality.
