@@ -1,6 +1,6 @@
 Changes 5.0.3
 
-- Changed Base share rates back to vanilla
+- Changed Base share rates from 100% to 35% for both secondary and civ. Uncivs are still 100%
 
 ----------------------------------------------------
 Changes 5.0.2
