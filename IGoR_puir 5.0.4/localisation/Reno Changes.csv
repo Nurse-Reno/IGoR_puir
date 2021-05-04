@@ -145,3 +145,7 @@ nilo_saharan;Nilo-Saharan;;;;;;;;;x;;;;
 afro_asiatic;Afro-Asiatic;;;;;;;;;x;;;;
 indo_aryan;Indo-Aryan;;;;;;;;;x;;;;
 dravidian;Dravidian;;;;;;;;;x;;;;
+#############################################;;;;;;;;;;;;;;x
+#Additional Generic Fixes and Additions;;;;;;;;;;;;;;x
+#############################################;;;;;;;;;;;;;;x
+UNIT_BUILD_TIME_IW;$VAL$ days.;$VAL$ jours.;$VAL$ Tage.;;$VAL$ d僘s.;;;;;;;;;x;;;;;;;;;;;;;;;;

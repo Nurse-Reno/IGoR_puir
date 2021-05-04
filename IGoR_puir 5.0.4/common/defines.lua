@@ -658,7 +658,7 @@ pops = {
 
 	PDEF_BASE_CON = 20.0,			-- so half'ed effect.
 	
-	NATIONAL_FOCUS_DIVIDER = 250000.0,
+	NATIONAL_FOCUS_DIVIDER = 1.0,
 	
 	POP_SAVINGS = 0.018,
 	

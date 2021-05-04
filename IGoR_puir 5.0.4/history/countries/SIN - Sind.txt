@@ -1,5 +1,5 @@
 capital = 1288
-primary_culture = sindi
+primary_culture = indo_aryan
 religion = sunni
 government = absolute_monarchy
 plurality = 0.0

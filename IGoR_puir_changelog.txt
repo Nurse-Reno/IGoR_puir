@@ -1,3 +1,10 @@
+Changes 5.0.4
+
+- Removed the population requirements for national focus points. Tech is the only limitation for national focuses now.
+- Fixed accepted cultures of Zulu, Panjab, and Sind empire (bugfix)
+- Fixed unit build time localisation problem. Units will not properly list their build time in the recruitment UI. (bugfix)
+
+----------------------------------------------------
 Changes 5.0.3
 
 - Changed Base share rates from 100% to 35% for both secondary and civ. Uncivs are still 100%
