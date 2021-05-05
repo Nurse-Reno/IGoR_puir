@@ -1,3 +1,8 @@
+Changes 6.0
+
+Implemented major European rivers. Attacking across the river will result in a -2 mallus to attack rolls.
+
+----------------------------------------------------
 Changes 5.0.4
 
 - Removed the population requirements for national focus points. Tech is the only limitation for national focuses now.
