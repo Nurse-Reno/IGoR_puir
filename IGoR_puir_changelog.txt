@@ -1,3 +1,9 @@
+Changes for 6.0.1
+
+- Fixed nationalist revolts in culture unions, again.
+- Complete South American and Central American population, state, and RGO rework to make them viable for MP and not a waste of my fucking game bandwidth. All nations were provided with OOB files of professional troops.
+
+----------------------------------------------------
 Changes 6.0
 
 Implemented major European rivers. Attacking across the river will result in a -2 mallus to attack rolls.
