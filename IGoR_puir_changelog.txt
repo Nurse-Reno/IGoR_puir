@@ -1,7 +1,122 @@
+Changes for 7.0
+
+- Unciv militancy change: Lowered the reduction of militancy, and increases to militancy, from unciv based event modifiers to a standard 0.01 / -0.01.
+- Statue of Liberty rework:
+	- Statue of Liberty decision now gives France an event to choose who in the western hemisphere receives the statue of liberty.
+	- Statue of Liberty assimilation rate decreased from 100% to 25%.
+- Unit Stats: (updated in Army Unit Stats file)
+	- Planes are now balanced equally for attack and defense and won't have that awkward 12% support hanging around.
+- Factory Changes:
+	All Factories:
+		- Maintenance costs have been lowered for cement from 0.5 to 0.25, and lumber has been added for a consumption of 0.25 (about 25% cheaper maintenance costs)
+		- All factory construction now requires lumber.
+	Fabrics:
+		- Cotton factories now require 3 less cotton for input per tier.
+		- Wool factories have been rebalance to only require 30 wool instead of 50. (Puts this in line to match profitability of cotton factories.)
+		- Industrial Tannery (new building) has been added to provide an alternative source of fabric using cattle, and matching the same base profitability that cotton and wool have.
+		- Having all 3 fabric factories in 1 state will buff a regular clothes factory in that state by 45% (15% each)
+- Japan Buff
+	- Japan now starts with 3 decisions to join UK, USA, or Russias sphere within the first year of the game (1836).
+	- Japan now starts with 2 tech reforms, flintlock rifles and bronze artillery. (unlocking regulars and artillery day 1)
+- Equality National Value rework
+	- Now gives 50% of base bonus to assimilation. If you were assimilating 30 pops in a pop group, now you will assimilate 45.
+	- Nerfed passive minority militancy reduction from 0.075 to 0.02.
+	- Removed social reform desire.
+- AI Unit Priority Rework
+	- AI will now build equal portion artillery / infantry and about a tenth of their units will be horses.
+	- AI will now only build transports and light ships (beneficial for AI puppets, but the single player AI shits the bed)
+- Complete Assimilation rework v2
+	- Took me for literally ever, but now assimilation base line rate is the same for all pops and provinces in the game.
+	- Rates:
+		Increases: Everyday and Luxury good access, equality national value, and new world nation flagged nations in new world continents.
+		Decrease: militancy, unemployment, and not meeting Life needs.
+	I've put the specific rates but they will literally not make sense, just trust me bro.
+	Balance Concept:
+		Assimilation rates should never overcome pop growth rates of the minority. So, to understand how assimilation works now, view it as a sort of vampire/parasite that saps the pop growth of minorities to supplement the growing accepted cultures in the state/province.			
+- River Additions + Changes
+	Europe:
+		Rhine River - Extended to its natural mouth in Switzerland
+		Danube River - Extended to its natural mouth in Wurtemburg and extended 2 branches into Croatia/Bosnia/Serbia (Sava and some other river)
+		The Rest - redrew provinces to buttress the rivers for easier understanding on troop placements.
+		Ebro River - Added
+	Africa:
+		Nile River - Added
+		Niger River - Added
+		Congo River - Added
+	Middle East:
+		Tigris + Euphrates River - Added
+	India:
+		Indus + Ganges River - Added
+	South East Asia:
+		Mekong River - Added
+	China:
+		Pearl + Yangtze + Yellow River - Added
+	Manchuria + Korea:
+		Liao + Amur + Amnok and Duman River - Added
+	North America:
+		Mississippi River System - Added
+		St. Lawrence River - Added
+		Rio Grande River - Added
+	South America:
+		Orinoco River - Added
+		Amazon River (2 Branches) - Added
+		Uruguay River - Added
+		Paraguary River System - Added
+- North American rework.
+	1. Accepted pop increases
+		Mexican - base ( 1629.4k ) / 50% jump ( 2422.6k ) (Consistent with south american pop boost, but just slightly less because mexico gets free reign to eat central america)
+		Yankee - base ( 3162.6k ) / NO INCREASES
+	2. Starting Soldier pop % increases
+		Mexico - old ( 2.2% or 10 recruitable regiments ) --- new ( 3.1% or 29 recruitable regiments )
+		USA - old ( 1.4% or 14 recruitable regiments ) --- new ( 2.5% or 42 recruitable regiments )
+	3. OOB changes
+		Mexico starts with 2x 15k artillery stacks.
+		USA starts with 2x 15k artillery stacks and 1x 12k stack.
+	4. Factory Start Change
+		Mexico starts with a fertilizer, ammunition, steel, and artillery factory in Mexico City.
+		USA starts with a fertilizer, ammunition, steel, and artillery factory in New York.
+	5. USA buff
+		Homestead act now gives assimilation bonus again (25%)
+- added host specific decision to force alliances on players (saves on time and diplo points)
+- Wiped Nahua (mesoamerican) in Mexico, and replaced with Mexicans for simplicity.
+- Added province to korea to prevent encirclement meme on border with Vladivostok.
+- (oversight) Must be civilized now to use transfer CB.
+- Zombies have now been locked behind a Host Nation decision. Zombie infection will also be initiated by the Host Nation.
+- Pushed ideological triggered modifiers to event-based country modifiers so you can actually see what the hell is going on + far more intelligent than triggered mods.
+- Removed the requirement to be traditional academia to choose a new tech school, but now it has a 15 year cooldown instead of 10.
+- Added Tech school selector, making it much easier to understand how to get each tech school. (Requires civilized)
+- Revanchism now gives an immigration attract mallus of 15% for every 5% revanchism. 
+- (bugfix) Fixed a potential bug with romanian formation where it did not spread cores where it should have.
+- Added Generic Parties to USA
+- (bugfix) Added missing river crossing bonus from Lyon to Valence on the Loire.
+- (bugfix) Fixed Artisan production of canned goods bug (was consuming iron, when it was not supposed to)
+- tuned back Africa and Oceania RGO size from 250% x base to 100%.
+- (bugfix) Fixed unciv China CB problems. To take a non-chinese core off of unciv China, you can now build a normal concession CB that will only target those non-cores. Chinese cores will require the Chinese concession CB.
+- (bugfix) Fixed an issue with gran columbia inheritance of north_andean (its set to andean now)
+- Chinese concession CB has been tuned down from 4x warscore to 2x (same cost as early game state CB)
+- Cut down to size as a CB and a mechanic of great war capitulation has been removed. It still exists for going over 25 infamy CB.
+- Protection decision and flags have been removed from Japan and China.
+- Tuned back the RGO production change mallus from 50% to 25%. (buff)
+- Timber RGOs are now worked by Farmers instead of Labourers to fix a bug that would brick the RGO upon RGO change decision. Timber RGO change decision has now been fixed and readded to agriculture options.
+- AI will now prioritize above all else research points, then medicine, then education tech and then they will do the rest in normal priority.
+- Removed the little graphical buildings that spawn due to population size in a province. Performance increase?
+- tweaked defines AI to build soldiers to 5%, capitalists to 0.2%, and invest way more money into domestic pop projects that involve capitalist spending
+- New Unit sprites for specialized Horses and Artillery (credit to Steelryan) + red/blue unit splash on army UI so they are more quickly recognizeable inside of armies
+- Mapped River colors to water colormap for the rivers.
+
+----------------------------------------------------
 Changes for 6.0.1
 
 - Fixed nationalist revolts in culture unions, again.
-- Complete South American and Central American population, state, and RGO rework to make them viable for MP and not a waste of my fucking game bandwidth. All nations were provided with OOB files of professional troops.
+- Complete South American and Central American population, state, and RGO rework:
+	1. Significant Industrial RGO production now across the entire south american continent.
+	2. Population of all South America was multiplied by 170%, then the Platinean was doubled following this (culture culled to these 4):
+		Andean - base ( 1472.8k ) / 170% jump ( 2503.76k )
+		Brazilian - base ( 1053k ) / 170% jump ( 1790.1k ) (Brazil accepts Brazilian and Afro-Brazilian)
+		Afro-Brazilian - base ( 479.36k ) / 170% jump ( 814.912k )
+		Platinean - base ( 738.86k ) / 170% jump ( 1256.06k ) / 200% jump ( 2512.12k )
+	3. Significant state redrawing across the continent to optimize, or attempt to, increase national focus efficiency generally.
+	4. All nations in south america were supplied with starting professional armies of varying size based on a dream I received.
 
 ----------------------------------------------------
 Changes 6.0

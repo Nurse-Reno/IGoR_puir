@@ -1,0 +1,23 @@
+political_decisions = {
+
+	player_alliances = {
+		picture = host_nation
+		alert = yes
+		potential = {
+			tag = LCT
+			ai = no
+		}
+		allow = { 
+			tag = LCT
+			ai = no
+		}
+		effect = {
+			any_country = {
+				limit = {
+					ai = no
+				}
+				create_alliance = LCT				
+			}
+		}
+	}
+}

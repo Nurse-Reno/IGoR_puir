@@ -93,7 +93,7 @@ Planes - N/A
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 1914 Tech with all Inventions
 
-Planes - 4 reconnaissance / 10.5 attack / 8 defense / 50% discipline / 512% support / 2 maneuver / 7 kph / 175% supply consumption
+Planes - 4 reconnaissance / 9 attack / 9 defense / 50% discipline / 500% support / 2 maneuver / 7 kph / 175% supply consumption
 
 The rest = same as 1900
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -117,5 +117,5 @@ Defensive Artillery - 5.24 attack / 7.95 defense / 100% discipline / 450% suppor
 Engineers - 2 siege / 15.6 attack / 15.6 defense / 100% discipline / 100% support / 2 maneuver / 8 kph / 260% supply consumption
 
 Guards - 3 reconnaissance / 22.6 attack / 22.6 defense / 130% discipline / 25% support / 2 maneuver / 8 kph / 260% supply consumption
-Tanks - 3 reconnaissance / 2 siege / 30 attack / 28 defense / 130% discipline / 100% support / 4 maneuver / 9 kph / 245% supply consumption
-Planes - 4 reconnaissance / 14.5 attack / 12 defense / 50% discipline / 512% support / 2 maneuver / 8 kph / 185% supply consumption
+Tanks - 3 reconnaissance / 2 siege / 30 attack / 30 defense / 130% discipline / 100% support / 4 maneuver / 9 kph / 245% supply consumption
+Planes - 4 reconnaissance / 13 attack / 13 defense / 50% discipline / 500% support / 2 maneuver / 8 kph / 185% supply consumption
