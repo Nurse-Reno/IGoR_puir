@@ -1383,10 +1383,12 @@ political_decisions = {
 				OR = {
 					owned_by = THIS
 					owner = {
-						in_sphere = THIS
-					}
-					owner = {
-						is_our_vassal = THIS
+						OR = {
+							in_sphere = THIS
+							overlord = {
+								tag = THIS
+							}
+						}
 					}
 				}
 			}
@@ -1394,10 +1396,12 @@ political_decisions = {
 				OR = {
 					owned_by = THIS
 					owner = {
-						in_sphere = THIS
-					}
-					owner = {
-						is_our_vassal = THIS
+						OR = {
+							in_sphere = THIS
+							overlord = {
+								tag = THIS
+							}
+						}
 					}
 				}
 			}
@@ -1405,10 +1409,12 @@ political_decisions = {
 				OR = {
 					owned_by = THIS
 					owner = {
-						in_sphere = THIS
-					}
-					owner = {
-						is_our_vassal = THIS
+						OR = {
+							in_sphere = THIS
+							overlord = {
+								tag = THIS
+							}
+						}
 					}
 				}
 			}
