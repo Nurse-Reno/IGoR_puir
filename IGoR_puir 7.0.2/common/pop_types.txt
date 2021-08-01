@@ -1030,11 +1030,87 @@ assimilation_chance = {
 	modifier = {
 		factor = -1000
 		OR = {
-			state_scope = { is_colonial = yes }
-			country = {	
-				civilized = no
+			AND = {
+				has_pop_culture = afro_american
+				country = {
+					is_culture_group = american_cultures
+				}
 			}
-			#NOT = { life_needs = 0.99 }
+			OR = {
+				state_scope = { is_colonial = yes }
+				country = {	
+					civilized = no
+				}
+			}
+		}
+	}
+	
+#NEW WORLD NATION BONUS - 50% more base assimilation rate for new world nations on provinces in north america, south america, and oceania. (0.000198 + base)(new rate = 0.000594)
+	modifier = {
+		factor = 5
+		country = {
+			has_country_flag = new_world_nation
+		}
+		OR = {
+			AND = {
+				location = {
+					OR = {
+						continent = north_america
+						continent = south_america
+						continent = oceania
+					}
+				}
+			}
+			AND = {			
+				location = {
+					continent = africa
+				}
+				NOT = {
+					OR = {
+						has_pop_culture = nilo_saharan
+						has_pop_culture = bantu
+						has_pop_culture = niger_congo_a
+						has_pop_culture = khoisan
+						has_pop_culture = afro_asiatic
+						has_pop_culture = malagasy
+						is_culture_group = arab
+					}
+				}
+			}
+		}
+	}
+	modifier = {
+		factor = 10
+		has_culture_core = no
+		country = {
+			has_country_flag = new_world_nation
+		}
+		OR = {
+			AND = {
+				location = {
+					OR = {
+						continent = north_america
+						continent = south_america
+						continent = oceania
+					}
+				}
+			}
+			AND = {			
+				location = {
+					continent = africa
+				}
+				NOT = {
+					OR = {
+						has_pop_culture = nilo_saharan
+						has_pop_culture = bantu
+						has_pop_culture = niger_congo_a
+						has_pop_culture = khoisan
+						has_pop_culture = afro_asiatic
+						has_pop_culture = malagasy
+						is_culture_group = arab
+					}
+				}
+			}
 		}
 	}
 	
@@ -1715,40 +1791,6 @@ assimilation_chance = {
 			has_culture_core = no
 		}
 	}	
-#NEW WORLD NATION BONUS - 50% more base assimilation rate for new world nations on provinces in north america, south america, and oceania. (0.000198 + base)(new rate = 0.000594)
-	group = {
-		modifier = {
-			factor = 5
-			AND = {
-				country = {
-					has_country_flag = new_world_nation
-				}
-				location = {
-					OR = {
-						continent = north_america
-						continent = south_america
-						continent = oceania
-					}
-				}
-			}
-		}
-		modifier = {
-			factor = -4.95
-			has_culture_core = no
-			AND = {
-				country = {
-					has_country_flag = new_world_nation
-				}
-				location = {
-					OR = {
-						continent = north_america
-						continent = south_america
-						continent = oceania
-					}
-				}
-			}
-		}
-	}
 #EQUALITY NATIONAL VALUE BONUS - 50% more base assimilation rate for nations with the equality national value. (0.000198 + base)(new rate = 0.000594)
 	group = {
 		modifier = {

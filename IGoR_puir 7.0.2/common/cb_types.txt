@@ -4248,7 +4248,6 @@ demand_concession_casus_belli_player_early_for_puppet = {
 		number_of_states = 2
 	}
 	allowed_countries = {
-		NOT = { any_owned_province = { is_core = CHI } }
 		NOT = { tag = FROM }
 		OR = {
 			NOT = { alliance_with = FROM }
@@ -4263,6 +4262,7 @@ demand_concession_casus_belli_player_early_for_puppet = {
 	}
 	
 	allowed_states = {
+		NOT = { any_owned_province = { is_core = CHI } }
 		any_owned_province = { is_colonial = no }
 		NOT = { any_owned_province = { is_capital = yes } }
 	}
@@ -4336,7 +4336,6 @@ demand_concession_casus_belli_ai_early_for_puppet = {
 		number_of_states = 2
 	}
 	allowed_countries = {
-		NOT = { any_owned_province = { is_core = CHI } }
 		NOT = { tag = FROM }
 		OR = {
 			NOT = { alliance_with = FROM }
@@ -4351,6 +4350,7 @@ demand_concession_casus_belli_ai_early_for_puppet = {
 	}
 	
 	allowed_states = {
+		NOT = { any_owned_province = { is_core = CHI } }
 		any_owned_province = { is_colonial = no }
 		NOT = { any_owned_province = { is_capital = yes } }
 	}

@@ -1,5 +1,15 @@
+Changes for 7.0.2
+- fixed a puppet CB bug for concessions on china
+- Rebalanced immigrant nation rates to assimilate their immigrants properly.
+
+----------------------------------------------------
+Changes for 7.0.1
+
+- Fixed formation issue with Gran Columbia
+----------------------------------------------------
 Changes for 7.0
 
+- Anti Italy has been removed.
 - Unciv militancy change: Lowered the reduction of militancy, and increases to militancy, from unciv based event modifiers to a standard 0.01 / -0.01.
 - Statue of Liberty rework:
 	- Statue of Liberty decision now gives France an event to choose who in the western hemisphere receives the statue of liberty.
