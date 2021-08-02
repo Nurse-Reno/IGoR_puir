@@ -1,5 +1,9 @@
+Changes for 7.0.7
+- Fixed a naval adjacency issue for 2 provinces near YangTse Delta. (typo)
+
+----------------------------------------------------
 Changes for 7.0.6
-- GOD DAMNIT ITS FIXED PROBABLY (Puppets will not inherit properly on union formation)
+- GOD DAMNIT ITS FIXED PROBABLY (Puppets will now inherit properly on union formation)
 
 ----------------------------------------------------
 Changes for 7.0.5
