@@ -640,10 +640,10 @@ political_decisions = {
 			NOT = {
 				OR = {
 					cultural_union = { exists = yes }
-					in_culture_group = germanic
-					in_culture_group = scandinavian
-					in_culture_group = italian
-					in_culture_group = arab
+					is_culture_group = germanic
+					is_culture_group = scandinavian
+					is_culture_group = italian
+					is_culture_group = arab
 					tag = ECU
 					tag = CLM
 					tag = VNZ
@@ -677,7 +677,7 @@ political_decisions = {
 						tag = AUS
 						tag = KUK
 					}
-					in_culture_group = THIS
+					is_culture_group = THIS
 					in_sphere = THIS
 				}
 				country_event = { id=11101 days=0 }
@@ -695,7 +695,7 @@ political_decisions = {
 		news_desc_medium = "form_germany_NEWS_MEDIUM"
 		news_desc_short = "form_germany_NEWS_SHORT"
 		potential = {
-			in_culture_group = germanic
+			is_culture_group = germanic
 			NOT = {
 				exists = GER
 				tag = ISR
@@ -1031,7 +1031,7 @@ political_decisions = {
 					NOT = {
 						is_greater_power = yes
 					}
-					in_culture_group = germanic
+					is_culture_group = germanic
 					OR = {
 						in_sphere = THIS
 						overlord = {
@@ -1195,7 +1195,7 @@ political_decisions = {
 		news_desc_short = "form_italy_NEWS_SHORT"
 		potential = {
 			NOT = { tag = AIT }
-			in_culture_group = italian
+			is_culture_group = italian
 			
 			NOT = {
 				exists = ITA
@@ -1379,7 +1379,7 @@ political_decisions = {
 					NOT = {
 						is_greater_power = yes
 					}
-					in_culture_group = italian
+					is_culture_group = italian
 					OR = {
 						in_sphere = THIS
 						overlord = {
@@ -1401,8 +1401,8 @@ political_decisions = {
 		news_desc_short = "form_scandinavia_NEWS_SHORT"
 		potential = {
 			OR = {
-				in_culture_group = scandinavian
-				in_culture_group = bears
+				is_culture_group = scandinavian
+				is_culture_group = bears
 			}
 			NOT = {
 				exists = SCA
@@ -1602,7 +1602,7 @@ political_decisions = {
 					NOT = {
 						is_greater_power = yes
 					}
-					in_culture_group = scandinavian
+					is_culture_group = scandinavian
 					OR = {
 						in_sphere = THIS
 						overlord = {
@@ -1992,7 +1992,7 @@ political_decisions = {
 
 	form_yugoslavia = {
 		potential = {
-			in_culture_group = south_slavic
+			is_culture_group = south_slavic
 			NOT = { exists = YUG }
 			NOT = { has_global_flag = yugoslavia_formed }
 			NOT = {
@@ -2020,7 +2020,7 @@ political_decisions = {
 							owned_by = THIS
 							owner = { in_sphere = THIS }
 							owner = {
-								in_culture_group = south_slavic
+								is_culture_group = south_slavic
 								relation = { who = THIS value = 100 }
 							}
 						}
@@ -2042,7 +2042,7 @@ political_decisions = {
 							owned_by = THIS
 							owner = { in_sphere = THIS }
 							owner = {
-								in_culture_group = south_slavic
+								is_culture_group = south_slavic
 								relation = { who = THIS value = 100 }
 							}
 						}
@@ -2064,7 +2064,7 @@ political_decisions = {
 							owned_by = THIS
 							owner = { in_sphere = THIS }
 							owner = {
-								in_culture_group = south_slavic
+								is_culture_group = south_slavic
 								relation = { who = THIS value = 100 }
 							}
 						}
@@ -2089,7 +2089,7 @@ political_decisions = {
 			change_tag = YUG
 			any_country = {
 				limit = {
-					NOT = { in_culture_group = south_slavic }
+					NOT = { is_culture_group = south_slavic }
 					in_sphere = THIS
 					war = no
 					any_owned_province = {
@@ -2114,7 +2114,7 @@ political_decisions = {
 			any_country = {
 				limit = {
 					war = no
-					in_culture_group = south_slavic
+					is_culture_group = south_slavic
 					NOT = { tag = ALB }
 					OR = {
 						in_sphere = THIS

@@ -1,3 +1,7 @@
+Changes for 7.0.5
+- God damnit, I fixed it this time probably
+
+----------------------------------------------------
 Changes for 7.0.4
 - Fixed another union formation issue.
 
