@@ -84,7 +84,12 @@ political_decisions = {
 			any_country = {
 				limit = {
 					primary_culture = south_german
-					in_sphere = THIS
+					OR = {
+						in_sphere = THIS
+						overlord = {
+							tag = THIS
+						}
+					}
 					NOT = {
 						tag = THIS
 					}
@@ -205,7 +210,12 @@ political_decisions = {
 			any_country = {
 				limit = {
 					primary_culture = south_german
-					in_sphere = THIS
+					OR = {
+						in_sphere = THIS
+						overlord = {
+							tag = THIS
+						}
+					}
 					NOT = {
 						tag = THIS
 					}
@@ -254,6 +264,19 @@ political_decisions = {
 		}	
 		allow = {
 			war = no
+			FRA_412 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							in_sphere = THIS
+							overlord = {
+								tag = THIS
+							}
+						}
+					}
+				}
+			}
 			PRU_701 = {
 				OR = {
 					owned_by = THIS
@@ -475,19 +498,6 @@ political_decisions = {
 					}
 				}
 			}
-			FRA_412 = {
-				OR = {
-					owned_by = THIS
-					owner = {
-						OR = {
-							in_sphere = THIS
-							overlord = {
-								tag = THIS
-							}
-						}
-					}
-				}
-			}
 			HES_2560 = {
 				OR = {
 					owned_by = THIS
@@ -524,7 +534,12 @@ political_decisions = {
 						primary_culture = north_german
 						tag = SCH 
 					}
-					in_sphere = THIS
+					OR = {
+						in_sphere = THIS
+						overlord = {
+							tag = THIS
+						}
+					}
 					NOT = {
 						tag = THIS
 					}
@@ -707,6 +722,19 @@ political_decisions = {
 			invention = national_fraternity
 			prestige = 45
 			war = no
+			FRA_412 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							in_sphere = THIS
+							overlord = {
+								tag = THIS
+							}
+						}
+					}
+				}
+			}
 			PRU_701 = {
 				OR = {
 					owned_by = THIS
@@ -916,19 +944,6 @@ political_decisions = {
 				}
 			}
 			HAN_538 = {
-				OR = {
-					owned_by = THIS
-					owner = {
-						OR = {
-							in_sphere = THIS
-							overlord = {
-								tag = THIS
-							}
-						}
-					}
-				}
-			}
-			FRA_412 = {
 				OR = {
 					owned_by = THIS
 					owner = {
