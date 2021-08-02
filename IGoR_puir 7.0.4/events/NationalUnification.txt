@@ -120,7 +120,7 @@ country_event = {
 			inherit = THIS
 		}
 		ai_chance = {
-			factor = 100
+			factor = 500
 		}
 	}
 

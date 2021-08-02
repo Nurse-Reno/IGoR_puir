@@ -1,3 +1,7 @@
+Changes for 7.0.4
+- Fixed another union formation issue.
+
+----------------------------------------------------
 Changes for 7.0.3
 - Removed 1900+ new_world_nation flag removal. Immigrant nations will now maintain priority all game.
 
