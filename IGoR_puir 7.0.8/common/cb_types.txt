@@ -1319,6 +1319,9 @@ free_peoples = {
 							tag = ITA
 							tag = AIT
 							tag = YUG
+							tag = ROM
+							tag = CZH
+							tag = PLC
 						}
 					}
 				}
@@ -3878,6 +3881,7 @@ free_peoples_midgame = {
 							tag = YUG
 							tag = ROM
 							tag = CZH
+							tag = PLC
 						}
 					}
 				}
@@ -3975,6 +3979,7 @@ free_peoples_lategame = {
 							tag = YUG
 							tag = ROM
 							tag = CZH
+							tag = PLC
 						}
 					}
 				}

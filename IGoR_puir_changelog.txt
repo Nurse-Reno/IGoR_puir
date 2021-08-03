@@ -1,3 +1,7 @@
+Changes for 7.0.8
+- Added potential fix to PLC crisis spam.
+
+----------------------------------------------------
 Changes for 7.0.7
 - Fixed a naval adjacency issue for 2 provinces near YangTse Delta. (typo)
 
