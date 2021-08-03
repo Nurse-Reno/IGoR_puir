@@ -245,6 +245,7 @@ country_event = {
 		}
 		AUS_726 = {
 			remove_core = LOM
+			remove_core = SAR
 			add_core = ITA
 		}
 		#AUS_734 = {
