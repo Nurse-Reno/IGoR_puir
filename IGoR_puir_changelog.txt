@@ -1,3 +1,7 @@
+Changes for 8.0.2
+- Fixed a .mod mess up from 8.0.1
+
+----------------------------------------------------
 Changes for 8.0.1
 - Fixed a problem with argentina OOB
 
