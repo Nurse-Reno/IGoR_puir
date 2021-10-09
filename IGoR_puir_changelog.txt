@@ -1,3 +1,7 @@
+Changes for 8.0.1
+- Fixed a problem with argentina OOB
+
+----------------------------------------------------
 Changes for 8.0
 - Locked Liberty national value to only be accessible to new_world_nations and fixed the starting immigrant nations to start with it enabled already. (reduces clutter in decision menu)
 - Added some extra checks in the individual pop files to prevent non-new_world_nation countries from getting immigrants. (Some spill over was occurring)
