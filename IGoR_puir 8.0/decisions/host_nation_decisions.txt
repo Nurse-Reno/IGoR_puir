@@ -1,0 +1,76 @@
+political_decisions = {
+
+	player_alliances = {
+		picture = host_nation
+		alert = yes
+		potential = {
+			tag = LCT
+			ai = no
+		}
+		allow = { 
+			tag = LCT
+			ai = no
+		}
+		effect = {
+			any_country = {
+				limit = {
+					ai = no
+				}
+				create_alliance = LCT				
+			}
+		}
+	}
+	
+	fuck_ai_immigration = {
+		picture = host_nation
+		alert = yes
+		potential = {
+			tag = LCT
+			ai = no
+			NOT = { has_global_flag = fuck_ai_immigration }
+		}
+		allow = { 
+			tag = LCT
+			ai = no
+		}
+		effect = {
+			set_global_flag = fuck_ai_immigration
+		}
+	}
+	
+	total_war_cb = {
+		picture = "development_bio_weapons"
+		alert = yes
+		potential = {
+			tag = LCT
+			ai = no
+			NOT = { has_global_flag = total_war_cbs_enabled }
+			has_global_flag = total_war_cb_safety_off
+		}
+		allow = { 
+			tag = LCT
+			ai = no
+		}
+		effect = {
+			set_global_flag = total_war_cbs_enabled
+		}
+	}
+	
+	total_war_cb_safety = {
+		picture = "development_bio_weapons"
+		alert = yes
+		potential = {
+			tag = LCT
+			ai = no
+			NOT = { has_global_flag = total_war_cb_safety_off }
+			NOT = { has_global_flag = total_war_cbs_enabled }
+		}
+		allow = { 
+			tag = LCT
+			ai = no
+		}
+		effect = {
+			set_global_flag = total_war_cb_safety_off
+		}
+	}
+}

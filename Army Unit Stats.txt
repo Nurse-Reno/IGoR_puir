@@ -1,3 +1,6 @@
+##########
+IMPORTANT: For all damage in this sheet, add 10 to attack and defense. This is the hidden base 10 that is accounted for and proven in this guide: https://www.reddit.com/r/victoria2/comments/nmultk/a_complete_army_casualty_guide_and_comparative/
+##########
 --------------Stat growth for Units in Igor_PUIR--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 1840 Tech with all Inventions
 
@@ -18,7 +21,7 @@ Defensive Artillery - 2.18 attack / 3.9 defense / 100% discipline / 225% support
 
 Engineers - 1 siege / 4.4 attack / 4.4 defense / 100% discipline / 50% support / 2 maneuver / 5 kph / 165% supply consumption
 
-Guards - N/A
+#REMOVED# Guards - N/A
 Tanks - N/A
 Planes - N/A
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -41,7 +44,7 @@ Defensive Artillery - 2.69 attack / 4.57 defense / 100% discipline / 250% suppor
 
 Engineers - 2 siege / 6.2 attack / 6.2 defense / 100% discipline / 75% support / 2 maneuver / 6 kph / 175% supply consumption
 
-Guards - N/A
+#REMOVED# Guards - N/A
 Tanks - N/A
 Planes - N/A
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -64,7 +67,7 @@ Defensive Artillery - 3.37 attack / 5.47 defense / 100% discipline / 300% suppor
 
 Engineers - 2 siege / 8.6 attack / 12 defense / 100% discipline / 100% support / 2 maneuver / 6 kph / 175% supply consumption
 
-Guards - N/A
+#REMOVED# Guards - N/A
 Tanks - N/A
 Planes - N/A
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -87,13 +90,13 @@ Defensive Artillery - 3.88 attack / 6.15 defense / 100% discipline / 400% suppor
 
 Engineers - 2 siege / 13.8 attack / 13.8 defense / 100% discipline / 100% support / 2 maneuver / 7 kph / 230% supply consumption
 
-Guards - 3 reconnaissance / 20.05 attack / 20.05 defense / 130% discipline / 25% support / 2 maneuver / 7 kph / 230% supply consumption
+#REMOVED# Guards - 3 reconnaissance / 20.05 attack / 20.05 defense / 130% discipline / 25% support / 2 maneuver / 7 kph / 230% supply consumption
 Tanks - 3 reconnaissance / 2 siege / 22 attack / 22 defense / 130% discipline / 100% support / 4 maneuver / 7 kph / 165% supply consumption
 Planes - N/A
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 1914 Tech with all Inventions
 
-Planes - 4 reconnaissance / 9 attack / 9 defense / 50% discipline / 500% support / 2 maneuver / 7 kph / 175% supply consumption
+Planes - 4 reconnaissance / 8 attack / 8 defense / 50% discipline / 500% support / 1 maneuver / 7 kph / 390% supply consumption
 
 The rest = same as 1900
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -116,6 +119,6 @@ Defensive Artillery - 5.24 attack / 7.95 defense / 100% discipline / 450% suppor
 
 Engineers - 2 siege / 15.6 attack / 15.6 defense / 100% discipline / 100% support / 2 maneuver / 8 kph / 260% supply consumption
 
-Guards - 3 reconnaissance / 22.6 attack / 22.6 defense / 130% discipline / 25% support / 2 maneuver / 8 kph / 260% supply consumption
+#REMOVED# Guards - 3 reconnaissance / 22.6 attack / 22.6 defense / 130% discipline / 25% support / 2 maneuver / 8 kph / 260% supply consumption
 Tanks - 3 reconnaissance / 2 siege / 30 attack / 30 defense / 130% discipline / 100% support / 4 maneuver / 9 kph / 245% supply consumption
-Planes - 4 reconnaissance / 13 attack / 13 defense / 50% discipline / 500% support / 2 maneuver / 8 kph / 185% supply consumption
+Planes - 4 reconnaissance / 8 attack / 8 defense / 50% discipline / 500% support / 1 maneuver / 8 kph / 400% supply consumption

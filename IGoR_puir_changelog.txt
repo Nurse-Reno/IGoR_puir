@@ -1,3 +1,106 @@
+Changes for 8.0
+- Locked Liberty national value to only be accessible to new_world_nations and fixed the starting immigrant nations to start with it enabled already. (reduces clutter in decision menu)
+- Added some extra checks in the individual pop files to prevent non-new_world_nation countries from getting immigrants. (Some spill over was occurring)
+- Removed the immigration bonus from the Liberty national value, and instead made it so that nations will only receive immigrants if they have Liberty NV turned on at all. (new_world_nations only ofcourse)
+- Liberty national value now gives 25% political reform desire instead of 5%.
+- There is now a triggered modifier for when your country has passed there political reforms, that will reduce your political reform desire by 100% and increase your social reform desire by 50%:
+	slavery = no_slavery
+	vote_franschise = universal_voting
+	public_meetings = yes_meeting
+	press_rights = free_press
+	political_parties = secret_ballots
+- Nerfed Anglosphere (Canada and Australia) starting reforms and made them both absolute monarchies as a test implementation. South africa and the Boer states have been removed from the immigration system until a better implementation can be performed.
+- Added 3 decisions to Britain to annex Canada, Australia, or South Africa within the first year of the game if they are AI.
+- Total war CBs that traditionally turned on in 1930 have now been put behind a host decision to enable, just like zombies.
+- The host nation is now protect from all CBs.
+- Added a USA decision to remove existing CSA cores post civil war. Helps alleviate a rebel issue that has been occuring with assimilation rework.
+- Removed the random american cores causing assimilation issues. (Manhattan commune, New England, Deseret)
+- Buffed American Homestead act to now give 50% global immigrant attraction (from 30%) and gave Mexico an alternative Homestead Act that gives 30% global immigrant attraction. The statue of liberty gives 30% for comparison.
+- Implemented a new union for the new south andean culture, Peru-Bolivia, and stole HFMs flags for it but I'm using my own decision for it. The quickest way to achieve it is own Lima as Bolivia (or have it puppeted/sphered) or own La Paz (or have it puppeted/sphered) and have 25 prestige.
+- Andean has been split into an inaccurate north and south andean to compliment the new Peru-Bolivia change. At the start of the game, GCO has 1.5 million pops / 1.4 million accepted. PBC (peru-bolivia) has 1.45 million / 1.2 million accepted.
+- Grand Columbia and Peru-Bolivia both accepted north and south andean.
+- Added Peru, Bolivia, and Peru-Bolivia to the options for the Statue of Liberty decision.
+- Removed blue borders around host nation.
+- Created a new state in Ukraine made out of Chernigov and Poltava so help facilitate easier defense of the Don River. (Both cleaved off of Kiev) Also moved Ekaterinoslav to the state of Cherson for the same reason.
+- Austrian cores will now properly be removed upon formation of Austria-Hungary. (Causing assimilation issues)
+- Nerfed Diplomacy national value from 65% influence bonus to 40% influence bonus.
+- New Italian formation decision will allow either Sardinia or Two Sicilies to form italy and annex the other based on: Its 1860+ and whoever owns Rome.
+- New Prussia to NGF formation concept implementation:
+	- At the start of the game, prussia will have a random chance to begin auto annexing its spherelings. The chance of annexation will increase in 1845, 1855, and 1860+ it will be almost automatic. (Use that diplomacy national value!)
+	- Once all the spherelings no longer exist or the year is 1870 Prussia may form NGF. (Alsace not required)
+	- German formation will be typical, sphere the south germans and own alsace-lorraine.
+	- Upon annexation, all former cores of that minor are removed and replaced with Prussian cores.
+	- Once NGF forms, all existing german minors + prussia cores are dropped and replaced with NGF.
+- Pan nationalist rebels have been removed, including garibaldi redshirts. Italy and Germany must be formed via formation.
+- A modifier has been added to China that reduces any researchpoints it may receive from conquest as an unciv to 0. (It will never receive research points from conquest.)
+- (Bugfix) Removed some weird ass sea connection between Nagasaki and Cheju.
+- Japan Buffs
+	- All primary islands in Japan are now "land" connections, meaning they cannot be blockaded.
+	- The Hokkaido to Sakhalin to East Manchuria connections are re-established and are now "sea" connections, which can be blockaded.
+	- Japan OOB rework, they now start with: 10 transports, 5 frigates, and 3 professional armies that consist of 5 infantry and 5 artillery each.
+- New World Changes
+	- All South American nations have been given standardized reforms and have been converted into republics.
+	- New Host Decision that makes it so only player nations receive immigrants.
+- Great War Peace timer has been reduced from 10 years to 7.5 years. (Could be reduced further in future versions)
+- Removed the migration chance for pops to move from colony to states. (Doesn't actually work mechanically, even though the ui says otherwise)
+- Removed the "Declined Grant" event from the grants system. (Reduces spam)
+- Factory Additions and Changes
+	- Removed electric gear maintenance requirement on synthetic factories.
+	- Changed the input(lowered)/output(increased) ratios for synthetic oil factories and fuel factories to actually be profitable and help meet the late game demand.
+	- New Factory: Synthetic Rubber Factory, that turns oil into rubber at a profitable ratio.
+- Army Unit Changes
+	- Lower Airplane damage so that it, after ALL calculations, do 90 damage in the backline compared to specialized artillery doing 80.8 in the backline. (Significantly better balance compared to before)
+	- General Tank and Airplane stat balances to make sure they have equal attack and defense, plus I removed a random point of manuever off of planes just in case it causes any issues.
+	- Supply consumption rebalance for Planes so that they are the most expensive unit and there won't be this general "cheapness" that has been present since inception.
+		- Base Monthly Consumption Prices using all tech and inventions (can be referenced in unit stat sheet)
+			- Artillery: 20.955 per unit
+			- Tanks: 28.48 per unit
+			- Planes: 31.12 per unit (for reference, it used to be 14.)
+	- Guards have been removed entirely to allow for a cleaner unit curve into mechanization. (Noted in unit stat sheet as well)
+- Generic Province and State fixes
+	- Pskov and that weird province to its south east have been reformed to look much better and more intuitive with the river.
+	- Renamed the State of Mosul (all of Iraq) to Iraq.
+- Persia Rework
+	- Complete State and Province rework that reorganizes the pops into far more efficient parcels for national focus efficiency.
+	- Each state is at least 400k pop (5 total states at start)
+	- Each state has 4, 5, or 6 provinces (helps fit better into warscore balance model)
+	- Persia, Makran, Afghanistan, and Kalat are now all known by their wider language group "Aryan" as the new culture.
+	- All Central Asians are now classified by their language group "Turkic"
+	- Reworked Herat decision to now give cores on Afghanistan, Kalat, and Makran.
+	- Added a new decision to Persia to get Turkic accepted, but no new cores. (Ideally new coring system should reward what they can take and hold, but no free revanchism because russia owns it all)
+	- Changed RGOs around to make up for the removed provinces. Heavier emphasis on Wool, with a few military resources spotted around.
+	- Tabriz will now turn into oil in the late game.
+- Fixed an issue where Japan couldn't declare or add the take capital CB on China.
+- Uncivs cannot receive or give grants anymore.
+- Removed a bugged river crossing from Lins to Budejovice.
+- Removed Cyprus cores and left greek cores to prevent assimilation issues.
+- CB Changes
+	- Divided Take Capital CB into early, mid, and late game CBs to fit better with the others.
+	- Removed cut_down_to_size events that were likely causing crashes.
+- Removed Ruthenian cores on the ukrainian portions of Austria to prevent a potential issue with assimilation.
+- Militancy reduction to Assimilation has been removed. You will now assimilate at consistent rates, regardless of pop militancy. (Rebalance implementation, may be reversed in the future.)
+- USA OOB rework: They now start with 3 professional 30k stacks instead of just cannon armies they had before.
+- Reduced pop demand for Wool by roughly 15% to help alleviate late game shortages that occur from natural growth on the cloth market.
+- National Value Changes
+	- Order:
+		- Land organisation +20%
+		- Organisation regain +5%
+		- Starting Land Experience +25%
+	- Autocracy:
+		- Ruling Party Support +30%
+		- Mobilisation Size +2.5%
+		- Leadership modifier +100%
+- Made the militancy thresholds easier to achieve to pass political and social reforms for conservatives, socialists with political reforms, etc.
+- Invention Reworks:
+	- Prophylactics and Eugenics no longer give negative pop growth. (gave -0.0002% total together )
+	- Xrays no longer gives pop growth to account for the removal of the negatives. (xrays gave 0.0002% total)
+- Deleted leftover / unused cultures in cultures.txt (people swear by this reducing lag, we'll see)
+- Moved the mobilization button slightly to the left to avoid accidentally clicking it mid war when going to recruit units. It now has a Blue Mobilize button, and once you have clicked it, turns red and says Demobilize. I know you idiots need clear color coding.
+- Prussia now starts with the diplomacy national value turned on.
+- Starting liferating buff to the western hemisphere has been tuned down from 37 liferating to 35 liferating.
+- Lowered starting Greek provinces with 40 liferating to the standard balkan 35 liferating.
+
+----------------------------------------------------
 Changes for 7.1
 - Fixed a crash problem that would occur when checking pop issues.
 
