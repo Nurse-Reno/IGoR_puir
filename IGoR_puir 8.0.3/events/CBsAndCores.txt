@@ -735,8 +735,8 @@ province_event = {
 
 province_event = {
 	id = 2601
-	title = "EVTNAME2601"
-	desc = "EVTDESC2601"
+	title = "Core Spread Fix"
+	desc = "This event exists to wipe the core integration modifier off of a province that already has your core."
 	
 	trigger = {
 		has_province_modifier = core_integration
@@ -748,7 +748,7 @@ province_event = {
 	}
 	
 	option = {
-		name = "EVT2601OPTA"
+		name = "Whatever."
 		state_scope = {
 			any_owned = {
 				limit = {

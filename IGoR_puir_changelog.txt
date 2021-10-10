@@ -1,3 +1,8 @@
+Changes for 8.0.3
+- Named and added a description for a core integration fix province event, aka event 2601.
+- Removed a few leftover cultures from accepted cultures on a few nations that were giving ui errors of noculture.
+
+----------------------------------------------------
 Changes for 8.0.2
 - Fixed a .mod mess up from 8.0.1
 
