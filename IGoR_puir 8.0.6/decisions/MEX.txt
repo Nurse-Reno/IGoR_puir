@@ -118,7 +118,8 @@ political_decisions = {
 		}
 	}
 #RENO ADDITION
-	enact_the_homestead_act = {
+	enact_the_homestead_act_mexico = {
+		picture = enact_the_homestead_act
 		potential = {
 			tag = MEX
 			NOT = {

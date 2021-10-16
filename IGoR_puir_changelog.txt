@@ -1,3 +1,7 @@
+Changes for 8.0.6
+- Fixed a bug with the homestead act decision for the USA.
+
+----------------------------------------------------
 Changes for 8.0.5
 - Fixed an immigration issue.
 - Added additional political parties to Bolivia and Peru-Bolivia.
