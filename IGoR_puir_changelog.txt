@@ -1,3 +1,8 @@
+Changes for 8.0.5
+- Fixed an immigration issue.
+- Added additional political parties to Bolivia and Peru-Bolivia.
+
+----------------------------------------------------
 Changes for 8.0.4
 - Fixed a bug causing people to be unable to build offensive artillery.
 

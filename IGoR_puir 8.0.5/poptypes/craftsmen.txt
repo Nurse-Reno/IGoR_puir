@@ -42,6 +42,38 @@ country_migration_target =
 	factor = 1
 
 	modifier = {
+		factor = 0.9
+		unemployment = 0.05
+	}
+	modifier = {
+		factor = 0.9
+		unemployment = 0.1
+	}
+	modifier = {
+		factor = 0.9
+		unemployment = 0.15
+	}
+	modifier = {
+		factor = 0.9
+		unemployment = 0.2
+	}
+	modifier = {
+		factor = 0.9
+		unemployment = 0.25
+	}
+	modifier = {
+		factor = 0.9
+		unemployment = 0.3
+	}
+	modifier = {
+		factor = 0.9
+		unemployment = 0.35
+	}
+	modifier = {
+		factor = 0.1
+		unemployment = 0.5
+	}
+	modifier = {
 		factor = -10000.0
 		NOT = { has_country_flag = new_world_nation }
 	}
