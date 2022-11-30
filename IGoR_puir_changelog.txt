@@ -1,3 +1,154 @@
+Changes for 9.0
+- Added a GFX change to shorelines to make the memerivers look a little less jarring to the eyes. (Credit to Sirbuddyguy for the work and Olympion for the files)
+- Fixed the crash occurring due to BOL_conservative party missing.
+- Made the Chinese pop nerf occur immediately to prevent an exploit.
+- Fixed a localisation error with Mexican Homestead Act.
+- Fixed a missing river crossing between Daugavipls to Panevezys.
+- Fixed a missing river crossing between Kostorma and Yaroslavl.
+- Fixed a missing river crossing between Bratislava and Sankt Polten.
+- Fixed a missing river crossing between Eindhoven and Almere.
+- Fixed a missing river crossing between Brno and Troppau.
+- Fixed missing connections between Santo Tomas to Santa Maria and Passo Fundo.
+- Fixed a missing river crossing between Obidos and Borba.
+- Fixed a VERY bad river crossing between Poltava and Kirvoy Rog.
+- Lowered random Fiji island liferating to match surrounding islands, weird inconsistency issue.
+- Fixed a bug with Japan still having Ainu accepted.
+- Removed random Indian coastal cores.
+- Fixed unit position for New Orleans.
+- Fixed a missing river crossing between Kansas City and Peoria
+- Norfolk Island will now start under Australian control in alternative start date.
+- Removed Persian Decision "Assert Ourselves on the Steppe", it was broken and against the mods intent.
+- Revanchism immigration mallus begins at 15% revanchism.
+- Boer culture color has been changed from orange to blue, to make it more noticeable when compared to Bantu, which has another shade of orange.
+- Uncivs can now receive the inventions: Mobilization Time Tables and Personnel Category Tables (both give 0.01% mobilization)
+- Uncivs can now unlock Hussars, Dragoons, and Cuirassiers and inherent them properly upon westernization.
+- Dynamic Dominions have been turned off, as I've found quite a few exploits around them. Dynamic dominions are NOT dominions, you can still release New Zealand and West Indies Confederation, etc.
+- Added a quality of life improvement for unit build menu to show, more specifically, where units are being recruited. (Instead of just Asia, it will state China, or Japan, or Korea, etc)
+	Major CB Rework:
+		Complete overhaul, moving from early/mid/late game balance to a population balance using Pero's pop flag system. All CBs will remain the same cost, only the size of the state's pop will change the cb cost.
+		Liberate country has been entirely removed until 1914.
+		All puppet related CBs, such as, take state for puppet have been removed. Obviously Make Puppet, release puppet, etc still exist.
+		Definitions:
+			Small States are states below 400k pop.
+			Medium States are states above 400k pop but below 700k pop.
+			Large States are states above 700k pop but below 1m pop.
+			Huge States are states above 1m pop.
+		Numbers:
+			Acquire State and Free Peoples:
+				Small State - 24% WS (Western Hemisphere costs 40% WS for all Small States)
+				Medium State - 40% WS
+				Large State - 60% WS
+				Huge State - 80% WS
+			Acquire Core:
+				Cores will always cost 20% WS, regardless of size.
+			Place in the Sun:
+				Small Colony - 8% WS
+				Medium Colony - 16% WS
+				Large Colony - 24% WS
+				Huge colony - 28% WS
+			Concession: (Note, all costs here are doubled for Persia and Japan ONLY if they have a player on them.)
+				Small Concession - 20% WS
+				Medium Concession - 32% WS
+				Large Concession - 48% WS
+				Huge Concession - 56% WS
+			Take Capital:
+				Take Capital will always be 100%
+	Nation Specific Changes:
+		USA:	
+			Virginia and Maryland have been combined into 1 state and the decisions/events relating to that have been fixed.
+			Pop has been moved from the state of New York to Georgia / Ohio / Pennsylvania to spread it out, so losing New York isn't as devastating.
+		Egypt:
+			Now starts civilized with the same starting tech and reforms as the Ottomans.
+		Japan:
+			Added a France sphere decision to the day 1 options. (Russia, Britain, and USA)
+			Starting 30k (5 infantry 5 artillery) armies have been increased from 3 --> 4.
+		Britain:
+			Starting Dravidian and Indo Aryan soldier pops in British controlled India reduced by 75% (converted to RGO workers)
+		India:
+			Entire East side of the Indus River has been made into plains.
+		China:
+			Treaty ports, in the fashion of HPM, have been readded under the CB "Treaty Port and Reparations". When the CB is completed, a decision will be allowed to take a treaty port. Every treaty port except Hainan and Tainan will receive a 400% output to RGO production.
+			Treaty ports, once taken by a colonizing power, will gain a buff for 400% increased output bonus.
+			All pre-existing precious metals RGOs in treaty ports have been changed to Silk.
+			Massively simplified the event system surrounding Chinese westernization, so its far less spammy and random. The only event you will receive somewhat often is the microscope research points, which I'm sure you don't want turned off.
+		Russia:
+			Removed Ukrainian Breadbasket pop growth bonus and, instead, buffed all provinces starting liferating by 3 (35 --> 38 for example).
+		Portugal:
+			Macao has been lowered from a starting state to a starting colony (now benefits from treaty port).
+	Naval Changes:
+		Removed all naval supply limit restrictions.
+		Locked minimum naval spending to 80% to prevent some exploits.
+		UI change to reflect your infinite naval limit.
+	Economic - Changes:
+		IMPORTANT: Added a modified version of KevinG's world bank and removed the stimulus decisions (Berne Treaty) and all precious metals RGOs on the map to experiment with the new inflation method (all RGOs are purchased, eliminating unemployment and introducing consistent currency to the market).
+		Standardized all factories onto a single maintenance requirements model (Exceptions: Cement Factories do not require cement, Machine Parts do not require machine parts):
+			0.5 Cement
+			0.25 Lumber
+			0.05 Machine Parts
+		Steamers and Artisan Steamers:
+			Base Steel Input 26.8 --> 22
+			Base Output 2.5 --> 3.0
+		Synthetic Oil Factory:
+			Base Coal Input 5 --> 7.5
+		Explosives and Artisan Explosives:
+			Base Output 3 --> 3.5
+		Synthetic Dye and Artisan Synthetic Dye:
+			REMOVED 
+		Fabric and Artisan Fabric:
+			Base Cotton Input 15 --> 12
+		Glass and Artisan Glass:
+			Base Coal Input 14 --> 20
+			Artisan Output 18 --> 32
+		Regular Clothes and Artisan Regular Clothes:
+			Base Output 15 --> 20
+		Liquor and Artisan Liquor:
+			Base Output 5 --> 6
+			Base Glass Input 2 --> 2.5
+		Winery and Artisan Winery:
+			Base Glass Input 2 --> 2.5
+		Luxury Clothes and Artisan Luxury Clothes:
+			Base Output 2.5 --> 3
+		Luxury Furniture and Artisan Luxury Furniture:
+			Base Output 2.3 --> 2.75
+		Machine Parts and Artisan Machine Parts:
+			Base Output 2 --> 2.3
+		Electric Gears and Artisan Electric Gears:
+			Base Output 5.5 --> 7
+		Steel and Artisan Steel:
+			Base Input Coal 5 --> 7
+			Base Output 20 --> 25
+		Radios and Artisan Radios:
+			Base Output 6 --> 8
+		Automobiles and Artisan Automobiles:
+			Base Output 3.1 --> 4.5
+		Cement and Artisan Cement:
+			Base Input Coal 12 --> 10
+			Base Output 3 --> 3.25
+	Pop Consumption - Changes:
+		Aristocrats and Capitalists clipper consumption raised from 2.0 to 2.5 (luxury).
+		Aristocrats paper consumption raised from 10 to 15.
+		Capitalists paper consumption raised from 20 to 25.
+		Farmers, Labourers, Artisans, Bureaucrats, Clergymen, Officers, Soldiers, Artisans, Aristocrats, and Capitalists Fish consumption raised from 1.0 to 1.05.
+	Army Stat Changes:
+		Planes have had their default brigade size lowered from 3000 to 2000 (brigade damage is based on a ratio to 3000 pops in a regiment, so a unit at 2,000 does 66.7% damage as a 3,000 brigade), but had their base damage increased by 33.4%.
+		Tanks have had their default brigade size increased from 3000 to 4000 (brigade damage is based on a ratio to 3000 pops in a regiment, so a unit at 4,000 does 133.4% damage as a 4,000 brigade).
+	Inventions - Changes:
+		All country wide industrial buffs, like electricity and nitroglycerin, no longer exist and all of their bonuses have been pushed directly to their corresponding inventions. (No more hidden tech/invention bonuses)
+	Immigration Overhaul:
+		Immigrants now split, monthly, between North and South America (Australia and South Africa are officially off the roster until they can be rebalanced in the future)
+		Examples:
+			If there are 10k immigrants batched to join on January, all 10k will go to North America to then be split in competition between the top 3 North American countries based on immigration priority (reforms and economy)
+			If there are 10k immigrants batched to join on February, all 10k will go to South America to then be split in competition between the top 3 South American countries based on immigration priority (reforms and economy)
+			IMPORTANT: If you make sure there are less than 3 powers on North or South America, the share that was meant for the third nation will spill into the other region. (i.e. if you want 100% immigrants all the time, kill the other continent.)
+	National Value - Changes:
+		NV Change decision cooldown has been lowered from 10 years to 5 years.
+		NV Liberty is no longer necessary to receive immigrants and now gives 12.5% political AND social reform desire.
+		NV Equality no longer reduces militancy in unaccepted pops. (Was causing issues obtaining reforms)
+		NV Productivity no longer gives 5% tax efficiency.
+		NV Autocracy no longer gives a mobilization bonus.
+		NV Order no longer gives starting experience and land organisation. It now gives a 2% promotion chance bonus to soldiers as long as your nation is below 4.5% soldier pops. (Soldier Nat Focus gives 20%, this is functionally a free soldier focus if your country has at least 10 states.)
+		
+----------------------------------------------------
 Changes for 8.0.6
 - Fixed a bug with the homestead act decision for the USA.
 
