@@ -45,7 +45,10 @@ status_quo
 gunboat 
 conquest 
 civil_war 
-acquire_core_state 
+acquire_core_state_small
+acquire_core_state_medium
+acquire_core_state_large
+acquire_core_state_huge
 annex_core_country
 acquire_state 
 acquire_state_small
@@ -456,7 +459,205 @@ take_from_sphere = {
 }
 
 # Acquire Core State
-acquire_core_state = {
+acquire_core_state_small = {
+	sprite_index = 5
+	is_triggered_only = yes
+	months = 12
+	
+	construction_speed = 2
+	
+	badboy_factor = 0
+	prestige_factor = 5
+	peace_cost_factor = 0.002
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		NOT = { tag = LCT }
+		NOT = { tag = GHO }
+		NOT = { 
+			OR = { 
+				has_country_modifier = neutrality
+				has_country_modifier = generic_neutrality
+			}
+		}
+		THIS = { NOT = {
+				OR = {
+					has_country_modifier = neutrality
+					has_country_modifier = generic_neutrality
+				}
+			 } 
+		}
+		number_of_states = 2 # annex if you want their last state
+		any_owned_province = {
+			is_core = THIS
+		}
+	}
+	
+	allowed_states = {
+		any_owned_province = {
+			AND = {
+				is_core = THIS
+				is_core = SMA
+			}
+		}
+	}
+
+	po_demand_state = yes
+	po_gunboat = yes
+	
+	war_name = WAR_TAKE_CORE_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+}
+
+acquire_core_state_medium = {
+	sprite_index = 5
+	is_triggered_only = yes
+	months = 12
+	
+	construction_speed = 2
+	
+	badboy_factor = 0
+	prestige_factor = 5
+	peace_cost_factor = 0.003
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		NOT = { tag = LCT }
+		NOT = { tag = GHO }
+		NOT = { 
+			OR = { 
+				has_country_modifier = neutrality
+				has_country_modifier = generic_neutrality
+			}
+		}
+		THIS = { NOT = {
+				OR = {
+					has_country_modifier = neutrality
+					has_country_modifier = generic_neutrality
+				}
+			 } 
+		}
+		number_of_states = 2 # annex if you want their last state
+		any_owned_province = {
+			is_core = THIS
+		}
+	}
+	
+	allowed_states = {
+		any_owned_province = {
+			AND = {
+				is_core = THIS
+				is_core = MED
+			}
+		}
+	}
+
+	po_demand_state = yes
+	po_gunboat = yes
+	
+	war_name = WAR_TAKE_CORE_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+}
+
+acquire_core_state_large = {
+	sprite_index = 5
+	is_triggered_only = yes
+	months = 12
+	
+	construction_speed = 2
+	
+	badboy_factor = 0
+	prestige_factor = 5
+	peace_cost_factor = 0.004
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		NOT = { tag = LCT }
+		NOT = { tag = GHO }
+		NOT = { 
+			OR = { 
+				has_country_modifier = neutrality
+				has_country_modifier = generic_neutrality
+			}
+		}
+		THIS = { NOT = {
+				OR = {
+					has_country_modifier = neutrality
+					has_country_modifier = generic_neutrality
+				}
+			 } 
+		}
+		number_of_states = 2 # annex if you want their last state
+		any_owned_province = {
+			is_core = THIS
+		}
+	}
+	
+	allowed_states = {
+		any_owned_province = {
+			AND = {
+				is_core = THIS
+				is_core = LRG
+			}
+		}
+	}
+
+	po_demand_state = yes
+	po_gunboat = yes
+	
+	war_name = WAR_TAKE_CORE_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+}
+
+acquire_core_state_huge = {
 	sprite_index = 5
 	is_triggered_only = yes
 	months = 12
@@ -501,7 +702,10 @@ acquire_core_state = {
 	
 	allowed_states = {
 		any_owned_province = {
-			is_core = THIS
+			AND = {
+				is_core = THIS
+				is_core = HUG
+			}
 		}
 	}
 
@@ -2453,12 +2657,9 @@ demand_concession_casus_belli_small = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = {
-			AND = {
-				OR = {
-					tag = JAP
-					tag = PER
-				}
-				ai = no
+			OR = {
+				tag = JAP
+				tag = PER
 			}
 		}
 		this = { NOT = { badboy = 1 } }
@@ -2535,12 +2736,9 @@ demand_concession_casus_belli_small_exception = {
 	can_use = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
-		AND = {
-			OR = {
-				tag = JAP
-				tag = PER
-			}
-			ai = no
+		OR = {
+			tag = JAP
+			tag = PER
 		}
 		this = { NOT = { badboy = 1 } }
 		NOT = { 

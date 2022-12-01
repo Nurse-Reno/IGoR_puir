@@ -1067,7 +1067,8 @@ assimilation_chance = {
 					OR = {
 						continent = north_america
 						continent = south_america
-						continent = oceania
+						continent = australia
+						continent = polynesia_micronesia
 					}
 				}
 			}
@@ -1101,7 +1102,8 @@ assimilation_chance = {
 					OR = {
 						continent = north_america
 						continent = south_america
-						continent = oceania
+						continent = australia
+						continent = polynesia_micronesia
 					}
 				}
 			}

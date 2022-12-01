@@ -1,6 +1,37 @@
 #Autoclick Events
 #Delete Ghost unit events		FULL CREDIT TO KEVIN - VICTORIA UNIVERSALIS
 #TAG's ordered according to mod\common\countries.txt
+#country_event = {
+#	id = 996407
+#	title = "776405"
+#	desc = "EVTDESC776405"
+#	picture = "xinhai"
+#	
+#	trigger = {
+#		tag = GHO
+#		NOT = { has_country_flag = usa_immigration_buff }
+#	}
+#	
+#	mean_time_to_happen = {
+#		days = 1
+#	}	
+#	immediate = {
+#		name = "EVTOPTA776405"
+#		set_country_flag = usa_immigration_buff
+#		USA = {
+#			add_country_modifier = {
+#				name = usa_immigration_buff
+#				duration = -1
+#			}
+#		}
+#	}
+#	
+#	option = {
+#		name = "Thanks!"
+#	}
+#}
+
+
 country_event = {
 	id = 91303
 	title = "Ghost Country Trigger"

@@ -188,63 +188,9 @@ province_event = {
 
 	trigger = {
 		is_coastal = yes
+		OR = {
 		owner = {
 			has_country_modifier = uncivilized_isolationism
-		}
-	}
-	mean_time_to_happen = {
-		months = 5000
-		modifier = {
-			factor = 0.9
-			average_consciousness = 5
-		}
-		modifier = {
-			factor = 1.1
-			NOT = {
-				average_consciousness = 5
-			}
-		}
-		modifier = {
-			factor = 1.5
-			owner = {
-				num_of_ports = 10
-			}
-		}
-		modifier = {
-			factor = 1.5
-			owner = {
-				num_of_ports = 15
-			}
-		}
-		modifier = {
-			factor = 1.5
-			owner = {
-				num_of_ports = 20
-			}
-		}
-		modifier = {
-			factor = 1.5
-			owner = {
-				num_of_ports = 25
-			}
-		}
-		modifier = {
-			factor = 1.5
-			owner = {
-				num_of_ports = 30
-			}
-		}
-		modifier = {
-			factor = 1.5
-			owner = {
-				num_of_ports = 35
-			}
-		}
-		modifier = {
-			factor = 1.5
-			owner = {
-				num_of_ports = 40
-			}
 		}
 	}
 

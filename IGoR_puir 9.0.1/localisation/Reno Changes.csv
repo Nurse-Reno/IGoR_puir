@@ -247,6 +247,22 @@ PBC_proletarian_dictatorship_ADJ;Peru-Bolivian;;;;;;;;;;;;;x
 #############################################;;;;;;;;;;;;;;x
 #Additional CBs;;;;;;;;;;;;;;x
 #############################################;;;;;;;;;;;;;;x
+acquire_core_state_small;Acquire small Core;;;;;;;;;;;
+acquire_core_state_small_short;Acquire $STATE$;;;;;;;;;;;
+acquire_core_state_small_desc;Aquire an enemy 即small state劬 where we have 即core provinces.劬;;;;;;;;;;;
+acquire_core_state_small_setup;Acquire small core $STATE$ from $RECIPIENT$.;;;;;;;;;;;
+acquire_core_state_medium;Acquire medium Core;;;;;;;;;;;
+acquire_core_state_medium_short;Acquire $STATE$;;;;;;;;;;;
+acquire_core_state_medium_desc;Aquire an enemy 即medium state劬 where we have 即core provinces.劬;;;;;;;;;;;
+acquire_core_state_medium_setup;Acquire medium core $STATE$ from $RECIPIENT$.;;;;;;;;;;;
+acquire_core_state_large;Acquire large Core;;;;;;;;;;;
+acquire_core_state_large_short;Acquire $STATE$;;;;;;;;;;;
+acquire_core_state_large_desc;Aquire an enemy 即large state劬 where we have 即core provinces.劬;;;;;;;;;;;
+acquire_core_state_large_setup;Acquire large core $STATE$ from $RECIPIENT$.;;;;;;;;;;;
+acquire_core_state_huge;Acquire Huge Core;;;;;;;;;;;
+acquire_core_state_huge_short;Acquire $STATE$;;;;;;;;;;;
+acquire_core_state_huge_desc;Aquire an enemy 即huge state劬 where we have 即core provinces.劬;;;;;;;;;;;
+acquire_core_state_huge_setup;Acquire huge core $STATE$ from $RECIPIENT$.;;;;;;;;;;;
 demand_concession_casus_belli_china;Chinese Core Concession;;;;;;;;;;;
 demand_concession_casus_belli_china_short;Demand $STATE$ from China;;;;;;;;;;;
 demand_concession_casus_belli_china_desc;Force China to concede core territory.;;;;;;;;;;;
@@ -350,6 +366,8 @@ free_peoples_huge_setup;Hand $STATE$ back to $THIRD$ from $RECIPIENT$.;;;;;;;;;;
 #############################################;;;;;;;;;;;;;;x
 #Additional Modifiers;;;;;;;;;;;;;;x
 #############################################;;;;;;;;;;;;;;x
+usa_immigration_buff;USA Immigration Buff;;;;;;;;;;;;;x,,,,
+usa_immigration_buff_desc;The bonus immigration attraction from the midgame Homestead Act has been applied at the start of the game.;;;;;;;;;;;;;x,,,,
 treaty_port_buff;Treaty Port Infrastructure;;;;;;;;;;;;;x,,,,
 treaty_port_buff_desc;The infrastructure and development of this treaty port has vastly increased our RGO capacity!;;;;;;;;;;;;;x,,,,
 chinese_treaty_port;Chinese Treaty Port Cooldown Flag;;;;;;;;;;;;;x,,,,

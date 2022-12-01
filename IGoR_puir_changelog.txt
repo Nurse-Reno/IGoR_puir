@@ -1,3 +1,15 @@
+Changes for 9.0.1
+- Fixed a bug with concession CBs on Japan and Persia
+- Fixed a crash bug occurring when mousing over unaccepted pops culture.
+- Simplified the Western Influences event for uncivs to occur quicker.
+- Acquire Core now scales with state size:
+	- Small Core Cost: 8 WS
+	- Medium Core Cost: 12 WS
+	- Large Core Cost: 16 WS
+	- Huge Core Cost: 20 WS
+- Removed an event that was bricking Chile's ability to receive immigrants
+
+----------------------------------------------------
 Changes for 9.0
 - Added a GFX change to shorelines to make the memerivers look a little less jarring to the eyes. (Credit to Sirbuddyguy for the work and Olympion for the files)
 - Fixed the crash occurring due to BOL_conservative party missing.

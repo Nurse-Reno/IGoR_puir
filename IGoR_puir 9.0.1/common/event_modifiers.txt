@@ -444,6 +444,11 @@ the_homestead_act = {
 	icon = 9
 }
 
+usa_immigration_buff = {
+	global_immigrant_attract = 0.50
+	icon = 9
+}
+
 the_homestead_act_mexico = {
 	global_immigrant_attract = 0.30	#30%
 	global_assimilation_rate = 0.25
