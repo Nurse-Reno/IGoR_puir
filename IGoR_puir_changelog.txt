@@ -1,3 +1,7 @@
+Change for 9.0.3
+- Fixed a state bug with Syria
+
+----------------------------------------------------
 Change for 9.0.2
 - China no longer receives the base 2% mobilization bonus given to uncivs (starting mobilization reduced from 165 brigades to 37 brigades)
 - Fixed a bugged CB from Colonial Incident event
