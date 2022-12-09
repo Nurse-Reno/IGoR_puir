@@ -11,6 +11,7 @@ non_state_culture_literacy = 0.02
 is_releasable_vassal = no	#No more Duke forced civilized
 
 #set_country_flag = conquerable_1865
+set_country_flag = china
 
 ruling_party = CHI_conservative
 upper_house = {

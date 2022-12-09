@@ -330,6 +330,7 @@ player_unciv_mobilization = {
 	trigger = {
 		ai = no
 		civilized = no
+		NOT = { has_country_flag = china }
 		NOT = { ai = yes }
 		NOT = { civilized = yes }
 	}

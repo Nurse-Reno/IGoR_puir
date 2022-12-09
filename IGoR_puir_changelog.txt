@@ -1,3 +1,9 @@
+Change for 9.0.2
+- China no longer receives the base 2% mobilization bonus given to uncivs (starting mobilization reduced from 165 brigades to 37 brigades)
+- Fixed a bugged CB from Colonial Incident event
+- Naval slider minimum is lowered from 80% to 40% (base puir)
+
+----------------------------------------------------
 Changes for 9.0.1
 - Fixed a bug with concession CBs on Japan and Persia
 - Fixed a crash bug occurring when mousing over unaccepted pops culture.
