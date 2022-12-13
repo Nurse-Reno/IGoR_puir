@@ -1,4 +1,4 @@
-sprite = 14
+sprite = 5
 color = { 18 129 10 }
 strata = rich
 unemployment = yes

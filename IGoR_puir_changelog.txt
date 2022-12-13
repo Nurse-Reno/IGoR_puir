@@ -1,3 +1,12 @@
+Changes for 9.0.4
+- Removed double cost concession CB special to Japan and Persia. Their concession CBs have been returned to base prices.
+- Blocked AI from being able to switch national values to prevent issues with desync/crashes switching your NV accidentally.
+- Fixed a ui bug with national focuses icons not matching up correctly on the national focus mapmode.
+- Fixed a no_culture pop group in south america.
+- Fixed a bugged continent entry for assimilation chance. (Australia)
+- Removed a bugged naval base from Norfolk, Virginia.
+
+----------------------------------------------------
 Change for 9.0.3
 - Fixed a state bug with Syria
 

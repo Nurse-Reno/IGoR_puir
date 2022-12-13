@@ -5,6 +5,7 @@ political_decisions = {
 		picture = national_value
 		potential = {
 			NOT = {	has_country_flag = nv_change }
+			ai = no
 		}
 		
 		allow = {
@@ -16,7 +17,7 @@ political_decisions = {
 		effect = { set_country_flag = nv_change }
 		
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			
 			modifier = {
 				factor = 0
@@ -33,6 +34,7 @@ political_decisions = {
 		picture = national_value
 		potential = {
 			has_country_flag = nv_change
+			ai = no
 		}
 		
 		allow = { }
@@ -89,6 +91,7 @@ political_decisions = {
 			NOT = { nationalvalue = nv_education }
 			#NOT = { has_country_flag = switched_nv }
 			has_country_flag = nv_change
+			ai = no
 		}
 		
 		allow = {
@@ -130,6 +133,7 @@ political_decisions = {
 			NOT = { nationalvalue = nv_order }
 			#NOT = { has_country_flag = switched_nv }
 			has_country_flag = nv_change
+			ai = no
 		}
 		
 		allow = {
@@ -171,6 +175,7 @@ political_decisions = {
 			NOT = { nationalvalue = nv_productivity }
 			#NOT = { has_country_flag = switched_nv }
 			has_country_flag = nv_change
+			ai = no
 		}
 		
 		allow = {
@@ -212,6 +217,7 @@ political_decisions = {
 			NOT = { nationalvalue = nv_autocracy }
 			#NOT = { has_country_flag = switched_nv }
 			has_country_flag = nv_change
+			ai = no
 		}
 		
 		allow = {
@@ -252,6 +258,7 @@ political_decisions = {
 			NOT = { nationalvalue = nv_equality }
 			#NOT = { has_country_flag = switched_nv }
 			has_country_flag = nv_change
+			ai = no
 		}
 		
 		allow = {
@@ -293,6 +300,7 @@ political_decisions = {
 			NOT = { nationalvalue = nv_liberty }
 			#NOT = { has_country_flag = switched_nv }
 			has_country_flag = nv_change
+			ai = no
 		}
 		
 		allow = {
