@@ -1,0 +1,28 @@
+#prevents pop growth in world bank / ghost nation
+country_event = {
+	id = 9991119
+	title = "World Market Pop Growth Nerf"
+	desc = "Prevents some issues down the road"
+	picture = "dixie"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = GHO
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "Alright, sounds good."
+		add_country_modifier = {
+			name = ghost_rp_nerf
+			duration = -1
+		}
+		ai_chance = {
+			factor = 1.0
+		}
+	}
+}

@@ -1,0 +1,6 @@
+capital = 1128
+primary_culture = polar_bears
+civlized = yes
+
+set_country_flag = world_bank_off
+set_country_flag = ghostland
