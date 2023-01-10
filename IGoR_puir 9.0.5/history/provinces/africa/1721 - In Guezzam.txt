@@ -1,4 +1,0 @@
-trade_goods = sulphur
-life_rating = 10
-
-set_province_flag = mine

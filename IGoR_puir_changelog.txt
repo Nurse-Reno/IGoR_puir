@@ -1,3 +1,11 @@
+Changes for 9.0.6
+- Treaty Port CB no longer gives reparations
+- Acquire Treaty Port now costs 8 WS, but each combatant may only add 1 treaty port CB per war with China mechanically.
+- Humiliate now costs 16 WS and lowers targets prestige by 20% of current prestige and gives the victor 5% of current prestige.
+- Detethered the new CB system from po_gunboat so people are no longer getting bankrupted by an annoying bug, warscore has been tethered to a different peace offer mechanic (po_remove_prestige).
+- Removed newspapers.
+
+----------------------------------------------------
 Changes for 9.0.5
 - Fixed an issue with the new continents organization causing some crashes.
 

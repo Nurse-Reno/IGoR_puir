@@ -1,0 +1,9 @@
+owner = GHO
+controller = GHO
+add_core = GHO
+trade_goods = precious_metal
+life_rating = 0
+
+
+
+set_province_flag = mine
