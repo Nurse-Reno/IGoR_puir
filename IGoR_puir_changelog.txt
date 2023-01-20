@@ -1,3 +1,8 @@
+Changes for 9.0.7
+- Added an exception to state sizing so it won't occur during wars, bricking size CBs mid war.
+- Changed the state sizing event occurrence to match year length (350 to 365)
+
+----------------------------------------------------
 Changes for 9.0.6
 - Treaty Port CB no longer gives reparations
 - Acquire Treaty Port now costs 8 WS, but each combatant may only add 1 treaty port CB per war with China mechanically.
