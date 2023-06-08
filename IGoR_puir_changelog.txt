@@ -1,3 +1,7 @@
+Changes for 10.0.1
+- Fixed a bug related to HUG tags being releasable.
+
+----------------------------------------------------
 Changes for 10.0
 - Great Wars CB Cost reduction has been improved. 65% cheaper CBs --> 50% cheaper CBs
 - The "E" hotkey has been reverted back to its original purpose. It will now change to infrastructure mapmode.
