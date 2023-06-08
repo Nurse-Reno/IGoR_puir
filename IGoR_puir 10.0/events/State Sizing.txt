@@ -1,0 +1,145 @@
+country_event = {
+	id = 700700
+	title = "State Sizing"
+
+	trigger = {
+		tag = GHO
+		NOT = { has_country_modifier = sizing_cooldown }
+	}
+
+	immediate = {
+		add_country_modifier = {
+			name = sizing_cooldown
+			duration = 365
+		}
+	}
+
+	option = { 
+		any_country = { 
+			limit = {
+				OR = {
+					war = no
+					AND = {
+						war = yes
+						OR = {
+							tag = TUR
+							tag = TRI
+							tag = TEX
+							tag = MEX
+						}
+						NOT = { 
+							year = 1837 
+						}
+					}
+				}
+				
+			}
+			any_owned = { 
+				limit = {
+					state_scope = { 
+						NOT = { total_pops = 400000 }
+					}
+				}
+				add_core = SMA 
+				remove_core = MED 
+				remove_core = LRG 
+				remove_core = HUG 
+			}
+		}
+		any_country = { 
+			limit = {
+				OR = {
+					war = no
+					AND = {
+						war = yes
+						OR = {
+							tag = TUR
+							tag = TRI
+							tag = TEX
+							tag = MEX
+						}
+						NOT = { 
+							year = 1837 
+						}
+					}
+				}
+				
+			}
+			any_owned = { 
+				limit = {
+					state_scope = { 
+						total_pops = 400000 
+						NOT = { total_pops = 700000 }
+					} 
+				} 
+				add_core = MED 
+				remove_core = SMA 
+				remove_core = LRG 
+				remove_core = HUG 
+			} 
+		}		
+		any_country = { 
+			limit = {
+				OR = {
+					war = no
+					AND = {
+						war = yes
+						OR = {
+							tag = TUR
+							tag = TRI
+							tag = TEX
+							tag = MEX
+						}
+						NOT = { 
+							year = 1837 
+						}
+					}
+				}
+				
+			}
+			any_owned = {
+				limit = {
+					state_scope = { 
+						total_pops = 700000 
+						NOT = { total_pops = 1000000 }
+					} 
+				} 
+			add_core = LRG 
+			remove_core = SMA 
+			remove_core = MED 
+			remove_core = HUG 
+			} 
+		}
+		any_country = {
+			limit = {
+				OR = {
+					war = no
+					AND = {
+						war = yes
+						OR = {
+							tag = TUR
+							tag = TRI
+							tag = TEX
+							tag = MEX
+						}
+						NOT = { 
+							year = 1837 
+						}
+					}
+				}
+				
+			}
+			any_owned = { 
+				limit = {
+					state_scope = { 
+						total_pops = 1000000
+					}
+				}
+				add_core = HUG 
+				remove_core = SMA 
+				remove_core = MED 
+				remove_core = LRG 
+			} 
+		}
+	}
+}	

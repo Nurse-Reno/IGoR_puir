@@ -1,3 +1,107 @@
+Changes for 10.0
+- Great Wars CB Cost reduction has been improved. 65% cheaper CBs --> 50% cheaper CBs
+- The "E" hotkey has been reverted back to its original purpose. It will now change to infrastructure mapmode.
+- Removed cores from Rupert's Land and Columbia from Canada.
+- Fixed a crash issue with GHO tag.
+- Reduced the required colonial points for stating a colony by half. (300 colonial points per province --> 150 colonial points per province)
+- Raised the RGO size of the entire map by at least 2x to account for late game growth in colonies causing unemployment once the RGO caps.
+- General Bug Fixes:
+	- Removed Dismantle Factory CB, it was buggy as shit.
+	- Removed random bugs from across the mod files using the validator.
+	- Fixed the bug causing the game to crash upon bankruptcy.
+- Reduced Factory Build and Upgrade time from 365 days --> 30 days.
+- National Value Changes
+	Order:
+		Order now provides +10% Soldier Promotion Chance at 100% military spending, scaling downwards 1% every 10% military spending (9% at 90% military spending).
+	Autocracy:
+		Army Research Bonus: +5% has been added to Autocracy.
+	Education:
+		Removed the researchpoint bonus Education used to provide.
+		Education Efficiency bonus has been increased from +20% --> +40%.
+	Liberty:
+		Liberty NV has been entirely removed and replaced with the new Exploitation NV.
+	Exploitation (Old Productivity Stats):
+		RGO Throughput: +10%
+		Factory Input: -5%
+		Factory Output: +5%
+	Productivity (New Stats):
+		Commerce Research Bonus: +5%
+		Industry Research Bonus: +5%
+		Productivity now provides +10% Craftsmen Promotion Chance at 100% administration spending, scaling downwards 1% every 10% military spending (9% at 90% administration spending).
+- Diseases have been removed due their inherently RNG nature setting nations back permanently.
+- The Industrial and Military scores to swap Tech Schools is now half of its original requirement. (100 score ---> 50 score)
+- Tech Changes
+	Culture Tree:
+		Culture:
+			Psychology Tree:	
+				- Changed the years so the tech scaling is more reasonable. Techs can be accessed in the following years: 1836, 1840, 1855, 1870, 1885, 1900
+			- New Mechanic - "National Passive Promotion Bonus"
+				- 6 Tier event chain depending on your current Psychology tech level that gives you a choice of what pop to give a 2.5% promotion chance bonus.
+				- All bonuses can be reset at anytime via decision, no cooldown between uses.
+				- Pops that can be chosen are Soldiers, Craftsmen, Clerks, Bureaucrats, Clergy, and Capitalists.
+			- Removed Reinforcement and Base Experience from Psychology and replaced them with increased Farm and Mine RGO size.
+		Army:
+			- Unit stats are no longer equally spread across all stat inventions.
+			- Defensive unit stat inventions are concentrated in the Army Doctrine tree.
+			- Offensive unit stat inventions are concentrated in the Light Armament tree.
+			- Reinforcement bonus from Psychology has been moved to Military Science.
+			- Base Experience bonus from Psychology has been moved to Army Doctrine.
+			- The 4 defense stat bonus that used to be on Machine Gun Armament, is now on Trench Systems. (Bolt Action Armament still gives 4 attack)
+- You are no longer restricted to states to build certain ship types, all of them can be built in colonies as well.
+- Imported Zombie's Alstadt Host Decisions
+- Commerce tech no longer gives bonuses to precious metal production. (Makes no sense to still exist)
+- State Sizing event now works properly for Mexico, Texas, Ottomans, and Tripolitania at the beginning of the game.
+- Egypt:
+	- All states south of modern Egypt now start as colonies.
+- Pop Changes (Note, no new pops were added unless specifically stated):
+	North Africa POPs after state redraw/consolidation:
+		Morocco - 460k
+		Algeria - 590k
+		Libya - 405k (Buffed by 170k from base)
+		Lower Egypt - 564k
+		Upper Egypt - 552k
+	East Asia POPs after state redraw/consolidation:
+		The Phillipines - 927k
+- Culture Changes:
+	- Recolored Filipino culture so you can more clearly see spanish and filipinos in the same province.
+- RGO Changes
+	- Tongchuan changed from Fruit --> Wool
+	- Baotung changed from Fruit --> Wool
+	- Jiading changed from Fruit --> Wool
+	- Kaifeng changed from Wheat --> Wool
+	- Caozhou changed from Wheat --> Wool
+- Swapping Generals and Admirals between stacks no longer costs your country prestige.
+- Removed starting cores of Peru on Ecuador to make things more fair for Colombia.
+- Portugal now starts with 10 transports
+- Removing a country from your own sphere no longer costs infamy and prestige.
+- Fixed a bug where the world bank was stopping its purchases randomly.
+- Fixed a bug where you could minor conquest the world bank.
+- CB Changes:
+	Core State CBs warscore costs are increased. They are now half the cost of the normal state CB of the same size. Roughly double their old cost.
+	Added Rennes Transfer CB system, so now you no longer need to even make the transfer CB. You can also choose yourself or an ally of yours to be the receiver of the transfer.
+- All Ship types are now 100% invention chance upon researching their corresponding tech.
+- Russia Changes
+	- Removed the liferating buff across russia, re-added breadbasket.
+	- Redrew most of ukraine and european Russia to maximize national focus efficiency.
+- Uncivs no longer receive microscope research point bonus events.
+- Napoleon III negative modifiers have been removed.
+- All negative modifiers on country size modifiers have been removed.
+- Korea and Manchuria now start at 20% literacy.
+- China no longer accepts South Han, but now all Chinese pops start at 20% literacy.
+- Canals no longer give country modifiers with ownership.
+- Portugal-Brazil has been added to the Statue of Liberty decision event. (Bugfix)
+- Democracies can now change their political party manually.
+- You can no longer sphere the host nation nor the world bank nations.
+- The Rename Alsace Lorraine decision for Germany and France now both give 10 prestige and subtract 10 prestige from the other.
+- Made some general bug fixes with the world bank, such as preventing issues with pop shifting and immigration.
+- Fixed issue with Australia and Canada's names on the global map being all fucked up.
+- Grants Change: (Credit to KevinG for the new Grant core)
+	- Built in check to prevent over granting into debt.
+	- Players are now able to give military goods in increments of 200, 500, 1000, 1500, and 2000.
+	- There is now a 7 day cooldown on grants, so no more spamming nonsense.
+	- Uncivs are now allowed to ask for grants.
+
+----------------------------------------------------
 Changes for 9.0.7
 - Added an exception to state sizing so it won't occur during wars, bricking size CBs mid war.
 - Changed the state sizing event occurrence to match year length (350 to 365)

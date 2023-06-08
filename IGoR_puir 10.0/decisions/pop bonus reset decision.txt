@@ -1,0 +1,65 @@
+political_decisions = {
+
+	clear_psychology_bonus = {
+		picture = host_nation
+		alert = yes
+		potential = {
+			ai = no
+			OR = {
+				has_country_flag = psychology_1
+				has_country_flag = psychology_2
+				has_country_flag = psychology_3
+				has_country_flag = psychology_4
+				has_country_flag = psychology_5
+				has_country_flag = psychology_6
+			}
+		}
+		allow = { 
+			ai = no
+		}
+		effect = {
+			clr_country_flag = psychology_1
+			clr_country_flag = psychology_2
+			clr_country_flag = psychology_3
+			clr_country_flag = psychology_4
+			clr_country_flag = psychology_5
+			clr_country_flag = psychology_6
+			clr_country_flag = soldier_1
+			clr_country_flag = soldier_2
+			clr_country_flag = soldier_3
+			clr_country_flag = soldier_4
+			clr_country_flag = soldier_5
+			clr_country_flag = soldier_6
+			clr_country_flag = clerks_1
+			clr_country_flag = clerks_2
+			clr_country_flag = clerks_3
+			clr_country_flag = clerks_4
+			clr_country_flag = clerks_5
+			clr_country_flag = clerks_6
+			clr_country_flag = clergy_1
+			clr_country_flag = clergy_2
+			clr_country_flag = clergy_3
+			clr_country_flag = clergy_4
+			clr_country_flag = clergy_5
+			clr_country_flag = clergy_6
+			clr_country_flag = bureaucrat_1
+			clr_country_flag = bureaucrat_2
+			clr_country_flag = bureaucrat_3
+			clr_country_flag = bureaucrat_4
+			clr_country_flag = bureaucrat_5
+			clr_country_flag = bureaucrat_6
+			clr_country_flag = craftsmen_1
+			clr_country_flag = craftsmen_2
+			clr_country_flag = craftsmen_3
+			clr_country_flag = craftsmen_4
+			clr_country_flag = craftsmen_5
+			clr_country_flag = craftsmen_6
+			clr_country_flag = capitalists_1
+			clr_country_flag = capitalists_2
+			clr_country_flag = capitalists_3
+			clr_country_flag = capitalists_4
+			clr_country_flag = capitalists_5
+			clr_country_flag = capitalists_6
+		}
+	}
+}

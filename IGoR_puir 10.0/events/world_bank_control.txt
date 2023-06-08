@@ -1,0 +1,128 @@
+#prevents pop growth in world bank / ghost nation
+country_event = {
+	id = 9991119
+	title = "Ghostland Primitive Forced"
+	desc = "Prevents some issues down the road"
+	picture = "dixie"
+	
+	trigger = {
+		GHO = {
+			civilized = yes
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		GHO = {
+			civilized = no
+		}
+	}
+	
+	option = {
+		name = "Alright, sounds good."
+		ai_chance = {
+			factor = 1.0
+		}
+	}
+}
+
+country_event = {
+	id = 9991120
+	title = "World Market Pop Growth Nerf"
+	desc = "Prevents some issues down the road"
+	picture = "dixie"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = GHO
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "Alright, sounds good."
+		add_country_modifier = {
+			name = ghost_rp_nerf
+			duration = -1
+		}
+		ai_chance = {
+			factor = 1.0
+		}
+	}
+}
+
+country_event = {
+	id = 9991121
+	title = "Don't Sphere Ghostland"
+	desc = "Prevents some issues down the road"
+	picture = "dixie"
+	
+	trigger = {
+		any_greater_power = {
+			is_sphere_leader_of = {
+				tag = GHO
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		diplomatic_influence = {
+			who = GHO
+			value = -400
+		}
+		relation = {
+			who = GHO
+			value = -200
+		}
+	}
+	
+	option = {
+		name = "Alright, sounds good."
+		ai_chance = {
+			factor = 1.0
+		}
+	}
+}
+
+country_event = {
+	id = 9991122
+	title = "Don't Sphere the Host Nation"
+	desc = "Prevents some issues down the road"
+	picture = "dixie"
+	
+	trigger = {
+		any_greater_power = {
+			is_sphere_leader_of = {
+				tag = LCT
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		diplomatic_influence = {
+			who = LCT
+			value = -400
+		}
+	}
+	
+	option = {
+		name = "Alright, sounds good."
+		ai_chance = {
+			factor = 1.0
+		}
+	}
+}

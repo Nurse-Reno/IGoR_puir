@@ -1,0 +1,353 @@
+country_event = {
+
+	id = 370031
+
+	trigger = {
+		invention = pop_shift_invention_1
+		NOT = {
+			has_country_flag = psychology_1
+		}
+	}
+ 
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	title = "pop_shift_invention_1"
+	desc = "pop_shift_invention_1_desc"
+	picture = "troy"
+
+	option = {
+		name = "Bonus Clergymen Promotion Chance: §G+2.5%§W"
+		set_country_flag = psychology_1
+		set_country_flag = clergy_1
+	}
+	
+	option = {
+		name = "Bonus Bureaucrat Promotion Chance: §G+2.5%§W"
+		set_country_flag = psychology_1
+		set_country_flag = bureaucrat_1
+	}
+	
+	option = {
+		name = "Bonus Soldier Promotion Chance: §G+2.5%§W"
+		set_country_flag = psychology_1
+		set_country_flag = soldier_1
+	}
+	
+	option = {
+		name = "Bonus Craftsmen Promotion Chance: §G+2.5%§W"
+		set_country_flag = psychology_1
+		set_country_flag = craftsmen_1
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "Bonus Clerk Promotion Chance: §G+2.5%§W"
+		set_country_flag = psychology_1
+		set_country_flag = clerks_1
+	}
+	
+	option = {
+		name = "Bonus Capitalist Promotion Chance: §G+2.5%§W"
+		set_country_flag = psychology_1
+		set_country_flag = capitalists_1
+	}
+}
+
+country_event = {
+
+	id = 370032
+
+	trigger = {
+		invention = pop_shift_invention_2
+		NOT = {
+			has_country_flag = psychology_2
+		}
+	}
+ 
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	title = "pop_shift_invention_2"
+	desc = "pop_shift_invention_2_desc"
+	picture = "troy"
+
+	option = {
+		name = "Bonus Clergymen Promotion Chance: §G+2.5%§W"
+		set_country_flag = psychology_2
+		set_country_flag = clergy_2
+	}
+	
+	option = {
+		name = "Bonus Bureaucrat Promotion Chance: §G+2.5%§W"
+		set_country_flag = psychology_2
+		set_country_flag = bureaucrat_2
+	}
+	
+	option = {
+		name = "Bonus Soldier Promotion Chance: §G+2.5%§W"
+		set_country_flag = psychology_2
+		set_country_flag = soldier_2
+	}
+	
+	option = {
+		name = "Bonus Craftsmen Promotion Chance: §G+2.5%§W"
+		set_country_flag = psychology_2
+		set_country_flag = craftsmen_2
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "Bonus Clerk Promotion Chance: §G+2.5%§W"
+		set_country_flag = psychology_2
+		set_country_flag = clerks_2
+	}
+	
+	option = {
+		name = "Bonus Capitalist Promotion Chance: §G+2.5%§W"
+		set_country_flag = psychology_2
+		set_country_flag = capitalists_2
+	}
+}
+
+country_event = {
+
+	id = 370033
+
+	trigger = {
+		invention = pop_shift_invention_3
+		NOT = {
+			has_country_flag = psychology_3
+		}
+	}
+ 
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	title = "pop_shift_invention_3"
+	desc = "pop_shift_invention_3_desc"
+	picture = "troy"
+
+	option = {
+		name = "Bonus Clergymen Promotion Chance: §G+2.5%§W"
+		set_country_flag = psychology_3
+		set_country_flag = clergy_3
+	}
+	
+	option = {
+		name = "Bonus Bureaucrat Promotion Chance: §G+2.5%§W"
+		set_country_flag = psychology_3
+		set_country_flag = bureaucrat_3
+	}
+	
+	option = {
+		name = "Bonus Soldier Promotion Chance: §G+2.5%§W"
+		set_country_flag = psychology_3
+		set_country_flag = soldier_3
+	}
+	
+	option = {
+		name = "Bonus Craftsmen Promotion Chance: §G+2.5%§W"
+		set_country_flag = psychology_3
+		set_country_flag = craftsmen_3
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "Bonus Clerk Promotion Chance: §G+2.5%§W"
+		set_country_flag = psychology_3
+		set_country_flag = clerks_3
+	}
+	
+	option = {
+		name = "Bonus Capitalist Promotion Chance: §G+2.5%§W"
+		set_country_flag = psychology_3
+		set_country_flag = capitalists_3
+	}
+}
+
+country_event = {
+
+	id = 370034
+
+	trigger = {
+		invention = pop_shift_invention_4
+		NOT = {
+			has_country_flag = psychology_4
+		}
+	}
+ 
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	title = "pop_shift_invention_4"
+	desc = "pop_shift_invention_4_desc"
+	picture = "troy"
+
+	option = {
+		name = "Bonus Clergymen Promotion Chance: §G+2.5%§W"
+		set_country_flag = psychology_4
+		set_country_flag = clergy_4
+	}
+	
+	option = {
+		name = "Bonus Bureaucrat Promotion Chance: §G+2.5%§W"
+		set_country_flag = psychology_4
+		set_country_flag = bureaucrat_4
+	}
+	
+	option = {
+		name = "Bonus Soldier Promotion Chance: §G+2.5%§W"
+		set_country_flag = psychology_4
+		set_country_flag = soldier_4
+	}
+	
+	option = {
+		name = "Bonus Craftsmen Promotion Chance: §G+2.5%§W"
+		set_country_flag = psychology_4
+		set_country_flag = craftsmen_4
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "Bonus Clerk Promotion Chance: §G+2.5%§W"
+		set_country_flag = psychology_4
+		set_country_flag = clerks_4
+	}
+	
+	option = {
+		name = "Bonus Capitalist Promotion Chance: §G+2.5%§W"
+		set_country_flag = psychology_4
+		set_country_flag = capitalists_4
+	}
+}
+
+country_event = {
+
+	id = 370035
+
+	trigger = {
+		invention = pop_shift_invention_5
+		NOT = {
+			has_country_flag = psychology_5
+		}
+	}
+ 
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	title = "pop_shift_invention_5"
+	desc = "pop_shift_invention_5_desc"
+	picture = "troy"
+
+	option = {
+		name = "Bonus Clergymen Promotion Chance: §G+2.5%§W"
+		set_country_flag = psychology_5
+		set_country_flag = clergy_5
+	}
+	
+	option = {
+		name = "Bonus Bureaucrat Promotion Chance: §G+2.5%§W"
+		set_country_flag = psychology_5
+		set_country_flag = bureaucrat_5
+	}
+	
+	option = {
+		name = "Bonus Soldier Promotion Chance: §G+2.5%§W"
+		set_country_flag = psychology_5
+		set_country_flag = soldier_5
+	}
+	
+	option = {
+		name = "Bonus Craftsmen Promotion Chance: §G+2.5%§W"
+		set_country_flag = psychology_5
+		set_country_flag = craftsmen_5
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "Bonus Clerk Promotion Chance: §G+2.5%§W"
+		set_country_flag = psychology_5
+		set_country_flag = clerks_5
+	}
+	
+	option = {
+		name = "Bonus Capitalist Promotion Chance: §G+2.5%§W"
+		set_country_flag = psychology_5
+		set_country_flag = capitalists_5
+	}
+}
+
+country_event = {
+
+	id = 370036
+
+	trigger = {
+		invention = pop_shift_invention_6
+		NOT = {
+			has_country_flag = psychology_6
+		}
+	}
+ 
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	title = "pop_shift_invention_6"
+	desc = "pop_shift_invention_6_desc"
+	picture = "troy"
+
+	option = {
+		name = "Bonus Clergymen Promotion Chance: §G+2.5%§W"
+		set_country_flag = psychology_6
+		set_country_flag = clergy_6
+	}
+	
+	option = {
+		name = "Bonus Bureaucrat Promotion Chance: §G+2.5%§W"
+		set_country_flag = psychology_6
+		set_country_flag = bureaucrat_6
+	}
+	
+	option = {
+		name = "Bonus Soldier Promotion Chance: §G+2.5%§W"
+		set_country_flag = psychology_6
+		set_country_flag = soldier_6
+	}
+	
+	option = {
+		name = "Bonus Craftsmen Promotion Chance: §G+2.5%§W"
+		set_country_flag = psychology_6
+		set_country_flag = craftsmen_6
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "Bonus Clerk Promotion Chance: §G+2.5%§W"
+		set_country_flag = psychology_6
+		set_country_flag = clerks_6
+	}
+	
+	option = {
+		name = "Bonus Capitalist Promotion Chance: §G+2.5%§W"
+		set_country_flag = psychology_6
+		set_country_flag = capitalists_6
+	}
+}
