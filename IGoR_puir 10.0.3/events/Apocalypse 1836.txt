@@ -1,4 +1,3 @@
-#Optimized
 #Outbreak
 country_event = {
 	id = 999901

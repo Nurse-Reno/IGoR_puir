@@ -1,4 +1,3 @@
-#optimized
 country_event = {
 	title = "EVTNAME90900"
 	desc = "EVTDESC90900"

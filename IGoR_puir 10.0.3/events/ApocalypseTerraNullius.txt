@@ -1,5 +1,4 @@
-#optimized
-province_event = {
+	province_event = {
 	id = 99100
 	title = "EVTNAME999025"
 	desc = "EVTDESC999025"

@@ -1,4 +1,3 @@
-#optimized
 #If you create a country specific event make sure you add the tag to the list of tags to not get the broad event
 
 country_event = {

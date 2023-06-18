@@ -1,4 +1,3 @@
-#optimized
 country_event = {
 	id = 776405
 	title = "776405"
