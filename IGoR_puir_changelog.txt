@@ -1,3 +1,7 @@
+Changes for 10.0.2
+- Goods Changes bug fix
+
+----------------------------------------------------
 Changes for 10.0.1
 - Fixed a bug related to HUG tags being releasable.
 

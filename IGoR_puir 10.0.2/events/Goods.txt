@@ -1,60 +1,55 @@
-#Optimized
 ###############################
 #        RUBBER EVENTS        #
 ###############################
 province_event = {
+	
 	id = 1107
 
 	trigger = {
 		year = 1885
-		OR = {
-			province_id = 1354 # Nakhon Si Thammarat
-			province_id = 1382 # Hatien
-			province_id = 1384 # Singapore
-			province_id = 1385 # Johor Bahru
-			province_id = 1386 # Malacca
-			province_id = 1389 # Alor Setar
-			province_id = 1402 # Tanjungpinang
-			province_id = 1404 # Palak Pinang
-			province_id = 1321 # Colombo
-			province_id = 1398 # Jambi
-			province_id = 1421 # Madura
-			province_id = 1406 # Medan
-			province_id = 1318 # Cochin
+		or = {
+			province_id = 1354 #Nakhon Si Thammarat
+			province_id = 1382 #Hatien
+			province_id = 1384 #Singapore
+			province_id = 1385 #Johor Bahru
+			province_id = 1386 #Malacca
+			province_id = 1389 #Alor Setar
+			province_id = 1402 #Tanjungpinang
+			province_id = 1404 #Palak Pinang
+			province_id = 1321 #Colombo
+			province_id = 1398 #Jambi
+			province_id = 1421 #Madura
+			province_id = 1406 #Medan
+			province_id = 1318 #Cochin
 		}
-		NOT = { trade_goods = rubber }
+		not = { trade_goods = rubber }
 		OR = {
-			AND = {
-				OR = {
-					part_of_sphere = yes
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					or = {
 					invention = daimlers_automobile
 					invention = edison_light_bulb
 					infiltration = 1
 					aeronautics = 1
-				}
-				sphere_owner = {
-					OR = {
-						invention = daimlers_automobile
-						invention = edison_light_bulb
-						infiltration = 1
-						aeronautics = 1
 					}
 				}
 			}
-			AND = {
-				OR = {
+			owner = {
+				or = {
 					invention = daimlers_automobile
 					invention = edison_light_bulb
 					infiltration = 1
 					aeronautics = 1
-				}
+					}
 			}
 			year = 1900
 		}
 	}
 
-	mean_time_to_happen = {
+	mean_time_to_happen =  {
 		months = 36
+
 	}
 
 	title = "EVTNAME1107"
@@ -63,72 +58,67 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1107"
-		change_trade_goods = rubber
+		trade_goods = rubber
 		# life_rating = 5
 	}
 }
 
-
 province_event = {
+	
 	id = 1108
 
 	trigger = {
-		year = 1890
-		OR = {
-			province_id = 1414 # Bogor
-			province_id = 1426 # Pontianak
-			province_id = 1923 # Lagos
-			province_id = 1926 # Ife
-			province_id = 1932 # Bonny
-			province_id = 1957 # Buea
-			province_id = 1986 # Lusambo
-			province_id = 1988 # Mussumba
-			province_id = 1989 # Munza
-			province_id = 1996 # Kisangani
-			province_id = 2057 # Sofala
-			province_id = 2058 # Mossurize
-			province_id = 1977 # Nkuna
-			province_id = 2624 # Loango
-			province_id = 2192 # San Salvador
-			province_id = 2317 # San Ignacio
-			province_id = 2318 # Robore
-			province_id = 2319 # Santa Ana
-			province_id = 1837 # Atbara
-			province_id = 1848 # Asmara
+		year = 1890 
+		or = {
+			province_id = 1414 #Bogor
+			province_id = 1426 #Pontianak
+			province_id = 1923 #Lagos
+			province_id = 1926 #Ife
+			province_id = 1932 #Bonny
+			province_id = 1957 #Buea
+			province_id = 1986 #Lusambo
+			province_id = 1988 #Mussumba
+			province_id = 1989 #Munza
+			province_id = 1996 #Kisangani
+			province_id = 2057 #Sofala
+			province_id = 2058 #Mossurize
+			province_id = 1977 #Nkuna
+			province_id = 2624 #Loango
+			province_id = 2192 #San Salvador
+			province_id = 2317 #San Ignacio
+			province_id = 2318 #Robore
+			province_id = 2319 #Santa Ana
+			province_id = 1837 #Atbara
+			province_id = 1848 #Asmara
 		}
-		NOT = { trade_goods = rubber }
+		not = { trade_goods = rubber }
 		OR = {
-			AND = {
-				OR = {
-					part_of_sphere = yes
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					or = {
 					invention = daimlers_automobile
 					invention = edison_light_bulb
 					infiltration = 1
 					aeronautics = 1
-				}
-				sphere_owner = {
-					OR = {
-						invention = daimlers_automobile
-						invention = edison_light_bulb
-						infiltration = 1
-						aeronautics = 1
 					}
 				}
 			}
-			AND = {
-				OR = {
+			owner = {
+				or = {
 					invention = daimlers_automobile
 					invention = edison_light_bulb
 					infiltration = 1
 					aeronautics = 1
-				}
+					}
 			}
 			year = 1900
 		}
 	}
 
-	mean_time_to_happen = {
+	mean_time_to_happen =  {
 		months = 36
+
 	}
 
 	title = "EVTNAME1107"
@@ -136,12 +126,11 @@ province_event = {
 	picture = ""
 
 	option = {
-		name = "EVTOPTA1108"
-		change_trade_goods = rubber
+		name = "EVTOPTA1107"
+		trade_goods = rubber
 		# life_rating = 5
 	}
 }
-
 
 province_event = {
 	
@@ -162,30 +151,24 @@ province_event = {
 		}
 		not = { trade_goods = rubber }
 		OR = {
-			AND = {
-				OR = {
-					part_of_sphere = yes
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					or = {
 					invention = daimlers_automobile
 					invention = edison_light_bulb
 					infiltration = 1
 					aeronautics = 1
-				}
-				sphere_owner = {
-					OR = {
-						invention = daimlers_automobile
-						invention = edison_light_bulb
-						infiltration = 1
-						aeronautics = 1
 					}
 				}
 			}
-			AND = {
-				OR = {
+			owner = {
+				or = {
 					invention = daimlers_automobile
 					invention = edison_light_bulb
 					infiltration = 1
 					aeronautics = 1
-				}
+					}
 			}
 			year = 1900
 		}
@@ -224,30 +207,24 @@ province_event = {
 		}
 		not = { trade_goods = rubber }
 		OR = {
-			AND = {
-				OR = {
-					part_of_sphere = yes
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					or = {
 					invention = daimlers_automobile
 					invention = edison_light_bulb
 					infiltration = 1
 					aeronautics = 1
-				}
-				sphere_owner = {
-					OR = {
-						invention = daimlers_automobile
-						invention = edison_light_bulb
-						infiltration = 1
-						aeronautics = 1
 					}
 				}
 			}
-			AND = {
-				OR = {
+			owner = {
+				or = {
 					invention = daimlers_automobile
 					invention = edison_light_bulb
 					infiltration = 1
 					aeronautics = 1
-				}
+					}
 			}
 			year = 1900
 		}
