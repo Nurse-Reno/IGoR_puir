@@ -1,3 +1,7 @@
+Changes for 10.0.4
+- Fixed the Baku oil spawn event being bugged.
+
+----------------------------------------------------
 Changes for 10.0.3
 - Reverted some event optimization
 
