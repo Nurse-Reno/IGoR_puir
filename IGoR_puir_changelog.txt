@@ -1,3 +1,7 @@
+Changes for 10.0.5
+- Fixed another goods event issue
+
+----------------------------------------------------
 Changes for 10.0.4
 - Fixed the Baku oil spawn event being bugged.
 

@@ -1,5 +1,5 @@
 country_event = {
-	id = 999990
+	id = 999990123
 	title = "Host Nation Picked!"
 	desc = "$FROMCOUNTRY$ is now the host nation!"
 	major = yes
@@ -12,7 +12,7 @@ country_event = {
 	}
 }
 country_event = {
-	id = 999991
+	id = 999991123
 	title = "You are the host nation now"
 	desc = "Host nation status has been transferred to you"
 	picture = "greatpowers"
@@ -20,7 +20,7 @@ country_event = {
 	
 	immediate = {
 		LCT = {
-			country_event = 999990
+			country_event = 999990123
 		}
 		FROM = {
 			clr_country_flag = host_nation
@@ -32,7 +32,7 @@ country_event = {
 	}
 }
 country_event = {
-	id = 999992
+	id = 999992123
 	title = "GTFO"
 	desc = "ur kicked"
 	picture = "greatpowers"
@@ -50,7 +50,7 @@ country_event = {
 	}
 }
 country_event = {
-	id = 999993
+	id = 999993123
 	title = "Unsiege"
 	desc = "You will be unsieged"
 	picture = "greatpowers"
@@ -70,7 +70,7 @@ country_event = {
 	}
 }
 country_event = {
-	id = 999994
+	id = 999994123
 	title = "Siege"
 	desc = "You will siege your enemies"
 	picture = "greatpowers"
@@ -96,7 +96,7 @@ country_event = {
 	}
 }
 country_event = {
-	id = 999995
+	id = 999995123
 	title = "Give Sanctions Menu"
 	desc = "Choose how long you want the sanctions to last for the target countries"
 	picture = "greatpowers"
@@ -111,7 +111,7 @@ country_event = {
 			limit = {
 				NOT = { military_access = THIS }
 			}
-			country_event = 999996
+			country_event = 999996123
 		}
 	}
 	option = {
@@ -120,7 +120,7 @@ country_event = {
 			limit = {
 				NOT = { military_access = THIS }
 			}
-			country_event = 999997
+			country_event = 999997123
 		}
 	}
 	option = {
@@ -129,7 +129,7 @@ country_event = {
 			limit = {
 				NOT = { military_access = THIS }
 			}
-			country_event = 999998
+			country_event = 999998123
 		}
 	}
 	option = {
@@ -138,7 +138,7 @@ country_event = {
 			limit = {
 				NOT = { military_access = THIS }
 			}
-			country_event = 999999
+			country_event = 999999123
 		}
 	}
 	option = {
@@ -147,12 +147,12 @@ country_event = {
 			limit = {
 				NOT = { military_access = THIS }
 			}
-			country_event = 1000000
+			country_event = 1000000123
 		}
 	}
 }
 country_event = {
-	id = 999996
+	id = 999996123
 	title = "You've been a naughty boy havent you"
 	desc = "The host has decided thou shalt recieve 1 year of sactions, cry about it"
 	picture = "greatpowers"
@@ -170,7 +170,7 @@ country_event = {
 	}
 }
 country_event = {
-	id = 999997
+	id = 999997123
 	title = "You've been a naughty boy havent you"
 	desc = "The host has decided thou shalt recieve 2 year of sactions, cry about it"
 	picture = "greatpowers"
@@ -188,7 +188,7 @@ country_event = {
 	}
 }
 country_event = {
-	id = 999998
+	id = 999998123
 	title = "You've been a naughty boy havent you"
 	desc = "The host has decided thou shalt recieve 3 year of sactions, cry about it"
 	picture = "greatpowers"
@@ -206,7 +206,7 @@ country_event = {
 	}
 }
 country_event = {
-	id = 999999
+	id = 999999123
 	title = "You've been a naughty boy havent you"
 	desc = "The host has decided thou shalt recieve 4 year of sactions, cry about it"
 	picture = "greatpowers"
@@ -224,7 +224,7 @@ country_event = {
 	}
 }
 country_event = {
-	id = 1000000
+	id = 1000000123
 	title = "You've been a naughty boy havent you"
 	desc = "The host has decided thou shalt recieve 5 year of sactions, cry about it"
 	picture = "greatpowers"
@@ -243,7 +243,7 @@ country_event = {
 }
 
 country_event = {
-	id = 1000001
+	id = 1000001123
 	title = "Crisies Disabled!"
 	desc = "The host, $FROMCOUNTRY$, has disabled crisies!"
 	major = yes
@@ -257,25 +257,25 @@ country_event = {
 }
 
 country_event = {
-	id = 1000002
+	id = 1000002123
 	title = "Host swap"
 	desc = "Host's bout to swap yo ur nation"
 	picture = "greatpowers"
 	is_triggered_only = yes
 	
 	immediate = {
-		FROM = { country_event = 1000003 }
+		FROM = { country_event = 1000003123 }
 		random_country = {
 			limit = {
 				has_global_flag = host_flag_tagmove
 			}
-			LCT = { country_event = 1000004 }
+			LCT = { country_event = 1000004123 }
 		}
 		random_country = {
 			limit = {
 				NOT = { has_global_flag = host_flag_tagmove }
 			}
-			LCT = { country_event = 1000005 }
+			LCT = { country_event = 1000005123 }
 		}
 	}
 	
@@ -286,7 +286,7 @@ country_event = {
 }
 
 country_event = {
-	id = 1000004
+	id = 1000004123
 	title = "Host Tag Swap"
 	desc = "The host has moved to $FROMCOUNTRY$ WITH moving host privileges"
 	major = yes
@@ -299,7 +299,7 @@ country_event = {
 	}
 }
 country_event = {
-	id = 1000005
+	id = 1000005123
 	title = "Host Tag Swap"
 	desc = "The host has moved to $FROMCOUNTRY$ WITHOUT moving host privileges"
 	major = yes
@@ -313,7 +313,7 @@ country_event = {
 }
 
 country_event = {
-	id = 1000006
+	id = 1000006123
 	title = "Nation swap"
 	desc = "Host has decided that someone's gonna swap to yo nation"
 	picture = "greatpowers"
@@ -324,7 +324,7 @@ country_event = {
 			limit = {
 				has_country_flag = picked_to_swap
 			}
-			country_event = 1000007	
+			country_event = 1000007123
 			clr_country_flag = picked_to_swap
 			clr_global_flag = has_chosen_swap
 		}
@@ -337,7 +337,7 @@ country_event = {
 }
 
 country_event = {
-	id = 1000007
+	id = 1000007123
 	title = "Nation swap"
 	desc = "You're swapping to $FROMCOUNTRY$"
 	picture = "greatpowers"
@@ -1914,7 +1914,7 @@ country_event = {
 }
 
 country_event = {
-	id = 1000003
+	id = 1000003123
 	title = "Host swap"
 	desc = "You're swapping to $FROMCOUNTRY$"
 	picture = "greatpowers"

@@ -1282,7 +1282,7 @@ EVTOPTB97125;Reject the offer.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVTNAME146603;The King of Sardinia visits Argentina;;;;;;;;;;x;;;x,,,,,,,,;;;;;;;;;;;
 EVTDESC146603;The King of Sardinia decided to visit Argentina as a kind gesture to the newly born country.;;;;;;;;;;X;;;x,,,,,,,,;;;;;;;;;;;
 EVTOPTBV;Three Cheers for His Majesty!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;
-EVTNAME999997;Province Resaource Change;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;
+EVTNAME999997;Province Resource Change;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;
 EVTDESC999997;This is an event to change the RGO good produced in this province.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;
 EVTOPTA999997;A better RGO for our nation.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;
 EVTNAME1010011;The Great Irish Famine;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;

@@ -57,7 +57,7 @@ political_decisions = {
 			set_global_flag = host_nation_picked
 			set_country_flag = host_nation
 			LCT = {
-				country_event = 999990	
+				country_event = 999990123
 			}
 		}
 		ai_will_do = {
@@ -198,7 +198,7 @@ political_decisions = {
 				
 				}
 				set_country_flag = host_nation
-				country_event = 999991
+				country_event = 999991123
 			}
 		}
 		ai_will_do = {
@@ -222,7 +222,7 @@ political_decisions = {
 					NOT = { military_access = THIS }
 					ai = no
 				}
-				country_event = 999992
+				country_event = 999992123
 			}
 		}
 		ai_will_do = {
@@ -245,7 +245,7 @@ political_decisions = {
 				limit = {
 					NOT = { military_access = THIS }
 				}
-				country_event = 999993
+				country_event = 999993123
 			}
 		}
 		ai_will_do = {
@@ -297,7 +297,7 @@ political_decisions = {
 				limit = {
 					has_country_flag = siege_country
 				}
-				country_event = 999994
+				country_event = 999994123
 			}
 			clr_country_flag = has_chosen_siege_country
 		}
@@ -363,7 +363,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			country_event = 999995
+			country_event = 999995123
 		}
 		ai_will_do = {
 			factor = 0
@@ -385,7 +385,7 @@ political_decisions = {
 				limit = {
 					NOT = { military_access = THIS }
 				}
-				country_event = 1000002
+				country_event = 1000002123
 			}
 		}
 		ai_will_do = {
@@ -473,7 +473,7 @@ political_decisions = {
 					NOT = { has_country_flag = picked_to_swap }
 					NOT = { military_access = THIS }
 				}
-				country_event = 1000006
+				country_event = 1000006123
 			}
 		}
 		ai_will_do = {

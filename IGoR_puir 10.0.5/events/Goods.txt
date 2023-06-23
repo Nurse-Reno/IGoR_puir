@@ -251,7 +251,7 @@ province_event = {
 ############################
 province_event = {
 
-	id = 1003794
+	id = 1000000
 
 	trigger = {
 		year = 1856
