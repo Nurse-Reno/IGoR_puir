@@ -1,3 +1,17 @@
+Changes for 10.0.6
+- Edited the Baku event to now be event 1106
+- Added a missing tab in ApocalypseTerraNullius.txt event file
+- Fixed a bugged owner node in the trigger of event 13020 in CivilizationAndGunBoats.txt event file
+- Commented out the Microscope imported event id 13090 in the CivilizationAndGunBoats.txt event file
+- Commented out the years_of_research bonus to certain unciv events in the CivilizationAndGunBoats.txt event file.
+- Reverted entire Goods.txt event file to an earlier version as optimization broke most of these events.
+- Removed commented out events files and put them into the archive folder.
+- Event IDs in Host nation decisions were updated to match the new event IDs in the host nation events.
+- Removed 2 archived files for left in the common folder.
+- Fixed a localisation misspelling of Resource.
+- Removed Archive folder from events and decisions folders.
+
+----------------------------------------------------
 Changes for 10.0.5
 - Fixed another goods event issue
 

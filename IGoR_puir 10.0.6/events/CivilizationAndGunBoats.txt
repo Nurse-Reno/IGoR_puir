@@ -189,8 +189,9 @@ province_event = {
 	trigger = {
 		is_coastal = yes
 		OR = {
-		owner = {
-			has_country_modifier = uncivilized_isolationism
+			owner = {
+				has_country_modifier = uncivilized_isolationism
+			}
 		}
 	}
 
@@ -774,52 +775,52 @@ province_event = {
 }
 
 #Microscope imported
-province_event = {
-	id = 13090
-	title = "EVTNAME13090"
-	desc = "EVTDESC13090"
-
-	trigger = {
-		owner = {
-			has_country_modifier = foreign_trading_post
-		}
-	}
-
-	mean_time_to_happen = {
-		months = 500
-		modifier = {
-			factor = 0.9
-			average_consciousness = 3
-		}
-		modifier = {
-			factor = 0.9
-			average_consciousness = 4
-		}
-		modifier = {
-			factor = 0.9
-			average_consciousness = 5
-		}
-		modifier = {
-			factor = 1.1
-			average_militancy = 3
-		}
-		modifier = {
-			factor = 1.1
-			average_militancy = 4
-		}
-		modifier = {
-			factor = 1.1
-			average_militancy = 5
-		}
-	}
-
-	option = {
-		name = "EVTOPTA13090"
-		owner = {
-			years_of_research = 0.05
-		}
-	}
-}
+#province_event = {
+#	id = 13090
+#	title = "EVTNAME13090"
+#	desc = "EVTDESC13090"
+#
+#	trigger = {
+#		owner = {
+#			has_country_modifier = foreign_trading_post
+#		}
+#	}
+#
+#	mean_time_to_happen = {
+#		months = 500
+#		modifier = {
+#			factor = 0.9
+#			average_consciousness = 3
+#		}
+#		modifier = {
+#			factor = 0.9
+#			average_consciousness = 4
+#		}
+#		modifier = {
+#			factor = 0.9
+#			average_consciousness = 5
+#		}
+#		modifier = {
+#			factor = 1.1
+#			average_militancy = 3
+#		}
+#		modifier = {
+#			factor = 1.1
+#			average_militancy = 4
+#		}
+#		modifier = {
+#			factor = 1.1
+#			average_militancy = 5
+#		}
+#	}
+#
+#	option = {
+#		name = "EVTOPTA13090"
+#		owner = {
+#			#years_of_research = 0.05
+#		}
+#	}
+#}
 
 #Anti-foreign revolt
 province_event = {
@@ -932,7 +933,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA13110"
 		set_country_flag = princes_recieve_foreign_education
-		years_of_research = 0.01
+		#years_of_research = 0.01
 		any_pop = {
 			consciousness = 2
 		}
@@ -974,7 +975,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA13120"
-		years_of_research = 0.01
+		#years_of_research = 0.01
 	}
 
 	#option = {
@@ -1856,7 +1857,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA13290"
-		years_of_research = 0.4
+		#years_of_research = 0.4
 		bureaucrats = {
 			militancy = 1
 		}
@@ -1870,7 +1871,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTB13290"
-		years_of_research = 0.2
+		#years_of_research = 0.2
 	}
 }
 

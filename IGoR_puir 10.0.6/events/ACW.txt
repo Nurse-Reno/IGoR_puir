@@ -1,3 +1,4 @@
+#Optimized
 #A House Divided
 country_event = {
 	id = 16000
@@ -18,12 +19,12 @@ country_event = {
 			value = 0.4
 		}
 	}
-	
-	immediate = { clr_country_flag = the_slavery_debate }
+
 	immediate = {
 		CSA = {
 			set_country_flag = the_slavery_debate
 		}
+		clr_country_flag = the_slavery_debate
 	}
 	
 	mean_time_to_happen = {
