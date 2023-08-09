@@ -1,0 +1,9 @@
+#Vaduz (20000/5000 POPS)
+3252 = {
+	bankers = {
+		culture = polar_bears
+		religion = animist
+		size = 100000
+	}
+}
+

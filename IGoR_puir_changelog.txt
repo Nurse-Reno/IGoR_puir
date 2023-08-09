@@ -1,5 +1,247 @@
+Changes for 11.0
+- Bug Fixes:
+	- Fixed the bug where the UK was the default lobby flag.
+	- Pops will now emigrate based on war exhaustion.
+	- Removed all needs reductions from social reforms because they don't actually work.
+	- Fixed bugs related to life and everyday goods not affecting pop mechanics properly.
+	- Removed any effects religion had on promotion/demotion rates.
+	- Fixed an issue where Andine Federation was showing up in Statue of Liberty event options as Peru-Bolivia Confederation.
+	- Fixed some missing generic parties in Brazil/Argentina/Colombia/Gran Colombia
+	- Fixed a LOT of issues with the zombie mod import, Zombieland should actually work now.
+	- "Give 2000 of (x) Good" option on goods grants has been changed to "Give 1999 of (x) Good" to account for stockpiles never actually reaching 2k if you're consuming that good at all.
+- General Changes:
+	- Diseases have now been fully removed except for the Irish Potato Blight and those idiotic colonial events that kill of huge amounts of pops have been removed.
+	- Size Modifiers no longer give mobilization size increases.
+	- USA now receives immigrants year round.
+	- Added a debugging event that will eliminate culture core issues in south america and greece.
+	- Austria and Austria-Hungary will now no longer be annexed if sphered my NGF upon German Formation.
+	- Brazil now starts at -200 relation with Chile, preventing the easy AI ally then war Argentina day 1 strategy.
+	- All Starting Rebels have been removed (Brazil and Spain no longer start with their rebellions).
+- Technology Changes:
+	- Organization Tech Line in the Commerce Tree has had its bonus increased from 1% factory output per tier -> 25% factory output per tier.
+	- Economic Thought and Critique Tech Line in the Commerce Tree has had its bonus increased from -1% factory input per tier -> -5% factory input per tier.
+- Inventions Changes:
+	- Trench Systems is now a 100% invention chance.
+- Reform Changes:
+	- Work Hours and Safety Regulations no longer give negative factory throughput and increased factory cost respectively, they now both give positive factory throughput at the same scaling level as Healthcare reforms.
+- Issues Changes:
+	- Citizenship Polices:
+		- Residency: +5% Factory Throughput Bonus
+		- Limited Citizenship: +5% Assimilation Rate
+		- Full Citizenship: +2% Global Immigrant Attraction and +10% RGO Output
+- Unciv Changes:
+	- Tier 3 Military Reforms have been removed. This means that uncivs now only have access to tier 1 military techs at any time.
+	- Egypt has been set to start as an unciv once again and now starts with the same starting tech/reforms as Persia.
+- National Value Changes:
+	- Autocracy has been removed.
+	- Exploitation/Liberty has been removed.
+	- Tradition has been removed.
+	- New Existing NV Modifiers (Equality is unchanged and all pop promotion bonuses have been removed from all NVs):
+		- Order:
+			- Organisation Regain Rate: +5%
+			- Leadership Points Gain: +100%
+			- Land Unit Starting Experience: +5%
+			- Army Tech Research Bonus: +5%
+		- Productivity:
+			- Factory Input Requirements: -5%
+			- Factory Output Bonus: +25%
+			- Commerce Tech Research Bonus: +5%
+			- Industry Tech Research Bonus: +5%
+		- Education:
+			- Education Efficiency Modifier: +40%
+			- Culture Tech Research Bonus: +5%
+		- Diplomacy:
+			- Diplomacy Points Modifier: +200%
+			- Influence Points Modifier: +50%
+			- Infamy Reduction Speed: +50%
+			- CB Generation Speed: +50%
+- National Focus Changes:
+	- The national focus hidden in the naval tree has been removed, the 1900 national focus tech now gives 2 national foci.
+	- New National Foci:
+		- Tier 1: Base pop promotion national foci (20%)
+		- Tier 2: Promote Bureaucrat, Capitalist, Clergy, Clerks, Craftsmen, Officers, Soldiers foci (25%) - Generics: Guaranteed Internal Migrant Priority, +400% Assimilation Bonus, 100% increased Ship repair speed, 0.3 Militancy increase and 50% social and political reform Desire increases
+		- Tier 3: Same Promotes @ 30% - Generics: -50% input requirements for factories, +100% output for factories, Mine RGO +100%, Farm RGO +100%
+		- Tier 4: Same Promotes @ 35% - Generics: -25% input and +50% output for factories, +200% Assimilation Bonus and +20% Craftsmen promote, +200% Assim Bonus and +20% Soldier promote, Guaranteed Internal Migrant Priority and +20% Bureaucrat promote
+		- Tier 5: Same Promotes @ 40% - Generics: -25% input for factories and +20% craftsmen promote, +50% output for factories and +20% craftsmen promote, -25% input for factories and +20% clerks promote, +50% output for factories and +20% clerks promote
+		- Tier 6: Same Promotes @ 45% - Generics: -12.5% input and +25% output for factories and +20% craftsmen promote, -12.5% input and +25% output for factories and +20% clerks promote, -12.5% input and +25% output for factories and +20% soldier promote, -12.5% input and +25% output for factories and +25% Farm and Mine efficiency
+- Map Changes:
+	- Terrain map has been entirely replaced with a new, more accurate terrain based on satellite imagery that will have a major balance impact, for example, the border between France and Italy is now entirely mountains provinces and Makran (the southern most province of Baluchistan, is semi desert. (Terrain stats are unchanged)
+	- Heligoland is no longer an arctic province, it is now plains (Bugfix)
+	- Host Nation is now blue bordered.
+	- Removed the Canadian core on Bangor in New England.
+	- Added a missing river crossing from Attock to Chitral.
+	- Readded the missing 4 ports to Mexico and USCA.
+	- State Redraws:
+		- Germany has been entirely redrawn to consolidate low pop states and match the river lines.
+		- Warsaw has been redrawn to match the river line.
+		- Belgium has had its 4 states returned to its vanilla 2 state composition.
+		- Netherlands has had its 4 states consolidated into 3 and the pop equally spread between the 3 states.
+		- France has been entirely redrawn to consolidate low pop states and match the river lines.
+- General Event and Decision Changes:
+	- Fixed the broken Romanian Formation decision, the ai will no longer snipe formation from you.
+	- Forfeit Finland decision has been readded to Sweden.
+	- Swapping Tech Schools no longer gives -15 prestige and Academic Confusion no longer gives any malluses.
+	- Generic Opium War event chain now gives 5 options, each for a different concession size and treaty port option.
+	- You may now transfer Tanks, Planes, and Fuel with the grant system.
+	- Ottoman decisions Move Capital to Ankara and Double Down in the Balkans has been removed. In return, Ottomans now starts with Misri and Mashriqi accepted.
+	- Arabian formation has been removed temporarily.
+	- Milyutin Reform decision on Russia now shows it requires Absolute Monarchy as a requirement.
+	- Non-Accepted Bureaucrats wipe decision has been removed, it was very exploitable and people often misused it anyways.
+	- Added a debugging decision written by Zombie Freak to allow players with puppets to reclaim control over their puppets mid war (command units can bug) and to allow their puppets time to mobilize by declaring a fake war on a non-existent tag. Massive quality of life boost to having puppets.
+	- Removed the railroaded decisions off Argentina and Brazil to core Uruguay.
+	- Cosmetic Changes to some decision pictures, primarily the on/off switches.
+	- RGO Change Decisions/Events:
+		- RGO Change decisions no longer gives a -25% RGO output modifier to the province that was recently changed.
+		- RGO Change decisions may now target provinces over 1M pops.
+		- Cooldown for both decisions has been reduced to 5 years. (Was 25 years for Mine, 10 years for Farm)
+		- Timber has been removed from options as it caused bugs forcing labourers to swap to farmers and vice versa.
+		- Choosing the "Nevermind" option now has a 1 year cooldown (down from 10 years for mine and 5 years for farm) to prevent fishing.
+		- There are now 4 RGO change options, a Farm and Mine change for States and another pair for Colonies. The Farm/Mine of both share cooldowns.
+- Economic Changes:
+	- Dye has been completely removed as a good
+	- Leather Fabric Factory and Wool Fabric Factory have been removed
+	- All Fabric is now made with cotton as the only input
+	- Austria has been given a healthy starting war economy to give it more industry score and support its now massive army.
+- India Changes:
+	- Pop Change:
+		- India has been reduced by 70% pop, to match the 70% China nerf.
+- World Bank and Host Nation Changes:
+	- Liechtenstein has finally been retired, the Host Nation will now refer to itself as the Host Nation.
+	- The Host Nation is now the world bank, to allow the host player to view the economy in real time during the mp games.
+	- Added some extra checks to insure against the world bank ai growing above other nations in rank, throttling their goods.
+	- Added a trigger to prevent GHO and the World Bank from being sphered.
+	- Added a diplo point bonus to host nation to make it easier to do transfers for players.
+	- All excess RGOs EXCEPT Oil and Rubber are guaranteed to be purchased by the world bank all game.
+	- The base price of all the above mentioned goods has been lowered to 22% of the old base price to account for the demand pushing prices immediately to maximum. This will result in these goods always being 10% above the old base price, which is where they sat comfortably in earlier versions of the mod.
+- Building Changes:
+	- Buildings
+		- Railroad: 720 days --> 360 days
+		- Forts: 1080 days --> 360 days
+		- Naval Bases: 1080 days --> 360 days
+			- Naval Bases can now be built in every coastal province, not just 1 per coastal state.
+	- Naval Units
+		- Frigate: 180 days --> 90 days
+		- Commerce Raider: 360 days --> 180 days
+		- Ironclad: 360 days --> 180 days
+		- Man o War: 360 days --> 180 days
+		- Monitor: 360 days --> 180 days
+		- Cruiser: 380 days --> 180 days
+		- Battleship: 720 days --> 360 days
+		- Dreadnought: 720 days --> 360 days
+- Pop Consumption Changes:
+	- Removed all instances of military goods consumption and strategic resource consumption (oil, fuel, aeroplanes, etc) by all pops.
+	- Rich Strata now consume regular clothes and furniture as an everyday good and luxury clothes + luxury furniture as a luxury good.
+- Pop and Liferating Changes:
+	- Britain, France, Prussia, Russia, Austria, Turkey, Sardinia, Two Sicilies, Spain, Portugal, Belgium, Netherlands, Sweden, and the USA have been given a 500% starting bureaucrat bonus setting their day 1 national admin efficiency at 100%, allowing these nations to essentially "skip" the early game bureaucrat focus step as an advantage to all Euros and USA. (Russia is not quite 100%, but its been significantly helped)
+	- British Cores have been lowered in liferating from on average 38 to average 35, Irish cores have been raised from an average of 30 to 35.
+	- Spanish Cores have been raised to at least have 35 liferating
+	- Italian Cores have been raised to at least have 35 liferating and removed the liferating buff Italy receives for formation, its average will now remain 35.
+	- Russian Cores have been reduced to at most 35 liferating, Moscow is 40 liferating.
+	- Netherlands now accepts Wallonian.
+	- Ukrainian Breadbasket has been removed.
+- Military Changes:
+	- Major European Early Game Rebalance:
+		- All Colonial powers from Morrocco to South East Asia have been given significantly more tier 1 naval bases so the journey is less attritioning.
+		- Ahistorical change to the two islands west of Madagascar, one island has been given to the Netherlands and the other has been given to Spain, to assist in fleet movement.
+		- Prussian starting brigades reduced from 50 -> 30.
+		- Austrian starting brigades increased from 50 -> 70 and tech has been made parity to France at start.
+		- France starting brigades increased from 50 -> 80.
+		- Russia starting fleet has been removed entirely.
+		- France Ship Buff (They have been given a tier 4 clipper factory and textile factory in Normandy to cover the necessary goods for this fleet, and for context the british starting fleet is 72 Man o Wars, 80 Frigates, 0 Transports):
+			Man o Wars: 33 -> 60
+			Frigates: 30 -> 50
+			Transports: 10 -> 20
+		- Dutch Ship Buff (They have been given a tier 2 clipper factory and the necessary supporting factories in Holland for this fleet, and they are all now based in Rotterdam at the start.)
+			Man o Wars: 5 -> 10
+			Frigates: 14 -> 15
+			Transports: 12 -> 20
+		- Spanish Ship Buff (They have been given a tier 2 clipper factory and the necessary supporting factories in Andalucia for this fleet, and they are all now based in Cadiz at the start.)
+			Man o Wars: 9 -> 15
+			Frigates: 9 -> 15
+			Transports : 10 -> 20
+		- Swedish Ship Buff (They have been given a tier 2 clipper factory and the necessary supporting factories in Stockholm for this fleet, but they will be missing the fabric at the start to produce clippers, so go get sphered)
+			Man o Wars: 4 -> 5
+			Frigates: 4 -> 10
+			Transports : 3 -> 10
+	- Minimum Soldier pop requirement for a regiment from non-core has been reduced from 3,000 soldiers to 1,000 (base) and colonies from 5,000 soldiers to 3,000 soldiers.
+	- Consumption:
+		- All Infantry types have had their maintenance small arms consumption increased by 700%, ammunition consumption increased by 100%, and canned goods consumption increased by 100% per regiment.
+		- All Artillery types have had their maintenance artillery consumption reduced by 50%, ammunition consumption increased by 400%, canned goods consumption increased by 100% , and now consume 0.025 small arms per regiment.
+		- All Cavalry types have had their maintenance small arms consumption increased by 400% (parity to infantry consumption), ammunition consumption increased by 400%, and canned goods consumption increased by 100%.
+		- Naval Slider minimum has been reduced from 40% to 10%.
+		- All Naval Ships now consume canned goods again at their old rates:
+			Frigate: 0.05 canned goods per ship
+			Man o War: 0.1 canned goods per ship
+			Commerce Raider: 0.1 canned goods per ship
+			Cruiser: 0.15 canned goods per ship
+			Monitor: 0.2 canned goods per ship
+			Ironclad: 0.2 canned goods per ship
+			Battleship: 0.4 canned goods per ship
+			Dreadnought: 0.5 canned goods per ship
+		- All Non-Wooden Ships now consume coal again at a new rate:
+			Steamer Transport: 0.1 coal per ship
+			Commerce Raider: 0.1 coal per ship
+			Cruiser: 0.15 coal per ship
+			Monitor: 0.2 coal per ship
+			Ironclad: 0.2 coal per ship
+			Battleship: 0.4 coal per ship
+			Dreadnought: 0.5 coal per ship
+		- All Naval Artillery consumption has been reduced by 50%.
+	Naval Retreat Mechanics have been reworked, all existing in combat speed/retreat speed/disengage/etc are the same, but you are no longer forced to stay in a battle until you can click elsewhere and initiate a retreat. You may retreat at anytime during a naval battle.
+- State Size and CB Changes:
+	- New World Small State cost has been reverted to base costs, no longer scaled to Medium State cost.
+	- Added new State Size designation "Tiny State".
+	- Dismantle Fortifications is now 4 WS.
+	- All new stat size designations and their corresponding warscore costs are now visible when mousing over the size flag on each state's provinces.
+	- State Size designations will now scale based on the phase of the game:
+		1836 - 1870:
+			Tiny State - Less than or equal to 100k Pops
+			Small State - 100k to 400k Pops
+			Medium State - 400k to 700k Pops
+			Large State - 700k to 1M Pops
+			Huge State - Greater than or equal to 1M Pops
+		1870 - 1900:
+			Tiny State - Less than or equal to 150k Pops
+			Small State - 150k to 600k Pops
+			Medium State - 600k to 1M Pops
+			Large State - 1M to 1.5M Pops
+			Huge State - Greater than or equal to 1.5M Pops
+		1900+:
+			Tiny State - Less than or equal to 200k Pops
+			Small State - 200k to 800k Pops
+			Medium State - 800k to 1.4M Pops
+			Large State - 1.4M to 2M Pops
+			Huge State - Greater than or equal to 2M Pops
+	- New Costs for Land CBs
+		Acquire Core:
+			Tiny: 4 WS
+			Small: 12 WS
+			Medium: 16 WS
+			Large: 24 WS
+			Huge: 32 WS
+		Acquire State and Free Peoples:
+			Tiny: 12 WS
+			Small: 24 WS
+			Medium: 32 WS
+			Large: 48 WS
+			Huge: 64 WS
+		Demand Concession:
+			Tiny: 8 WS
+			Small: 16 WS
+			Medium: 24 WS
+			Large: 32 WS
+			Huge: 40 WS
+		Place in the Sun:
+			Tiny: 4 WS
+			Small: 8 WS
+			Medium: 12 WS
+			Large: 16 WS
+			Huge: 20 WS
+		Take Capital:
+			- Always 64 WS
+
+----------------------------------------------------
 Changes for 10.0.6
-- Edited the Baku event to now be event 1106
 - Added a missing tab in ApocalypseTerraNullius.txt event file
 - Fixed a bugged owner node in the trigger of event 13020 in CivilizationAndGunBoats.txt event file
 - Commented out the Microscope imported event id 13090 in the CivilizationAndGunBoats.txt event file

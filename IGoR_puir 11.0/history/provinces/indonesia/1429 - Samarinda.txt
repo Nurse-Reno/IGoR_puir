@@ -1,0 +1,5 @@
+add_core = KLM
+#add_core = INO
+trade_goods = sulphur
+life_rating = 15
+

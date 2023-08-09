@@ -1,0 +1,24 @@
+country_event = {
+	id = 74737271
+	title = "Treaty Port Flag Debug Event"
+	desc = "You added a treaty port CB but did not take it in the peace, this event exists to clean up your flags so no bugs occur."
+	picture = "native_force"
+	
+	
+	trigger = {
+		has_country_flag = treaty_port_count_one
+		NOT = { war_with = CHI }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		clr_country_flag = treaty_port_count_one
+	}
+	
+	option = {
+		name = "Thanks"
+	}
+}

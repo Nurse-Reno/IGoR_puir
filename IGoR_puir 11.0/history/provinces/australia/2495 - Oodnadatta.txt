@@ -1,0 +1,6 @@
+add_core = AST
+trade_goods = iron
+life_rating = 25
+
+
+

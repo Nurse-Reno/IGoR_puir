@@ -1,0 +1,6 @@
+owner = ABU
+controller = ABU
+add_core = ABU
+trade_goods = cattle
+life_rating = 35
+

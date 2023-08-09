@@ -1,0 +1,85 @@
+political_decisions = {
+	form_peru_bolivia_confederation = {
+		picture = peru_bolivia
+		alert = yes
+		potential = {
+			OR = {
+				tag = BOL
+				tag = PEU
+			}
+			NOT = {
+				exists = PBC
+			}
+		}	
+		allow = {
+			prestige = 25
+			war = no
+			2310 = { #La Paz
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							in_sphere = THIS
+							overlord = {
+								tag = THIS
+							}
+						}
+					}
+				}
+			}
+			2295 = { #Lima
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							in_sphere = THIS
+							overlord = {
+								tag = THIS
+							}
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 10
+			any_country = {
+				limit = {
+					OR = {
+						tag = PEU
+						tag = BOL
+					}
+					OR = {
+						vassal_of = THIS
+						in_sphere = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			
+			PEU = { all_core = { remove_core = PEU add_core = PBC } }
+			BOL = { all_core = { remove_core = BOL add_core = PBC } }
+			
+			any_country = {
+				limit = {
+					in_sphere = THIS
+				}
+				
+				any_owned = {
+					limit = {
+						is_core = PBC
+					}
+					secede_province = THIS
+				}
+
+			}
+
+			change_tag = PBC
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

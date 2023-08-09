@@ -1,0 +1,18 @@
+owner = ENG
+controller = ENG
+add_core = SAF
+naval_base = 1
+trade_goods = fruit
+life_rating = 35
+colonial = 2
+1836.1.2 = {
+	owner = SAF
+	controller = SAF
+	colonial = 0
+}
+1861.1.1 = { 
+	railroad = 1 
+	naval_base = 1
+}
+
+
