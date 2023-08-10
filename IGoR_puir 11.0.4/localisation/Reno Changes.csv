@@ -383,8 +383,8 @@ conquest_of_darfur_ARA_title;Begin Conquest of Darfur;;;;;;;;;;;;;x;;;;;;;;;;;
 conquest_of_darfur_ARA_desc;An expansionist Khedive, Isma'il I moved to incorporate the territory of Darfur into the Egyptian Sudan in 1874.;;;;;;;;;;;;;x;;;;;;;;;;;
 craftsmen_fix_cooldown;Craftsmen Fix Cooldown;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;
 craftsmen_fix_cooldown_desc;Craftsmen Fix Cooldown is 10 years.;;;;;;;;;;;;;x,,,,,,,,,,,,;;;;;;;;;;;
-bureaucrats_fix_cooldown;Non-Accepted Bureaucrats Fix Cooldown;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;
-bureaucrats_fix_cooldown_desc;Non-Accepted Bureaucrats Fix Cooldown is 10 years.;;;;;;;;;;;;;x,,,,,,,,,,,,;;;;;;;;;;;
+bureaucrats_fix_cooldown;Non-Accepted Bureaucrats Decision Cooldown;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;
+bureaucrats_fix_cooldown_desc;Non-Accepted Bureaucrats Decision Cooldown is 10 years.;;;;;;;;;;;;;x,,,,,,,,,,,,;;;;;;;;;;;
 anti_italy_title;Form Anti-Italy;;;;;;;;;;;;;X,,,,,,,,,,,,,,;;;;;;;;;;;
 anti_italy_desc;Our regional rivals are promoting pan-Italian nationalism in an attempt to legitimize the conquest of their neighbors! We must form a counter bloc to stop their clearly expansionist policy.
 italy_victory_title;Italy Has Pervailed!;;;;;;;;;;;;;X,,,,,,,,,,,,,,;;;;;;;;;;;
@@ -412,8 +412,8 @@ unciv_protection_off_title;1865 Protection OFF (Unavailable after 1836);;;;;;;;;
 unciv_protection_off_desc;China and Japan specific decision that turns off your protection from acquire land CBs, that you otherwise would have until 1865. USE AT YOUR OWN DISCRETION.;;;;;;;;;;;;;;x
 craftsmen_fix_title;Craftsmen Salvage Decision (10 year cooldown);;;;;;;;;;;;;;x
 craftsmen_fix_desc;This decision is intended to salvage your country after it has been craftsmen hijacked. It will revert all non-core/non-accepted craftsmen on your cores to artisans so that your core craftsmen will start working. (Think South Germans in Venetia hijacking.) BECAREFUL OF USE.;;;;;;;;;;;;;;x
-bureaucrats_fix_title;Non-Accepted Bureaucrats Decision (10 year cooldown);;;;;;;;;;;;;;x
-bureaucrats_fix_desc;This decision is intended to convert non-accepted Bureaucrats into Artisans, in both states and colonies, so they stop getting fat off of state admin funding.;;;;;;;;;;;;;;x
+bureaucrats_fix_title;§YRemove Minorities from Administrative Positions (10 Year Cooldown);;;;;;;;;;;;;;x
+bureaucrats_fix_desc;Our government is in need of restructuring due to seperatists corrupting our ranks, especially in states and colonies where our language is hardly spoken. Something must be done to filter out the dissenting elements within the administration left in these areas to make way for a more loyal bureaucracy.\n\n§GAll Non-Accepted Bureaucrats will be converted into Artisans;;;;;;;;;;;;;;x
 france_sphere_jap_title;Ask The French Empire for Support;;;;;;;;;;;;;;x
 france_sphere_jap_desc;There is such beauty and strength in Paris that could help us craft our destiny in the East. Perhaps, we could create something out of this admiration. (Decision only available in 1836);;;;;;;;;;;;;;x
 britain_sphere_jap_title;Ask The British Empire for Support;;;;;;;;;;;;;;x
