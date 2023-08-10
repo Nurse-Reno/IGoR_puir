@@ -1,3 +1,16 @@
+Changes for 11.0.5
+- Fixed a bugged terrain entry for Singapore that was turning it into an arctic province.
+
+----------------------------------------------------
+Changes for 11.0.4
+- Readded the unaccepted bureaucrat decision and polished it up.
+- Removed the old promotion garbage from each poptype so you won't see things like "bureaucrat bonus 6" anymore.
+
+----------------------------------------------------
+Changes for 11.0.3
+- Added Oil and Rubber RGOs to world bank because their removal from pop consumption tanks employment. Their base prices have been increased by 10% and divided by 5 to account for the demand, so their final prices should be 10% above old base price where they sat comfortably before the eco change.
+
+----------------------------------------------------
 Changes for 11.0.2
 - Take Capital CB is actually 66 WS and is now reflected properly in state size core flag tooltip.
 

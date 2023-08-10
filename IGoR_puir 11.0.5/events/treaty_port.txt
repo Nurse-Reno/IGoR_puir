@@ -1,0 +1,42 @@
+province_event = {
+	id = 776543
+	title = "Treaty Port Infrastructure"
+	desc = "Colonial ports had significant amounts of investment, especially in infrastructure. In this case, that infrastructure is focused on extracting resources more efficiently."
+	
+	trigger = {
+		OR = {
+			province_id = 1566
+			province_id = 1569
+			province_id = 1496
+			province_id = 1498
+			province_id = 1601
+			province_id = 1538
+			province_id = 1606
+			province_id = 1608
+			province_id = 3249
+			province_id = 1481
+			#province_id = 1499
+			#province_id = 2562
+		}
+		NOT = {
+			has_province_modifier = treaty_port_buff
+			owned_by = CHI
+		}
+		OR = {
+			is_colonial = yes
+			owned_by = JAP
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "Invest!"
+		add_province_modifier = { 
+			name = treaty_port_buff 
+			duration = -1
+		}
+	}
+}

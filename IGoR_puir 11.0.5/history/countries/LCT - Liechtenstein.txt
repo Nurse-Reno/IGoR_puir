@@ -1,0 +1,7 @@
+capital = 3252
+primary_culture = polar_bears
+ruling_party = GHO_exclusive
+civilized = no
+
+set_country_flag = world_bank_off
+set_country_flag = ghostland
