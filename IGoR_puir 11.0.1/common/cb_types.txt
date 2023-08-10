@@ -955,12 +955,6 @@ acquire_state_tiny = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		this = { NOT = { badboy = 1 } }
-		NOT = {
-			OR = {
-				has_country_flag = north_american_immigrant_nation
-				has_country_flag = south_american_immigrant_nation
-			}
-		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1057,12 +1051,6 @@ acquire_state_small = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		this = { NOT = { badboy = 1 } }
-		NOT = {
-			OR = {
-				has_country_flag = north_american_immigrant_nation
-				has_country_flag = south_american_immigrant_nation
-			}
-		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality

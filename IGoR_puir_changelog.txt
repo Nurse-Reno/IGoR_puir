@@ -1,3 +1,7 @@
+Changes for 11.0.1
+- (Bugfix) Tiny and Small Acquire State CBs have been fixed.
+
+----------------------------------------------------
 Changes for 11.0
 - Bug Fixes:
 	- Fixed the bug where the UK was the default lobby flag.
@@ -58,12 +62,44 @@ Changes for 11.0
 - National Focus Changes:
 	- The national focus hidden in the naval tree has been removed, the 1900 national focus tech now gives 2 national foci.
 	- New National Foci:
-		- Tier 1: Base pop promotion national foci (20%)
-		- Tier 2: Promote Bureaucrat, Capitalist, Clergy, Clerks, Craftsmen, Officers, Soldiers foci (25%) - Generics: Guaranteed Internal Migrant Priority, +400% Assimilation Bonus, 100% increased Ship repair speed, 0.3 Militancy increase and 50% social and political reform Desire increases
-		- Tier 3: Same Promotes @ 30% - Generics: -50% input requirements for factories, +100% output for factories, Mine RGO +100%, Farm RGO +100%
-		- Tier 4: Same Promotes @ 35% - Generics: -25% input and +50% output for factories, +200% Assimilation Bonus and +20% Craftsmen promote, +200% Assim Bonus and +20% Soldier promote, Guaranteed Internal Migrant Priority and +20% Bureaucrat promote
-		- Tier 5: Same Promotes @ 40% - Generics: -25% input for factories and +20% craftsmen promote, +50% output for factories and +20% craftsmen promote, -25% input for factories and +20% clerks promote, +50% output for factories and +20% clerks promote
-		- Tier 6: Same Promotes @ 45% - Generics: -12.5% input and +25% output for factories and +20% craftsmen promote, -12.5% input and +25% output for factories and +20% clerks promote, -12.5% input and +25% output for factories and +20% soldier promote, -12.5% input and +25% output for factories and +25% Farm and Mine efficiency
+		- Tier 1: 
+			- Base pop promotion national foci (20%)
+		- Tier 2: 
+			- Promote Bureaucrat, Capitalist, Clergy, Clerks, Craftsmen, Officers, Soldiers foci (25%) 
+			- Generics: 
+				- Guaranteed Internal Migrant Priority
+				- +400% Assimilation Bonus 
+				- 100% increased Ship repair speed 
+				- 0.3 Militancy increase 
+				- 50% social and political reform Desire increases
+		- Tier 3: 
+			- Same Promotes @ 30% 
+			- Generics: 
+				- -50% input requirements for factories
+				- +100% output for factories
+				- Mine RGO +100%
+				- Farm RGO +100%
+		- Tier 4: 
+			- Same Promotes @ 35% 
+			- Generics: 
+				- -25% input and +50% output for factories
+				- +200% Assimilation Bonus and +20% Craftsmen promote
+				- +200% Assim Bonus and +20% Soldier promote
+				- Guaranteed Internal Migrant Priority and +20% Bureaucrat promote
+		- Tier 5: 
+			- Same Promotes @ 40% 
+			- Generics: 
+				- -25% input for factories and +20% craftsmen promote
+				- +50% output for factories and +20% craftsmen promote
+				- -25% input for factories and +20% clerks promote
+				- +50% output for factories and +20% clerks promote
+		- Tier 6: 
+			- Same Promotes @ 45% 
+			- Generics: 
+				- -12.5% input and +25% output for factories and +20% craftsmen promote 
+				- -12.5% input and +25% output for factories and +20% clerks promote
+				- -12.5% input and +25% output for factories and +20% soldier promote
+				- -12.5% input and +25% output for factories and +25% Farm and Mine efficiency
 - Map Changes:
 	- Terrain map has been entirely replaced with a new, more accurate terrain based on satellite imagery that will have a major balance impact, for example, the border between France and Italy is now entirely mountains provinces and Makran (the southern most province of Baluchistan, is semi desert. (Terrain stats are unchanged)
 	- Heligoland is no longer an arctic province, it is now plains (Bugfix)
@@ -187,7 +223,7 @@ Changes for 11.0
 			Battleship: 0.4 coal per ship
 			Dreadnought: 0.5 coal per ship
 		- All Naval Artillery consumption has been reduced by 50%.
-	Naval Retreat Mechanics have been reworked, all existing in combat speed/retreat speed/disengage/etc are the same, but you are no longer forced to stay in a battle until you can click elsewhere and initiate a retreat. You may retreat at anytime during a naval battle.
+	- Naval Retreat Mechanics have been reworked, all existing in combat speed/retreat speed/disengage/etc are the same, but you are no longer forced to stay in a battle until you can click elsewhere and initiate a retreat. You may retreat at anytime during a naval battle.
 - State Size and CB Changes:
 	- New World Small State cost has been reverted to base costs, no longer scaled to Medium State cost.
 	- Added new State Size designation "Tiny State".
