@@ -34,6 +34,8 @@ world_bank_factory = {
 		tea = 1000000000
 		coffee = 1000000000
 		opium = 1000000000
+		rubber = 1000000000
+		oil = 1000000000
 	}
 	time = 30
 	visibility = yes
