@@ -22,7 +22,7 @@ sanitation = {
 		}
 	}
 	effect = {
-		pop_growth = 0.0001
+		#pop_growth = 0.0001
 	}	
 }
 
@@ -46,7 +46,7 @@ thomas_robert_malthus ={
 
 	}
 	effect = {
-		pop_growth = 0.0001
+		#pop_growth = 0.0001
 	}	
 }
 
@@ -66,7 +66,7 @@ prophylactics = {
 		}
 	}
 	effect = {
-		#pop_growth = -0.0001
+		##pop_growth = -0.0001
 	}	
 }
 
@@ -89,7 +89,7 @@ cholera_vaccine = {
 		}
 	}
 	effect = {
-		pop_growth = 0.0001
+		#pop_growth = 0.0001
 	}	
 }
 
@@ -114,7 +114,7 @@ antitoxins = {
 
 	}
 	effect = {
-		pop_growth = 0.0002
+		#pop_growth = 0.0002
 	}	
 }
 
@@ -142,6 +142,6 @@ defamation_of_women = {
 		}
 	}
 	effect = {
-		pop_growth = 0.0001
+		#pop_growth = 0.0001
 	}	
 }

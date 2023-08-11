@@ -1003,6 +1003,8 @@ basic_chemistry = {
 	year = 1836
 	cost = 3600
 
+	pop_growth = 0.0002
+
 	activate_building = fertilizer_factory 
 	ai_chance = {
 		factor = 1.1
@@ -1022,6 +1024,7 @@ medicine = {
 	cost = 7200
 
 	supply_limit = 0.25
+	pop_growth = 0.0003
 	
 	ai_chance = {
 		factor = 100
@@ -1045,6 +1048,7 @@ inorganic_chemistry = {
 	cost = 10800
 
 	supply_limit = 0.25
+	pop_growth = 0.0001
 	
 	ai_chance = {
 		factor = 100
@@ -1080,6 +1084,7 @@ organic_chemistry = {
 	cost = 14400
 
 	supply_limit = 0.25
+	pop_growth = 0.0002
 	
 	ai_chance = {
 		factor = 100
@@ -1111,6 +1116,8 @@ electricity = {
 	cost = 18000
 	
 	supply_limit = 0.50
+	pop_growth = 0.0002
+	
 	ai_chance = {
 		factor = 100
 		modifier = {
