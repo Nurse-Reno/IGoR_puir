@@ -1003,9 +1003,9 @@ basic_chemistry = {
 	year = 1836
 	cost = 3600
 
+	activate_building = fertilizer_factory
 	pop_growth = 0.0002
-
-	activate_building = fertilizer_factory 
+	
 	ai_chance = {
 		factor = 1.1
 		modifier = {

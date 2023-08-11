@@ -1,3 +1,7 @@
+Changes for 11.0.6
+- (Bugfix) Fixed this "All pop growth hidden across inventions have been moved to their corresponding tech level on supply limit tech."
+
+----------------------------------------------------
 Changes for 11.0.5
 - Fixed a bugged terrain entry for Singapore that was turning it into an arctic province.
 - All pop growth hidden across inventions have been moved to their corresponding tech level on supply limit tech.
