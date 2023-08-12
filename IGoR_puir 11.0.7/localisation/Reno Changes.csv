@@ -533,7 +533,7 @@ PBC_proletarian_dictatorship_ADJ;Peru-Bolivian;;;;;;;;;;;;;x
 #############################################;;;;;;;;;;;;;;x
 #Additional CBs;;;;;;;;;;;;;;x
 #############################################;;;;;;;;;;;;;;x
-acquire_core_state_tiny;Acquire Small Core;;;;;;;;;;;
+acquire_core_state_tiny;Acquire Tiny Core;;;;;;;;;;;
 acquire_core_state_tiny_short;Acquire $STATE$;;;;;;;;;;;
 acquire_core_state_tiny_desc;Aquire an enemy §Ytiny state§W where we have §Ycore provinces.§W;;;;;;;;;;;
 acquire_core_state_tiny_setup;Acquire tiny core $STATE$ from $RECIPIENT$.;;;;;;;;;;;

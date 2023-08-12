@@ -1,3 +1,7 @@
+Changes for 11.0.7
+- (Bugfix) Fixed localisation issue with acquire tiny core.
+
+----------------------------------------------------
 Changes for 11.0.6
 - (Bugfix) Fixed this "All pop growth hidden across inventions have been moved to their corresponding tech level on supply limit tech."
 
