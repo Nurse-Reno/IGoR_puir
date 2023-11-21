@@ -1,0 +1,7 @@
+owner = TRN
+controller = TRN
+add_core = TRN
+add_core = COM
+trade_goods = coal
+life_rating = 35
+

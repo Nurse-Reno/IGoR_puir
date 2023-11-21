@@ -1,0 +1,11 @@
+owner = LCT
+controller = LCT
+add_core = LCT
+trade_goods = precious_metal
+life_rating = 40
+
+#state_building = {
+#	level = 1
+#	building = world_bank_factory
+#	upgrade = yes
+#}

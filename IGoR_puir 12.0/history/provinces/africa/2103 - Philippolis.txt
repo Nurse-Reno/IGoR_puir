@@ -1,0 +1,9 @@
+owner = ORA
+controller = ORA
+add_core = ORA
+add_core = COM
+trade_goods = iron
+life_rating = 35
+
+
+

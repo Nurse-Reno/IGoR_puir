@@ -1,0 +1,124 @@
+country_event = {
+
+	id = 370032
+
+	trigger = {
+		invention = pop_shift_invention_2
+		NOT = {
+			has_country_flag = tier_2
+		}
+	}
+ 
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	title = "tier_2_title"
+	desc = "tier_2_desc"
+	picture = "troy"
+
+	option = {
+		name = "Thank you, Reno!"
+		set_country_flag = tier_2
+	}
+}
+
+country_event = {
+
+	id = 370033
+
+	trigger = {
+		invention = pop_shift_invention_3
+		NOT = {
+			has_country_flag = tier_3
+		}
+	}
+ 
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	title = "tier_3_title"
+	desc = "tier_3_desc"
+	picture = "troy"
+
+	option = {
+		name = "Thank you, Reno!"
+		set_country_flag = tier_3
+	}
+}
+
+country_event = {
+
+	id = 370034
+
+	trigger = {
+		invention = pop_shift_invention_4
+		NOT = {
+			has_country_flag = tier_4
+		}
+	}
+ 
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	title = "tier_4_title"
+	desc = "tier_4_desc"
+	picture = "troy"
+
+	option = {
+		name = "Thank you, Reno!"
+		set_country_flag = tier_4
+	}
+}
+
+country_event = {
+
+	id = 370035
+
+	trigger = {
+		invention = pop_shift_invention_5
+		NOT = {
+			has_country_flag = tier_5
+		}
+	}
+ 
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	title = "tier_5_title"
+	desc = "tier_5_desc"
+	picture = "troy"
+
+	option = {
+		name = "Thank you, Reno!"
+		set_country_flag = tier_5
+	}
+}
+
+country_event = {
+
+	id = 370036
+
+	trigger = {
+		invention = pop_shift_invention_6
+		NOT = {
+			has_country_flag = tier_6
+		}
+	}
+ 
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	title = "tier_6_title"
+	desc = "tier_6_desc"
+	picture = "troy"
+
+	option = {
+		name = "Thank you, Reno!"
+		set_country_flag = tier_6
+	}
+}

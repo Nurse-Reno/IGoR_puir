@@ -1,0 +1,9 @@
+trade_goods = wool
+life_rating = 30
+add_core = COM
+1861.1.1 = {
+	owner = COM
+	controller = COM
+	colonial = 2
+}
+

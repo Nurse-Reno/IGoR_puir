@@ -1,0 +1,264 @@
+#prevents pop growth in world bank / ghost nation
+
+country_event = {
+	id = 9991200
+	title = "Prestige Slap LCT"
+	desc = "Prevents some issues down the road"
+	picture = "dixie"
+	
+	trigger = {
+		LCT = {
+			prestige = 1
+		}
+		tag = LCT
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		LCT = {
+			prestige = -100
+		}
+	}
+	
+	option = {
+		name = "Alright, sounds good."
+		ai_chance = {
+			factor = 1.0
+		}
+	}
+}
+
+country_event = {
+	id = 9991201
+	title = "Prestige Slap GHO"
+	desc = "Prevents some issues down the road"
+	picture = "dixie"
+	
+	trigger = {
+		GHO = {
+			prestige = 1
+		}
+		tag = GHO
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		GHO = {
+			prestige = -100
+		}
+	}
+	
+	option = {
+		name = "Alright, sounds good."
+		ai_chance = {
+			factor = 1.0
+		}
+	}
+}
+
+country_event = {
+	id = 9991119
+	title = "Ghostland Primitive Forced"
+	desc = "Prevents some issues down the road"
+	picture = "dixie"
+	
+	trigger = {
+		GHO = {
+			civilized = yes
+		}
+		tag = GHO
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		GHO = {
+			civilized = no
+		}
+	}
+	
+	option = {
+		name = "Alright, sounds good."
+		ai_chance = {
+			factor = 1.0
+		}
+	}
+}
+
+country_event = {
+	id = 9991161
+	title = "World Bank Primitive Forced"
+	desc = "Prevents some issues down the road"
+	picture = "dixie"
+	
+	trigger = {
+		LCT = {
+			civilized = yes
+		}
+		tag = LCT
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		LCT = {
+			civilized = no
+		}
+	}
+	
+	option = {
+		name = "Alright, sounds good."
+		ai_chance = {
+			factor = 1.0
+		}
+	}
+}
+
+country_event = {
+	id = 9991120
+	title = "World Market Pop Growth Nerf"
+	desc = "Prevents some issues down the road"
+	picture = "dixie"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = GHO
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "Alright, sounds good."
+		add_country_modifier = {
+			name = ghost_rp_nerf
+			duration = -1
+		}
+		ai_chance = {
+			factor = 1.0
+		}
+	}
+}
+
+country_event = {
+	id = 9991160
+	title = "World Bank AI Nerf"
+	desc = "Prevents some issues down the road"
+	picture = "dixie"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = LCT
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "Alright, sounds good."
+		build_factory_in_capital_state = world_bank_factory
+		add_country_modifier = {
+			name = world_bank_rp_nerf
+			duration = -1
+		}
+		ai_chance = {
+			factor = 1.0
+		}
+	}
+}
+
+country_event = {
+	id = 9991121
+	title = "Don't Sphere Ghostland"
+	desc = "Prevents some issues down the road"
+	picture = "dixie"
+	
+	trigger = {
+		GHO = {
+			part_of_sphere = yes
+		}
+		tag = GHO
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		random_country = {
+			limit = {
+				is_sphere_leader_of = GHO
+			}
+			diplomatic_influence = {
+			who = GHO
+			value = -400
+			}
+			relation = {
+				who = GHO
+				value = -200
+			}
+		}
+	}
+	
+	option = {
+		name = "Alright, sounds good."
+		ai_chance = {
+			factor = 1.0
+		}
+	}
+}
+
+country_event = {
+	id = 9991122
+	title = "Don't Sphere the Host Nation"
+	desc = "Prevents some issues down the road"
+	picture = "dixie"
+	
+	trigger = {
+		LCT = {
+			part_of_sphere = yes
+		}
+		tag = GHO
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		random_country = {
+			limit = {
+				is_sphere_leader_of = LCT
+			}
+			diplomatic_influence = {
+			who = LCT
+			value = -400
+			}
+			relation = {
+				who = LCT
+				value = -200
+			}
+		}
+	}
+	
+	option = {
+		name = "Alright, sounds good."
+		ai_chance = {
+			factor = 1.0
+		}
+	}
+}

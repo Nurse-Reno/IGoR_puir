@@ -1,7 +1,0 @@
-owner = NET
-controller = NET
-naval_base = 1
-trade_goods = cattle
-life_rating = 35
-colonial = 1
-

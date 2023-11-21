@@ -1,0 +1,6 @@
+owner = FRA
+controller = FRA
+naval_base = 1
+trade_goods = fruit
+life_rating = 30
+colonial = 2
