@@ -1,45 +1,50 @@
+----------------------------------------------------
+Changes for 12.0.1
+- (Bugfix) Fixed an issue with political parties of Commonwealth causing crashes
+
+----------------------------------------------------
 Changes for 12.0
-- Bug Fixes
-	- Fixed a bug allowing civ'd nations to declare free people on uncivs, should only be civ on civ as a cb.
-	- Removed bonus liferating Italy receives in Venice/Lombardia for basically just forming Italy.
-	- Fixed bugged provinces in Egypt that were considered colonies even while Egypt was uncivilized.
-	- Fixed a bug where uncivs were able to declare place in the sun on civs.
-	- Removed all the consumption reduction and bonuses in size modifiers and revanchism to prevent an exploit where you could go over 100% supply consumption reduction.
-	- Removed all assimilation buffs in event and triggered modifiers as it allowed people to exploit those bonuses across the planet.
-	- Fixed Easter Island's terrain from Arctic --> Hills
-	- Removed Gorkha Kingdom triggered modifier giving Nepal 0.01% pop growth for no reason.
-	- Added an exception in assimilation to prevent base culture groups of the western hemisphere from getting absolutely btfo by assimilation. (They will assimilate at base speed still)
-	- Removed Iron RGO bonus to canned goods and replaced it with Wool RGO bonus, as was intended.
-	- Portugal-Brazil should now properly become an immigrant nation upon formation and inherits competitive political reforms upon formation for this exact reason.
+- Bug Fixes:
+	Fixed a bug allowing civ'd nations to declare free people on uncivs, should only be civ on civ as a cb.
+	Removed bonus liferating Italy receives in Venice/Lombardia for basically just forming Italy.
+	Fixed bugged provinces in Egypt that were considered colonies even while Egypt was uncivilized.
+	Fixed a bug where uncivs were able to declare place in the sun on civs.
+	Removed all the consumption reduction and bonuses in size modifiers and revanchism to prevent an exploit where you could go over 100% supply consumption reduction.
+	Removed all assimilation buffs in event and triggered modifiers as it allowed people to exploit those bonuses across the planet.
+	Fixed Easter Island's terrain from Arctic --> Hills
+	Removed Gorkha Kingdom triggered modifier giving Nepal 0.01% pop growth for no reason.
+	Added an exception in assimilation to prevent base culture groups of the western hemisphere from getting absolutely btfo by assimilation. (They will assimilate at base speed still)
+	Removed Iron RGO bonus to canned goods and replaced it with Wool RGO bonus, as was intended.
+	Portugal-Brazil should now properly become an immigrant nation upon formation and inherits competitive political reforms upon formation for this exact reason.
 - General Changes:
 	Canada, South Africa, Australia, and New Zealand have all been combined into a single tag, COM, or Commonwealth. This tag inherits Canada's starting reforms/tech and the capital is in Ottowa. (Starts as a puppet of the UK)
 - China Changes:
-	- China is now considered a non-playable nation for the forseeable future, such as India has been. The focus for its future development will be based on event/decision bonuses and limited conquest. China rules will be readded.
-	- China and Korea no longer receive anti-player scaling buffs such as conquest RP reduction and starting literacy buffs.
-	- Blocked China from losing and gaining concessions, states, capitals, colonies, and conquests. The only way you should be able to interact with China, whether it is unciv or westernized, via wargoals is generics and substates.
-	- The Boxer Rebellion Cut Down CB now gives treaty ports if they are still available at that time (handled via decisions after the conclusion of the war).
-	- China now accepts Southern Han once more.
+	China is now considered a non-playable nation for the forseeable future, such as India has been. The focus for its future development will be based on event/decision bonuses and limited conquest. China rules will be readded.
+	China and Korea no longer receive anti-player scaling buffs such as conquest RP reduction and starting literacy buffs.
+	Blocked China from losing and gaining concessions, states, capitals, colonies, and conquests. The only way you should be able to interact with China, whether it is unciv or westernized, via wargoals is generics and substates.
+	The Boxer Rebellion Cut Down CB now gives treaty ports if they are still available at that time (handled via decisions after the conclusion of the war).
+	China now accepts Southern Han once more.
 - Unit Consumption Changes:
-	- Reverted all Land unit consumption to previous patch, naval unit consumption is retained.
-	- Ship minimum supply before attrition changed from 34% --> 80%.
+	Reverted all Land unit consumption to previous patch, naval unit consumption is retained.
+	Ship minimum supply before attrition changed from 34% --> 80%.
 - Population Changes:
-	- Andean reduced from 2503.76k at start back to base levels of 1472.8k
-	- Brazilian reduced from 1790.1k at start back to base levels of 1053k
-	- Afro-Brazilian reduced from 814.912k at start back to base levels of 479.36k
-	- Platinean reduced from 2512.12k at start down to 1256.06k
-	- Mexican reduced from 2422.6k at start down back to base levels of 1629.4k 
-	- Yankee had no changes, has a base start of 3162.6k
+	Andean reduced from 2503.76k at start back to base levels of 1472.8k
+	Brazilian reduced from 1790.1k at start back to base levels of 1053k
+	Afro-Brazilian reduced from 814.912k at start back to base levels of 479.36k
+	Platinean reduced from 2512.12k at start down to 1256.06k
+	Mexican reduced from 2422.6k at start down back to base levels of 1629.4k 
+	Yankee had no changes, has a base start of 3162.6k
 - State and Province Changes:
-	- Hong Kong and Macao have been split into two separate states/treaty ports.
-	- Baden-Wurtemburg and Mega Bavaria have been split back into their 4 base states.
-	- Base liferating in France has been set to 32.
-		- 16 Provinces buffed from 30 --> 32 liferating
-		- 13 Provinces buffed from 31 --> 32 liferating
-	- Base liferating in Russia has been reverted to the earlier, better liferating pre 11.0.6.
+	Hong Kong and Macao have been split into two separate states/treaty ports.
+	Baden-Wurtemburg and Mega Bavaria have been split back into their 4 base states.
+	Base liferating in France has been set to 32.
+		16 Provinces buffed from 30 --> 32 liferating
+		13 Provinces buffed from 31 --> 32 liferating
+	Base liferating in Russia has been reverted to the earlier, better liferating pre 11.0.6.
 - Decision and Event Changes:
-	- Ukrainian Breadbasket has been readded to Russia.
+	Ukrainian Breadbasket has been readded to Russia.
 - Global Mechanical Changes:
-	- Global Literacy Change speed reduced by half. (Starting Russian literacy growth day 1 reduced from 0.0061% to 0.003% with no sliders/etc, so it is a true to heart 50% reduction, no memeshit)
+	Global Literacy Change speed reduced by half. (Starting Russian literacy growth day 1 reduced from 0.0061% to 0.003% with no sliders/etc, so it is a true to heart 50% reduction, no memeshit)
 
 ----------------------------------------------------
 Changes for 11.0.7
