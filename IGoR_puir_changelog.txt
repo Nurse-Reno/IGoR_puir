@@ -1,4 +1,11 @@
 ----------------------------------------------------
+Changes for 12.0.2
+- (Bugfix) Fixed an issue with Commonwealth's states being colonies.
+- (Bugfix) Fixed an issue where Commonwealth did not have French Canadian accepted.
+- (Bugfix) Added all Canadian, Australian, New Zealand, and South African events/decisions to Commonwealth.
+- (Bugfix) Commonwealth now starts with British Columbia, as it would never be able to beat the USA to colonizing it as a puppet.
+
+----------------------------------------------------
 Changes for 12.0.1
 - (Bugfix) Fixed an issue with political parties of Commonwealth causing crashes
 
