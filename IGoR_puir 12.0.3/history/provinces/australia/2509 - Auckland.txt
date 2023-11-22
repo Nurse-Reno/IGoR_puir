@@ -1,6 +1,0 @@
-owner = COM
-controller = COM
-add_core = COM
-trade_goods = timber
-life_rating = 40
-colonial = 2
