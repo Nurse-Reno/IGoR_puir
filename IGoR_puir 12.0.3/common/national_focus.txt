@@ -654,7 +654,7 @@ tier_5_focus =
 	
 	input_clerks =
 	{
-		craftsmen = 0.20
+		clerks = 0.20
 		local_factory_input = -0.25
 		outliner_show_as_percent = yes
 		icon = 55
@@ -667,7 +667,7 @@ tier_5_focus =
 	
 	output_clerks =
 	{
-		craftsmen = 0.20
+		clerks = 0.20
 		local_factory_output = 0.5
 		outliner_show_as_percent = yes
 		icon = 56
