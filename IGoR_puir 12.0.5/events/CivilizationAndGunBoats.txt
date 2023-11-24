@@ -1689,6 +1689,7 @@ province_event = {
 		NOT = {
 			has_province_modifier = local_opium_habit
 		}
+		NOT = { tag = CHI }
 
 	}
 
@@ -1784,15 +1785,6 @@ country_event = {
 
 
 	is_triggered_only = yes
-
-	option = {
-		name = "We shall Demand a Treaty Port!"
-		casus_belli = {
-			target = FROM
-			type = acquire_treaty_port
-			months = 12
-		}
-	}
 
 	option = {
 		name = "We shall take a Small Concession!"

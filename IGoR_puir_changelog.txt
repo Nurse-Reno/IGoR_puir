@@ -1,4 +1,9 @@
 ----------------------------------------------------
+Changes for 12.0.5
+- (Bugfix) Fixed a bugged event giving concession CBs on China.
+- Crisis on the Rhine (Left Bank Decision) now gives France a Take Medium State cb on Prussia instead of a Take Small State cb.
+
+----------------------------------------------------
 Changes for 12.0.4
 - (Bugfix) Fixed some remaining Canadian cores in Commonwealth.
 - Raised starting Commonwealth literacy to 60% (base start for Canada)
