@@ -1,4 +1,10 @@
 ----------------------------------------------------
+Changes for 12.0.6
+- (Bugfix) Removed Precious Metals bonuses in Tech.
+- Removed built in migration bias on mines so as to give the player more control over where pops migrate with the migration national focus.
+- Removed built in migration bias on unemployment in the RGO, as this is no longer an issue.
+
+----------------------------------------------------
 Changes for 12.0.5
 - (Bugfix) Fixed a bugged event giving concession CBs on China.
 - Crisis on the Rhine (Left Bank Decision) now gives France a Take Medium State cb on Prussia instead of a Take Small State cb.

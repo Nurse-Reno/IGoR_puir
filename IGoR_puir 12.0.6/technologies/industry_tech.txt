@@ -523,12 +523,6 @@ mechanized_mining = {
 			}
 		}
 		modifier = {
-			factor = 1.1
-			any_owned_province = {
-				produces = precious_metal
-			}
-		}
-		modifier = {
 			factor = 1.02
 			tech_school = industrial_tech_school
 		}
@@ -591,12 +585,6 @@ clean_coal = {
 			}
 		}
 		modifier = {
-			factor = 1.1
-			any_owned_province = {
-				produces = precious_metal
-			}
-		}
-		modifier = {
 			factor = 1.02
 			tech_school = industrial_tech_school
 		}
@@ -649,12 +637,6 @@ cheap_iron = {
 			}
 		}
 		modifier = {
-			factor = 1.1
-			any_owned_province = {
-				produces = precious_metal
-			}
-		}
-		modifier = {
 			factor = 1.02
 			tech_school = industrial_tech_school
 		}
@@ -701,12 +683,6 @@ cheap_steel = {
 			factor = 1.1
 			any_owned_province = {
 				produces = sulphur
-			}
-		}
-		modifier = {
-			factor = 1.1
-			any_owned_province = {
-				produces = precious_metal
 			}
 		}
 		modifier = {
@@ -766,12 +742,6 @@ advanced_metallurgy = {
 			}
 		}
 		modifier = {
-			factor = 1.1
-			any_owned_province = {
-				produces = precious_metal
-			}
-		}
-		modifier = {
 			factor = 1.02
 			tech_school = industrial_tech_school
 		}
@@ -822,12 +792,6 @@ electric_furnace = {
 			factor = 1.1
 			any_owned_province = {
 				produces = sulphur
-			}
-		}
-		modifier = {
-			factor = 1.1
-			any_owned_province = {
-				produces = precious_metal
 			}
 		}
 		modifier = {
