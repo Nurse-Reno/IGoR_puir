@@ -1,0 +1,48 @@
+
+political_decisions = {
+
+	form_arabia = {
+
+		potential = {
+			ARA = { exists = no }
+			is_culture_group = arab
+		}
+		
+		allow = { 
+			prestige = 90
+			state_n_government = 1
+			war = no
+		}
+		effect = {
+			prestige = 20
+			change_tag = ARA
+			random_country = {
+				limit = {
+					is_culture_group = THIS
+					in_sphere = THIS
+					OR = {
+						is_vassal = no
+						vassal_of = THIS
+					}
+				}
+				country_event = 111011928
+			}
+			add_accepted_culture = union
+			THIS = { all_core = { remove_core = THIS add_core = ARA } }
+			TRI = { all_core = { remove_core = TRI } }
+			EGY = { all_core = { remove_core = EGY } }
+			HDJ = { all_core = { remove_core = HDJ } }
+			NEJ = { all_core = { remove_core = NEJ } }
+			YEM = { all_core = { remove_core = YEM } }
+			OMA = { all_core = { remove_core = OMA } }
+			IRQ = { all_core = { remove_core = IRQ } }
+			SYR = { all_core = { remove_core = SYR } }
+			TUN = { all_core = { remove_core = TUN } }
+			ALD = { all_core = { remove_core = ALD } }
+			MOR = { all_core = { remove_core = MOR } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+}

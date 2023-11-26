@@ -1,0 +1,20 @@
+owner = COM
+controller = COM
+add_core = COM
+naval_base = 1
+trade_goods = fruit
+life_rating = 35
+colonial = 2
+1836.1.2 = {
+	remove_core = COM
+	owner = SAF
+	controller = SAF
+	add_core = SAF
+	colonial = 0
+}
+1861.1.1 = { 
+	railroad = 1 
+	naval_base = 1
+}
+
+

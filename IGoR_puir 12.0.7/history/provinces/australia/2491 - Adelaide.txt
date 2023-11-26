@@ -1,0 +1,15 @@
+owner = COM
+controller = COM
+add_core = COM
+trade_goods = wool
+life_rating = 40
+
+1836.1.2 = {
+	remove_core = COM
+	owner = AST
+	controller = AST
+	add_core = AST
+	colonial = 0
+}
+1861.1.1 = { railroad = 1 }
+

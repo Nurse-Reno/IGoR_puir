@@ -1,4 +1,22 @@
 ----------------------------------------------------
+Changes for 12.0.7
+- (Bugfix) Removed a bugged Opium War Event.
+- (Bugfix) Fixed an issue where released commonwealth didn't have cores in second start date.
+- (Bugfix) Removed non-existent nations from the UK's sphere so its less idiotic looking.
+- (Bugfix) Streamlined migration target logic to exclude unemployment and such.
+- (Bugfix) Civilized nations may now declare place in the sun CBs on uncivs to prevent a bug from occurring with uncivs having colonies.
+- (Bugfix) Unciv nations may now declare take state and take capital CBs on Civilized nations.
+- Reclaim Herat decision by Persia no longer gives free cores across eastern Central Asia.
+- (Bugfix) Unciv tech gain should now only give popups on the first day of hosting the game and after westernization. Westernization no longer requires a rehost.
+- Arabian Formation Changes:
+	- Arabia no longer receives free cores across all of "Arabia"
+	- Requirements for Arabian formation are now identical to Scandinavian Formation list below:
+		- Prestige 90
+		- State and Government Researched
+		- At Peace
+	- All existing Arabian Culture Group cores will be wiped upon formation and only the starting tags cores become Arabian (most likely Egypt). You must eat and spread cores naturally to all of "Arabia", but this will occur quite quickly due to Arabian having all of these pops accepted. This is to prevent cheesing the huge amount of cores Arabia used to start with from Morocco to Iraq.
+
+----------------------------------------------------
 Changes for 12.0.6
 - (Bugfix) Removed Precious Metals bonuses in Tech.
 - Removed built in migration bias on mines so as to give the player more control over where pops migrate with the migration national focus.
