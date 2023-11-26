@@ -1,0 +1,148 @@
+province_event = {
+	id = 78700943
+	title = "Platinean Core Debugging"
+	desc = "If there is an awkward overlapping culture core, this event is intended to clean it up"
+	
+	trigger = {
+		owner = {
+			OR = {
+				tag = PAR
+				tag = ARG
+				tag = URU
+				tag = CHL
+			}
+			NOT = {
+				war = yes
+			}
+		}
+		OR = {
+			AND = {
+				is_core = ARG
+				is_core = URU
+			}
+			AND = {
+				is_core = ARG
+				is_core = CHL
+			}
+			AND = {
+				is_core = ARG
+				is_core = PAR
+			}
+			AND = {
+				is_core = URU
+				is_core = CHL
+			}
+			AND = {
+				is_core = URU
+				is_core = PAR
+			}
+			AND = {
+				is_core = PAR
+				is_core = CHL
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "Fix me up!"
+		remove_core = PAR
+		remove_core = ARG
+		remove_core = URU
+		remove_core = CHL
+		add_core = THIS
+	}
+}
+
+province_event = {
+	id = 78700944
+	title = "North Andean Core Debugging"
+	desc = "If there is an awkward overlapping culture core, this event is intended to clean it up"
+	
+	trigger = {
+		owner = {
+			OR = {
+				tag = VNZ
+				tag = CLM
+				tag = ECU
+			}
+			NOT = {
+				war = yes
+			}
+		}
+		OR = {
+			AND = {
+				is_core = VNZ
+				is_core = CLM
+			}
+			AND = {
+				is_core = VNZ
+				is_core = ECU
+			}
+			AND = {
+				is_core = CLM
+				is_core = ECU
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "Fix me up!"
+		remove_core = VNZ
+		remove_core = CLM
+		remove_core = ECU
+		add_core = THIS
+	}
+}
+
+province_event = {
+	id = 78700945
+	title = "Greek Core Debugging"
+	desc = "If there is an awkward overlapping culture core, this event is intended to clean it up"
+	
+	trigger = {
+		owner = {
+			OR = {
+				tag = GRE
+				tag = CRE
+				tag = ION
+			}
+			NOT = {
+				war = yes
+			}
+		}
+		OR = {
+			AND = {
+				is_core = GRE
+				is_core = CRE
+			}
+			AND = {
+				is_core = GRE
+				is_core = ION
+			}
+			AND = {
+				is_core = CRE
+				is_core = ION
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "Fix me up!"
+		remove_core = GRE
+		remove_core = CRE
+		remove_core = ION
+		add_core = THIS
+	}
+}

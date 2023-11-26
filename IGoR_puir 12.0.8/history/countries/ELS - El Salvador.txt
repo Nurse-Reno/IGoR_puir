@@ -1,0 +1,41 @@
+capital = 2191
+primary_culture = central_american
+religion = catholic
+government = presidential_dictatorship
+plurality = 0.0
+nationalvalue = nv_productivity
+literacy = 0.17
+civilized = yes
+
+set_country_flag = new_world_nation
+set_country_flag = north_american_immigrant_nation
+
+# Political reforms
+slavery = no_slavery
+upper_house_composition = appointed
+vote_franschise = none_voting
+public_meetings = yes_meeting
+press_rights = free_press
+trade_unions = non_socialist
+voting_system = first_past_the_post
+political_parties = underground_parties
+
+# Social Reforms
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions 
+school_reforms = no_schools
+
+ruling_party = ELS_liberal
+upper_house = {
+	fascist = 0
+	liberal = 53
+	conservative = 35
+	reactionary = 12
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}

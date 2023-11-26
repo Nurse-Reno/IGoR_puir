@@ -1,4 +1,11 @@
 ----------------------------------------------------
+Changes for 12.0.8
+- No longer necessary to be Absolute Monarchy to both see and take Milyutin's Reforms as Russia
+- (Bugfix) Used Audax Validator to pick through literally everything for bugfixing, unironically hundreads of bugfixes.
+- (Bugfix) Removed leftover buildings from decomissioned production types in buildings file (dye, leather, wool factories)
+- Total War CBs and Zombie mod have been removed (they were locked behind a host decision and contributed greatly to event/decision bloat)
+
+----------------------------------------------------
 Changes for 12.0.7
 - (Bugfix) Removed a bugged Opium War Event.
 - (Bugfix) Fixed an issue where released commonwealth didn't have cores in second start date.

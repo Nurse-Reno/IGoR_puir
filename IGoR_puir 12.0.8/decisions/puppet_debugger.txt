@@ -1,0 +1,44 @@
+#puppet debugger credit to Zombie Freak
+political_decisions = {
+	start_fake_war = {
+		alert = yes
+		picture = control_puppets
+		potential = {
+			NOT = { war_with = HUG }
+			ai = no
+			num_of_vassals = 1
+			is_vassal = no
+		}
+		allow = {
+		
+		}
+		effect = {
+			HUG = {
+				war = {
+					target = THIS
+					attacker_goal = { casus_belli = status_quo }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	end_fake_war = {
+		alert = yes
+		picture = return_puppets
+		potential = {
+			ai = no
+			war_with = HUG
+		}
+		allow = {
+		
+		}
+		effect = {
+			end_war = HUG
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

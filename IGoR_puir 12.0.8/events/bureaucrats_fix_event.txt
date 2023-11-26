@@ -1,0 +1,25 @@
+country_event = {
+	id = 40404040
+	title = "Non-Accepted Bureaucrats Forced Into Artisans"
+	desc = "This decision has helped you to clear the way for an improved, and more loyal, administration across your Nation. Perhaps this was a necessary move to incorporating colonial administrations into more formal institutions?"
+	picture = "Opiumwar"
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = "Force them into Artisans!"
+		any_owned = {
+			any_pop = {
+				limit = { 
+					is_primary_culture = no
+					is_accepted_culture = no
+					type = bureaucrats
+				}
+				pop_type = artisans
+			}
+				
+		}
+		
+	}
+}

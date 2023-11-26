@@ -1,0 +1,6370 @@
+country_event = {
+	id = 999990123
+	title = "Host Nation Picked!"
+	desc = "$FROMCOUNTRY$ is now the host nation!"
+	major = yes
+	picture = "greatpowers"
+	is_triggered_only = yes
+
+
+	option = {
+		name = "Okay"
+	}
+}
+country_event = {
+	id = 999991123
+	title = "You are the host nation now"
+	desc = "Host nation status has been transferred to you"
+	picture = "greatpowers"
+	is_triggered_only = yes
+	
+	immediate = {
+		LCT = {
+			country_event = 999990123
+		}
+		FROM = {
+			clr_country_flag = host_nation
+		}
+	}
+
+	option = {
+		name = "Okay"
+	}
+}
+country_event = {
+	id = 999992123
+	title = "GTFO"
+	desc = "ur kicked"
+	picture = "greatpowers"
+	is_triggered_only = yes
+	
+	immediate = {
+		add_country_modifier = {
+		name = youre_kicked_mate
+		duration = -1
+}
+	}
+
+	option = {
+		name = "rip"
+	}
+}
+country_event = {
+	id = 999993123
+	title = "Unsiege"
+	desc = "You will be unsieged"
+	picture = "greatpowers"
+	is_triggered_only = yes
+	
+	immediate = {
+		any_owned = {
+			limit = {
+				controlled_by_rebels = no
+			}
+			change_controller = THIS
+		}
+	}
+
+	option = {
+		name = "Okay"
+	}
+}
+country_event = {
+	id = 999994123
+	title = "Siege"
+	desc = "You will siege your enemies"
+	picture = "greatpowers"
+	is_triggered_only = yes
+	
+	immediate = {
+		any_country = {
+			limit = {
+				AND = {
+					NOT = { tag = FROM }
+					NOT = { military_access = FROM }
+				}
+			}
+			any_owned = {
+				change_controller = THIS
+			}			
+		}
+		clr_country_flag = siege_country
+	}
+
+	option = {
+		name = "Based"
+	}
+}
+country_event = {
+	id = 999995123
+	title = "Give Sanctions Menu"
+	desc = "Choose how long you want the sanctions to last for the target countries"
+	picture = "greatpowers"
+	is_triggered_only = yes
+	
+	option = {
+		name = "Nevermind"
+	}
+	option = {
+		name = "1 Year"
+		any_country = {
+			limit = {
+				NOT = { military_access = THIS }
+			}
+			country_event = 999996123
+		}
+	}
+	option = {
+		name = "2 Years"
+		any_country = {
+			limit = {
+				NOT = { military_access = THIS }
+			}
+			country_event = 999997123
+		}
+	}
+	option = {
+		name = "3 Years"
+		any_country = {
+			limit = {
+				NOT = { military_access = THIS }
+			}
+			country_event = 999998123
+		}
+	}
+	option = {
+		name = "4 Years"
+		any_country = {
+			limit = {
+				NOT = { military_access = THIS }
+			}
+			country_event = 999999123
+		}
+	}
+	option = {
+		name = "5 Years"
+		any_country = {
+			limit = {
+				NOT = { military_access = THIS }
+			}
+			country_event = 1000000123
+		}
+	}
+}
+country_event = {
+	id = 999996123
+	title = "You've been a naughty boy havent you"
+	desc = "The host has decided thou shalt recieve 1 year of sactions, cry about it"
+	picture = "greatpowers"
+	is_triggered_only = yes
+	
+	immediate = {
+		add_country_modifier = {
+			name = kinda_bad_badboy
+			duration = 365
+		}
+	}
+
+	option = {
+		name = "Nooo :("
+	}
+}
+country_event = {
+	id = 999997123
+	title = "You've been a naughty boy havent you"
+	desc = "The host has decided thou shalt recieve 2 year of sactions, cry about it"
+	picture = "greatpowers"
+	is_triggered_only = yes
+	
+	immediate = {
+		add_country_modifier = {
+			name = kinda_bad_badboy
+			duration = 730
+		}
+	}
+
+	option = {
+		name = "Nooo :("
+	}
+}
+country_event = {
+	id = 999998123
+	title = "You've been a naughty boy havent you"
+	desc = "The host has decided thou shalt recieve 3 year of sactions, cry about it"
+	picture = "greatpowers"
+	is_triggered_only = yes
+	
+	immediate = {
+		add_country_modifier = {
+			name = kinda_bad_badboy
+			duration = 1095
+		}
+	}
+
+	option = {
+		name = "Nooo :("
+	}
+}
+country_event = {
+	id = 999999123
+	title = "You've been a naughty boy havent you"
+	desc = "The host has decided thou shalt recieve 4 year of sactions, cry about it"
+	picture = "greatpowers"
+	is_triggered_only = yes
+	
+	immediate = {
+		add_country_modifier = {
+			name = kinda_bad_badboy
+			duration = 1460
+		}
+	}
+
+	option = {
+		name = "Nooo :("
+	}
+}
+country_event = {
+	id = 1000000123
+	title = "You've been a naughty boy havent you"
+	desc = "The host has decided thou shalt recieve 5 year of sactions, cry about it"
+	picture = "greatpowers"
+	is_triggered_only = yes
+	
+	immediate = {
+		add_country_modifier = {
+			name = kinda_bad_badboy
+			duration = 1825
+		}
+	}
+
+	option = {
+		name = "Nooo :("
+	}
+}
+
+country_event = {
+	id = 1000001123
+	title = "Crisies Disabled!"
+	desc = "The host, $FROMCOUNTRY$, has disabled crisies!"
+	major = yes
+	picture = "greatpowers"
+	is_triggered_only = yes
+
+
+	option = {
+		name = "Okay"
+	}
+}
+
+country_event = {
+	id = 1000002123
+	title = "Host swap"
+	desc = "Host's bout to swap yo ur nation"
+	picture = "greatpowers"
+	is_triggered_only = yes
+	
+	immediate = {
+		FROM = { country_event = 1000003123 }
+		random_country = {
+			limit = {
+				has_global_flag = host_flag_tagmove
+			}
+			LCT = { country_event = 1000004123 }
+		}
+		random_country = {
+			limit = {
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			LCT = { country_event = 1000005123 }
+		}
+	}
+	
+	
+	option = {
+		name = "k"
+	}
+}
+
+country_event = {
+	id = 1000004123
+	title = "Host Tag Swap"
+	desc = "The host has moved to $FROMCOUNTRY$ WITH moving host privileges"
+	major = yes
+	picture = "greatpowers"
+	is_triggered_only = yes
+
+
+	option = {
+		name = "Okay"
+	}
+}
+country_event = {
+	id = 1000005123
+	title = "Host Tag Swap"
+	desc = "The host has moved to $FROMCOUNTRY$ WITHOUT moving host privileges"
+	major = yes
+	picture = "greatpowers"
+	is_triggered_only = yes
+
+
+	option = {
+		name = "Okay"
+	}
+}
+
+country_event = {
+	id = 1000006123
+	title = "Nation swap"
+	desc = "Host has decided that someone's gonna swap to yo nation"
+	picture = "greatpowers"
+	is_triggered_only = yes
+	
+	immediate = {
+		random_country = {
+			limit = {
+				has_country_flag = picked_to_swap
+			}
+			country_event = 1000007123
+			clr_country_flag = picked_to_swap
+			clr_global_flag = has_chosen_swap
+		}
+	}
+	
+	
+	option = {
+		name = "k"
+	}
+}
+
+country_event = {
+	id = 1000007123
+	title = "Nation swap"
+	desc = "You're swapping to $FROMCOUNTRY$"
+	picture = "greatpowers"
+	is_triggered_only = yes
+	
+	immediate = {
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = COM
+			}
+			THIS = { change_tag_no_core_switch = COM }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = LCT
+			}
+			THIS = { change_tag_no_core_switch = LCT }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ENG
+			}
+			THIS = { change_tag_no_core_switch = ENG }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = RUS
+			}
+			THIS = { change_tag_no_core_switch = RUS }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = FRA
+			}
+			THIS = { change_tag_no_core_switch = FRA }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = PRU
+			}
+			THIS = { change_tag_no_core_switch = PRU }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = GER
+			}
+			THIS = { change_tag_no_core_switch = GER }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = AUS
+			}
+			THIS = { change_tag_no_core_switch = AUS }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = USA
+			}
+			THIS = { change_tag_no_core_switch = USA }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = JAP
+			}
+			THIS = { change_tag_no_core_switch = JAP }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ITA
+			}
+			THIS = { change_tag_no_core_switch = ITA }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = KUK
+			}
+			THIS = { change_tag_no_core_switch = KUK }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = DEN
+			}
+			THIS = { change_tag_no_core_switch = DEN }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = FIN
+			}
+			THIS = { change_tag_no_core_switch = FIN }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = NOR
+			}
+			THIS = { change_tag_no_core_switch = NOR }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SCA
+			}
+			THIS = { change_tag_no_core_switch = SCA }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SWE
+			}
+			THIS = { change_tag_no_core_switch = SWE }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BEL
+			}
+			THIS = { change_tag_no_core_switch = BEL }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CAT
+			}
+			THIS = { change_tag_no_core_switch = CAT }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = FLA
+			}
+			THIS = { change_tag_no_core_switch = FLA }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = IRE
+			}
+			THIS = { change_tag_no_core_switch = IRE }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = NET
+			}
+			THIS = { change_tag_no_core_switch = NET }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = POR
+			}
+			THIS = { change_tag_no_core_switch = POR }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SCO
+			}
+			THIS = { change_tag_no_core_switch = SCO }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SPA
+			}
+			THIS = { change_tag_no_core_switch = SPA }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = WLL
+			}
+			THIS = { change_tag_no_core_switch = WLL }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ANH
+			}
+			THIS = { change_tag_no_core_switch = ANH }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BAD
+			}
+			THIS = { change_tag_no_core_switch = BAD }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BAV
+			}
+			THIS = { change_tag_no_core_switch = BAV }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BRA
+			}
+			THIS = { change_tag_no_core_switch = BRA }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BRE
+			}
+			THIS = { change_tag_no_core_switch = BRE }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = COB
+			}
+			THIS = { change_tag_no_core_switch = COB }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = DZG
+			}
+			THIS = { change_tag_no_core_switch = DZG }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = FRM
+			}
+			THIS = { change_tag_no_core_switch = FRM }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = HAM
+			}
+			THIS = { change_tag_no_core_switch = HAM }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = HAN
+			}
+			THIS = { change_tag_no_core_switch = HAN }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = HES
+			}
+			THIS = { change_tag_no_core_switch = HES }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = HEK
+			}
+			THIS = { change_tag_no_core_switch = HEK }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = HOL
+			}
+			THIS = { change_tag_no_core_switch = HOL }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = LIP
+			}
+			THIS = { change_tag_no_core_switch = LIP }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = LUB
+			}
+			THIS = { change_tag_no_core_switch = LUB }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = LUX
+			}
+			THIS = { change_tag_no_core_switch = LUX }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MEC
+			}
+			THIS = { change_tag_no_core_switch = MEC }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MEI
+			}
+			THIS = { change_tag_no_core_switch = MEI }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = NAS
+			}
+			THIS = { change_tag_no_core_switch = NAS }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = NGF
+			}
+			THIS = { change_tag_no_core_switch = NGF }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = OLD
+			}
+			THIS = { change_tag_no_core_switch = OLD }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SAX
+			}
+			THIS = { change_tag_no_core_switch = SAX }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SCH
+			}
+			THIS = { change_tag_no_core_switch = SCH }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SGF
+			}
+			THIS = { change_tag_no_core_switch = SGF }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = WEI
+			}
+			THIS = { change_tag_no_core_switch = WEI }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = WUR
+			}
+			THIS = { change_tag_no_core_switch = WUR }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = LOM
+			}
+			THIS = { change_tag_no_core_switch = LOM }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = LUC
+			}
+			THIS = { change_tag_no_core_switch = LUC }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MOD
+			}
+			THIS = { change_tag_no_core_switch = MOD }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = PAP
+			}
+			THIS = { change_tag_no_core_switch = PAP }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = PAR
+			}
+			THIS = { change_tag_no_core_switch = PAR }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SAR
+			}
+			THIS = { change_tag_no_core_switch = SAR }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SIC
+			}
+			THIS = { change_tag_no_core_switch = SIC }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = TRE
+			}
+			THIS = { change_tag_no_core_switch = TRE }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = TUS
+			}
+			THIS = { change_tag_no_core_switch = TUS }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = VEN
+			}
+			THIS = { change_tag_no_core_switch = VEN }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BOH
+			}
+			THIS = { change_tag_no_core_switch = BOH }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = KRA
+			}
+			THIS = { change_tag_no_core_switch = KRA }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CRI
+			}
+			THIS = { change_tag_no_core_switch = CRI }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = EST
+			}
+			THIS = { change_tag_no_core_switch = EST }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = HUN
+			}
+			THIS = { change_tag_no_core_switch = HUN }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = LIT
+			}
+			THIS = { change_tag_no_core_switch = LIT }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = LAT
+			}
+			THIS = { change_tag_no_core_switch = LAT }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = POL
+			}
+			THIS = { change_tag_no_core_switch = POL }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SLV
+			}
+			THIS = { change_tag_no_core_switch = SLV }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SWI
+			}
+			THIS = { change_tag_no_core_switch = SWI }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = RUT
+			}
+			THIS = { change_tag_no_core_switch = RUT }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SIE
+			}
+			THIS = { change_tag_no_core_switch = SIE }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = UKR
+			}
+			THIS = { change_tag_no_core_switch = UKR }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CZH
+			}
+			THIS = { change_tag_no_core_switch = CZH }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ALB
+			}
+			THIS = { change_tag_no_core_switch = ALB }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BOS
+			}
+			THIS = { change_tag_no_core_switch = BOS }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BUL
+			}
+			THIS = { change_tag_no_core_switch = BUL }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CRE
+			}
+			THIS = { change_tag_no_core_switch = CRE }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CRO
+			}
+			THIS = { change_tag_no_core_switch = CRO }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CYP
+			}
+			THIS = { change_tag_no_core_switch = CYP }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = GRE
+			}
+			THIS = { change_tag_no_core_switch = GRE }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ION
+			}
+			THIS = { change_tag_no_core_switch = ION }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MOL
+			}
+			THIS = { change_tag_no_core_switch = MOL }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MON
+			}
+			THIS = { change_tag_no_core_switch = MON }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ROM
+			}
+			THIS = { change_tag_no_core_switch = ROM }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SER
+			}
+			THIS = { change_tag_no_core_switch = SER }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SLO
+			}
+			THIS = { change_tag_no_core_switch = SLO }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = TUR
+			}
+			THIS = { change_tag_no_core_switch = TUR }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = WAL
+			}
+			THIS = { change_tag_no_core_switch = WAL }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = YUG
+			}
+			THIS = { change_tag_no_core_switch = YUG }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ALD
+			}
+			THIS = { change_tag_no_core_switch = ALD }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CNG
+			}
+			THIS = { change_tag_no_core_switch = CNG }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = EGY
+			}
+			THIS = { change_tag_no_core_switch = EGY }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ETH
+			}
+			THIS = { change_tag_no_core_switch = ETH }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MAD
+			}
+			THIS = { change_tag_no_core_switch = MAD }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = LIB
+			}
+			THIS = { change_tag_no_core_switch = LIB }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MOR
+			}
+			THIS = { change_tag_no_core_switch = MOR }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = NAL
+			}
+			THIS = { change_tag_no_core_switch = NAL }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ORA
+			}
+			THIS = { change_tag_no_core_switch = ORA }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SAF
+			}
+			THIS = { change_tag_no_core_switch = SAF }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SOK
+			}
+			THIS = { change_tag_no_core_switch = SOK }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = RHO
+			}
+			THIS = { change_tag_no_core_switch = RHO }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = TRI
+			}
+			THIS = { change_tag_no_core_switch = TRI }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = TRN
+			}
+			THIS = { change_tag_no_core_switch = TRN }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = TUN
+			}
+			THIS = { change_tag_no_core_switch = TUN }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ZAN
+			}
+			THIS = { change_tag_no_core_switch = ZAN }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ZUL
+			}
+			THIS = { change_tag_no_core_switch = ZUL }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ABU
+			}
+			THIS = { change_tag_no_core_switch = ABU }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = AFG
+			}
+			THIS = { change_tag_no_core_switch = AFG }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ARM
+			}
+			THIS = { change_tag_no_core_switch = ARM }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = AZB
+			}
+			THIS = { change_tag_no_core_switch = AZB }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BUK
+			}
+			THIS = { change_tag_no_core_switch = BUK }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = GEO
+			}
+			THIS = { change_tag_no_core_switch = GEO }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = HDJ
+			}
+			THIS = { change_tag_no_core_switch = HDJ }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = IRQ
+			}
+			THIS = { change_tag_no_core_switch = IRQ }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = KHI
+			}
+			THIS = { change_tag_no_core_switch = KHI }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = KOK
+			}
+			THIS = { change_tag_no_core_switch = KOK }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MUG
+			}
+			THIS = { change_tag_no_core_switch = MUG }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = NEJ
+			}
+			THIS = { change_tag_no_core_switch = NEJ }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = OMA
+			}
+			THIS = { change_tag_no_core_switch = OMA }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = PER
+			}
+			THIS = { change_tag_no_core_switch = PER }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = YEM
+			}
+			THIS = { change_tag_no_core_switch = YEM }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = HND
+			}
+			THIS = { change_tag_no_core_switch = HND }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = AWA
+			}
+			THIS = { change_tag_no_core_switch = AWA }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BAS
+			}
+			THIS = { change_tag_no_core_switch = BAS }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BER
+			}
+			THIS = { change_tag_no_core_switch = BER }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BHO
+			}
+			THIS = { change_tag_no_core_switch = BHO }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BIK
+			}
+			THIS = { change_tag_no_core_switch = BIK }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BUN
+			}
+			THIS = { change_tag_no_core_switch = BUN }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = GWA
+			}
+			THIS = { change_tag_no_core_switch = GWA }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = HYD
+			}
+			THIS = { change_tag_no_core_switch = HYD }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = IND
+			}
+			THIS = { change_tag_no_core_switch = IND }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = JAI
+			}
+			THIS = { change_tag_no_core_switch = JAI }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = JAS
+			}
+			THIS = { change_tag_no_core_switch = JAS }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = JOD
+			}
+			THIS = { change_tag_no_core_switch = JOD }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = KAL
+			}
+			THIS = { change_tag_no_core_switch = KAL }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = KAS
+			}
+			THIS = { change_tag_no_core_switch = KAS }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = KUT
+			}
+			THIS = { change_tag_no_core_switch = KUT }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = LAD
+			}
+			THIS = { change_tag_no_core_switch = LAD }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MAK
+			}
+			THIS = { change_tag_no_core_switch = MAK }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MEW
+			}
+			THIS = { change_tag_no_core_switch = MEW }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MYS
+			}
+			THIS = { change_tag_no_core_switch = MYS }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = NAG
+			}
+			THIS = { change_tag_no_core_switch = NAG }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = NEP
+			}
+			THIS = { change_tag_no_core_switch = NEP }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ORI
+			}
+			THIS = { change_tag_no_core_switch = ORI }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = PAN
+			}
+			THIS = { change_tag_no_core_switch = PAN }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SHI
+			}
+			THIS = { change_tag_no_core_switch = SHI }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SIK
+			}
+			THIS = { change_tag_no_core_switch = SIK }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SIN
+			}
+			THIS = { change_tag_no_core_switch = SIN }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = TRA
+			}
+			THIS = { change_tag_no_core_switch = TRA }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ATJ
+			}
+			THIS = { change_tag_no_core_switch = ATJ }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BAL
+			}
+			THIS = { change_tag_no_core_switch = BAL }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BHU
+			}
+			THIS = { change_tag_no_core_switch = BHU }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BRU
+			}
+			THIS = { change_tag_no_core_switch = BRU }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BUR
+			}
+			THIS = { change_tag_no_core_switch = BUR }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CAM
+			}
+			THIS = { change_tag_no_core_switch = CAM }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CHI
+			}
+			THIS = { change_tag_no_core_switch = CHI }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = DAI
+			}
+			THIS = { change_tag_no_core_switch = DAI }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = JAV
+			}
+			THIS = { change_tag_no_core_switch = JAV }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = KOR
+			}
+			THIS = { change_tag_no_core_switch = KOR }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = LUA
+			}
+			THIS = { change_tag_no_core_switch = LUA }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = JOH
+			}
+			THIS = { change_tag_no_core_switch = JOH }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SIA
+			}
+			THIS = { change_tag_no_core_switch = SIA }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = TIB
+			}
+			THIS = { change_tag_no_core_switch = TIB }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MGL
+			}
+			THIS = { change_tag_no_core_switch = MGL }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = WIA
+			}
+			THIS = { change_tag_no_core_switch = WIA }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = PHI
+			}
+			THIS = { change_tag_no_core_switch = PHI }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MCK
+			}
+			THIS = { change_tag_no_core_switch = MCK }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = GXI
+			}
+			THIS = { change_tag_no_core_switch = GXI }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SXI
+			}
+			THIS = { change_tag_no_core_switch = SXI }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = YNN
+			}
+			THIS = { change_tag_no_core_switch = YNN }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = XBI
+			}
+			THIS = { change_tag_no_core_switch = XBI }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = XIN
+			}
+			THIS = { change_tag_no_core_switch = XIN }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CAL
+			}
+			THIS = { change_tag_no_core_switch = CAL }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CAN
+			}
+			THIS = { change_tag_no_core_switch = CAN }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CHE
+			}
+			THIS = { change_tag_no_core_switch = CHE }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = COL
+			}
+			THIS = { change_tag_no_core_switch = COL }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = COS
+			}
+			THIS = { change_tag_no_core_switch = COS }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CSA
+			}
+			THIS = { change_tag_no_core_switch = CSA }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CUB
+			}
+			THIS = { change_tag_no_core_switch = CUB }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = DES
+			}
+			THIS = { change_tag_no_core_switch = DES }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = DOM
+			}
+			THIS = { change_tag_no_core_switch = DOM }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ELS
+			}
+			THIS = { change_tag_no_core_switch = ELS }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = GUA
+			}
+			THIS = { change_tag_no_core_switch = GUA }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = HAI
+			}
+			THIS = { change_tag_no_core_switch = HAI }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = HAW
+			}
+			THIS = { change_tag_no_core_switch = HAW }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MAN
+			}
+			THIS = { change_tag_no_core_switch = MAN }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MEX
+			}
+			THIS = { change_tag_no_core_switch = MEX }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MTC
+			}
+			THIS = { change_tag_no_core_switch = MTC }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = HON
+			}
+			THIS = { change_tag_no_core_switch = HON }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = NEN
+			}
+			THIS = { change_tag_no_core_switch = NEN }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = NEW
+			}
+			THIS = { change_tag_no_core_switch = NEW }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = NIC
+			}
+			THIS = { change_tag_no_core_switch = NIC }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = PNM
+			}
+			THIS = { change_tag_no_core_switch = PNM }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = QUE
+			}
+			THIS = { change_tag_no_core_switch = QUE }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = TEX
+			}
+			THIS = { change_tag_no_core_switch = TEX }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = UCA
+			}
+			THIS = { change_tag_no_core_switch = UCA }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ARG
+			}
+			THIS = { change_tag_no_core_switch = ARG }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BOL
+			}
+			THIS = { change_tag_no_core_switch = BOL }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BRZ
+			}
+			THIS = { change_tag_no_core_switch = BRZ }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CHL
+			}
+			THIS = { change_tag_no_core_switch = CHL }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CLM
+			}
+			THIS = { change_tag_no_core_switch = CLM }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ECU
+			}
+			THIS = { change_tag_no_core_switch = ECU }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = PEU
+			}
+			THIS = { change_tag_no_core_switch = PEU }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = PRG
+			}
+			THIS = { change_tag_no_core_switch = PRG }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = URU
+			}
+			THIS = { change_tag_no_core_switch = URU }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = VNZ
+			}
+			THIS = { change_tag_no_core_switch = VNZ }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SAC
+			}
+			THIS = { change_tag_no_core_switch = SAC }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = AST
+			}
+			THIS = { change_tag_no_core_switch = AST }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = NZL
+			}
+			THIS = { change_tag_no_core_switch = NZL }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ISR
+			}
+			THIS = { change_tag_no_core_switch = ISR }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BYZ
+			}
+			THIS = { change_tag_no_core_switch = BYZ }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ICL
+			}
+			THIS = { change_tag_no_core_switch = ICL }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BAB
+			}
+			THIS = { change_tag_no_core_switch = BAB }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = TPG
+			}
+			THIS = { change_tag_no_core_switch = TPG }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ARA
+			}
+			THIS = { change_tag_no_core_switch = ARA }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = UBD
+			}
+			THIS = { change_tag_no_core_switch = UBD }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BYE
+			}
+			THIS = { change_tag_no_core_switch = BYE }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = PLC
+			}
+			THIS = { change_tag_no_core_switch = PLC }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = GCO
+			}
+			THIS = { change_tag_no_core_switch = GCO }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = JAN
+			}
+			THIS = { change_tag_no_core_switch = JAN }
+		}
+	}
+	
+	
+	option = {
+		name = "k"
+	}
+}
+
+country_event = {
+	id = 1000003123
+	title = "Host swap"
+	desc = "You're swapping to $FROMCOUNTRY$"
+	picture = "greatpowers"
+	is_triggered_only = yes
+	
+	immediate = {
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = LCT
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = LCT }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = LCT
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = LCT
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ENG
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = ENG }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ENG
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = ENG
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = RUS
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = RUS }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = RUS
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = RUS
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = FRA
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = FRA }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = FRA
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = FRA
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = PRU
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = PRU }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = PRU
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = PRU
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = GER
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = GER }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = GER
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = GER
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = AUS
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = AUS }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = AUS
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = AUS
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = USA
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = USA }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = USA
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = USA
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = JAP
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = JAP }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = JAP
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = JAP
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ITA
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = ITA }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ITA
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = ITA
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = KUK
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = KUK }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = KUK
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = KUK
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = DEN
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = DEN }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = DEN
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = DEN
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = FIN
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = FIN }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = FIN
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = FIN
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = NOR
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = NOR }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = NOR
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = NOR
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SCA
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = SCA }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SCA
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = SCA
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SWE
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = SWE }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SWE
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = SWE
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BEL
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = BEL }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BEL
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = BEL
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CAT
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = CAT }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CAT
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = CAT
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = FLA
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = FLA }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = FLA
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = FLA
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = IRE
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = IRE }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = IRE
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = IRE
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = NET
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = NET }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = NET
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = NET
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = POR
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = POR }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = POR
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = POR
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SCO
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = SCO }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SCO
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = SCO
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SPA
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = SPA }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SPA
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = SPA
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = WLL
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = WLL }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = WLL
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = WLL
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ANH
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = ANH }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ANH
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = ANH
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BAD
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = BAD }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BAD
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = BAD
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BAV
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = BAV }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BAV
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = BAV
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BRA
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = BRA }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BRA
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = BRA
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BRE
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = BRE }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BRE
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = BRE
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = COB
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = COB }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = COB
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = COB
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = DZG
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = DZG }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = DZG
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = DZG
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = FRM
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = FRM }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = FRM
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = FRM
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = HAM
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = HAM }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = HAM
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = HAM
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = HAN
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = HAN }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = HAN
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = HAN
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = HES
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = HES }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = HES
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = HES
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = HEK
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = HEK }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = HEK
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = HEK
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = HOL
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = HOL }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = HOL
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = HOL
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = LIP
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = LIP }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = LIP
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = LIP
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = LUB
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = LUB }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = LUB
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = LUB
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = LUX
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = LUX }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = LUX
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = LUX
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MEC
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = MEC }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MEC
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = MEC
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MEI
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = MEI }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MEI
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = MEI
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = NAS
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = NAS }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = NAS
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = NAS
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = NGF
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = NGF }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = NGF
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = NGF
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = OLD
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = OLD }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = OLD
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = OLD
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SAX
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = SAX }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SAX
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = SAX
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SCH
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = SCH }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SCH
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = SCH
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SGF
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = SGF }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SGF
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = SGF
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = WEI
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = WEI }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = WEI
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = WEI
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = WUR
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = WUR }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = WUR
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = WUR
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = LOM
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = LOM }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = LOM
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = LOM
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = LUC
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = LUC }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = LUC
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = LUC
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MOD
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = MOD }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MOD
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = MOD
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = PAP
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = PAP }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = PAP
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = PAP
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = PAR
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = PAR }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = PAR
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = PAR
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SAR
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = SAR }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SAR
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = SAR
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SIC
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = SIC }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SIC
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = SIC
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = TRE
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = TRE }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = TRE
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = TRE
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = TUS
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = TUS }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = TUS
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = TUS
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = VEN
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = VEN }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = VEN
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = VEN
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BOH
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = BOH }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BOH
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = BOH
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = KRA
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = KRA }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = KRA
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = KRA
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CRI
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = CRI }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CRI
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = CRI
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = EST
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = EST }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = EST
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = EST
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = HUN
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = HUN }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = HUN
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = HUN
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = LIT
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = LIT }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = LIT
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = LIT
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = LAT
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = LAT }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = LAT
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = LAT
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = POL
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = POL }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = POL
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = POL
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SLV
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = SLV }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SLV
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = SLV
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SWI
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = SWI }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SWI
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = SWI
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = RUT
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = RUT }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = RUT
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = RUT
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SIE
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = SIE }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SIE
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = SIE
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = UKR
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = UKR }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = UKR
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = UKR
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CZH
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = CZH }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CZH
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = CZH
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ALB
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = ALB }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ALB
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = ALB
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BOS
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = BOS }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BOS
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = BOS
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BUL
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = BUL }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BUL
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = BUL
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CRE
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = CRE }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CRE
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = CRE
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CRO
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = CRO }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CRO
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = CRO
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CYP
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = CYP }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CYP
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = CYP
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = GRE
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = GRE }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = GRE
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = GRE
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ION
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = ION }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ION
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = ION
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MOL
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = MOL }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MOL
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = MOL
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MON
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = MON }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MON
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = MON
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ROM
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = ROM }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ROM
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = ROM
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SER
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = SER }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SER
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = SER
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SLO
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = SLO }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SLO
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = SLO
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = TUR
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = TUR }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = TUR
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = TUR
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = WAL
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = WAL }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = WAL
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = WAL
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = YUG
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = YUG }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = YUG
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = YUG
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ALD
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = ALD }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ALD
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = ALD
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CNG
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = CNG }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CNG
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = CNG
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = EGY
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = EGY }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = EGY
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = EGY
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ETH
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = ETH }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ETH
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = ETH
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MAD
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = MAD }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MAD
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = MAD
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = LIB
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = LIB }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = LIB
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = LIB
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MOR
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = MOR }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MOR
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = MOR
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = NAL
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = NAL }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = NAL
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = NAL
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ORA
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = ORA }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ORA
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = ORA
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SAF
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = SAF }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SAF
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = SAF
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SOK
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = SOK }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SOK
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = SOK
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = RHO
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = RHO }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = RHO
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = RHO
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = TRI
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = TRI }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = TRI
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = TRI
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = TRN
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = TRN }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = TRN
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = TRN
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = TUN
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = TUN }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = TUN
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = TUN
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ZAN
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = ZAN }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ZAN
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = ZAN
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ZUL
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = ZUL }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ZUL
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = ZUL
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ABU
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = ABU }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ABU
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = ABU
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = AFG
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = AFG }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = AFG
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = AFG
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ARM
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = ARM }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ARM
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = ARM
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = AZB
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = AZB }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = AZB
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = AZB
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BUK
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = BUK }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BUK
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = BUK
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = GEO
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = GEO }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = GEO
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = GEO
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = HDJ
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = HDJ }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = HDJ
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = HDJ
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = IRQ
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = IRQ }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = IRQ
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = IRQ
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = KHI
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = KHI }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = KHI
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = KHI
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = KOK
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = KOK }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = KOK
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = KOK
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MUG
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = MUG }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MUG
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = MUG
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = NEJ
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = NEJ }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = NEJ
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = NEJ
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = OMA
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = OMA }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = OMA
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = OMA
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = PER
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = PER }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = PER
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = PER
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = YEM
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = YEM }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = YEM
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = YEM
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = HND
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = HND }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = HND
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = HND
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = AWA
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = AWA }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = AWA
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = AWA
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BAS
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = BAS }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BAS
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = BAS
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BER
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = BER }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BER
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = BER
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BHO
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = BHO }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BHO
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = BHO
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BIK
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = BIK }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BIK
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = BIK
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BUN
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = BUN }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BUN
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = BUN
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = GWA
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = GWA }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = GWA
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = GWA
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = HYD
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = HYD }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = HYD
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = HYD
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = IND
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = IND }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = IND
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = IND
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = JAI
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = JAI }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = JAI
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = JAI
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = JAS
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = JAS }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = JAS
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = JAS
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = JOD
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = JOD }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = JOD
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = JOD
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = KAL
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = KAL }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = KAL
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = KAL
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = KAS
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = KAS }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = KAS
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = KAS
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = KUT
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = KUT }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = KUT
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = KUT
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = LAD
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = LAD }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = LAD
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = LAD
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MAK
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = MAK }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MAK
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = MAK
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MEW
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = MEW }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MEW
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = MEW
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MYS
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = MYS }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MYS
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = MYS
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = NAG
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = NAG }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = NAG
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = NAG
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = NEP
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = NEP }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = NEP
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = NEP
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ORI
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = ORI }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ORI
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = ORI
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = PAN
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = PAN }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = PAN
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = PAN
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SHI
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = SHI }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SHI
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = SHI
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SIK
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = SIK }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SIK
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = SIK
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SIN
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = SIN }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SIN
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = SIN
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = TRA
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = TRA }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = TRA
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = TRA
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ATJ
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = ATJ }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ATJ
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = ATJ
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BAL
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = BAL }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BAL
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = BAL
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BHU
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = BHU }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BHU
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = BHU
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BRU
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = BRU }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BRU
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = BRU
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BUR
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = BUR }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BUR
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = BUR
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CAM
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = CAM }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CAM
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = CAM
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CHI
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = CHI }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CHI
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = CHI
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = DAI
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = DAI }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = DAI
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = DAI
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = JAV
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = JAV }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = JAV
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = JAV
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = KOR
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = KOR }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = KOR
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = KOR
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = LUA
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = LUA }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = LUA
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = LUA
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = JOH
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = JOH }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = JOH
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = JOH
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SIA
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = SIA }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SIA
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = SIA
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = TIB
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = TIB }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = TIB
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = TIB
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MGL
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = MGL }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MGL
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = MGL
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = WIA
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = WIA }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = WIA
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = WIA
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = PHI
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = PHI }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = PHI
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = PHI
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MCK
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = MCK }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MCK
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = MCK
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = GXI
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = GXI }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = GXI
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = GXI
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SXI
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = SXI }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SXI
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = SXI
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = YNN
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = YNN }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = YNN
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = YNN
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = XBI
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = XBI }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = XBI
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = XBI
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = XIN
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = XIN }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = XIN
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = XIN
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CAL
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = CAL }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CAL
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = CAL
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CAN
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = CAN }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CAN
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = CAN
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CHE
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = CHE }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CHE
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = CHE
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = COL
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = COL }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = COL
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = COL
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = COS
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = COS }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = COS
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = COS
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CSA
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = CSA }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CSA
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = CSA
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CUB
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = CUB }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CUB
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = CUB
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = DES
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = DES }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = DES
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = DES
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = DOM
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = DOM }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = DOM
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = DOM
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ELS
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = ELS }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ELS
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = ELS
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = GUA
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = GUA }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = GUA
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = GUA
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = HAI
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = HAI }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = HAI
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = HAI
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = HAW
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = HAW }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = HAW
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = HAW
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MAN
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = MAN }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MAN
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = MAN
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MEX
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = MEX }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MEX
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = MEX
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MTC
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = MTC }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = MTC
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = MTC
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = HON
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = HON }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = HON
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = HON
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = NEN
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = NEN }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = NEN
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = NEN
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = NEW
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = NEW }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = NEW
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = NEW
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = NIC
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = NIC }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = NIC
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = NIC
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = PNM
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = PNM }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = PNM
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = PNM
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = QUE
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = QUE }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = QUE
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = QUE
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = TEX
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = TEX }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = TEX
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = TEX
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = UCA
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = UCA }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = UCA
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = UCA
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ARG
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = ARG }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ARG
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = ARG
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BOL
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = BOL }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BOL
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = BOL
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BRZ
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = BRZ }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BRZ
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = BRZ
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CHL
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = CHL }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CHL
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = CHL
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CLM
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = CLM }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = CLM
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = CLM
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ECU
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = ECU }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ECU
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = ECU
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = PEU
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = PEU }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = PEU
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = PEU
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = PRG
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = PRG }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = PRG
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = PRG
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = URU
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = URU }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = URU
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = URU
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = VNZ
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = VNZ }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = VNZ
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = VNZ
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SAC
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = SAC }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SAC
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = SAC
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = AST
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = AST }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = AST
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = AST
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = NZL
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = NZL }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = NZL
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = NZL
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ISR
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = ISR }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ISR
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = ISR
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BYZ
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = BYZ }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BYZ
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = BYZ
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ICL
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = ICL }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ICL
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = ICL
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BAB
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = BAB }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BAB
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = BAB
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = TPG
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = TPG }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = TPG
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = TPG
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ARA
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = ARA }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = ARA
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = ARA
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = UBD
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = UBD }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = UBD
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = UBD
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BYE
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = BYE }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = BYE
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = BYE
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = PLC
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = PLC }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = PLC
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = PLC
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = GCO
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = GCO }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = GCO
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = GCO
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = JAN
+				NOT = { has_global_flag = host_flag_tagmove }
+			}
+			THIS = { change_tag_no_core_switch = JAN }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = JAN
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = JAN
+			}
+		}
+	}
+	
+	
+	option = {
+		name = "k"
+	}
+}
