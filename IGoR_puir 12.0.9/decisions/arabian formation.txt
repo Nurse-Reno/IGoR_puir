@@ -6,6 +6,7 @@ political_decisions = {
 		potential = {
 			ARA = { exists = no }
 			is_culture_group = arab
+			tag = EGY
 		}
 		
 		allow = { 
@@ -28,13 +29,12 @@ political_decisions = {
 				country_event = 111011928
 			}
 			add_accepted_culture = union
-			THIS = { all_core = { remove_core = THIS add_core = ARA } }
 			TRI = { all_core = { remove_core = TRI } }
-			EGY = { all_core = { remove_core = EGY } }
-			HDJ = { all_core = { remove_core = HDJ } }
-			NEJ = { all_core = { remove_core = NEJ } }
-			YEM = { all_core = { remove_core = YEM } }
-			OMA = { all_core = { remove_core = OMA } }
+			EGY = { all_core = { remove_core = EGY add_core = ARA } }
+			HDJ = { all_core = { remove_core = HDJ add_core = ARA } }
+			NEJ = { all_core = { remove_core = NEJ add_core = ARA } }
+			YEM = { all_core = { remove_core = YEM add_core = ARA } }
+			OMA = { all_core = { remove_core = OMA add_core = ARA } }
 			IRQ = { all_core = { remove_core = IRQ } }
 			SYR = { all_core = { remove_core = SYR } }
 			TUN = { all_core = { remove_core = TUN } }

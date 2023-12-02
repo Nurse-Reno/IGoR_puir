@@ -1,4 +1,8 @@
 ----------------------------------------------------
+Changes for 12.0.9
+- Fixed a bug with Arabia formation causing a crash.
+
+----------------------------------------------------
 Changes for 12.0.8
 - No longer necessary to be Absolute Monarchy to both see and take Milyutin's Reforms as Russia
 - (Bugfix) Used Audax Validator to pick through literally everything for bugfixing, unironically hundreads of bugfixes.
