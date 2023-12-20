@@ -502,24 +502,44 @@ colonialmigration_chance =
 #If pop group doesn't obtain 10%/20%/30%/40%/50%/60%/70%/80%/90%/99% of their life needs, then 0.025% chance to migrate to a colony for each threshold. (0.125% total)
 	group = {
 		modifier = {
-			factor = 0.025
+			factor = 0.05
 			not = { life_needs = 0.99 }
 		}
 		modifier = {
-			factor = 0.025
+			factor = 0.05
 			not = { life_needs = 0.9 }
 		}
 		modifier = {
-			factor = 0.025
+			factor = 0.05
 			not = { life_needs = 0.8 }
 		}
 		modifier = {
-			factor = 0.025
+			factor = 0.05
 			not = { life_needs = 0.7 }
 		}
 		modifier = {
-			factor = 0.025
+			factor = 0.05
 			not = { life_needs = 0.6 }
+		}
+		modifier = {
+			factor = 0.05
+			not = { life_needs = 0.5 }
+		}
+		modifier = {
+			factor = 0.05
+			not = { life_needs = 0.4 }
+		}
+		modifier = {
+			factor = 0.05
+			not = { life_needs = 0.3 }
+		}
+		modifier = {
+			factor = 0.05
+			not = { life_needs = 0.2 }
+		}
+		modifier = {
+			factor = 0.05
+			not = { life_needs = 0.1 }
 		}
 	}
 	
@@ -802,24 +822,44 @@ emigration_chance =
 #If pop group doesn't obtain 10%/20%/30%/40%/50%/60%/70%/80%/90%/99% of their life needs, then 0.025% chance to emigrate for each threshold. (0.125% total)
 	group = {
 		modifier = {
-			factor = 0.025
+			factor = 0.05
 			not = { life_needs = 0.99 }
 		}
 		modifier = {
-			factor = 0.025
+			factor = 0.05
 			not = { life_needs = 0.9 }
 		}
 		modifier = {
-			factor = 0.025
+			factor = 0.05
 			not = { life_needs = 0.8 }
 		}
 		modifier = {
-			factor = 0.025
+			factor = 0.05
 			not = { life_needs = 0.7 }
 		}
 		modifier = {
-			factor = 0.025
+			factor = 0.05
 			not = { life_needs = 0.6 }
+		}
+		modifier = {
+			factor = 0.05
+			not = { life_needs = 0.5 }
+		}
+		modifier = {
+			factor = 0.05
+			not = { life_needs = 0.4 }
+		}
+		modifier = {
+			factor = 0.05
+			not = { life_needs = 0.3 }
+		}
+		modifier = {
+			factor = 0.05
+			not = { life_needs = 0.2 }
+		}
+		modifier = {
+			factor = 0.05
+			not = { life_needs = 0.1 }
 		}
 	}
 	
