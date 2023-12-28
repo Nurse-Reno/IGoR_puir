@@ -1,4 +1,9 @@
 ----------------------------------------------------
+Changes for 12.1.1
+- Fully fixed migrations issues
+- Added checks and naval rebalances to prevent the double goods exploit plagueing the game.
+
+----------------------------------------------------
 Changes for 12.1
 - Fixed some bugs in the poptypes file regarding emigration/colonial migration.
 
