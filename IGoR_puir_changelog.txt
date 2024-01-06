@@ -1,4 +1,8 @@
 ----------------------------------------------------
+Changes for 12.1.2
+- Made all ship types small ships to prevent an exploit involving capital ship score points.
+
+----------------------------------------------------
 Changes for 12.1.1
 - Fully fixed migrations issues
 - Added checks and naval rebalances to prevent the double goods exploit plagueing the game.
