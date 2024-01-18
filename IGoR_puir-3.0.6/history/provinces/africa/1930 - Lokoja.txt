@@ -1,0 +1,5 @@
+trade_goods = fruit
+terrain = farmlands
+life_rating = 20
+
+set_province_flag = farm
