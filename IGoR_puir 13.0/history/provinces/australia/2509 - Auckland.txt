@@ -1,0 +1,12 @@
+owner = COM
+controller = COM
+add_core = COM
+trade_goods = timber
+life_rating = 40
+
+1836.1.2 = {
+	remove_core = COM
+	owner = AST
+	controller = AST
+	add_core = AST
+}

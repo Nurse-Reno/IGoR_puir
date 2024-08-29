@@ -1,0 +1,388 @@
+#############Scenario Concepts###
+
+country_event = {
+	id = 992270
+	title = "EVTNAME992270"
+	desc = "EVTDESC992270"
+	picture = "greatpowers"
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTNAME992271"
+		THIS = {
+			country_event = { id=992271 days=0 }
+		}
+	}
+
+	option = {
+		name = "EVTNAME992273"
+		THIS = {
+			country_event = { id=992273 days=0 }
+		}
+	}
+
+	option = {
+		name = "EVTNAME992274"
+		THIS = {
+			country_event = { id=992274 days=0 }
+		}
+	}
+
+	option = {
+		name = "EVTNAME992275"
+		THIS = {
+			country_event = { id=992275 days=0 }
+		}
+	}
+
+	option = {
+		name = "EVTNAME992276"
+		THIS = {
+			country_event = { id=992276 days=0 }
+		}
+	}
+
+#	option = {
+#		name = "EVTNAME992277"
+#		THIS = {
+#			country_event = { id=992277 days=0 }
+#		}
+#	}
+
+	option = {
+		name = "EVTOPT992272"
+	}
+}
+
+country_event = {
+	id = 992271
+	title = "EVTNAME992271"
+	desc = "EVTDESC992271"
+	picture = "greatpowers"
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPT992271"
+		THIS = {
+			country_event = { id=992270 days=0 }
+		}
+	}
+
+
+	option = {
+		name = "EVTOPT992272"
+	}
+}
+
+country_event = {
+	id = 992273
+	title = "EVTNAME992273"
+	desc = "EVTDESC992273"
+	picture = "greatpowers"
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPT992271"
+		THIS = {
+			country_event = { id=992270 days=0 }
+		}
+	}
+
+	option = {
+		name = "EVTOPT992272"
+	}
+}
+
+country_event = {
+	id = 992274
+	title = "EVTNAME992274"
+	desc = "EVTDESC992274"
+	picture = "greatpowers"
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPT992271"
+		THIS = {
+			country_event = { id=992270 days=0 }
+		}
+	}
+
+	option = {
+		name = "EVTOPT992272"
+	}
+}
+
+country_event = {
+	id = 992275
+	title = "EVTNAME992275"
+	desc = "EVTDESC992275"
+	picture = "greatpowers"
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPT992271"
+		THIS = {
+			country_event = { id=992270 days=0 }
+		}
+	}
+
+	option = {
+		name = "EVTOPT992272"
+	}
+}
+
+country_event = {
+	id = 992276
+	title = "EVTNAME992276"
+	desc = "EVTDESC992276"
+	picture = "greatpowers"
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPT992271"
+		THIS = {
+			country_event = { id=992270 days=0 }
+		}
+	}
+
+	option = {
+		name = "EVTOPT992272"
+	}
+}
+
+country_event = {
+	id = 992277
+	title = "EVTNAME992277"
+	desc = "EVTDESC992277"
+	picture = "greatpowers"
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPT992271"
+		THIS = {
+			country_event = { id=992270 days=0 }
+		}
+	}
+
+	option = {
+		name = "EVTOPT992272"
+	}
+}
+########################################################################
+##############Game Mechanic Explanation########
+
+country_event = {
+	id = 9922788
+	title = "EVTNAME9922788"
+	desc = "EVTDESC9922788"
+	picture = "greatpowers"
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTNAME992278"
+		THIS = {
+			country_event = { id=992278 days=0 }
+		}
+	}
+
+#	option = {
+#		name = "EVTNAME992279"
+#		THIS = {
+#			country_event = { id=992279 days=0 }
+#		}
+#	}
+
+	option = {
+		name = "EVTNAME992280"
+		THIS = {
+			country_event = { id=992280 days=0 }
+		}
+	}
+
+	option = {
+		name = "EVTNAME992281"
+		THIS = {
+			country_event = { id=992281 days=0 }
+		}
+	}
+
+	option = {
+		name = "EVTNAME992282"
+		THIS = {
+			country_event = { id=992282 days=0 }
+		}
+	}
+
+	option = {
+		name = "EVTNAME992283"
+		THIS = {
+			country_event = { id=992283 days=0 }
+		}
+	}
+
+	option = {
+		name = "EVTNAME992284"
+		THIS = {
+			country_event = { id=992284 days=0 }
+		}
+	}
+
+	option = {
+		name = "EVTNAME992285"
+		THIS = {
+			country_event = { id=992285 days=0 }
+		}
+	}
+
+	option = {
+		name = "EVTOPT992272"
+	}
+}
+
+country_event = {
+	id = 992278
+	title = "EVTNAME992278"
+	desc = "EVTDESC992278"
+	picture = "greatpowers"
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPT992271"
+		THIS = {
+			country_event = { id=9922788 days=0 }
+		}
+	}
+
+	option = {
+		name = "EVTOPT992272"
+	}
+}
+
+#country_event = {
+#	id = 992279
+#	title = "EVTNAME992279"
+#	desc = "EVTDESC992279"
+#	picture = "greatpowers"
+#	is_triggered_only = yes
+#
+#	option = {
+#		name = "EVTOPT992271"
+#		THIS = {
+#			country_event = { id=9922788 days=0 }
+#		}
+#	}
+#
+#	option = {
+#		name = "EVTOPT992272"
+#	}
+#}
+
+country_event = {
+	id = 992280
+	title = "EVTNAME992280"
+	desc = "EVTDESC992280"
+	picture = "greatpowers"
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPT992271"
+		THIS = {
+			country_event = { id=9922788 days=0 }
+		}
+	}
+
+	option = {
+		name = "EVTOPT992272"
+	}
+}	
+
+country_event = {
+	id = 992281
+	title = "EVTNAME992281"
+	desc = "EVTDESC992281"
+	picture = "greatpowers"
+	is_triggered_only = yes
+
+	option = {
+		name = "Page 2"
+		THIS = {
+			country_event = { id=9922788 days=0 }
+		}
+	}
+}		
+
+country_event = {
+	id = 992282
+	title = "EVTNAME992282"
+	desc = "EVTDESC992282"
+	picture = "greatpowers"
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPT992271"
+		THIS = {
+			country_event = { id=9922788 days=0 }
+		}
+	}
+
+	option = {
+		name = "EVTOPT992272"
+	}
+}	
+
+country_event = {
+	id = 992283
+	title = "EVTNAME992283"
+	desc = "EVTDESC992283"
+	picture = "greatpowers"
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPT992271"
+		THIS = {
+			country_event = { id=9922788 days=0 }
+		}
+	}
+
+	option = {
+		name = "EVTOPT992272"
+	}
+}	
+
+country_event = {
+	id = 992284
+	title = "EVTNAME992284"
+	desc = "EVTDESC992284"
+	picture = "greatpowers"
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPT992271"
+		THIS = {
+			country_event = { id=9922788 days=0 }
+		}
+	}
+
+	option = {
+		name = "EVTOPT992272"
+	}
+}
+
+country_event = {
+	id = 992285
+	title = "EVTNAME992285"
+	desc = "EVTDESC992285"
+	picture = "greatpowers"
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPT992271"
+		THIS = {
+			country_event = { id=9922788 days=0 }
+		}
+	}
+
+	option = {
+		name = "EVTOPT992272"
+	}
+}		

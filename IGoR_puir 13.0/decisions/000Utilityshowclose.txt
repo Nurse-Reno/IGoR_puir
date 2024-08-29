@@ -1,0 +1,39 @@
+political_decisions = {
+		
+	show_extra_decisions = {
+		alert = yes
+		picture = lightbulb_off
+		potential = {
+			NOT = { has_country_flag = show_ex_decisions }
+			ai = no
+		}
+		allow = {
+		
+		}
+		effect = {
+			set_country_flag = show_ex_decisions
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	
+	
+	}
+	hide_extra_decisions = {
+		alert = no
+		picture = lightbulb_on
+		potential = {
+			has_country_flag = show_ex_decisions
+			ai = no
+		}
+		allow = {
+		
+		}
+		effect = {
+			clr_country_flag = show_ex_decisions
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

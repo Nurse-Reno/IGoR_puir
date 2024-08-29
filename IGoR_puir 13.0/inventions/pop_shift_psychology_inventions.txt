@@ -1,0 +1,47 @@
+#pop_shift_invention_1 = {
+#	limit = { introspectionism = 1 }
+#	news = no
+#	chance = {
+#		base = 100
+#	}
+#}
+
+pop_shift_invention_2 = {
+	limit = { associationism = 1 }
+	news = no
+	chance = {
+		base = 100
+	}
+}
+
+pop_shift_invention_3 = {
+	limit = { experimental_psychology = 1 }
+	news = no
+	chance = {
+		base = 100
+	}
+}
+
+pop_shift_invention_4 = {
+	limit = { psychological_intelligence = 1 }
+	news = no
+	chance = {
+		base = 100
+	}
+}
+
+pop_shift_invention_5 = {
+	limit = { psychoanalysis = 1 }
+	news = no
+	chance = {
+		base = 100
+	}
+}
+
+pop_shift_invention_6 = {
+	limit = { behaviorism = 1 }
+	news = no
+	chance = {
+		base = 100
+	}
+}

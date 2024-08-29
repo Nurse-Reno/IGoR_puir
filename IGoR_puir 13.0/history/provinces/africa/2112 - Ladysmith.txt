@@ -1,0 +1,12 @@
+owner = ZUL
+controller = ZUL
+add_core = ZUL
+add_core = COM
+trade_goods = coal
+life_rating = 35
+1861.1.1 = {
+	owner = COM
+	controller = COM
+	colonial = 1
+}
+

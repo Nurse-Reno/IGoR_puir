@@ -1,0 +1,105 @@
+political_decisions = {
+		
+	rgo_changes_on = {
+		alert = yes
+		picture = lightbulb_off
+		potential = {
+			NOT = {	has_country_flag = rgo_changes }
+			ai = no
+		}
+		
+		allow = {
+		}
+		
+		effect = { set_country_flag = rgo_changes }
+	}
+
+	rgo_changes_off = {
+		alert = no
+		picture = lightbulb_on
+		potential = {
+			has_country_flag = rgo_changes
+			ai = no
+		}
+		
+		allow = { }
+		
+		effect = { clr_country_flag = rgo_changes }
+	}
+		
+	rgo_change_mining = {
+		picture = alsace_lorraine_mines
+			potential = {
+				NOT = { has_country_modifier = rgo_changed_mine }
+				has_country_flag = rgo_changes
+				ai = no
+			}	
+			allow = {
+				NOT = { war = yes }
+				NOT = { has_country_flag = rgo_changed_flag_mine }
+			}
+			effect = {
+				country_event = { 
+					id = 199936
+					days = 1
+				}
+			}
+	}
+		
+	rgo_change_agriculture = {
+		picture = tea_production
+			potential = {
+				NOT = { has_country_modifier = rgo_changed_farm }
+				has_country_flag = rgo_changes
+				ai = no
+			}	
+			allow = {
+				NOT = { war = yes }
+				NOT = { has_country_flag = rgo_changed_flag_farm }
+			}
+			effect = {
+				country_event = {
+					id = 199937
+					days = 1
+				}
+			}
+	}
+		
+	rgo_change_mining_colony = {
+		picture = alsace_lorraine_mines
+			potential = {
+				NOT = { has_country_modifier = rgo_changed_mine }
+				has_country_flag = rgo_changes
+				ai = no
+			}	
+			allow = {
+				NOT = { war = yes }
+				NOT = { has_country_flag = rgo_changed_flag_mine }
+			}
+			effect = {
+				country_event = { 
+					id = 199938
+					days = 1
+				}
+			}
+	}
+		
+	rgo_change_agriculture_colony = {
+		picture = tea_production
+			potential = {
+				NOT = { has_country_modifier = rgo_changed_farm }
+				has_country_flag = rgo_changes
+				ai = no
+			}	
+			allow = {
+				NOT = { war = yes }
+				NOT = { has_country_flag = rgo_changed_flag_farm }
+			}
+			effect = {
+				country_event = {
+					id = 199939
+					days = 1
+				}
+			}
+	}
+}

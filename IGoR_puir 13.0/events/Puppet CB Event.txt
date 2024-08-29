@@ -1,0 +1,14 @@
+country_event = {
+	id = 95522
+	title = "A Change of Overlord"
+	desc = "$FROMCOUNTRY$ is now our new overlord."
+	picture = "treaty"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Damn."
+		FROM = { create_vassal = THIS }
+		clr_country_flag = puppet_nation
+	}
+}

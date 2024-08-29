@@ -1,0 +1,32 @@
+political_decisions = {
+scenario_explanation = {
+		picture = cogs_blue
+		potential = {
+		has_country_flag = show_ex_decisions
+		}
+	
+		allow = {	
+		}
+		
+		effect = {
+		THIS = {
+			country_event = { id=992270 days=0 }
+		}
+	}
+}
+
+mechanic_explanation = {
+		picture = cogs_red
+		potential = {
+		has_country_flag = show_ex_decisions
+		}
+	
+		allow = {	
+		}
+		
+		effect = {
+		THIS = {
+			country_event = { id=9922788 days=0 }
+		}
+	}
+}

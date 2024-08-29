@@ -1,0 +1,9 @@
+owner = POR
+controller = POR
+#add_core = BER
+add_core = HND
+naval_base = 1
+trade_goods = cattle
+life_rating = 35
+colonial = 2
+

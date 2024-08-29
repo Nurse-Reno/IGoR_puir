@@ -1,4 +1,160 @@
 ----------------------------------------------------
+Changes for 13.0
+- Economic Change:
+	- Free Trade and Protectionism now both have the same minimum (-25%) and maximum (75%) tariff caps.
+	- All economic policies have had their taxation restrictions removed. You may now tax your pops freely regardless of party.
+- Factory Changes:
+	- Cement Factory no longer requires 300 cement to build. Substituted for 300 coal.
+	- Regular Clothes Factory now gets a 15% output bonus from Luxury Clothes Factories.
+- Tech Changes:
+	- Sardinia now starts with Army Professionalism.
+	- Naval professionalism buffed from +5 Naval Org per tier -> +10 Naval Org per tier.
+- Inventions Changes:
+	- Biologism education efficiency bonus has been increased from 15% --> 50%.
+- Event Changes:
+	- Italian recognition of Argentina event no longer gives immigration bonuses to Argentina.
+	- Imported Pero's ACW event file to reduce the spam.
+- Decision Changes:
+	- Yugoslavia:
+		- Yugoslavia formation has been fixed and can be made by any southern slavic tag.
+	- Russia:
+		- Convention of Peking now gives Russia a free acquire substate CB.
+	- Prussia:
+		- Made acquiring the Prussian Tech School significantly easier. No longer requires 500 industry, cheap steel, and the prerequisite ruhr boom decision.
+	- Russia:
+		- Russian Imperial Academy tech school decision no longer requires naval professionalism. (Only Army professionalism)
+	- Persia:
+		- Readded the Afghanistan core decision, Reclaim Herat.
+	- Italy:
+		- Italia Irredenta now also gives a core on Malta.
+		- Added an Italian Cavour's Diplomacy decision.
+	- Austria:
+		- Accepting the Croats decision no longer requires 50 prestige and psychoanalysis tech. Also, no longer requires you to avoid Bavarian cores.
+		- Accepting the Slovenes decision no longer requires 50 prestige, psychanalysis, and social science tech. Also, year to execute moved from 1875 to 1870.
+	- Arabia:
+		- Arabian Formation now adds cores on Syria and Iraq and removes their corresponding cores at the same time.
+	- France:
+		- Eiffel Tower decision is now visible from the beginning and only requires cheap steel.
+		- French Indochina decision is now visible from the beginning.
+	- USA:
+		- Ostend Manifesto is now visible from the start.
+	- Spain:
+		- Spain can now see the Philipino education decree and Gibraltar question decisions from the beginning.
+	- Puppet Release Decision no longer costs prestige.
+	- RGO change decision will no longer target colonies.
+	- Tech schools can now be changed while at war.
+- CB Changes:
+	- Acquire Treaty Port CB now gives Reparations again and now costs 2.5 infamy.
+	- Acquire Substate region has had its WS cost reduced from 40% -> 24%
+	- Dismantle Fortifications CB warscore cost increased from 4 WS --> 8 WS
+	- Release Puppet CB warscore cost reduced from 25 WS --> 15 WS
+	- New CB added:
+		- Steal Puppet: 30 WS
+	- Zulu no longer has 1865 protection from CBs, it can be conquered day 1.
+	- Liberate Country CB has been removed.
+- Population Changes:
+	- Ottomans no longer accept Albanian.
+	- Commonwealth no longer accepts British.
+	- Spain and Portugal starting literacy buffed from 13% -> 20% for both.
+	- Fixed Normandy's starting admin efficiency.
+- Map Changes:
+	- India is now a substate of the UK. That means you may directly take land from India via the take substate region CB on the UK, but you may not release India from the UK. This also makes India immune to the new steal puppet CB. (Added a check to make sure this works properly with British lapse.)
+	- West Indies Federation starting cores have been removed.
+	- All of South America has been set to 36 liferating (1 LR buff) and Mexico has been set to 35 liferating from the start (rather than by event).
+	- Philadelphia and Valera now have ports.
+	- Commonwealth:
+		- Imported Corgi Canada consolidation.
+		- Removed Commonwealth Cores in South Africa.
+	- Peru:
+		- Consolidated the starting 5 states in 4.
+		- Imported the Corgi color for Peru.
+	- Japan
+		- RGO Changes:
+			- Wakayama: Tea -> Cattle
+	- Mexico:
+		- Split Mexico City state into 2 states.
+	- Portugal
+		- Consolidated Portugals mainland into 2 states.
+		- RGO Changes:
+			- Lisbon: Grain -> Coal
+			- Beja: Iron -> Wool
+			- Abrantes: Grain -> Fish
+			- Evora: Grain -> Cattle
+			- Coimbra: Fruit -> Iron
+		- Factory Changes:
+			- Lisbon now starts with a steel factory, fabric factory, artillery factory, and clipper shipyard.
+		- Population Changes:
+			- Lisbon has been given 20,000 craftsmen.
+	- Spain
+		- Cuba and Spanish West Indies now start as states.
+	- Arabia, Oman, Yemen, and UAE states have been consolidated into Nejd.
+	- Stole CE's colors for Portugal, Modena, Lucca, Tuscany, Parma, Belgium. Changed the colors of Spain and Netherlands.
+	- Removed Brabant double naval base day 1.
+	- Removed British core on Bermuda.
+	- Removed Russian cores on the state of Budjak.
+	- Kotor (Montenegro) as well as Cernauti and Suceava (Moldovia) no longer have Austrian cores.
+	- Fixed the 4 bugged water pixels on the map that CE found
+	- Straits added to Indonesia/Malaysia to make them easier to navigate with armies. (Ternate-Jilolo, Ambon-Ceram Flores-Alor Lae-New Britain Ambon-Ternate)
+	- Scandinavia now has a canal to simulate the Danish Sound, similar to the double canal locks in the Turkish Dardanelles, that blocks enemy naval traffic into the Southern Baltic Sea from Oresund. For an enemy to bypass this canal they must occupy Copenhagen.
+- National Value Changes:
+	- Removed base experience from Order NV.
+- Military Changes:
+	- Forts and Naval Bases have had their goods cost significantly increased, initial costs day 1 are about 100,000 per province construction.
+	- Germany:
+		- Prussia now starts with 50 brigades, 40 of them are built into 4 meta stacks.
+	- All Player Spawned Generals (John Cena, Ferdinand Foch, etc) are not 3/3 instead of 4/4.
+	- Mobilizing no longer raises Crisis tension.
+- Army Changes:
+	- Lowered the combat width reduction in Bolt Action Rifles and Modern Divisional Structure from -3 to -2.
+- Naval Changes
+	- Reverted Capital Ship changes from 12.1.2 (Just reclassifies old capitals back to capitals)
+	- Ships must reach at least 50% of the battle travel distance before they can retreat.
+	- Naval Bases have now been limited back to 1 per state.
+	- Naval supply is now visible instead of the old infinity symbol so you can mouse over and see your number of ships as you can in vanilla (Thank CE)
+	- Cruisers have been given 25% dodge chance (evasion). Vanilla dodge chance is 30%.
+- General Changes
+	- Added contingencies to prevent late game issues with world bank actually achieving its needs.
+	- Religion and its ui elements have been removed entirely to help reduce lag, but can be readded at a future date.
+	- War Exhaustion now decreases faster as you approach 100% war exhaustion.
+	- War Exhaustion now decreases tax efficiency and tariff efficiency up to a maximum of -10% for both (@ 100% war exhaustion).
+	- Day 2/3 money event now occurs immediately upon game start on Day 1.
+	- Raised global literacy gain from 0.04 -> 0.06
+	- Railroads can now have all of their tiers built in all terrain types. 
+	- Added tons of UI QoL changes.
+	- Infamy Sanctions now apply immediately and can no longer be held as an event to prevent being punished.
+	- Losing to rebels will no longer break your alliances.
+	- Added CE's Minimum Stockpile mechanic, manual stockpiling is now at a minimum of 300.46 (don't ask why .46) to prevent shadowfunding.
+	- Added CE's declutter decisions pushing events like pop changes to GHO background decision so it occurs immediately day 1 instead of awkwardly on day 2 or 3.
+	- Tuscany, Modena, Parma, and Lucca now start as Austrian puppets.
+	- Rostov will now benefit from Ukrainian breadbasket.
+	- All pop growth has been removed from size modifiers.
+	- Pacifism supply consumption has been nerfed from -25% -> -15%
+	- Removed Sanitarium.
+	- Vassals no longer receive tech bonuses from their overlord.
+	- Overseas maintenance has been significantly increased from 5% -> 40%.
+	- Swapping Tech Schools no longer has any prerequisites.
+	- Added a host money giving decision to help keep the world bank afloat late game.
+	- Changed Greeces color to 18 105 199 for Nikolaus.
+	- Added a Mechanics and Scenario explanation decision, credit to CE, that is rewritten to provide information about IGoR.
+	- Removed Baltic Empire decision from Sweden.
+- Bugfixes:
+	- Fixed the issue where uncivs had to wait a month before westernization after passing a tech reform, now you can just freely westernize immediately after a reform.
+	- Fixed Arabian Formation so it no longer deletes North African cores.
+	- Fixed an issue with Liferating buffs on Persia. If Persia starts as a player, it should now scale properly to 37 liferating.
+	- Fixed a lowercase C in Trinket Health Care.
+	- Fixed an issue with PBA formation not deleting portugese cores, causing double core in portugal states.
+	- Removed Enosis with Greece decision, it did nothing.
+	- Fixed a bugged core on Norfolk Island.
+	- Fixed a bug in the Papua Act decision.
+	- Removed Scottish cores causing double core assimilation issues.
+	- Gave the province of Ajmer to the India puppet to prevent a war exhaustion bug for the UK. (landlocked)
+	- Imported CE's ideologies file in common folder to fix some pop reform issues.
+	- Removed a conquest CB from the PolitBureau event.
+	- Raised demand for world bank by 4x.
+	- Fixed RGO change decision, was broken for colonies a bit.
+	- Removed remainder of precious metals bonuses in inventions.
+	
+----------------------------------------------------
 Changes for 12.1.2
 - Made all ship types small ships to prevent an exploit involving capital ship score points.
 
