@@ -1,4 +1,11 @@
 ----------------------------------------------------
+Changes for 13.0.1
+- Reverted overseas maintenance change
+- Changed Greek culture to blue so its easier to see in balkan culture mapmode.
+- Fixed some bugged OOBs
+- Removed starting pops religion (negligible)
+
+----------------------------------------------------
 Changes for 13.0
 - Economic Change:
 	- Free Trade and Protectionism now both have the same minimum (-25%) and maximum (75%) tariff caps.
