@@ -1,0 +1,482 @@
+#Liberia Region (880000) 
+#under the rule of Liberia in 1836
+#Monrovia (252000/63000 POPS) 
+1887 = {
+	bureaucrats = {
+		culture = afro_american
+		religion = placeholder
+		size = 25
+	}
+
+	officers = {
+		culture = afro_american
+		religion = placeholder
+		size = 10
+	}
+
+	clergymen = {
+		culture = afro_american
+		religion = placeholder
+		size = 50
+	}
+
+	artisans = {
+		culture = afro_american
+		religion = placeholder
+		size = 100
+	}
+
+	soldiers = {
+		culture = afro_american
+		religion = placeholder
+		size = 75
+	}
+
+	farmers = {
+		culture = afro_american
+		religion = placeholder
+		size = 740
+	}
+
+	clergymen = {
+		culture = afro_american
+		religion = placeholder
+		size = 25
+	}
+
+	artisans = {
+		culture = afro_american
+		religion = placeholder
+		size = 200
+	}
+
+	soldiers = {
+		culture = afro_american
+		religion = placeholder
+		size = 1550
+	}
+
+	farmers = {
+		culture = afro_american
+		religion = placeholder
+		size = 2325
+	}
+
+	aristocrats = {
+		culture = afro_american
+		religion = placeholder
+		size = 875
+	}
+
+	clergymen = {
+		culture = afro_american
+		religion = placeholder
+		size = 450
+	}
+
+	artisans = {
+		culture = afro_american
+		religion = placeholder
+		size = 2350
+	}
+
+	farmers = {
+		culture = afro_american
+		religion = placeholder
+		size = 41325
+	}
+
+	aristocrats = {
+		culture = afro_american
+		religion = placeholder
+		size = 150
+	}
+
+	clergymen = {
+		culture = afro_american
+		religion = placeholder
+		size = 75
+	}
+
+	artisans = {
+		culture = afro_american
+		religion = placeholder
+		size = 450
+	}
+
+	farmers = {
+		culture = afro_american
+		religion = placeholder
+		size = 8325
+	}
+
+	aristocrats = {
+		culture = afro_american
+		religion = placeholder
+		size = 75
+	}
+
+	clergymen = {
+		culture = afro_american
+		religion = placeholder
+		size = 50
+	}
+
+	artisans = {
+		culture = afro_american
+		religion = placeholder
+		size = 200
+	}
+
+	farmers = {
+		culture = afro_american
+		religion = placeholder
+		size = 3675
+	}
+}
+#Harper (204000/51000 POPS) 
+1888 = {
+	clergymen = {
+		culture = afro_american
+		religion = placeholder
+		size = 10
+	}
+
+	artisans = {
+		culture = afro_american
+		religion = placeholder
+		size = 10
+	}
+
+	soldiers = {
+		culture = afro_american
+		religion = placeholder
+		size = 10
+	}
+
+	farmers = {
+		culture = afro_american
+		religion = placeholder
+		size = 50
+	}
+	
+	aristocrats = {
+		culture = afro_american
+		religion = placeholder
+		size = 750
+	}
+
+	clergymen = {
+		culture = afro_american
+		religion = placeholder
+		size = 375
+	}
+
+	artisans = {
+		culture = afro_american
+		religion = placeholder
+		size = 1900
+	}
+
+	soldiers = {
+		culture = afro_american
+		religion = placeholder
+		size = 375
+	}
+
+	farmers = {
+		culture = afro_american
+		religion = placeholder
+		size = 34520
+	}
+
+	aristocrats = {
+		culture = afro_american
+		religion = placeholder
+		size = 250
+	}
+
+	clergymen = {
+		culture = afro_american
+		religion = placeholder
+		size = 125
+	}
+
+	artisans = {
+		culture = afro_american
+		religion = placeholder
+		size = 650
+	}
+
+	soldiers = {
+		culture = afro_american
+		religion = placeholder
+		size = 125
+	}
+
+	farmers = {
+		culture = afro_american
+		religion = placeholder
+		size = 11850
+	}
+}
+#uncolonized in 1836
+#Bopulu (124000/31000 POPS) 
+1889 = {
+	clergymen = {
+		culture = afro_american
+		religion = placeholder
+		size = 10
+	}
+
+	artisans = {
+		culture = afro_american
+		religion = placeholder
+		size = 10
+	}
+
+	soldiers = {
+		culture = afro_american
+		religion = placeholder
+		size = 10
+	}
+
+	farmers = {
+		culture = afro_american
+		religion = placeholder
+		size = 50
+	}
+	
+	aristocrats = {
+		culture = afro_american
+		religion = placeholder
+		size = 475
+	}
+
+	clergymen = {
+		culture = afro_american
+		religion = placeholder
+		size = 250
+	}
+
+	artisans = {
+		culture = afro_american
+		religion = placeholder
+		size = 1250
+	}
+
+	soldiers = {
+		culture = afro_american
+		religion = placeholder
+		size = 250
+	}
+
+	farmers = {
+		culture = afro_american
+		religion = placeholder
+		size = 22695
+	}
+
+	aristocrats = {
+		culture = afro_american
+		religion = placeholder
+		size = 100
+	}
+
+	clergymen = {
+		culture = afro_american
+		religion = placeholder
+		size = 50
+	}
+
+	artisans = {
+		culture = afro_american
+		religion = placeholder
+		size = 300
+	}
+
+	soldiers = {
+		culture = afro_american
+		religion = placeholder
+		size = 75
+	}
+
+	farmers = {
+		culture = afro_american
+		religion = placeholder
+		size = 5475
+	}
+}
+#Gbarnga (132000/33000 POPS) 
+1890 = {
+	clergymen = {
+		culture = afro_american
+		religion = placeholder
+		size = 10
+	}
+
+	artisans = {
+		culture = afro_american
+		religion = placeholder
+		size = 10
+	}
+
+	soldiers = {
+		culture = afro_american
+		religion = placeholder
+		size = 10
+	}
+
+	farmers = {
+		culture = afro_american
+		religion = placeholder
+		size = 50
+	}
+
+	aristocrats = {
+		culture = afro_american
+		religion = placeholder
+		size = 200
+	}
+
+	clergymen = {
+		culture = afro_american
+		religion = placeholder
+		size = 100
+	}
+
+	artisans = {
+		culture = afro_american
+		religion = placeholder
+		size = 550
+	}
+
+	soldiers = {
+		culture = afro_american
+		religion = placeholder
+		size = 125
+	}
+
+	farmers = {
+		culture = afro_american
+		religion = placeholder
+		size = 10025
+	}
+
+	aristocrats = {
+		culture = afro_american
+		religion = placeholder
+		size = 425
+	}
+
+	clergymen = {
+		culture = afro_american
+		religion = placeholder
+		size = 225
+	}
+
+	artisans = {
+		culture = afro_american
+		religion = placeholder
+		size = 1100
+	}
+
+	soldiers = {
+		culture = afro_american
+		religion = placeholder
+		size = 225
+	}
+
+	farmers = {
+		culture = afro_american
+		religion = placeholder
+		size = 19945
+	}
+}
+#Zwedru (168000/42000 POPS) 
+1891 = {
+	clergymen = {
+		culture = afro_american
+		religion = placeholder
+		size = 10
+	}
+
+	artisans = {
+		culture = afro_american
+		religion = placeholder
+		size = 10
+	}
+
+	soldiers = {
+		culture = afro_american
+		religion = placeholder
+		size = 10
+	}
+
+	farmers = {
+		culture = afro_american
+		religion = placeholder
+		size = 50
+	}
+	
+	aristocrats = {
+		culture = afro_american
+		religion = placeholder
+		size = 225
+	}
+
+	clergymen = {
+		culture = afro_american
+		religion = placeholder
+		size = 250
+	}
+
+	artisans = {
+		culture = afro_american
+		religion = placeholder
+		size = 1150
+	}
+
+	soldiers = {
+		culture = afro_american
+		religion = placeholder
+		size = 170
+	}
+
+	farmers = {
+		culture = afro_american
+		religion = placeholder
+		size = 21175
+	}
+
+	aristocrats = {
+		culture = afro_american
+		religion = placeholder
+		size = 150
+	}
+
+	clergymen = {
+		culture = afro_american
+		religion = placeholder
+		size = 200
+	}
+
+	artisans = {
+		culture = afro_american
+		religion = placeholder
+		size = 950
+	}
+
+	soldiers = {
+		culture = afro_american
+		religion = placeholder
+		size = 200
+	}
+
+	farmers = {
+		culture = afro_american
+		religion = placeholder
+		size = 17500
+	}
+
+}

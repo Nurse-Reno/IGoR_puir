@@ -1,3 +1,12 @@
+
+----------------------------------------------------
+Changes for 13.0.2
+- Fixed a bug with save files and religion bricking.
+- China and all of its substates now have mutual military access (and Korea), solving a weird AI bug where China was not assisting Korea against Japan.
+- China will no longer be pop nerfed, but all of its cores will now be set to 30 liferating. (No Bonus pop growth from liferating)
+- India will no longer be pop nerfed, but all of its cores will now be set to 30 liferating. (No Bonus pop growth from liferating)
+- Liberate Country CB has been readded because it actually DID serve a purpose, I'm an idiot.
+
 ----------------------------------------------------
 Changes for 13.0.1
 - Reverted overseas maintenance change

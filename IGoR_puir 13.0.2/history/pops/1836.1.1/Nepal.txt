@@ -1,0 +1,199 @@
+#Himalaya Region (952000) #see Bhutan.txt and India.txt for balance of region
+#under the rule of Nepal in 1836  
+#Katmandu (540000/135000 POPS)   
+1326 = {
+	aristocrats = {
+		culture = nepali
+		religion = placeholder
+		size = 2000
+	}
+
+	bureaucrats = {
+		culture = nepali
+		religion = placeholder
+		size = 175
+	}
+
+	officers = {
+		culture = nepali
+		religion = placeholder
+		size = 225
+	}
+
+	clergymen = {
+		culture = nepali
+		religion = placeholder
+		size = 1100
+	}
+
+	artisans = {
+		culture = nepali
+		religion = placeholder
+		size = 4050
+	}
+
+	soldiers = {
+		culture = nepali
+		religion = placeholder
+		size = 7000
+	}
+
+	farmers = {
+		culture = nepali
+		religion = placeholder
+		size = 86250
+	}
+
+	aristocrats = {
+		culture = tibetan
+		religion = placeholder
+		size = 200
+	}
+
+	clergymen = {
+		culture = tibetan
+		religion = placeholder
+		size = 100
+	}
+
+	artisans = {
+		culture = tibetan
+		religion = placeholder
+		size = 475
+	}
+
+	soldiers = {
+		culture = tibetan
+		religion = placeholder
+		size = 100
+	}
+
+	farmers = {
+		culture = tibetan
+		religion = placeholder
+		size = 10125
+	}
+
+	aristocrats = {
+		culture = nepali
+		religion = placeholder
+		size = 400
+	}
+
+	clergymen = {
+		culture = nepali
+		religion = placeholder
+		size = 225
+	}
+
+	artisans = {
+		culture = nepali
+		religion = placeholder
+		size = 1050
+	}
+
+	soldiers = {
+		culture = nepali
+		religion = placeholder
+		size = 200
+	}
+
+	farmers = {
+		culture = nepali
+		religion = placeholder
+		size = 21125
+	}
+}
+#Jumla (412000/103000 POPS)   
+1327 = {
+	aristocrats = {
+		culture = nepali
+		religion = placeholder
+		size = 900
+	}
+
+	clergymen = {
+		culture = nepali
+		religion = placeholder
+		size = 450
+	}
+
+	artisans = {
+		culture = nepali
+		religion = placeholder
+		size = 2300
+	}
+
+	soldiers = {
+		culture = nepali
+		religion = placeholder
+		size = 1100
+	}
+
+	farmers = {
+		culture = nepali
+		religion = placeholder
+		size = 49250
+	}
+
+	aristocrats = {
+		culture = tibetan
+		religion = placeholder
+		size = 700
+	}
+
+	clergymen = {
+		culture = tibetan
+		religion = placeholder
+		size = 375
+	}
+
+	artisans = {
+		culture = tibetan
+		religion = placeholder
+		size = 1850
+	}
+
+	soldiers = {
+		culture = tibetan
+		religion = placeholder
+		size = 350
+	}
+
+	farmers = {
+		culture = tibetan
+		religion = placeholder
+		size = 33725
+	}
+
+	aristocrats = {
+		culture = nepali
+		religion = placeholder
+		size = 350
+	}
+
+	clergymen = {
+		culture = nepali
+		religion = placeholder
+		size = 200
+	}
+
+	artisans = {
+		culture = nepali
+		religion = placeholder
+		size = 950
+	}
+
+	soldiers = {
+		culture = nepali
+		religion = placeholder
+		size = 200
+	}
+
+	farmers = {
+		culture = nepali
+		religion = placeholder
+		size = 18300
+	}
+}
+

@@ -1,0 +1,132 @@
+#French Antilles (319200)
+#Ruled by France 1836
+#Martinique (190800/27450 POPS)
+2228 = {
+    aristocrats = {
+        culture = french
+        religion = placeholder
+        size = 750
+    }
+
+    bureaucrats = {
+        culture = french
+        religion = placeholder
+        size = 500
+    }
+
+    clergymen = {
+        culture = french
+        religion = placeholder
+        size = 50
+    }
+
+    artisans = {
+        culture = french
+        religion = placeholder
+        size = 900
+    }
+
+    soldiers = {
+        culture = french
+        religion = placeholder
+        size = 250
+    }
+
+    farmers = {
+        culture = french
+        religion = placeholder
+        size = 400
+    }
+
+    clergymen = {
+        culture = afro_antillean
+        religion = placeholder
+        size = 125
+    }
+
+    artisans = {
+        culture = afro_antillean
+        religion = placeholder
+        size = 1250
+    }
+
+    soldiers = {
+        culture = afro_antillean
+        religion = placeholder
+        size = 250
+    }
+
+    farmers = {
+        culture = afro_antillean
+        religion = placeholder
+        size = 3400
+    }
+
+    slaves = {
+        culture = afro_antillean
+        religion = placeholder
+        size = 20000
+    }
+}
+#Guadeloupe (128400/32100 POPS)
+2230 = {
+    aristocrats = {
+        culture = french
+        religion = placeholder
+        size = 850
+    }
+
+    clergymen = {
+        culture = french
+        religion = placeholder
+        size = 50
+    }
+
+    artisans = {
+        culture = french
+        religion = placeholder
+        size = 1300
+    }
+
+    soldiers = {
+        culture = french
+        religion = placeholder
+        size = 300
+    }
+
+    farmers = {
+        culture = french
+        religion = placeholder
+        size = 600
+    }
+
+    clergymen = {
+        culture = afro_antillean
+        religion = placeholder
+        size = 150
+    }
+
+    artisans = {
+        culture = afro_antillean
+        religion = placeholder
+        size = 1500
+    }
+
+    soldiers = {
+        culture = afro_antillean
+        religion = placeholder
+        size = 300
+    }
+
+    farmers = {
+        culture = afro_antillean
+        religion = placeholder
+        size = 3050
+    }
+
+    slaves = {
+        culture = afro_antillean
+        religion = placeholder
+        size = 24000
+    }
+}

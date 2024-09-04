@@ -1,0 +1,199 @@
+political_decisions = {
+	
+#	credits = {
+#		potential = {
+#			tag = GHO
+#			NOT = { has_global_flag = creditsfired }
+#		}
+#		allow = {
+#		}
+#		effect = {
+#			any_country = {
+#				limit = {
+#					ai = no
+#				}
+#				country_event = 60168151
+#			}
+#			any_country = {	
+#				any_owned = {
+#					limit = {
+#						continent = india
+#					}
+#					any_pop = {
+#						reduce_pop = 0.30
+#					}
+#				}
+#			}
+#			set_global_flag = creditsfired
+#		}
+#		ai_will_do = {
+#			factor = 100
+#        }
+#	}
+
+	china_mobilization_nerf_pt1 = {
+		potential = {
+			tag = GHO
+			CHI = {
+				NOT = { has_country_modifier = china_mobilization_nerf }
+				civilized = no
+			}
+		}
+		allow = {
+		}
+		effect = {
+			CHI = {
+				add_country_modifier = {
+					name = china_mobilization_nerf
+					duration = -1
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 100
+        }
+	}
+	
+	china_mobilization_nerf_pt2 = {
+		potential = {
+			tag = GHO
+			CHI = {
+				has_country_modifier = china_mobilization_nerf
+				civilized = yes
+			}
+		}
+		allow = {
+		}
+		effect = {
+			CHI = {
+				remove_country_modifier = china_mobilization_nerf
+			}	
+		}
+		ai_will_do = {
+			factor = 100
+        }
+	}
+	
+	china_mobilization_nerf_pt3 = {
+		potential = {
+			tag = GHO
+			CHI = {
+				NOT = { has_country_modifier = china_rp_nerf }
+				civilized = no
+			}
+		}
+		allow = {
+		}
+		effect = {
+			CHI = {
+				add_country_modifier = {
+					name = china_rp_nerf
+					duration = -1
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 100
+        }
+	}
+	
+	china_mobilization_nerf_pt4 = {
+		potential = {
+			tag = GHO
+			CHI = {
+				has_country_modifier = china_rp_nerf
+				civilized = yes
+			}
+		}
+		allow = {
+		}
+		effect = {
+			CHI = {
+				remove_country_modifier = china_rp_nerf
+			}	
+		}
+		ai_will_do = {
+			factor = 100
+        }
+	}
+	
+	day_one_grants = {
+		potential = {
+			tag = GHO
+			NOT = { has_global_flag = day_one_grants }
+		}
+		allow = {
+		}
+		effect = {
+			any_country = {
+				limit = { is_greater_power = yes }
+				treasury = 100000
+			}
+			any_country = {
+				limit = { is_greater_power = no }
+				treasury = 50000
+			}
+			set_global_flag = day_one_grants
+		}
+		 ai_will_do = {
+            factor = 100
+        }
+	}
+
+	canals = {
+		potential = {
+			tag = GHO
+			NOT = { has_global_flag = canals }
+		}
+		allow = {
+		}
+		effect = {
+		enable_canal = 4
+		enable_canal = 5
+		enable_canal = 6
+			set_global_flag = canals
+		}
+		 ai_will_do = {
+            factor = 100
+        }
+	}
+
+#	pop_nerfs = {
+#	picture = "xinhai"
+#		potential = {
+#			tag = GHO
+#			NOT = { has_global_flag = popnerfs }
+#
+#		}
+#		allow = {
+#		}
+#		effect = {
+#		any_country = {	
+#			any_owned = {
+#				limit = {
+#					is_core = CHI
+#					NOT = { province_id = 1485 }
+#					NOT = { province_id = 2562 }
+#					NOT = { province_id = 1499 }
+#					NOT = { province_id = 3249 }
+#					NOT = { province_id = 1496 }
+#					NOT = { province_id = 1498 }
+#					NOT = { province_id = 1608 }
+#					NOT = { province_id = 1606 }
+#					NOT = { province_id = 1538 }
+#					NOT = { province_id = 1566 }
+#					NOT = { province_id = 1569 }
+#					NOT = { province_id = 1481 }
+#				}
+#				any_pop = {
+#						reduce_pop = 0.30
+#				}
+#			}	
+#		}
+#			set_global_flag = popnerfs
+#		}
+#		 ai_will_do = {
+#            factor = 100
+#        }
+#	}	
+}

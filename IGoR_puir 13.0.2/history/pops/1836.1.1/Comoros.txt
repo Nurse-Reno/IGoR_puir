@@ -1,0 +1,130 @@
+#Comoro Islands Region (64000)  
+#uncolonized in 1836/dominated by sultan of Anjouan
+#Comoro Islands (56000/14000 POPS) 
+2123 = {
+
+	clergymen = {
+		culture = malagasy
+		religion = placeholder
+		size = 25
+	}
+
+	artisans = {
+		culture = malagasy
+		religion = placeholder
+		size = 50
+	}
+
+	soldiers = {
+		culture = malagasy
+		religion = placeholder
+		size = 10
+	}
+
+	farmers = {
+		culture = malagasy
+		religion = placeholder
+		size = 400
+	}
+
+	aristocrats = {
+		culture = malagasy
+		religion = placeholder
+		size = 15
+	}
+
+	clergymen = {
+		culture = malagasy
+		religion = placeholder
+		size = 25
+	}
+
+	artisans = {
+		culture = malagasy
+		religion = placeholder
+		size = 50
+	}
+
+	soldiers = {
+		culture = malagasy
+		religion = placeholder
+		size = 10
+	}
+
+	farmers = {
+		culture = malagasy
+		religion = placeholder
+		size = 900
+	}
+
+	slaves = {
+		culture = malagasy
+		religion = placeholder
+		size = 500
+	}
+
+}
+
+2124 = {
+
+	clergymen = {
+		culture = malagasy
+		religion = placeholder
+		size = 25
+	}
+
+	artisans = {
+		culture = malagasy
+		religion = placeholder
+		size = 50
+	}
+
+	soldiers = {
+		culture = malagasy
+		religion = placeholder
+		size = 10
+	}
+
+	farmers = {
+		culture = malagasy
+		religion = placeholder
+		size = 400
+	}
+
+	aristocrats = {
+		culture = malagasy
+		religion = placeholder
+		size = 15
+	}
+
+	clergymen = {
+		culture = malagasy
+		religion = placeholder
+		size = 25
+	}
+
+	artisans = {
+		culture = malagasy
+		religion = placeholder
+		size = 50
+	}
+
+	soldiers = {
+		culture = malagasy
+		religion = placeholder
+		size = 10
+	}
+
+	farmers = {
+		culture = malagasy
+		religion = placeholder
+		size = 900
+	}
+
+	slaves = {
+		culture = malagasy
+		religion = placeholder
+		size = 500
+	}
+
+}

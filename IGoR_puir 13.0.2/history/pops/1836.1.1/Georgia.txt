@@ -1,0 +1,606 @@
+#Gruzhia Region (644000)
+#under the rule of Russia in 1836
+#Tblisi (232000/58000 POPS) #circassian-placeholder = Ossetian
+1090 = {
+    bureaucrats = {
+        culture = russian
+        religion = placeholder
+        size = 500
+    }
+
+    clergymen = {
+        culture = russian
+        religion = placeholder
+        size = 25
+    }
+
+    artisans = {
+        culture = russian
+        religion = placeholder
+        size = 25
+    }
+
+    soldiers = {
+        culture = russian
+        religion = placeholder
+        size = 250
+    }
+
+    aristocrats = {
+        culture = georgian
+        religion = placeholder
+        size = 1100
+    }
+
+    bureaucrats = {
+        culture = georgian
+        religion = placeholder
+        size = 250
+    }
+
+    officers = {
+        culture = georgian
+        religion = placeholder
+        size = 175
+    }
+
+    clergymen = {
+        culture = georgian
+        religion = placeholder
+        size = 475
+    }
+
+    artisans = {
+        culture = georgian
+        religion = placeholder
+        size = 6725
+    }
+
+    soldiers = {
+        culture = georgian
+        religion = placeholder
+        size = 1100
+    }
+
+    farmers = {
+        culture = georgian
+        religion = placeholder
+        size = 39625
+    }
+
+    aristocrats = {
+        culture = north_caucasian
+        religion = placeholder
+        size = 25
+    }
+
+    clergymen = {
+        culture = north_caucasian
+        religion = placeholder
+        size = 25
+    }
+
+    artisans = {
+        culture = north_caucasian
+        religion = placeholder
+        size = 150
+    }
+
+    soldiers = {
+        culture = north_caucasian
+        religion = placeholder
+        size = 25
+    }
+
+    farmers = {
+        culture = north_caucasian
+        religion = placeholder
+        size = 2775
+    }
+
+    aristocrats = {
+        culture = armenian
+        religion = placeholder
+        size = 50
+    }
+
+    clergymen = {
+        culture = armenian
+        religion = placeholder
+        size = 50
+    }
+
+    artisans = {
+        culture = armenian
+        religion = placeholder
+        size = 450
+    }
+
+    soldiers = {
+        culture = armenian
+        religion = placeholder
+        size = 50
+    }
+
+    farmers = {
+        culture = armenian
+        religion = placeholder
+        size = 2400
+    }
+
+    aristocrats = {
+        culture = azerbaijani
+        religion = placeholder
+        size = 25
+    }
+
+    clergymen = {
+        culture = azerbaijani
+        religion = placeholder
+        size = 50
+    }
+
+    artisans = {
+        culture = azerbaijani
+        religion = placeholder
+        size = 150
+    }
+
+    soldiers = {
+        culture = azerbaijani
+        religion = placeholder
+        size = 25
+    }
+
+    farmers = {
+        culture = azerbaijani
+        religion = placeholder
+        size = 2750
+    }
+
+    clergymen = {
+        culture = sephardic
+        religion = placeholder
+        size = 10
+    }
+
+    artisans = {
+        culture = sephardic
+        religion = placeholder
+        size = 490
+    }
+}
+#Pasanauri (76000/19000 POPS)
+1091 = {
+    aristocrats = {
+        culture = georgian
+        religion = placeholder
+        size = 200
+    }
+
+    clergymen = {
+        culture = georgian
+        religion = placeholder
+        size = 100
+    }
+
+    artisans = {
+        culture = georgian
+        religion = placeholder
+        size = 500
+    }
+
+    soldiers = {
+        culture = georgian
+        religion = placeholder
+        size = 100
+    }
+
+    farmers = {
+        culture = georgian
+        religion = placeholder
+        size = 9100
+    }
+
+    aristocrats = {
+        culture = north_caucasian
+        religion = placeholder
+        size = 100
+    }
+
+    clergymen = {
+        culture = north_caucasian
+        religion = placeholder
+        size = 50
+    }
+
+    artisans = {
+        culture = north_caucasian
+        religion = placeholder
+        size = 300
+    }
+
+    soldiers = {
+        culture = north_caucasian
+        religion = placeholder
+        size = 50
+    }
+
+    farmers = {
+        culture = north_caucasian
+        religion = placeholder
+        size = 5500
+    }
+
+    aristocrats = {
+        culture = armenian
+        religion = placeholder
+        size = 50
+    }
+
+    clergymen = {
+        culture = armenian
+        religion = placeholder
+        size = 50
+    }
+
+    artisans = {
+        culture = armenian
+        religion = placeholder
+        size = 150
+    }
+
+    soldiers = {
+        culture = armenian
+        religion = placeholder
+        size = 50
+    }
+
+    farmers = {
+        culture = armenian
+        religion = placeholder
+        size = 2700
+    }
+}
+#Kutaisi (120000/30000 POPS)
+1092 = {
+    aristocrats = {
+        culture = georgian
+        religion = placeholder
+        size = 550
+    }
+
+    clergymen = {
+        culture = georgian
+        religion = placeholder
+        size = 300
+    }
+
+    artisans = {
+        culture = georgian
+        religion = placeholder
+        size = 1300
+    }
+
+    soldiers = {
+        culture = georgian
+        religion = placeholder
+        size = 300
+    }
+
+    farmers = {
+        culture = georgian
+        religion = placeholder
+        size = 27300
+    }
+
+    clergymen = {
+        culture = sephardic
+        religion = placeholder
+        size = 5
+    }
+
+    artisans = {
+        culture = sephardic
+        religion = placeholder
+        size = 245
+    }
+}
+#Akhaltplaceholderle (40000/10000 POPS)
+1093 = {
+    aristocrats = {
+        culture = georgian
+        religion = placeholder
+        size = 50
+    }
+
+    clergymen = {
+        culture = georgian
+        religion = placeholder
+        size = 75
+    }
+
+    artisans = {
+        culture = georgian
+        religion = placeholder
+        size = 200
+    }
+
+    soldiers = {
+        culture = georgian
+        religion = placeholder
+        size = 50
+    }
+
+    farmers = {
+        culture = georgian
+        religion = placeholder
+        size = 3625
+    }
+
+    aristocrats = {
+        culture = armenian
+        religion = placeholder
+        size = 100
+    }
+
+    clergymen = {
+        culture = armenian
+        religion = placeholder
+        size = 50
+    }
+
+    artisans = {
+        culture = armenian
+        religion = placeholder
+        size = 250
+    }
+
+    soldiers = {
+        culture = armenian
+        religion = placeholder
+        size = 50
+    }
+
+    farmers = {
+        culture = armenian
+        religion = placeholder
+        size = 4550
+    }
+
+    aristocrats = {
+        culture = azerbaijani
+        religion = placeholder
+        size = 20
+    }
+
+    clergymen = {
+        culture = azerbaijani
+        religion = placeholder
+        size = 20
+    }
+
+    artisans = {
+        culture = azerbaijani
+        religion = placeholder
+        size = 50
+    }
+
+    soldiers = {
+        culture = azerbaijani
+        religion = placeholder
+        size = 10
+    }
+
+    farmers = {
+        culture = azerbaijani
+        religion = placeholder
+        size = 900
+    }
+}
+#Poti (104000/26000 POPS)
+1094 = {
+    aristocrats = {
+        culture = georgian
+        religion = placeholder
+        size = 500
+    }
+
+    clergymen = {
+        culture = georgian
+        religion = placeholder
+        size = 250
+    }
+
+    artisans = {
+        culture = georgian
+        religion = placeholder
+        size = 1300
+    }
+
+    soldiers = {
+        culture = georgian
+        religion = placeholder
+        size = 275
+    }
+
+    farmers = {
+        culture = georgian
+        religion = placeholder
+        size = 23675
+    }
+}
+#Sukhumi (72000/18000 POPS) #circassian = abkhaz
+1095 = {
+    aristocrats = {
+        culture = georgian
+        religion = placeholder
+        size = 75
+    }
+
+    clergymen = {
+        culture = georgian
+        religion = placeholder
+        size = 75
+    }
+
+    artisans = {
+        culture = georgian
+        religion = placeholder
+        size = 200
+    }
+
+    soldiers = {
+        culture = georgian
+        religion = placeholder
+        size = 50
+    }
+
+    farmers = {
+        culture = georgian
+        religion = placeholder
+        size = 3600
+    }
+
+    aristocrats = {
+        culture = north_caucasian
+        religion = placeholder
+        size = 150
+    }
+
+    clergymen = {
+        culture = north_caucasian
+        religion = placeholder
+        size = 75
+    }
+
+    artisans = {
+        culture = north_caucasian
+        religion = placeholder
+        size = 450
+    }
+
+    soldiers = {
+        culture = north_caucasian
+        religion = placeholder
+        size = 100
+    }
+
+    farmers = {
+        culture = north_caucasian
+        religion = placeholder
+        size = 8225
+    }
+
+    aristocrats = {
+        culture = north_caucasian
+        religion = placeholder
+        size = 100
+    }
+
+    clergymen = {
+        culture = north_caucasian
+        religion = placeholder
+        size = 50
+    }
+
+    artisans = {
+        culture = north_caucasian
+        religion = placeholder
+        size = 250
+    }
+
+    soldiers = {
+        culture = north_caucasian
+        religion = placeholder
+        size = 50
+    }
+
+    farmers = {
+        culture = north_caucasian
+        religion = placeholder
+        size = 4550
+    }
+}
+#Kars Region (76000) #see Turkey.txt for balance of region
+#under the rule of Ottoman Empire in 1836
+#Batum (76000/19000 POPS) #now part of Georgia
+1096 = {
+    aristocrats = {
+        culture = turkish
+        religion = placeholder
+        size = 50
+    }
+
+    clergymen = {
+        culture = turkish
+        religion = placeholder
+        size = 50
+    }
+
+    artisans = {
+        culture = turkish
+        religion = placeholder
+        size = 150
+    }
+
+    soldiers = {
+        culture = turkish
+        religion = placeholder
+        size = 25
+    }
+
+    farmers = {
+        culture = turkish
+        religion = placeholder
+        size = 2725
+    }
+
+    clergymen = {
+        culture = georgian
+        religion = placeholder
+        size = 75
+    }
+
+    artisans = {
+        culture = georgian
+        religion = placeholder
+        size = 200
+    }
+
+    farmers = {
+        culture = georgian
+        religion = placeholder
+        size = 3725
+    }
+
+    aristocrats = {
+        culture = georgian
+        religion = placeholder
+        size = 200
+    }
+
+    clergymen = {
+        culture = georgian
+        religion = placeholder
+        size = 125
+    }
+
+    artisans = {
+        culture = georgian
+        religion = placeholder
+        size = 600
+    }
+
+    soldiers = {
+        culture = georgian
+        religion = placeholder
+        size = 125
+    }
+
+    farmers = {
+        culture = georgian
+        religion = placeholder
+        size = 11250
+    }
+}

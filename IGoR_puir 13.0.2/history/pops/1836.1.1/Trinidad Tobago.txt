@@ -1,0 +1,115 @@
+#Trinidad & Tobago Region (69000/14750 POPS)
+#ruled by Britain 1836
+#Trinidad (44000/11000 POPS)
+2237 = {
+	aristocrats = {
+		culture = british
+		religion = placeholder
+		size = 25
+	}
+
+	bureaucrats = {
+		culture = british
+		religion = placeholder
+		size = 15
+	}
+
+	clergymen = {
+		culture = british
+		religion = placeholder
+		size = 25
+	}
+
+	artisans = {
+		culture = british
+		religion = placeholder
+		size = 500
+	}
+
+	soldiers = {
+		culture = british
+		religion = placeholder
+		size = 25
+	}
+
+	farmers = {
+		culture = british
+		religion = placeholder
+		size = 410
+	}
+
+	clergymen = {
+		culture = afro_caribbean
+		religion = placeholder
+		size = 75
+	}
+
+	artisans = {
+		culture = afro_caribbean
+		religion = placeholder
+		size = 750
+	}
+
+	soldiers = {
+		culture = afro_caribbean
+		religion = placeholder
+		size = 100
+	}
+
+	farmers = {
+		culture = afro_caribbean
+		religion = placeholder
+		size = 9075
+	}
+}
+#Tobago (15000/3750 POPS)
+2238 = {
+	aristocrats = {
+		culture = british
+		religion = placeholder
+		size = 10
+	}
+
+	clergymen = {
+		culture = british
+		religion = placeholder
+		size = 5
+	}
+
+	artisans = {
+		culture = british
+		religion = placeholder
+		size = 25
+	}
+
+	farmers = {
+		culture = british
+		religion = placeholder
+		size = 60
+	}
+
+	clergymen = {
+		culture = afro_caribbean
+		religion = placeholder
+		size = 50
+	}
+
+	artisans = {
+		culture = afro_caribbean
+		religion = placeholder
+		size = 150
+	}
+
+	soldiers = {
+		culture = afro_caribbean
+		religion = placeholder
+		size = 50
+	}
+
+	farmers = {
+		culture = afro_caribbean
+		religion = placeholder
+		size = 3400
+	}
+
+}

@@ -1,0 +1,22 @@
+# If you add religions, and use those tags, do not change them without changing everywhere they are used.
+
+# Uses all 'modifiers' possible thats exported as a Modifier.
+
+christian = {
+	placeholder = {
+		icon = 13
+		color = { 0 0 0 }
+	}
+}
+
+muslim = {
+	
+}
+
+eastern = {
+	
+}
+
+pagan = {
+
+}

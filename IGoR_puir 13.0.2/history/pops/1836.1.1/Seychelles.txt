@@ -1,0 +1,28 @@
+#Seychelles - 5000
+#ruled by Britain 1836
+#Seychelles (5000/1250 POPS)
+2127 = {
+	aristocrats = {
+		culture = french
+		religion = placeholder
+		size = 20
+	}
+
+	clergymen = {
+		culture = malagasy
+		religion = placeholder
+		size = 30
+	}
+
+	artisans = {
+		culture = malagasy
+		religion = placeholder
+		size = 75
+	}
+
+	farmers = {
+		culture = malagasy
+		religion = placeholder
+		size = 1175
+	}
+}

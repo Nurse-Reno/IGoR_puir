@@ -1,0 +1,372 @@
+#Suriye Region (68000)  #see Syria.txt & Jordan.txt for balance of region
+#under the rule of Egypt in 1836
+#Baalbeck (68000/17000 POPS) #now part of Lebanon
+912 = {
+    aristocrats = {
+        culture = mashriqi
+        religion = placeholder
+        size = 175
+    }
+
+    clergymen = {
+        culture = mashriqi
+        religion = placeholder
+        size = 100
+    }
+
+    artisans = {
+        culture = mashriqi
+        religion = placeholder
+        size = 500
+    }
+
+    soldiers = {
+        culture = mashriqi
+        religion = placeholder
+        size = 175
+    }
+
+    farmers = {
+        culture = mashriqi
+        religion = placeholder
+        size = 9050
+    }
+
+    clergymen = {
+        culture = mashriqi
+        religion = placeholder
+        size = 50
+    }
+
+    artisans = {
+        culture = mashriqi
+        religion = placeholder
+        size = 300
+    }
+
+    farmers = {
+        culture = mashriqi
+        religion = placeholder
+        size = 5450
+    }
+
+    clergymen = {
+        culture = mashriqi
+        religion = placeholder
+        size = 25
+    }
+
+    artisans = {
+        culture = mashriqi
+        religion = placeholder
+        size = 50
+    }
+
+    farmers = {
+        culture = mashriqi
+        religion = placeholder
+        size = 925
+    }
+}
+#Bayrut Region (260000)  #see Israel-Palestine.txt for balance of region
+#under the rule of Egypt in 1836
+#Beirut (128000/32000 POPS) #mashriqi-placeholder = druze; mashriqi-placeholder = maronites
+913 = {
+    aristocrats = {
+        culture = mashriqi
+        religion = placeholder
+        size = 150
+    }
+
+    bureaucrats = {
+        culture = mashriqi
+        religion = placeholder
+        size = 375
+    }
+
+    officers = {
+        culture = mashriqi
+        religion = placeholder
+        size = 50
+    }
+
+    clergymen = {
+        culture = mashriqi
+        religion = placeholder
+        size = 150
+    }
+
+    artisans = {
+        culture = mashriqi
+        religion = placeholder
+        size = 700
+    }
+
+    soldiers = {
+        culture = mashriqi
+        religion = placeholder
+        size = 325
+    }
+
+    farmers = {
+        culture = mashriqi
+        religion = placeholder
+        size = 12050
+    }
+
+    clergymen = {
+        culture = mashriqi
+        religion = placeholder
+        size = 75
+    }
+
+    artisans = {
+        culture = mashriqi
+        religion = placeholder
+        size = 250
+    }
+
+    farmers = {
+        culture = mashriqi
+        religion = placeholder
+        size = 4675
+    }
+
+    aristocrats = {
+        culture = mashriqi
+        religion = placeholder
+        size = 100
+    }
+
+    clergymen = {
+        culture = mashriqi
+        religion = placeholder
+        size = 100
+    }
+
+    artisans = {
+        culture = mashriqi
+        religion = placeholder
+        size = 450
+    }
+
+    farmers = {
+        culture = mashriqi
+        religion = placeholder
+        size = 8350
+    }
+
+    clergymen = {
+        culture = mashriqi
+        religion = placeholder
+        size = 25
+    }
+
+    artisans = {
+        culture = mashriqi
+        religion = placeholder
+        size = 100
+    }
+
+    farmers = {
+        culture = mashriqi
+        religion = placeholder
+        size = 1875
+    }
+
+    clergymen = {
+        culture = armenian
+        religion = placeholder
+        size = 25
+    }
+
+    artisans = {
+        culture = armenian
+        religion = placeholder
+        size = 100
+    }
+
+    farmers = {
+        culture = armenian
+        religion = placeholder
+        size = 1875
+    }
+
+    clergymen = {
+        culture = sephardic
+        religion = placeholder
+        size = 10
+    }
+
+    artisans = {
+        culture = sephardic
+        religion = placeholder
+        size = 490
+    }
+}
+#Askaleh (48000/12000 POPS)
+914 = {
+    aristocrats = {
+        culture = mashriqi
+        religion = placeholder
+        size = 125
+    }
+
+    clergymen = {
+        culture = mashriqi
+        religion = placeholder
+        size = 100
+    }
+
+    artisans = {
+        culture = mashriqi
+        religion = placeholder
+        size = 500
+    }
+
+    soldiers = {
+        culture = mashriqi
+        religion = placeholder
+        size = 100
+    }
+
+    farmers = {
+        culture = mashriqi
+        religion = placeholder
+        size = 9175
+    }
+
+    clergymen = {
+        culture = mashriqi
+        religion = placeholder
+        size = 25
+    }
+
+    artisans = {
+        culture = mashriqi
+        religion = placeholder
+        size = 100
+    }
+
+    farmers = {
+        culture = mashriqi
+        religion = placeholder
+        size = 1875
+    }
+}
+#Sidon (84000/21000 POPS)
+915 = {
+    aristocrats = {
+        culture = mashriqi
+        religion = placeholder
+        size = 25
+    }
+
+    clergymen = {
+        culture = mashriqi
+        religion = placeholder
+        size = 50
+    }
+
+    artisans = {
+        culture = mashriqi
+        religion = placeholder
+        size = 100
+    }
+
+    soldiers = {
+        culture = mashriqi
+        religion = placeholder
+        size = 25
+    }
+
+    farmers = {
+        culture = mashriqi
+        religion = placeholder
+        size = 2000
+    }
+
+    clergymen = {
+        culture = mashriqi
+        religion = placeholder
+        size = 25
+    }
+
+    artisans = {
+        culture = mashriqi
+        religion = placeholder
+        size = 50
+    }
+
+    farmers = {
+        culture = mashriqi
+        religion = placeholder
+        size = 925
+    }
+
+    aristocrats = {
+        culture = mashriqi
+        religion = placeholder
+        size = 75
+    }
+
+    clergymen = {
+        culture = mashriqi
+        religion = placeholder
+        size = 50
+    }
+
+    artisans = {
+        culture = mashriqi
+        religion = placeholder
+        size = 250
+    }
+
+    farmers = {
+        culture = mashriqi
+        religion = placeholder
+        size = 5050
+    }
+
+    clergymen = {
+        culture = mashriqi
+        religion = placeholder
+        size = 75
+    }
+
+    artisans = {
+        culture = mashriqi
+        religion = placeholder
+        size = 200
+    }
+
+    farmers = {
+        culture = mashriqi
+        religion = placeholder
+        size = 3725
+    }
+
+    aristocrats = {
+        culture = mashriqi
+        religion = placeholder
+        size = 100
+    }
+
+    clergymen = {
+        culture = mashriqi
+        religion = placeholder
+        size = 75
+    }
+
+    artisans = {
+        culture = mashriqi
+        religion = placeholder
+        size = 450
+    }
+
+    farmers = {
+        culture = mashriqi
+        religion = placeholder
+        size = 8350
+    }
+}

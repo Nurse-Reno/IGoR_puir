@@ -1,0 +1,357 @@
+#Laos Region (700000)
+#under the rule of Luang Prabang in 1836
+#Louangprabang (240000/60000 POPS) #lao = hmong/montagnard
+1356 = {
+    aristocrats = {
+        culture = lao
+        religion = placeholder
+        size = 800
+    }
+
+    bureaucrats = {
+        culture = lao
+        religion = placeholder
+        size = 75
+    }
+
+    officers = {
+        culture = lao
+        religion = placeholder
+        size = 100
+    }
+
+    clergymen = {
+        culture = lao
+        religion = placeholder
+        size = 425
+    }
+
+    artisans = {
+        culture = lao
+        religion = placeholder
+        size = 2150
+    }
+
+    soldiers = {
+        culture = lao
+        religion = placeholder
+        size = 1100
+    }
+
+    farmers = {
+        culture = lao
+        religion = placeholder
+        size = 37940
+    }
+
+    aristocrats = {
+        culture = lao
+        religion = placeholder
+        size = 300
+    }
+
+    clergymen = {
+        culture = lao
+        religion = placeholder
+        size = 150
+    }
+
+    artisans = {
+        culture = lao
+        religion = placeholder
+        size = 800
+    }
+
+    soldiers = {
+        culture = lao
+        religion = placeholder
+        size = 175
+    }
+
+    farmers = {
+        culture = lao
+        religion = placeholder
+        size = 15575
+    }
+}
+#Vientiane (88000/22000 POPS)
+1357 = {
+    aristocrats = {
+        culture = lao
+        religion = placeholder
+        size = 250
+    }
+
+    clergymen = {
+        culture = lao
+        religion = placeholder
+        size = 150
+    }
+
+    artisans = {
+        culture = lao
+        religion = placeholder
+        size = 750
+    }
+
+    soldiers = {
+        culture = lao
+        religion = placeholder
+        size = 150
+    }
+
+    farmers = {
+        culture = lao
+        religion = placeholder
+        size = 13700
+    }
+
+    aristocrats = {
+        culture = thai
+        religion = placeholder
+        size = 125
+    }
+
+    clergymen = {
+        culture = thai
+        religion = placeholder
+        size = 75
+    }
+
+    artisans = {
+        culture = thai
+        religion = placeholder
+        size = 350
+    }
+
+    soldiers = {
+        culture = thai
+        religion = placeholder
+        size = 75
+    }
+
+    farmers = {
+        culture = thai
+        religion = placeholder
+        size = 6375
+    }
+}
+#Savannakhet (80000/20000 POPS)
+1361 = {
+    aristocrats = {
+        culture = lao
+        religion = placeholder
+        size = 250
+    }
+
+    clergymen = {
+        culture = lao
+        religion = placeholder
+        size = 150
+    }
+
+    artisans = {
+        culture = lao
+        religion = placeholder
+        size = 750
+    }
+
+    soldiers = {
+        culture = lao
+        religion = placeholder
+        size = 150
+    }
+
+    farmers = {
+        culture = lao
+        religion = placeholder
+        size = 13700
+    }
+
+    aristocrats = {
+        culture = thai
+        religion = placeholder
+        size = 100
+    }
+
+    clergymen = {
+        culture = thai
+        religion = placeholder
+        size = 50
+    }
+
+    artisans = {
+        culture = thai
+        religion = placeholder
+        size = 250
+    }
+
+    soldiers = {
+        culture = thai
+        religion = placeholder
+        size = 50
+    }
+
+    farmers = {
+        culture = thai
+        religion = placeholder
+        size = 4550
+    }
+}
+#Satavan (168000/42000 POPS)
+1362 = {
+    aristocrats = {
+        culture = lao
+        religion = placeholder
+        size = 450
+    }
+
+    clergymen = {
+        culture = lao
+        religion = placeholder
+        size = 250
+    }
+
+    artisans = {
+        culture = lao
+        religion = placeholder
+        size = 1200
+    }
+
+    soldiers = {
+        culture = lao
+        religion = placeholder
+        size = 1100
+    }
+
+    farmers = {
+        culture = lao
+        religion = placeholder
+        size = 21096
+    }
+
+    aristocrats = {
+        culture = lao
+        religion = placeholder
+        size = 325
+    }
+
+    clergymen = {
+        culture = lao
+        religion = placeholder
+        size = 175
+    }
+
+    artisans = {
+        culture = lao
+        religion = placeholder
+        size = 900
+    }
+
+    soldiers = {
+        culture = lao
+        religion = placeholder
+        size = 175
+    }
+
+    farmers = {
+        culture = lao
+        religion = placeholder
+        size = 16425
+    }
+}
+#under the rule of Siam in 1836
+#Xaignabouli (64000/16000 POPS)
+1360 = {
+    aristocrats = {
+        culture = lao
+        religion = placeholder
+        size = 150
+    }
+
+    clergymen = {
+        culture = lao
+        religion = placeholder
+        size = 75
+    }
+
+    artisans = {
+        culture = lao
+        religion = placeholder
+        size = 400
+    }
+
+    soldiers = {
+        culture = lao
+        religion = placeholder
+        size = 75
+    }
+
+    farmers = {
+        culture = lao
+        religion = placeholder
+        size = 8300
+    }
+
+    aristocrats = {
+        culture = thai
+        religion = placeholder
+        size = 125
+    }
+
+    clergymen = {
+        culture = thai
+        religion = placeholder
+        size = 75
+    }
+
+    artisans = {
+        culture = thai
+        religion = placeholder
+        size = 350
+    }
+
+    soldiers = {
+        culture = thai
+        religion = placeholder
+        size = 75
+    }
+
+    farmers = {
+        culture = thai
+        religion = placeholder
+        size = 6375
+    }
+}
+#Paekche (60000/15000 POPS)
+1363 = {
+    aristocrats = {
+        culture = lao
+        religion = placeholder
+        size = 275
+    }
+
+    clergymen = {
+        culture = lao
+        religion = placeholder
+        size = 150
+    }
+
+    artisans = {
+        culture = lao
+        religion = placeholder
+        size = 750
+    }
+
+    soldiers = {
+        culture = lao
+        religion = placeholder
+        size = 125
+    }
+
+    farmers = {
+        culture = lao
+        religion = placeholder
+        size = 13700
+    }
+}

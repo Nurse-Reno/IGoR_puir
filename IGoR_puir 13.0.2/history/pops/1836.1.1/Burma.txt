@@ -1,0 +1,1220 @@
+#Pegu Region (1336000)
+#Under rule of Burma 1836
+#Rangoon (344000/86000 POPS)
+1330 = {
+    aristocrats = {
+        culture = burmese
+        religion = placeholder
+        size = 200
+    }
+
+    clergymen = {
+        culture = burmese
+        religion = placeholder
+        size = 250
+    }
+
+    artisans = {
+        culture = burmese
+        religion = placeholder
+        size = 1200
+    }
+
+    soldiers = {
+        culture = burmese
+        religion = placeholder
+        size = 250
+    }
+
+    farmers = {
+        culture = burmese
+        religion = placeholder
+        size = 22000
+    }
+
+    aristocrats = {
+        culture = burmese #Mon
+        religion = placeholder
+        size = 100
+    }
+
+    clergymen = {
+        culture = burmese
+        religion = placeholder
+        size = 150
+    }
+
+    artisans = {
+        culture = burmese
+        religion = placeholder
+        size = 1100
+    }
+
+    soldiers = {
+        culture = burmese
+        religion = placeholder
+        size = 150
+    }
+
+    aristocrats = {
+        culture = burmese
+        religion = placeholder
+        size = 500
+    }
+
+    clergymen = {
+        culture = burmese
+        religion = placeholder
+        size = 475
+    }
+
+    artisans = {
+        culture = burmese
+        religion = placeholder
+        size = 2350
+    }
+
+    soldiers = {
+        culture = burmese
+        religion = placeholder
+        size = 4000
+    }
+
+    farmers = {
+        culture = burmese
+        religion = placeholder
+        size = 38700
+    }
+}
+#Bassein (124000/31000 POPS)
+1331 = {
+    aristocrats = {
+        culture = burmese
+        religion = placeholder
+        size = 300
+    }
+
+    clergymen = {
+        culture = burmese
+        religion = placeholder
+        size = 275
+    }
+
+    artisans = {
+        culture = burmese
+        religion = placeholder
+        size = 1350
+    }
+
+    soldiers = {
+        culture = burmese
+        religion = placeholder
+        size = 300
+    }
+
+    farmers = {
+        culture = burmese
+        religion = placeholder
+        size = 24775
+    }
+
+    aristocrats = {
+        culture = burmese #Mon
+        religion = placeholder
+        size = 25
+    }
+
+    clergymen = {
+        culture = burmese
+        religion = placeholder
+        size = 75
+    }
+
+    artisans = {
+        culture = burmese
+        religion = placeholder
+        size = 200
+    }
+
+    soldiers = {
+        culture = burmese
+        religion = placeholder
+        size = 50
+    }
+}
+#Pegu (560000/140000 POPS)
+1332 = {
+    aristocrats = {
+        culture = burmese
+        religion = placeholder
+        size = 400
+    }
+
+    clergymen = {
+        culture = burmese
+        religion = placeholder
+        size = 500
+    }
+
+    artisans = {
+        culture = burmese
+        religion = placeholder
+        size = 2400
+    }
+
+    soldiers = {
+        culture = burmese
+        religion = placeholder
+        size = 500
+    }
+
+    farmers = {
+        culture = burmese
+        religion = placeholder
+        size = 44200
+    }
+
+    aristocrats = {
+        culture = burmese #Mon
+        religion = placeholder
+        size = 100
+    }
+
+    clergymen = {
+        culture = burmese
+        religion = placeholder
+        size = 150
+    }
+
+    artisans = {
+        culture = burmese
+        religion = placeholder
+        size = 850
+    }
+
+    soldiers = {
+        culture = burmese
+        religion = placeholder
+        size = 150
+    }
+
+    aristocrats = {
+        culture = burmese
+        religion = placeholder
+        size = 850
+    }
+
+    bureaucrats = {
+        culture = burmese
+        religion = placeholder
+        size = 600
+    }
+
+    officers = {
+        culture = burmese
+        religion = placeholder
+        size = 400
+    }
+
+    clergymen = {
+        culture = burmese
+        religion = placeholder
+        size = 800
+    }
+
+    artisans = {
+        culture = burmese
+        religion = placeholder
+        size = 4000
+    }
+
+    soldiers = {
+        culture = burmese
+        religion = placeholder
+        size = 4000
+    }
+
+    farmers = {
+        culture = burmese
+        religion = placeholder
+        size = 67300
+    }
+}
+#Toungoo (308000/77000 POPS)
+1333 = {
+    aristocrats = {
+        culture = burmese
+        religion = placeholder
+        size = 300
+    }
+
+    clergymen = {
+        culture = burmese
+        religion = placeholder
+        size = 325
+    }
+
+    artisans = {
+        culture = burmese
+        religion = placeholder
+        size = 1600
+    }
+
+    soldiers = {
+        culture = burmese
+        religion = placeholder
+        size = 350
+    }
+
+    farmers = {
+        culture = burmese
+        religion = placeholder
+        size = 29425
+    }
+
+    aristocrats = {
+        culture = burmese
+        religion = placeholder
+        size = 500
+    }
+
+    clergymen = {
+        culture = burmese
+        religion = placeholder
+        size = 500
+    }
+
+    artisans = {
+        culture = burmese
+        religion = placeholder
+        size = 2250
+    }
+
+    soldiers = {
+        culture = burmese
+        religion = placeholder
+        size = 4000
+    }
+
+    farmers = {
+        culture = burmese
+        religion = placeholder
+        size = 38750
+    }
+}
+#Kyaukse Region (1072000)
+#Under rule of Burma in 1836
+#Mandalay (240000/70000 POPS)
+1334 = {
+    aristocrats = {
+        culture = burmese
+        religion = placeholder
+        size = 500
+    }
+
+    clergymen = {
+        culture = burmese
+        religion = placeholder
+        size = 500
+    }
+
+    artisans = {
+        culture = burmese
+        religion = placeholder
+        size = 2400
+    }
+
+    soldiers = {
+        culture = burmese
+        religion = placeholder
+        size = 4000
+    }
+
+    farmers = {
+        culture = burmese
+        religion = placeholder
+        size = 39600
+    }
+
+    aristocrats = {
+        culture = burmese
+        religion = placeholder
+        size = 50
+    }
+
+    clergymen = {
+        culture = burmese
+        religion = placeholder
+        size = 50
+    }
+
+    artisans = {
+        culture = burmese
+        religion = placeholder
+        size = 250
+    }
+
+    soldiers = {
+        culture = burmese
+        religion = placeholder
+        size = 50
+    }
+
+    farmers = {
+        culture = burmese
+        religion = placeholder
+        size = 5600
+    }
+
+    aristocrats = {
+        culture = burmese
+        religion = placeholder
+        size = 75
+    }
+
+    clergymen = {
+        culture = burmese
+        religion = placeholder
+        size = 75
+    }
+
+    artisans = {
+        culture = burmese
+        religion = placeholder
+        size = 350
+    }
+
+    soldiers = {
+        culture = burmese
+        religion = placeholder
+        size = 75
+    }
+
+    farmers = {
+        culture = burmese
+        religion = placeholder
+        size = 6425
+    }
+}
+#Kyaukse (472000/118000 POPS)
+1335 = {
+    aristocrats = {
+        culture = burmese
+        religion = placeholder
+        size = 1150
+    }
+
+    bureaucrats = {
+        culture = burmese
+        religion = placeholder
+        size = 425
+    }
+
+    officers = {
+        culture = burmese
+        religion = placeholder
+        size = 300
+    }
+
+    clergymen = {
+        culture = burmese
+        religion = placeholder
+        size = 1125
+    }
+
+    artisans = {
+        culture = burmese
+        religion = placeholder
+        size = 5500
+    }
+
+    soldiers = {
+        culture = burmese
+        religion = placeholder
+        size = 4000
+    }
+
+    farmers = {
+        culture = burmese
+        religion = placeholder
+        size = 100500
+    }
+
+    aristocrats = {
+        culture = burmese
+        religion = placeholder
+        size = 50
+    }
+
+    clergymen = {
+        culture = burmese
+        religion = placeholder
+        size = 50
+    }
+
+    artisans = {
+        culture = burmese
+        religion = placeholder
+        size = 250
+    }
+
+    soldiers = {
+        culture = burmese
+        religion = placeholder
+        size = 50
+    }
+
+    farmers = {
+        culture = burmese
+        religion = placeholder
+        size = 4600
+    }
+}
+#Magwe (120000/30000 POPS)
+1336 = {
+    aristocrats = {
+        culture = burmese
+        religion = placeholder
+        size = 325
+    }
+
+    clergymen = {
+        culture = burmese
+        religion = placeholder
+        size = 300
+    }
+
+    artisans = {
+        culture = burmese
+        religion = placeholder
+        size = 1500
+    }
+
+    soldiers = {
+        culture = burmese
+        religion = placeholder
+        size = 1100
+    }
+
+    farmers = {
+        culture = burmese
+        religion = placeholder
+        size = 26875
+    }
+}
+#Prome (240000/60000 POPS)
+1337 = {
+    aristocrats = {
+        culture = burmese
+        religion = placeholder
+        size = 625
+    }
+
+    clergymen = {
+        culture = burmese
+        religion = placeholder
+        size = 625
+    }
+
+    artisans = {
+        culture = burmese
+        religion = placeholder
+        size = 3000
+    }
+
+    soldiers = {
+        culture = burmese
+        religion = placeholder
+        size = 1100
+    }
+
+    farmers = {
+        culture = burmese
+        religion = placeholder
+        size = 54850
+    }
+}
+#Shan Region (680000)
+#Under Burma rule 1836
+#Taunggye (416000/104000 POPS)
+1338 = {
+    aristocrats = {
+        culture = burmese
+        religion = placeholder
+        size = 900
+    }
+
+    bureaucrats = {
+        culture = burmese
+        religion = placeholder
+        size = 225
+    }
+
+    officers = {
+        culture = burmese
+        religion = placeholder
+        size = 175
+    }
+
+    clergymen = {
+        culture = burmese
+        religion = placeholder
+        size = 850
+    }
+
+    artisans = {
+        culture = burmese
+        religion = placeholder
+        size = 4250
+    }
+
+    soldiers = {
+        culture = burmese
+        religion = placeholder
+        size = 850
+    }
+
+    farmers = {
+        culture = burmese
+        religion = placeholder
+        size = 76750
+    }
+
+    aristocrats = {
+        culture = burmese
+        religion = placeholder
+        size = 150
+    }
+
+    bureaucrats = {
+        culture = burmese
+        religion = placeholder
+        size = 100
+    }
+
+    officers = {
+        culture = burmese
+        religion = placeholder
+        size = 25
+    }
+
+    clergymen = {
+        culture = burmese
+        religion = placeholder
+        size = 200
+    }
+
+    artisans = {
+        culture = burmese
+        religion = placeholder
+        size = 1100
+    }
+
+    soldiers = {
+        culture = burmese
+        religion = placeholder
+        size = 225
+    }
+
+    farmers = {
+        culture = burmese
+        religion = placeholder
+        size = 18300
+    }
+}
+#Lashio (264000/66000 POPS)
+1340 = {
+    aristocrats = {
+        culture = burmese
+        religion = placeholder
+        size = 500
+    }
+
+    clergymen = {
+        culture = burmese
+        religion = placeholder
+        size = 500
+    }
+
+    artisans = {
+        culture = burmese
+        religion = placeholder
+        size = 2500
+    }
+
+    soldiers = {
+        culture = burmese
+        religion = placeholder
+        size = 500
+    }
+
+    farmers = {
+        culture = burmese
+        religion = placeholder
+        size = 46000
+    }
+
+    aristocrats = {
+        culture = burmese
+        religion = placeholder
+        size = 100
+    }
+
+    clergymen = {
+        culture = burmese
+        religion = placeholder
+        size = 100
+    }
+
+    artisans = {
+        culture = burmese
+        religion = placeholder
+        size = 550
+    }
+
+    soldiers = {
+        culture = burmese
+        religion = placeholder
+        size = 150
+    }
+
+    farmers = {
+        culture = burmese
+        religion = placeholder
+        size = 10100
+    }
+
+    clergymen = {
+        culture = burmese
+        religion = placeholder
+        size = 75
+    }
+
+    artisans = {
+        culture = burmese
+        religion = placeholder
+        size = 350
+    }
+
+    soldiers = {
+        culture = burmese
+        religion = placeholder
+        size = 100
+    }
+
+    farmers = {
+        culture = burmese
+        religion = placeholder
+        size = 6475
+    }
+}
+#Kachin Region (868000)
+#Under rule of Burma 1836
+#Haka (288000/72000 POPS)
+1339 = {
+    aristocrats = {
+        culture = burmese
+        religion = placeholder
+        size = 50
+    }
+
+    clergymen = {
+        culture = burmese
+        religion = placeholder
+        size = 50
+    }
+
+    artisans = {
+        culture = burmese
+        religion = placeholder
+        size = 250
+    }
+
+    soldiers = {
+        culture = burmese
+        religion = placeholder
+        size = 1100
+    }
+
+    farmers = {
+        culture = burmese
+        religion = placeholder
+        size = 3650
+    }
+
+    aristocrats = {
+        culture = burmese #Chin
+        religion = placeholder
+        size = 500
+    }
+
+    clergymen = {
+        culture = burmese
+        religion = placeholder
+        size = 500
+    }
+
+    artisans = {
+        culture = burmese
+        religion = placeholder
+        size = 3000
+    }
+
+    soldiers = {
+        culture = burmese
+        religion = placeholder
+        size = 500
+    }
+
+    aristocrats = {
+        culture = burmese
+        religion = placeholder
+        size = 75
+    }
+
+    clergymen = {
+        culture = burmese
+        religion = placeholder
+        size = 350
+    }
+
+    artisans = {
+        culture = burmese
+        religion = placeholder
+        size = 800
+    }
+
+    soldiers = {
+        culture = burmese
+        religion = placeholder
+        size = 200
+    }
+
+    farmers = {
+        culture = burmese
+        religion = placeholder
+        size = 15575
+    }
+}
+#Putao (216000/54000 POPS)
+1341 = {
+    aristocrats = {
+        culture = burmese
+        religion = placeholder
+        size = 550
+    }
+
+    clergymen = {
+        culture = burmese
+        religion = placeholder
+        size = 550
+    }
+
+    artisans = {
+        culture = burmese
+        religion = placeholder
+        size = 2500
+    }
+
+    soldiers = {
+        culture = burmese
+        religion = placeholder
+        size = 550
+    }
+
+    farmers = {
+        culture = burmese
+        religion = placeholder
+        size = 49850
+    }
+}
+#Myitkyina (364000/91000 POPS)
+1342 = {
+    aristocrats = {
+        culture = burmese
+        religion = placeholder
+        size = 400
+    }
+
+    clergymen = {
+        culture = burmese
+        religion = placeholder
+        size = 400
+    }
+
+    artisans = {
+        culture = burmese
+        religion = placeholder
+        size = 2000
+    }
+
+    soldiers = {
+        culture = burmese
+        religion = placeholder
+        size = 400
+    }
+
+    farmers = {
+        culture = burmese
+        religion = placeholder
+        size = 37800
+    }
+
+    aristocrats = {
+        culture = burmese
+        religion = placeholder
+        size = 250
+    }
+
+    clergymen = {
+        culture = burmese
+        religion = placeholder
+        size = 250
+    }
+
+    artisans = {
+        culture = burmese
+        religion = placeholder
+        size = 1200
+    }
+
+    soldiers = {
+        culture = burmese
+        religion = placeholder
+        size = 250
+    }
+
+    farmers = {
+        culture = burmese
+        religion = placeholder
+        size = 21050
+    }
+
+    aristocrats = {
+        culture = burmese
+        religion = placeholder
+        size = 300
+    }
+
+    clergymen = {
+        culture = burmese
+        religion = placeholder
+        size = 300
+    }
+
+    artisans = {
+        culture = burmese
+        religion = placeholder
+        size = 1350
+    }
+
+    bureaucrats = {
+        culture = burmese
+        religion = placeholder
+        size = 100
+    }
+
+    soldiers = {
+        culture = burmese
+        religion = placeholder
+        size = 4000
+    }
+
+    farmers = {
+        culture = burmese
+        religion = placeholder
+        size = 20950
+    }
+}
+#Tenasserim Region - 604000
+#Under rule of Britain 1836
+#Moulmein (272000/68000 POPS)
+1343 = {
+    aristocrats = {
+        culture = burmese
+        religion = placeholder
+        size = 400
+    }
+
+    clergymen = {
+        culture = burmese
+        religion = placeholder
+        size = 350
+    }
+
+    artisans = {
+        culture = burmese
+        religion = placeholder
+        size = 1100
+    }
+
+    soldiers = {
+        culture = burmese
+        religion = placeholder
+        size = 300
+    }
+
+    farmers = {
+        culture = burmese
+        religion = placeholder
+        size = 30950
+    }
+
+    aristocrats = {
+        culture = burmese #Mon
+        religion = placeholder
+        size = 200
+    }
+
+    clergymen = {
+        culture = burmese
+        religion = placeholder
+        size = 375
+    }
+
+    artisans = {
+        culture = burmese
+        religion = placeholder
+        size = 1375
+    }
+
+    soldiers = {
+        culture = burmese
+        religion = placeholder
+        size = 250
+    }
+
+    aristocrats = {
+        culture = burmese
+        religion = placeholder
+        size = 100
+    }
+
+    clergymen = {
+        culture = burmese
+        religion = placeholder
+        size = 75
+    }
+
+    artisans = {
+        culture = burmese
+        religion = placeholder
+        size = 1500
+    }
+
+    bureaucrats = {
+        culture = burmese
+        religion = placeholder
+        size = 100
+    }
+
+    soldiers = {
+        culture = burmese
+        religion = placeholder
+        size = 150
+    }
+
+    farmers = {
+        culture = burmese
+        religion = placeholder
+        size = 5075
+    }
+
+    bureaucrats = {
+        culture = british
+        religion = placeholder
+        size = 25
+    }
+}
+#Mergui (332000/83000 POPS)
+1344 = {
+    aristocrats = {
+        culture = burmese
+        religion = placeholder
+        size = 400
+    }
+
+    clergymen = {
+        culture = burmese
+        religion = placeholder
+        size = 375
+    }
+
+    artisans = {
+        culture = burmese
+        religion = placeholder
+        size = 1100
+    }
+
+    soldiers = {
+        culture = burmese
+        religion = placeholder
+        size = 400
+    }
+
+    farmers = {
+        culture = burmese
+        religion = placeholder
+        size = 34825
+    }
+
+    aristocrats = {
+        culture = thai
+        religion = placeholder
+        size = 100
+    }
+
+    clergymen = {
+        culture = thai
+        religion = placeholder
+        size = 200
+    }
+
+    artisans = {
+        culture = thai
+        religion = placeholder
+        size = 1250
+    }
+
+    soldiers = {
+        culture = thai
+        religion = placeholder
+        size = 200
+    }
+
+    farmers = {
+        culture = thai
+        religion = placeholder
+        size = 17250
+    }
+
+    aristocrats = {
+        culture = burmese
+        religion = placeholder
+        size = 350
+    }
+
+    clergymen = {
+        culture = burmese
+        religion = placeholder
+        size = 300
+    }
+
+    artisans = {
+        culture = burmese
+        religion = placeholder
+        size = 2000
+    }
+
+    soldiers = {
+        culture = burmese
+        religion = placeholder
+        size = 300
+    }
+
+    farmers = {
+        culture = burmese
+        religion = placeholder
+        size = 24050
+    }
+}
+#Arakan Region : 176000
+#Under rule of Britain 1836
+#Sittwe (176000/44000 POPS)
+1345 = {
+    bureaucrats = {
+        culture = british
+        religion = placeholder
+        size = 10
+    }
+
+    aristocrats = {
+        culture = burmese
+        religion = placeholder
+        size = 100
+    }
+
+    clergymen = {
+        culture = burmese
+        religion = placeholder
+        size = 125
+    }
+
+    artisans = {
+        culture = burmese
+        religion = placeholder
+        size = 2750
+    }
+
+    soldiers = {
+        culture = burmese
+        religion = placeholder
+        size = 150
+    }
+
+    farmers = {
+        culture = burmese
+        religion = placeholder
+        size = 11875
+    }
+
+    aristocrats = {
+        culture = burmese
+        religion = placeholder
+        size = 250
+    }
+
+    bureaucrats = {
+        culture = burmese
+        religion = placeholder
+        size = 50
+    }
+
+    clergymen = {
+        culture = burmese
+        religion = placeholder
+        size = 375
+    }
+
+    artisans = {
+        culture = burmese
+        religion = placeholder
+        size = 6250
+    }
+
+    soldiers = {
+        culture = burmese
+        religion = placeholder
+        size = 250
+    }
+
+    farmers = {
+        culture = burmese
+        religion = placeholder
+        size = 18825
+    }
+
+    clergymen = {
+        culture = burmese #Chin
+        religion = placeholder
+        size = 25
+    }
+
+    farmers = {
+        culture = burmese
+        religion = placeholder
+        size = 950
+    }
+
+    clergymen = {
+        culture = burmese
+        religion = placeholder
+        size = 50
+    }
+
+    farmers = {
+        culture = burmese
+        religion = placeholder
+        size = 1950
+    }
+}

@@ -1,0 +1,311 @@
+#Afghanistan Region (3672000)
+#under the rule of Afghanistan in 1836
+#Kabul (996000/249000 POPS)
+1209 = {
+	aristocrats = {
+		culture = aryan
+		religion = placeholder
+		size = 5000
+	}
+
+	bureaucrats = {
+		culture = aryan
+		religion = placeholder
+		size = 825
+	}
+
+	officers = {
+		culture = aryan
+		religion = placeholder
+		size = 975
+	}
+
+	clergymen = {
+		culture = aryan
+		religion = placeholder
+		size = 2488
+	}
+
+	artisans = {
+		culture = aryan
+		religion = placeholder
+		size = 11100
+	}
+
+	soldiers = {
+		culture = aryan
+		religion = placeholder
+		size = 12250
+	}
+
+	farmers = {
+		culture = aryan
+		religion = placeholder
+		size = 216462
+	}
+}
+#Balkh (516000/129000 POPS)
+1211 = {
+	aristocrats = {
+		culture = aryan
+		religion = placeholder
+		size = 2500
+	}
+
+	clergymen = {
+		culture = aryan
+		religion = placeholder
+		size = 1289
+	}
+
+	artisans = {
+		culture = aryan
+		religion = placeholder
+		size = 4050
+	}
+
+	soldiers = {
+		culture = aryan
+		religion = placeholder
+		size = 1300
+	}
+
+	farmers = {
+		culture = aryan
+		religion = placeholder
+		size = 119861
+	}
+}
+#Herat (324000/81000 POPS)
+1212 = {
+	aristocrats = {
+		culture = aryan
+		religion = placeholder
+		size = 1575
+	}
+
+	clergymen = {
+		culture = aryan
+		religion = placeholder
+		size = 813
+	}
+
+	artisans = {
+		culture = aryan
+		religion = placeholder
+		size = 4050
+	}
+
+	soldiers = {
+		culture = aryan
+		religion = placeholder
+		size = 5100
+	}
+
+	farmers = {
+		culture = aryan
+		religion = placeholder
+		size = 69562
+	}
+}
+#Bamyan (412000/103000 POPS)
+1213 = {
+	aristocrats = {
+		culture = aryan
+		religion = placeholder
+		size = 1975
+	}
+
+	clergymen = {
+		culture = aryan
+		religion = placeholder
+		size = 1001
+	}
+
+	artisans = {
+		culture = aryan
+		religion = placeholder
+		size = 5100
+	}
+
+	soldiers = {
+		culture = aryan
+		religion = placeholder
+		size = 3825
+	}
+
+	farmers = {
+		culture = aryan
+		religion = placeholder
+		size = 91399
+	}
+}
+#Farrah (464000/116000 POPS)
+1214 = {
+	aristocrats = {
+		culture = aryan
+		religion = placeholder
+		size = 2275
+	}
+
+	clergymen = {
+		culture = aryan
+		religion = placeholder
+		size = 1163
+	}
+
+	artisans = {
+		culture = aryan
+		religion = placeholder
+		size = 5800
+	}
+
+	soldiers = {
+		culture = aryan
+		religion = placeholder
+		size = 2200
+	}
+
+	farmers = {
+		culture = aryan
+		religion = placeholder
+		size = 104762
+	}
+}
+#Qandahar (368000/92000 POPS)
+1215 = {
+	aristocrats = {
+		culture = aryan
+		religion = placeholder
+		size = 1775
+	}
+
+	clergymen = {
+		culture = aryan
+		religion = placeholder
+		size = 938
+	}
+
+	artisans = {
+		culture = aryan
+		religion = placeholder
+		size = 4575
+	}
+
+	soldiers = {
+		culture = aryan
+		religion = placeholder
+		size = 2300
+	}
+
+	farmers = {
+		culture = aryan
+		religion = placeholder
+		size = 82813
+	}
+}
+#Jalalabad (268000/67000 POPS)
+1216 = {
+	aristocrats = {
+		culture = aryan
+		religion = placeholder
+		size = 1300
+	}
+
+	clergymen = {
+		culture = aryan
+		religion = placeholder
+		size = 675
+	}
+
+	artisans = {
+		culture = aryan
+		religion = placeholder
+		size = 3350
+	}
+
+	soldiers = {
+		culture = aryan
+		religion = placeholder
+		size = 4000
+	}
+
+	farmers = {
+		culture = aryan
+		religion = placeholder
+		size = 57985
+	}
+}
+#Ghzani (324000/81000 POPS)
+1217 = {
+	aristocrats = {
+		culture = aryan
+		religion = placeholder
+		size = 1550
+	}
+
+	clergymen = {
+		culture = aryan
+		religion = placeholder
+		size = 801
+	}
+
+	artisans = {
+		culture = aryan
+		religion = placeholder
+		size = 4050
+	}
+
+	soldiers = {
+		culture = aryan
+		religion = placeholder
+		size = 800
+	}
+
+	farmers = {
+		culture = aryan
+		religion = placeholder
+		size = 61887
+	}
+
+	farmers = {
+		culture = aryan
+		religion = placeholder
+		size = 11912
+	}
+}
+#Badakhshan Region (340000)
+#under the rule of Afghanistan in 1836
+#Faizabad (340000/85000 POPS)
+1210 = {
+	aristocrats = {
+		culture = turkic
+		religion = placeholder
+		size = 1775
+	}
+
+	clergymen = {
+		culture = turkic
+		religion = placeholder
+		size = 838
+	}
+
+	artisans = {
+		culture = turkic
+		religion = placeholder
+		size = 4100
+	}
+
+	soldiers = {
+		culture = turkic
+		religion = placeholder
+		size = 5100
+	}
+
+	farmers = {
+		culture = turkic
+		religion = placeholder
+		size = 73337
+	}
+
+}

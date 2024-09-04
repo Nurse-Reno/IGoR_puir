@@ -1,0 +1,561 @@
+#Imerina Region (1500000)  
+#ruled by Madagascar in 1836
+#Tananarive (824000/207000 POPS)
+2115 = {
+	aristocrats = {
+		culture = malagasy
+		religion = placeholder
+		size = 4175
+	}
+
+	clergymen = {
+		culture = malagasy
+		religion = placeholder
+		size = 2125
+	}
+
+	artisans = {
+		culture = malagasy
+		religion = placeholder
+		size = 10000
+	}
+
+	artisans = {
+		culture = malagasy
+		religion = placeholder
+		size = 300
+	}
+
+	soldiers = {
+		culture = malagasy
+		religion = placeholder
+		size = 7000
+	}
+
+	farmers = {
+		culture = malagasy
+		religion = placeholder
+		size = 144075
+	}
+
+	clergymen = {
+		culture = malagasy
+		religion = placeholder
+		size = 5
+	}
+
+	artisans = {
+		culture = malagasy
+		religion = placeholder
+		size = 10
+	}
+
+	farmers = {
+		culture = malagasy
+		religion = placeholder
+		size = 235
+	}
+
+	aristocrats = {
+		culture = malagasy
+		religion = placeholder
+		size = 25
+	}
+
+	clergymen = {
+		culture = malagasy
+		religion = placeholder
+		size = 25
+	}
+
+	artisans = {
+		culture = malagasy
+		religion = placeholder
+		size = 50
+	}
+
+	farmers = {
+		culture = malagasy
+		religion = placeholder
+		size = 900
+	}
+}
+#Fianarantsoa (280000/7000 POPS)
+2116 = {
+	aristocrats = {
+		culture = malagasy
+		religion = placeholder
+		size = 1350
+	}
+
+	clergymen = {
+		culture = malagasy
+		religion = placeholder
+		size = 725
+	}
+
+	artisans = {
+		culture = malagasy
+		religion = placeholder
+		size = 3500
+	}
+
+	soldiers = {
+		culture = malagasy
+		religion = placeholder
+		size = 4000
+	}
+
+	farmers = {
+		culture = malagasy
+		religion = placeholder
+		size = 60425
+	}
+}
+#Tolanaro (176000/44000 POPS)
+2118 = {
+	aristocrats = {
+		culture = malagasy
+		religion = placeholder
+		size = 475
+	}
+
+	clergymen = {
+		culture = malagasy
+		religion = placeholder
+		size = 250
+	}
+
+	artisans = {
+		culture = malagasy
+		religion = placeholder
+		size = 1100
+	}
+
+	soldiers = {
+		culture = malagasy
+		religion = placeholder
+		size = 250
+	}
+
+	farmers = {
+		culture = malagasy
+		religion = placeholder
+		size = 15025
+	}
+
+	slaves = {
+		culture = malagasy
+		religion = placeholder
+		size = 8000
+	}
+
+	aristocrats = {
+		culture = malagasy
+		religion = placeholder
+		size = 350
+	}
+
+	clergymen = {
+		culture = malagasy
+		religion = placeholder
+		size = 200
+	}
+
+	artisans = {
+		culture = malagasy
+		religion = placeholder
+		size = 950
+	}
+
+	soldiers = {
+		culture = malagasy
+		religion = placeholder
+		size = 200
+	}
+
+	farmers = {
+		culture = malagasy
+		religion = placeholder
+		size = 17300
+	}
+}
+#Toamasina (116000/29000 POPS)
+2119 = {
+	aristocrats = {
+		culture = malagasy
+		religion = placeholder
+		size = 225
+	}
+
+	clergymen = {
+		culture = malagasy
+		religion = placeholder
+		size = 125
+	}
+
+	artisans = {
+		culture = malagasy
+		religion = placeholder
+		size = 500
+	}
+
+	soldiers = {
+		culture = malagasy
+		religion = placeholder
+		size = 125
+	}
+
+	farmers = {
+		culture = malagasy
+		religion = placeholder
+		size = 4025
+	}
+
+	slaves = {
+		culture = malagasy
+		religion = placeholder
+		size = 7000
+	}
+
+	aristocrats = {
+		culture = malagasy
+		religion = placeholder
+		size = 250
+	}
+
+	clergymen = {
+		culture = malagasy
+		religion = placeholder
+		size = 150
+	}
+
+	artisans = {
+		culture = malagasy
+		religion = placeholder
+		size = 700
+	}
+
+	soldiers = {
+		culture = malagasy
+		religion = placeholder
+		size = 150
+	}
+
+	farmers = {
+		culture = malagasy
+		religion = placeholder
+		size = 12750
+	}
+
+	clergymen = {
+		culture = malagasy
+		religion = placeholder
+		size = 25
+	}
+
+	artisans = {
+		culture = malagasy
+		religion = placeholder
+		size = 50
+	}
+
+	farmers = {
+		culture = malagasy
+		religion = placeholder
+		size = 925
+	}
+
+	aristocrats = {
+		culture = malagasy
+		religion = placeholder
+		size = 50
+	}
+
+	clergymen = {
+		culture = malagasy
+		religion = placeholder
+		size = 50
+	}
+
+	artisans = {
+		culture = malagasy
+		religion = placeholder
+		size = 100
+	}
+
+	farmers = {
+		culture = malagasy
+		religion = placeholder
+		size = 1800
+	}
+}
+#Antsiranana (104000/26000 POPS)
+2120 = {
+	aristocrats = {
+		culture = malagasy
+		religion = placeholder
+		size = 175
+	}
+
+	clergymen = {
+		culture = malagasy
+		religion = placeholder
+		size = 100
+	}
+
+	artisans = {
+		culture = malagasy
+		religion = placeholder
+		size = 500
+	}
+
+	soldiers = {
+		culture = malagasy
+		religion = placeholder
+		size = 100
+	}
+
+	farmers = {
+		culture = malagasy
+		religion = placeholder
+		size = 3125
+	}
+
+	slaves = {
+		culture = malagasy
+		religion = placeholder
+		size = 6000
+	}
+
+	aristocrats = {
+		culture = malagasy
+		religion = placeholder
+		size = 275
+	}
+
+	clergymen = {
+		culture = malagasy
+		religion = placeholder
+		size = 150
+	}
+
+	artisans = {
+		culture = malagasy
+		religion = placeholder
+		size = 800
+	}
+
+	soldiers = {
+		culture = malagasy
+		religion = placeholder
+		size = 175
+	}
+
+	farmers = {
+		culture = malagasy
+		religion = placeholder
+		size = 14600
+	}
+}
+#Sakalava Region (588000)  
+#ruled by Madagascar in 1836
+#Ampanihy (228000/57000 POPS)
+2117 = {
+	aristocrats = {
+		culture = malagasy
+		religion = placeholder
+		size = 475
+	}
+
+	clergymen = {
+		culture = malagasy
+		religion = placeholder
+		size = 250
+	}
+
+	artisans = {
+		culture = malagasy
+		religion = placeholder
+		size = 1250
+	}
+
+	soldiers = {
+		culture = malagasy
+		religion = placeholder
+		size = 250
+	}
+
+	farmers = {
+		culture = malagasy
+		religion = placeholder
+		size = 22775
+	}
+
+	aristocrats = {
+		culture = malagasy
+		religion = placeholder
+		size = 625
+	}
+
+	clergymen = {
+		culture = malagasy
+		religion = placeholder
+		size = 325
+	}
+
+	artisans = {
+		culture = malagasy
+		religion = placeholder
+		size = 1600
+	}
+
+	soldiers = {
+		culture = malagasy
+		religion = placeholder
+		size = 1100
+	}
+
+	farmers = {
+		culture = malagasy
+		religion = placeholder
+		size = 28450
+	}
+}
+#Mahajanga (188000/47000 POPS)
+2121 = {
+	aristocrats = {
+		culture = malagasy
+		religion = placeholder
+		size = 525
+	}
+
+	clergymen = {
+		culture = malagasy
+		religion = placeholder
+		size = 275
+	}
+
+	artisans = {
+		culture = malagasy
+		religion = placeholder
+		size = 1100
+	}
+
+	soldiers = {
+		culture = malagasy
+		religion = placeholder
+		size = 275
+	}
+
+	farmers = {
+		culture = malagasy
+		religion = placeholder
+		size = 13275
+	}
+
+	slaves = {
+		culture = malagasy
+		religion = placeholder
+		size = 10550
+	}
+
+	aristocrats = {
+		culture = malagasy
+		religion = placeholder
+		size = 375
+	}
+
+	clergymen = {
+		culture = malagasy
+		religion = placeholder
+		size = 200
+	}
+
+	artisans = {
+		culture = malagasy
+		religion = placeholder
+		size = 1100
+	}
+
+	soldiers = {
+		culture = malagasy
+		religion = placeholder
+		size = 200
+	}
+
+	farmers = {
+		culture = malagasy
+		religion = placeholder
+		size = 18225
+	}
+}
+#Toliara (172000/43000 POPS)
+2122 = {
+	aristocrats = {
+		culture = malagasy
+		religion = placeholder
+		size = 300
+	}
+
+	clergymen = {
+		culture = malagasy
+		religion = placeholder
+		size = 150
+	}
+
+	artisans = {
+		culture = malagasy
+		religion = placeholder
+		size = 650
+	}
+
+	soldiers = {
+		culture = malagasy
+		religion = placeholder
+		size = 175
+	}
+
+	farmers = {
+		culture = malagasy
+		religion = placeholder
+		size = 3725
+	}
+
+	slaves = {
+		culture = malagasy
+		religion = placeholder
+		size = 11000
+	}
+
+	aristocrats = {
+		culture = malagasy
+		religion = placeholder
+		size = 500
+	}
+
+	clergymen = {
+		culture = malagasy
+		religion = placeholder
+		size = 275
+	}
+
+	artisans = {
+		culture = malagasy
+		religion = placeholder
+		size = 1350
+	}
+
+	soldiers = {
+		culture = malagasy
+		religion = placeholder
+		size = 1100
+	}
+
+	farmers = {
+		culture = malagasy
+		religion = placeholder
+		size = 23975
+	}
+
+}

@@ -1,0 +1,315 @@
+#Tunisia Region (1392000)  
+#under the rule of Tunisia in 1836  
+#Tunis (488000/122000 POPS) 
+1725 = {
+	aristocrats = {
+		culture = maghrebi
+		religion = placeholder
+		size = 2350
+	}
+
+	bureaucrats = {
+		culture = maghrebi
+		religion = placeholder
+		size = 350
+	}
+
+	officers = {
+		culture = maghrebi
+		religion = placeholder
+		size = 325
+	}
+
+	clergymen = {
+		culture = maghrebi
+		religion = placeholder
+		size = 1200
+	}
+
+	artisans = {
+		culture = maghrebi
+		religion = placeholder
+		size = 10000
+	}
+
+	artisans = {
+		culture = maghrebi
+		religion = placeholder
+		size = 10000
+	}
+
+	artisans = {
+		culture = maghrebi
+		religion = placeholder
+		size = 7500
+	}
+
+	soldiers = {
+		culture = maghrebi
+		religion = placeholder
+		size = 4000
+	}
+
+	farmers = {
+		culture = maghrebi
+		religion = placeholder
+		size = 76425
+	}
+
+	slaves = {
+		culture = afro_asiatic
+		religion = placeholder
+		size = 5000
+	}
+
+	clergymen = {
+		culture = sephardic
+		religion = placeholder
+		size = 75
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = placeholder
+		size = 3725
+	}
+
+	artisans = {
+		culture = maltese
+		religion = placeholder
+		size = 500
+	}
+
+	artisans = {
+		culture = south_italian
+		religion = placeholder
+		size = 500
+	}
+}
+#Bizerte (268000/67000 POPS) 
+1726 = {
+	aristocrats = {
+		culture = maghrebi
+		religion = placeholder
+		size = 1250
+	}
+
+	clergymen = {
+		culture = maghrebi
+		religion = placeholder
+		size = 675
+	}
+
+	artisans = {
+		culture = maghrebi
+		religion = placeholder
+		size = 3250
+	}
+
+	soldiers = {
+		culture = maghrebi
+		religion = placeholder
+		size = 1100
+	}
+
+	farmers = {
+		culture = maghrebi
+		religion = placeholder
+		size = 58575
+	}
+
+	slaves = {
+		culture = afro_asiatic
+		religion = placeholder
+		size = 2000
+	}
+
+	clergymen = {
+		culture = sephardic
+		religion = placeholder
+		size = 5
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = placeholder
+		size = 245
+	}
+}
+#Gafsa (112000/28000 POPS) 
+1727 = {
+	aristocrats = {
+		culture = maghrebi
+		religion = placeholder
+		size = 450
+	}
+
+	clergymen = {
+		culture = maghrebi
+		religion = placeholder
+		size = 275
+	}
+
+	artisans = {
+		culture = maghrebi
+		religion = placeholder
+		size = 1250
+	}
+
+	soldiers = {
+		culture = maghrebi
+		religion = placeholder
+		size = 1100
+	}
+
+	farmers = {
+		culture = maghrebi
+		religion = placeholder
+		size = 22025
+	}
+
+	slaves = {
+		culture = afro_asiatic
+		religion = placeholder
+		size = 3000
+	}
+}
+#Kairouan (228000/57000 POPS) 
+1728 = {
+	aristocrats = {
+		culture = maghrebi
+		religion = placeholder
+		size = 875
+	}
+
+	clergymen = {
+		culture = maghrebi
+		religion = placeholder
+		size = 400
+	}
+
+	artisans = {
+		culture = maghrebi
+		religion = placeholder
+		size = 2250
+	}
+
+	soldiers = {
+		culture = maghrebi
+		religion = placeholder
+		size = 1100
+	}
+
+	farmers = {
+		culture = maghrebi
+		religion = placeholder
+		size = 40225
+	}
+
+	slaves = {
+		culture = afro_asiatic
+		religion = placeholder
+		size = 12000
+	}
+
+	clergymen = {
+		culture = sephardic
+		religion = placeholder
+		size = 5
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = placeholder
+		size = 245
+	}
+}
+#Tozeur (96000/24000 POPS) 
+1729 = {
+	aristocrats = {
+		culture = maghrebi
+		religion = placeholder
+		size = 350
+	}
+
+	clergymen = {
+		culture = maghrebi
+		religion = placeholder
+		size = 200
+	}
+
+	artisans = {
+		culture = maghrebi
+		religion = placeholder
+		size = 950
+	}
+
+	soldiers = {
+		culture = maghrebi
+		religion = placeholder
+		size = 200
+	}
+
+	farmers = {
+		culture = maghrebi
+		religion = placeholder
+		size = 17300
+	}
+
+	slaves = {
+		culture = afro_asiatic
+		religion = placeholder
+		size = 5000
+	}
+}
+#Gabes (200000/50000 POPS) 
+1730 = {
+	aristocrats = {
+		culture = maghrebi
+		religion = placeholder
+		size = 900
+	}
+
+	clergymen = {
+		culture = maghrebi
+		religion = placeholder
+		size = 400
+	}
+
+	artisans = {
+		culture = maghrebi
+		religion = placeholder
+		size = 2275
+	}
+
+	soldiers = {
+		culture = maghrebi
+		religion = placeholder
+		size = 1100
+	}
+
+	farmers = {
+		culture = maghrebi
+		religion = placeholder
+		size = 40825
+	}
+
+	slaves = {
+		culture = afro_asiatic
+		religion = placeholder
+		size = 4000
+	}
+
+	clergymen = {
+		culture = sephardic
+		religion = placeholder
+		size = 10
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = placeholder
+		size = 490
+	}
+
+}

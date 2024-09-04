@@ -1,0 +1,24 @@
+KOR = {
+	value = 200		#relation
+	military_access = yes
+}
+
+MCK = {
+	value = 200
+	military_access = yes
+}
+
+CHI = {
+	value = 200
+	military_access = yes
+}
+
+TIB = {
+	value = 200
+	military_access = yes
+}
+
+MGL = {
+	value = 200
+	military_access = yes
+}

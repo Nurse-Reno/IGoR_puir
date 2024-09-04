@@ -1,0 +1,95 @@
+#Puerto Rico (356000)	
+#Ruled by Spain 1836 
+#Puerto Rico (356000/89000 POPS)
+2222 = {
+	aristocrats = {
+		culture = spanish
+		religion = placeholder
+		size = 250
+	}
+
+	bureaucrats = {
+		culture = spanish
+		religion = placeholder
+		size = 75
+	}
+
+	clergymen = {
+		culture = spanish
+		religion = placeholder
+		size = 300
+	}
+
+	artisans = {
+		culture = spanish
+		religion = placeholder
+		size = 800
+	}
+
+	soldiers = {
+		culture = spanish
+		religion = placeholder
+		size = 50
+	}
+
+	aristocrats = {
+		culture = caribeno
+		religion = placeholder
+		size = 1100
+	}
+
+	bureaucrats = {
+		culture = caribeno
+		religion = placeholder
+		size = 25
+	}
+
+	clergymen = {
+		culture = caribeno
+		religion = placeholder
+		size = 200
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = placeholder
+		size = 3000
+	}
+
+	soldiers = {
+		culture = caribeno
+		religion = placeholder
+		size = 450
+	}
+
+	farmers = {
+		culture = caribeno
+		religion = placeholder
+		size = 40850
+	}
+
+	artisans = {
+		culture = afro_caribeno
+		religion = placeholder
+		size = 1100
+	}
+
+	soldiers = {
+		culture = afro_caribeno
+		religion = placeholder
+		size = 400
+	}
+
+	farmers = {
+		culture = afro_caribeno
+		religion = placeholder
+		size = 30600
+	}
+
+	slaves = {
+		culture = afro_caribeno
+		religion = placeholder
+		size = 10000
+	}
+
+}

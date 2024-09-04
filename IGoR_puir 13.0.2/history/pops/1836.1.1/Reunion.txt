@@ -1,0 +1,70 @@
+#Reunion (98000)
+#Ruled by France 1836
+#Reunion (98000/24500 POPS)
+2126 = {
+    aristocrats = {
+        culture = french
+        religion = placeholder
+        size = 750
+    }
+
+    bureaucrats = {
+        culture = french
+        religion = placeholder
+        size = 250
+    }
+
+    clergymen = {
+        culture = french
+        religion = placeholder
+        size = 75
+    }
+
+    artisans = {
+        culture = french
+        religion = placeholder
+        size = 500
+    }
+
+    soldiers = {
+        culture = french
+        religion = placeholder
+        size = 300
+    }
+
+    farmers = {
+        culture = french
+        religion = placeholder
+        size = 5825
+    }
+
+    clergymen = {
+        culture = afro_antillean
+        religion = placeholder
+        size = 125
+    }
+
+    artisans = {
+        culture = afro_antillean
+        religion = placeholder
+        size = 850
+    }
+
+    soldiers = {
+        culture = afro_antillean
+        religion = placeholder
+        size = 200
+    }
+
+    farmers = {
+        culture = afro_antillean
+        religion = placeholder
+        size = 1825
+    }
+
+    slaves = {
+        culture = afro_antillean
+        religion = placeholder
+        size = 14000
+    }
+}
