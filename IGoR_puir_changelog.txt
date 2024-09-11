@@ -1,3 +1,8 @@
+----------------------------------------------------
+Changes for 13.0.3
+- Fixed an issue where pops not on culture cores weren't assimilating appropriately.
+- Fixed a long time issue where annexing an ai during a war would cause that war to null and end immediately if annexing the ai was the only wargoal. Free peoples now behaves properly as if this is vanilla for this mechanic.
+- Fixed a bug with ai spamming the mechanics explanation decision.
 
 ----------------------------------------------------
 Changes for 13.0.2

@@ -73,7 +73,7 @@ take_from_sphere;Take from sphere of influence;Prendre à la sphère d'influence;A
 take_from_sphere_short;Take $THIRD$ from sphere of influence;Prendre $THIRD$ à la sphère d'influence;$THIRD$ aus Einflusssphäre entfernen;;;;;;;;;;;
 take_from_sphere_desc;Remove a country from someone's §YSphere of Influence§W and add it to our own;Supprimer un pays de la §Ysphère d'influence§W de quelqu'un et l'ajouter à la nôtre;Entfernen Sie ein Land aus einer anderen §YEinflusssphäre§W und fügen Sie es Ihrer eigenen hinzu.;;;;;;;;;;;
 take_from_sphere_setup;Take $THIRD$ from $RECIPIENT$'s sphere of influence;Prendre $THIRD$ à la sphère d'influence de $RECIPIENT$;$THIRD$ aus Einflusssphäre von $RECIPIENT$ entfernen;;;;;;;;;;;
-free_peoples;Free People Early;Peuple libre;Freies Volk;;;;;;;;;;;
+free_peoples;Free People;Peuple libre;Freies Volk;;;;;;;;;;;
 free_peoples_short;$THIRD$ acquires $STATE$;$THIRD$ prend $STATE$;$THIRD$ erwirbt $STATE$;;;;;;;;;;;
 free_peoples_desc;Liberate a §Ycountry§W's state from its oppressors;Libérer un §Ypays§W de ses oppresseurs;Befreien Sie ein §YLand§W von seinen Unterdrückern.;;;;;;;;;;;
 free_peoples_setup;Hand $STATE$ back to $THIRD$ from $RECIPIENT$;Prendre $STATE$ à $RECIPIENT$ pour le rendre à $THIRD$;Geben Sie $STATE$ an $THIRD$ von $RECIPIENT$ zurück;;;;;;;;;;;

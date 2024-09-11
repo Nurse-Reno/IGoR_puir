@@ -72,6 +72,7 @@ take_puppet
 colonial_competition
 demand_reperations 
 cut_down_to_size_boxer
+free_peoples
 free_peoples_tiny
 free_peoples_small
 free_peoples_medium
@@ -2047,6 +2048,91 @@ cut_down_to_size_boxer = {
 	}
 }
 
+#########################
+# Free Peoples (IMPORTANT: do not delete this cb, it serves as a placeholder that players and ai cannot use but must be used by the engine in case an ai is seperate peace-annexed so it doesn't just end the war)
+free_peoples = {
+	sprite_index = 9
+	is_triggered_only = yes
+	months = 12
+
+	badboy_factor = 1.5
+	prestige_factor = 1
+	peace_cost_factor = 1
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 0
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	
+	can_use = {
+		NOT = { ai = no }
+		NOT = { ai = yes }
+	}
+
+	# THIS - us
+	# FROM - country scope is possible match?
+	# war target country of goal is scope
+	allowed_countries = {
+		number_of_states = 2
+		NOT = {
+			tag = FROM
+			this_culture_union = FROM	
+		}
+		from = {
+			OR = {
+				exists = yes
+				NOT = {
+						OR = {
+							tag = GER
+							tag = SCA
+							tag = ITA
+							tag = YUG
+							tag = ROM
+							tag = CZH
+						}
+					}
+				}
+			}
+		
+		any_owned_province = {
+			is_core = FROM
+			NOT =
+			{
+				is_core = THIS
+			}
+		}
+		is_releasable_vassal = FROM
+	}
+
+	# THIS - us
+	# FROM - country scope is possible match?
+	# war target country of goal's state
+	allowed_states = {
+		any_owned_province = {
+			is_core = FROM
+		}
+	}
+
+	po_transfer_provinces = yes
+
+	war_name = WAR_FREE_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+}
+###########################
+
 # Free Peoples
 
 free_peoples_tiny = {
@@ -2459,8 +2545,8 @@ free_peoples_huge = {
 	}
 }
 
-# Liberate country Late Game
-liberate_country= {
+# Liberate country
+liberate_country = {
 	sprite_index = 15
 	is_triggered_only = yes
 	months = 12

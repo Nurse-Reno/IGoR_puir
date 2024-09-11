@@ -42,13 +42,6 @@ country_event = {
 		}
 	}
 
-#	option = {
-#		name = "EVTNAME992277"
-#		THIS = {
-#			country_event = { id=992277 days=0 }
-#		}
-#	}
-
 	option = {
 		name = "EVTOPT992272"
 	}
@@ -231,6 +224,13 @@ country_event = {
 		name = "EVTNAME992285"
 		THIS = {
 			country_event = { id=992285 days=0 }
+		}
+	}
+	
+	option = {
+		name = "EVTNAME992277"
+		THIS = {
+			country_event = { id=992277 days=0 }
 		}
 	}
 
