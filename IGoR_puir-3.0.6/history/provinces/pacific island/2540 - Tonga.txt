@@ -1,0 +1,5 @@
+trade_goods = fish
+life_rating = 20
+terrain = jungle
+
+set_province_flag = farm
