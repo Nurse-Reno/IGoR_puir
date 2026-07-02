@@ -1,4 +1,9 @@
 ----------------------------------------------------
+Changes for 13.0.5
+- Fixed missing localisation for Pero's American Civil War chain
+- Fixed a bug relating to Dredd Scott causing issues with ACW event chain
+
+----------------------------------------------------
 Changes for 13.0.4
 - Fixed an issue with the world bank bricking after every save reload and/or rehost.
 
