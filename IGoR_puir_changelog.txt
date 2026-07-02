@@ -2,6 +2,7 @@
 Changes for 13.0.5
 - Fixed missing localisation for Pero's American Civil War chain
 - Fixed a bug relating to Dredd Scott causing issues with ACW event chain
+- Fixed an issue with the player kick host decision/event
 
 ----------------------------------------------------
 Changes for 13.0.4

@@ -7,9 +7,9 @@ china_mobilization_nerf  = {
 	icon = 6
 }
 
-youre_kicked_mate = {
-	icon = 19
-}
+#youre_kicked_mate = {
+#	icon = 19
+#}
 
 ### Rip from Zombie
 kinda_bad_badboy = {
